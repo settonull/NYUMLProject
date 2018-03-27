@@ -15,7 +15,7 @@ def fix_week(year):
     sched_data['WeekDate'] = pd.to_datetime(sched_data['Date']).dt.date
     sched = sched_data[['Week','WeekDate']].drop_duplicates()
     
-    scores_path = 'data/allScores_Wrong/NCAAAllScores{}.csv'.format(year)
+    scores_path = 'data/scores_wrong/NCAAAllScores{}.csv'.format(year)
     scores_data = pd.read_csv(scores_path)
     scores_data['Start'] = pd.to_datetime(scores_data['Start'])
     scores_data['WrongDate'] = scores_data['Start'].dt.date
@@ -28,7 +28,7 @@ def fix_week(year):
     scores_data['WeekDate'] = scores_data['WrongDate'].apply(lambda x: fix_dates(x, wrong_dates))
     scores_data.drop('WrongDate', axis=1, inplace=True)
     scores_clean = pd.merge(scores_data, sched[['WeekDate','Week']], on='WeekDate',how='left')
-    scores_clean.to_csv('data/allScores/NCAAAllScores{}_Week.csv'.format(year), index=False)
+    scores_clean.to_csv('data/scores/scores{}.csv'.format(year), index=False)
     
 
 for d in [2013, 2014, 2015, 2016]:
