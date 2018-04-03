@@ -2,13 +2,15 @@ import numpy as np
 import pandas as pd
 from datetime import *
 
+#######################################################################################
+
 def fix_dates(d, wrong):
     if d in wrong:
         return d - timedelta(days=1)
     else:
         return d
 
-def fix_week(year):
+def fixWeek(year):
     
     sched_path = 'data/schedules/schedule{}.csv'.format(year)
     sched_data = pd.read_csv(sched_path)
@@ -28,10 +30,47 @@ def fix_week(year):
     scores_data['WeekDate'] = scores_data['WrongDate'].apply(lambda x: fix_dates(x, wrong_dates))
     scores_data.drop('WrongDate', axis=1, inplace=True)
     scores_clean = pd.merge(scores_data, sched[['WeekDate','Week']], on='WeekDate',how='left')
-    scores_clean.to_csv('data/scores/scores{}.csv'.format(year), index=False)
+    return scores_clean
+    #scores_clean.to_csv('data/scores/scores{}.csv'.format(year), index=False)
     
+####################################################################################### 
+   
+conferences = ['SunBelt','SEC','PAC12','MountainWest','MidAmerican','Independent','ConferenceUSA','Big10','Big12','AAC','ACC']
+teams_info = pd.read_csv('data/cfbTeams.csv', encoding='latin-1').fillna('NotMe')[['id','SportsRefName','SportsRefAlt']]
+teams_info['Team'] = teams_info.apply(lambda x: x['SportsRefName'] if x['SportsRefAlt']=='NotMe' else x['SportsRefAlt'], axis=1)
+teams_info.drop(['SportsRefName','SportsRefAlt'],axis=1,inplace=True)
+
+def findConference(teams, conferences, ind):
+    game = pd.Series(['',''],index=ind)
+    
+    for i, team in enumerate(teams):
+        pos = 'Home' if i ==0 else 'Vis'
+        conf = conferences.loc[conferences['id']==team,'Conference']
+        if conf.shape[0] == 0:
+            game['{}Conf'.format(pos)] = 'NotMajor'
+        else:
+            game['{}Conf'.format(pos)] = conf.values[0]
+    return game
+
+def addConference(year, scores, conferences, teams_info):
+    teams_list = [0 for x in range(len(conferences))]
+
+    for i,conf in enumerate(conferences):
+        conf_team = pd.read_csv('data/conferences/{}_{}.csv'.format(conf,year),header=1).iloc[:,0]
+        teams_list[i] = pd.DataFrame({'Conference':[conf for x in range(conf_team.shape[0])],'Team':conf_team})
+    teams = pd.concat(teams_list).reset_index(drop=True)
+    
+    teams.loc[teams['Team']=='San Jose State','Team'] = 'SJSU'
+    teams_conf = pd.merge(teams, teams_info, on='Team',how='left')
+    
+    ind = ['HomeConf','VisConf']
+    scores = scores.assign(HomeConf=0,VisConf=0)
+    scores[ind] = scores.apply(lambda x: findConference((x['HomeID'],x['VisID']), teams_conf, ind), axis=1)
+    return scores
 
 for d in [2013, 2014, 2015, 2016]:
     print('Starting Season: {}'.format(d))
-    fix_week(d)
+    scores = fixWeek(d)
+    scores = addConference(d, scores, conferences, teams_info)
+    scores.to_csv('data/scores/scores{}.csv'.format(d), index=False)
     print('Finishing Season: {}'.format(d))
