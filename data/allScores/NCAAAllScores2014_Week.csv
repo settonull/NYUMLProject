@@ -1,4 +1,4 @@
-Season,Start,Visiter,VisID,Home,HomeID,NeutralSite,Home1Q,Home2Q,Home3Q,Home4Q,HomeOT,HomeFinal,Vis1Q,Vis2Q,Vis3Q,Vis4Q,VisOT,VisFinal,Spread,WeekDate,Week
+Season,Start,Away,AwayID,Home,HomeID,NeutralSite,Home1Q,Home2Q,Home3Q,Home4Q,HomeOT,HomeFinal,Vis1Q,Vis2Q,Vis3Q,Vis4Q,VisOT,VisFinal,Spread,WeekDate,Week
 2014,2014-08-23 19:30:00,SHSU,2534,EWU,331,0,7.0,14.0,7.0,28.0,,56,0.0,21.0,0.0,14.0,,35,21,2014-08-22,
 2014,2014-08-27 23:00:00,ACU,2000,GAST,2247,0,7.0,14.0,0.0,17.0,,38,3.0,13.0,14.0,7.0,,37,1,2014-08-27,1.0
 2014,2014-08-28 22:00:00,TA&M,245,SC,2579,0,7.0,7.0,14.0,0.0,,28,10.0,21.0,14.0,7.0,,52,-24,2014-08-28,1.0

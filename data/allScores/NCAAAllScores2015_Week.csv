@@ -1,4 +1,4 @@
-Season,Start,Visiter,VisID,Home,HomeID,NeutralSite,Home1Q,Home2Q,Home3Q,Home4Q,HomeOT,HomeFinal,Vis1Q,Vis2Q,Vis3Q,Vis4Q,VisOT,VisFinal,Spread,WeekDate,Week
+Season,Start,Away,AwayID,Home,HomeID,NeutralSite,Home1Q,Home2Q,Home3Q,Home4Q,HomeOT,HomeFinal,Vis1Q,Vis2Q,Vis3Q,Vis4Q,VisOT,VisFinal,Spread,WeekDate,Week
 2015,2015-08-29 19:30:00,NDSU,2449,MONT,149,0,10.0,11.0,7.0,10.0,,38,7.0,21.0,0.0,7.0,,35,3,2015-08-28,
 2015,2015-09-03 22:00:00,STJ,2601,EDI,2205,0,0.0,7.0,3.0,0.0,,10,10.0,0.0,10.0,10.0,,30,-20,2015-09-03,1.0
 2015,2015-09-03 22:00:00,LEN,2331,WES,223,0,0.0,7.0,0.0,21.0,,28,14.0,7.0,20.0,0.0,,41,-13,2015-09-03,1.0
