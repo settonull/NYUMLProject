@@ -36,6 +36,9 @@ def endYear_Pyth(team, ind, final_game, exp):
             stats['Wins'] = int(final_game['{}Wins'.format(final_pos)]) + 1 if int(final_game['Spread']) < 0 else int(final_game['{}Wins'.format(final_pos)])
     stats['WinPct'] = int(stats['Wins'])/int(stats['Games']) #final win pct
        
+    stats['PtsFPG'] = stats['PtsF']/stats['Games']
+    stats['PtsAPG'] = stats['PtsA']/stats['Games']
+        
     stats['PythPct'] =  int(stats['PtsF'])**exp/(int(stats['PtsF'])**exp + int(stats['PtsA'])**exp) #final pyth pct
     stats['PythWins'] = float(stats['PythPct']) * int(stats['Games']) #final pyth wins
     pyth_win_diff = int(stats['Wins']) - int(stats['PythWins']) #final diff in wins
@@ -50,7 +53,9 @@ def endYear_Pyth(team, ind, final_game, exp):
     return stats
 
 def getFinal_pyth(scores, exp): #wrapper for getting final stats
-    ind = ['Games', 'Wins', 'WinPct','PythPct', 'PythWins','PtsF', 'PtsA','Luck']
+    ind = ['Games', 'Wins', 
+           'WinPct','PythPct', 'PythWins', 'Luck',
+           'PtsF', 'PtsA','PtsFPG', 'PtsAPG']
     
     stats = get_Teams(scores) #get teams and conferences
     stats = stats.assign(Games=0, Wins=0, WinPct=0, PtsF=0, PtsA=0, PythPct=0, PythWins=0, Luck=0) #allocate new features
@@ -183,7 +188,7 @@ def add_elo(scores, k, prev_scores=None):
     
     ind = ['HomeElo','VisElo'] #new features
     
-    scores = scores.assign(HomeElo=1500,EloSpread=0,VisElo=1500)
+    scores = scores.assign(HomeElo=1500,SpreadElo=0,VisElo=1500)
     
     if prev_scores is not None: #Adjust elo for prev year
         prev_stats, conf_means = getFinal_elo(prev_scores, k)
@@ -201,7 +206,7 @@ def add_elo(scores, k, prev_scores=None):
     scores = pd.concat(scores_list) #rebuild df
     
     elo_diff = scores['HomeElo'] - scores['VisElo']
-    scores['EloSpread'] = (elo_diff)/25 + 2.6 #predicted spread
+    scores['SpreadElo'] = (elo_diff)/25 + 2.6 #predicted spread
     scores['HomeEloProb'] = 1/(10**(-elo_diff/400)+1)
     scores['VisEloProb'] = 1/(10**(elo_diff/400)+1)
     

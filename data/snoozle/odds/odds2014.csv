@@ -1,0 +1,762 @@
+Date,Visiter,Home,Spread,OverUnder
+8/28/2014,Texas A&M,South Carolina,-9,60.5
+8/28/2014,Wake Forest,UL Monroe,-2,45
+8/28/2014,Tulane,Tulsa,-5.5,46.5
+8/28/2014,Ole Miss,Boise State,9.5,51.5
+8/28/2014,Temple,Vanderbilt,-8.5,49.5
+8/28/2014,Rutgers,Washington St,-7.5,61
+8/29/2014,BYU,UConn,14.5,54
+8/29/2014,Bowling Green,W Kentucky,6.5,63.5
+8/29/2014,Colorado State,Colorado,-2.5,53.5
+8/29/2014,UTSA,Houston,-9,55.5
+8/29/2014,UNLV,Arizona,-21,59
+8/30/2014,Penn State,UCF,-2.5,43.5
+8/30/2014,OSU,Navy,13.5,53
+8/30/2014,UCLA,UVA,18,50.5
+8/30/2014,Appalachian St,Michigan,-29,54
+8/30/2014,Troy,UAB,2.5,60
+8/30/2014,Cal,Northwestern,-8.5,63
+8/30/2014,Ga Southern,North Carolina St,-20.5,57
+8/30/2014,FAU,Nebraska,-20,51.5
+8/30/2014,Boston College,UMass,17.5,48
+8/30/2014,Marshall,Miami (OH),24.5,62
+8/30/2014,Rice,Notre Dame,-19.5,52.5
+8/30/2014,Alabama,West Virginia,22,53
+8/30/2014,Clemson,Georgia,-9.5,55.5
+8/30/2014,Ohio,Kent State,-3,46.5
+8/30/2014,LA Tech,Oklahoma,-34,56.5
+8/30/2014,W Michigan,Purdue,-7.5,51
+8/30/2014,Fresno State,USC,-18.5,58.5
+8/30/2014,Southern Miss,Miss St,-31,54
+8/30/2014,FSU,Oklahoma State,18,64
+8/30/2014,North Texas,Texas,-21,48
+8/30/2014,UTEP,New Mexico,-9,56.5
+8/30/2014,LSU,Wisconsin,3,49.5
+8/30/2014,Arkansas,Auburn,-17.5,57
+8/30/2014,Washington,Hawaii,17,55.5
+8/31/2014,Utah State,Tennessee,-3.5,50.5
+8/31/2014,SMU,Baylor,-31.5,74
+9/1/2014,Miami (FL),Louisville,-5,56
+9/4/2014,Arizona,UTSA,7.5,55
+9/5/2014,Pitt,Boston College,5.5,50
+9/5/2014,Washington St,Nevada,3,67
+9/6/2014,FAU,Alabama,-42,52.5
+9/6/2014,Kansas State,Iowa State,11.5,55
+9/6/2014,Ball State,Iowa,-17.5,52.5
+9/6/2014,N Illinois,Northwestern,-6.5,59
+9/6/2014,Cent Michigan,Purdue,-3,53.5
+9/6/2014,Buffalo,Army,-3,52.5
+9/6/2014,Missouri,Toledo,3.5,60
+9/6/2014,Navy,Temple,3,58
+9/6/2014,W Kentucky,Illinois,-4,68
+9/6/2014,UAB,Miss St,-29,57.5
+9/6/2014,New Mexico St,Georgia State,-3.5,64
+9/6/2014,Colorado,UMass,17.5,50.5
+9/6/2014,South Alabama,Kent State,2,52.5
+9/6/2014,Fresno State,Utah,-13.5,64
+9/6/2014,USC,Stanford,-3,53.5
+9/6/2014,Akron,Penn State,-14,50.5
+9/6/2014,Ohio,Kentucky,-13,52
+9/6/2014,E Michigan,Florida,-41.5,56.5
+9/6/2014,Ole Miss,Vanderbilt,18,49.5
+9/6/2014,Old Dominion,North Carolina St,-15.5,65
+9/6/2014,Michigan State,Oregon,-13.5,56
+9/6/2014,Idaho,UL Monroe,-13,51
+9/6/2014,Mid Tennessee,Minnesota,-13.5,50.5
+9/6/2014,LA Tech,LA-Lafayette,-15.5,58.5
+9/6/2014,Arizona State,New Mexico,24,67
+9/6/2014,Duke,Troy,18,64.5
+9/6/2014,ECU,South Carolina,-14.5,64
+9/6/2014,San Jose State,Auburn,-32.5,66
+9/6/2014,Georgia Tech,Tulane,7.5,55
+9/6/2014,Maryland,USF,10.5,52.5
+9/6/2014,Michigan,Notre Dame,-4,56.5
+9/6/2014,BYU,Texas,-1.5,47.5
+9/6/2014,San Diego State,UNC,-14,59.5
+9/6/2014,VT,OSU,-10.5,46.5
+9/6/2014,Oklahoma,Tulsa,24.5,57
+9/6/2014,Memphis,UCLA,-22,57
+9/6/2014,Air Force,Wyoming,1.5,51
+9/6/2014,Colorado State,Boise State,-7.5,55.5
+9/6/2014,Oregon State,Hawaii,9.5,58.5
+9/6/2014,Texas Tech,UTEP,21,65.5
+9/6/2014,SMU,North Texas,-2.5,45.5
+9/6/2014,Arkansas State,Tennessee,-16.5,59
+9/11/2014,LA Tech,North Texas,-3.5,48
+9/11/2014,Houston,BYU,-17,62
+9/12/2014,Toledo,Cincinnati,-9.5,57.5
+9/12/2014,Baylor,Buffalo,32,69.5
+9/13/2014,Indiana,Bowling Green,7.5,75
+9/13/2014,Ohio,Marshall,-20,57.5
+9/13/2014,UCF,Missouri,-10,54.5
+9/13/2014,North Carolina St,USF,2,52.5
+9/13/2014,Miami (OH),Michigan,-32,50
+9/13/2014,Kent State,OSU,-31,49
+9/13/2014,E Michigan,Old Dominion,-20.5,71
+9/13/2014,ECU,VT,-10,54
+9/13/2014,Syracuse,Cent Michigan,4.5,51
+9/13/2014,Pitt,FIU,25.5,47
+9/13/2014,Ga Southern,Georgia Tech,-16.5,55.5
+9/13/2014,Iowa State,Iowa,-13,50
+9/13/2014,West Virginia,Maryland,-3,60
+9/13/2014,UMass,Vanderbilt,-15.5,49
+9/13/2014,Louisville,UVA,4,45
+9/13/2014,Wyoming,Oregon,-43,63.5
+9/13/2014,Air Force,Georgia State,12,63
+9/13/2014,W Kentucky,Mid Tennessee,-1.5,63.5
+9/13/2014,Kansas,Duke,-12.5,56
+9/13/2014,Georgia,South Carolina,6,58
+9/13/2014,Arkansas,Texas Tech,-1.5,66.5
+9/13/2014,Arkansas State,Miami (FL),-14.5,52.5
+9/13/2014,Miss St,South Alabama,14.5,53.5
+9/13/2014,LA-Lafayette,Ole Miss,-25.5,58.5
+9/13/2014,Illinois,Washington,-13,63
+9/13/2014,Minnesota,TCU,-17,50
+9/13/2014,W Michigan,Idaho,-2,58.5
+9/13/2014,Army,Stanford,-30,54.5
+9/13/2014,Southern Miss,Alabama,-47,56
+9/13/2014,Wake Forest,Utah State,-15.5,45
+9/13/2014,Tulsa,FAU,1,52.5
+9/13/2014,UL Monroe,LSU,-30.5,50
+9/13/2014,Purdue,Notre Dame,-29.5,59
+9/13/2014,Kentucky,Florida,-18.5,54
+9/13/2014,Navy,Texas State,6,55.5
+9/13/2014,Tennessee,Oklahoma,-21,58
+9/13/2014,New Mexico St,UTEP,-10.5,56
+9/13/2014,UCLA,Texas,9,50.5
+9/13/2014,Penn State,Rutgers,3,52
+9/13/2014,USC,Boston College,17,57
+9/13/2014,Rice,Texas A&M,-30.5,69.5
+9/13/2014,N Illinois,UNLV,10,61.5
+9/13/2014,Arizona State,Colorado,15.5,68
+9/13/2014,Nebraska,Fresno State,11.5,60.5
+9/13/2014,Nevada,Arizona,-19.5,65
+9/13/2014,Boise State,UConn,14.5,51.5
+9/13/2014,UTSA,Oklahoma State,-11.5,55
+9/18/2014,Auburn,Kansas State,7,63.5
+9/19/2014,UConn,USF,-2.5,42.5
+9/20/2014,Indiana,Missouri,-15,71
+9/20/2014,UMass,Penn State,-27,48.5
+9/20/2014,Marshall,Akron,10,60
+9/20/2014,Iowa,Pitt,-6.5,46
+9/20/2014,Ball State,Toledo,-13.5,59
+9/20/2014,Maryland,Syracuse,-2,56
+9/20/2014,Idaho,Ohio,-11.5,56.5
+9/20/2014,Troy,Georgia,-41,63.5
+9/20/2014,Bowling Green,Wisconsin,-26,63
+9/20/2014,Tulane,Duke,-17,54
+9/20/2014,Army,Wake Forest,3,48.5
+9/20/2014,UNC,ECU,1,66.5
+9/20/2014,Utah,Michigan,-3,54
+9/20/2014,E Michigan,Michigan State,-44,53.5
+9/20/2014,South Carolina,Vanderbilt,22,51.5
+9/20/2014,FAU,Wyoming,-3,48.5
+9/20/2014,Hawaii,Colorado,-9,58
+9/20/2014,Mid Tennessee,Memphis,-12,60.5
+9/20/2014,Georgia State,Washington,-34.5,70
+9/20/2014,Appalachian St,Southern Miss,2,59.5
+9/20/2014,Ga Southern,South Alabama,1,59
+9/20/2014,Texas A&M,SMU,33.5,59
+9/20/2014,Florida,Alabama,-14,50.5
+9/20/2014,UNLV,Houston,-21,63
+9/20/2014,Georgia Tech,VT,-7,52.5
+9/20/2014,Oregon,Washington St,21.5,78.5
+9/20/2014,Clemson,FSU,-10.5,54.5
+9/20/2014,UVA,BYU,-14.5,49.5
+9/20/2014,Texas State,Illinois,-10.5,61.5
+9/20/2014,Old Dominion,Rice,-7,63
+9/20/2014,Louisville,FIU,25.5,45.5
+9/20/2014,Miami (OH),Cincinnati,-30.5,60.5
+9/20/2014,San Diego State,Oregon State,-10,57
+9/20/2014,Miss St,LSU,-7,48.5
+9/20/2014,N Illinois,Arkansas,-13,66
+9/20/2014,Miami (FL),Nebraska,-8,55
+9/20/2014,Oklahoma,West Virginia,8,64.5
+9/20/2014,Cal,Arizona,-8,69.5
+9/20/2014,LA-Lafayette,Boise State,-17,60.5
+9/20/2014,Rutgers,Navy,-6,55
+9/20/2014,Utah State,Arkansas State,-2.5,46.5
+9/20/2014,Cent Michigan,Kansas,-5.5,45
+9/20/2014,New Mexico,New Mexico St,5.5,62.5
+9/20/2014,San Jose State,Minnesota,-7.5,50
+9/25/2014,Appalachian St,Ga Southern,-16.5,61
+9/25/2014,Texas Tech,Oklahoma State,-14,70
+9/25/2014,UCLA,Arizona State,3.5,65
+9/26/2014,Mid Tennessee,Old Dominion,-1,68.5
+9/26/2014,Fresno State,New Mexico,6,66.5
+9/27/2014,Wyoming,Michigan State,-28,47
+9/27/2014,Maryland,Indiana,-2,70
+9/27/2014,Baylor,Iowa State,21,72.5
+9/27/2014,USF,Wisconsin,-33,51
+9/27/2014,W Michigan,VT,-21,50.5
+9/27/2014,Temple,UConn,6.5,46
+9/27/2014,Akron,Pitt,-20.5,51.5
+9/27/2014,Tulane,Rutgers,-12.5,52.5
+9/27/2014,Northwestern,Penn State,-10,47
+9/27/2014,Vanderbilt,Kentucky,-17,48
+9/27/2014,Wake Forest,Louisville,-21,44
+9/27/2014,Colorado State,Boston College,-6.5,56.5
+9/27/2014,Miami (OH),Buffalo,-7,52
+9/27/2014,Texas State,Tulsa,-3,65.5
+9/27/2014,UTEP,Kansas State,-27.5,53
+9/27/2014,LA Tech,Auburn,-31.5,63
+9/27/2014,Colorado,Cal,-14,62
+9/27/2014,TCU,SMU,31,47.5
+9/27/2014,Rice,Southern Miss,8.5,59
+9/27/2014,Missouri,South Carolina,-6,61.5
+9/27/2014,W Kentucky,Navy,-8.5,66
+9/27/2014,Notre Dame,Syracuse,9,52
+9/27/2014,Arkansas,Texas A&M,-8.5,72.5
+9/27/2014,Oregon State,USC,-7.5,56
+9/27/2014,UNC,Clemson,-14.5,63
+9/27/2014,Texas,Kansas,9.5,42
+9/27/2014,Tennessee,Georgia,-18,57
+9/27/2014,Duke,Miami (FL),-4,59.5
+9/27/2014,South Alabama,Idaho,3,59
+9/27/2014,FIU,UAB,-14,54.5
+9/27/2014,Memphis,Ole Miss,-20.5,58.5
+9/27/2014,UTSA,FAU,3.5,45
+9/27/2014,Washington St,Utah,-12.5,61
+9/27/2014,Boise State,Air Force,11.5,57
+9/27/2014,New Mexico St,LSU,-44,57
+9/27/2014,Illinois,Nebraska,-21.5,59.5
+9/27/2014,UNLV,San Diego State,-19,56
+9/27/2014,Nevada,San Jose State,6.5,55
+9/27/2014,Bowling Green,UMass,6,69.5
+9/27/2014,Minnesota,Michigan,-10,43.5
+9/27/2014,Cincinnati,OSU,-17,61.5
+9/27/2014,Iowa,Purdue,8,47
+9/27/2014,FSU,North Carolina St,16.5,60.5
+9/27/2014,Kent State,UVA,-25.5,45
+9/27/2014,Stanford,Washington,7.5,49
+9/27/2014,Troy,UL Monroe,-14,55.5
+9/27/2014,Cent Michigan,Toledo,-10.5,58
+10/2/2014,FAU,FIU,6.5,47.5
+10/2/2014,UCF,Houston,-2.5,49.5
+10/2/2014,Arizona,Oregon,-21,81
+10/3/2014,Louisville,Syracuse,2,47
+10/3/2014,San Diego State,Fresno State,-3.5,58
+10/3/2014,Utah State,BYU,-21,52
+10/4/2014,Vanderbilt,Georgia,-33.5,53
+10/4/2014,Wake Forest,FSU,-37.5,55.5
+10/4/2014,Miami (FL),Georgia Tech,-2.5,58.5
+10/4/2014,North Texas,Indiana,-10.5,58
+10/4/2014,SMU,ECU,-38.5,59.5
+10/4/2014,Memphis,Cincinnati,-3,62
+10/4/2014,Pitt,UVA,-5,46
+10/4/2014,Kansas,West Virginia,-26.5,59
+10/4/2014,Toledo,W Michigan,5,62.5
+10/4/2014,Marshall,Old Dominion,18.5,75.5
+10/4/2014,VT,UNC,2.5,57
+10/4/2014,Kent State,N Illinois,-25,59
+10/4/2014,Wisconsin,Northwestern,7,47.5
+10/4/2014,UMass,Miami (OH),-6,58.5
+10/4/2014,South Alabama,Appalachian St,3.5,52
+10/4/2014,South Carolina,Kentucky,4,55.5
+10/4/2014,Ball State,Army,-2.5,57
+10/4/2014,Buffalo,Bowling Green,-3.5,75
+10/4/2014,E Michigan,Akron,-26,50.5
+10/4/2014,Hawaii,Rice,-6.5,57.5
+10/4/2014,Tulsa,Colorado State,-17.5,63
+10/4/2014,Georgia State,LA-Lafayette,-16.5,64.5
+10/4/2014,Stanford,Notre Dame,2.5,46.5
+10/4/2014,Arizona State,USC,-12,67
+10/4/2014,LSU,Auburn,-7,56
+10/4/2014,Navy,Air Force,3,56
+10/4/2014,Oklahoma,TCU,3.5,57
+10/4/2014,Florida,Tennessee,1,52
+10/4/2014,Baylor,Texas,14,58.5
+10/4/2014,Iowa State,Oklahoma State,-16,64
+10/4/2014,Alabama,Ole Miss,4.5,52
+10/4/2014,Texas A&M,Miss St,-2.5,70.5
+10/4/2014,Utah,UCLA,-13,63.5
+10/4/2014,UTEP,LA Tech,-12.5,57
+10/4/2014,Southern Miss,Mid Tennessee,-17,59.5
+10/4/2014,Oregon State,Colorado,4,52.5
+10/4/2014,Cal,Washington St,-4,69
+10/4/2014,Idaho,Texas State,-15.5,66
+10/4/2014,Michigan,Rutgers,-2.5,46.5
+10/4/2014,New Mexico,UTSA,-16.5,55.5
+10/4/2014,UL Monroe,Arkansas State,-10,52
+10/4/2014,North Carolina St,Clemson,-14,63.5
+10/4/2014,UAB,W Kentucky,-10,71
+10/4/2014,Nebraska,Michigan State,-7,53.5
+10/4/2014,Ga Southern,New Mexico St,17,63
+10/4/2014,Boise State,Nevada,3,53.5
+10/4/2014,Purdue,Illinois,-9.5,53.5
+10/4/2014,Ohio,Cent Michigan,-3.5,49
+10/4/2014,UNLV,San Jose State,-9,57.5
+10/4/2014,OSU,Maryland,6,59
+10/4/2014,Texas Tech,Kansas State,-14,65.5
+10/9/2014,BYU,UCF,-3,46
+10/10/2014,Washington St,Stanford,-16.5,52.5
+10/10/2014,Fresno State,UNLV,9.5,65
+10/10/2014,San Diego State,New Mexico,3,53.5
+10/11/2014,Texas,Oklahoma,-17,45
+10/11/2014,Michigan State,Purdue,21,50
+10/11/2014,Northwestern,Minnesota,-4,45
+10/11/2014,Rice,Army,2.5,58.5
+10/11/2014,Tulsa,Temple,-17,57
+10/11/2014,Mid Tennessee,Marshall,-23.5,67
+10/11/2014,FSU,Syracuse,23.5,54.5
+10/11/2014,Duke,Georgia Tech,-3.5,60
+10/11/2014,Boston College,North Carolina St,-2.5,55.5
+10/11/2014,Cincinnati,Miami (FL),-15,65.5
+10/11/2014,Buffalo,E Michigan,14.5,57
+10/11/2014,Miami (OH),Akron,-15.5,55.5
+10/11/2014,Indiana,Iowa,-3,54
+10/11/2014,Bowling Green,Ohio,1,66
+10/11/2014,West Virginia,Texas Tech,6,76.5
+10/11/2014,Oklahoma State,Kansas,19.5,49
+10/11/2014,TCU,Baylor,-7.5,66
+10/11/2014,Houston,Memphis,-7,48
+10/11/2014,North Texas,UAB,-6,58
+10/11/2014,Auburn,Miss St,2.5,61.5
+10/11/2014,W Michigan,Ball State,-1,54
+10/11/2014,Alabama,Arkansas,8.5,54
+10/11/2014,LSU,Florida,1,44
+10/11/2014,Toledo,Iowa State,-3.5,61
+10/11/2014,Oregon,UCLA,1,73.5
+10/11/2014,Washington,Cal,-3.5,67.5
+10/11/2014,Louisville,Clemson,-8.5,47.5
+10/11/2014,UNC,Notre Dame,-16.5,62
+10/11/2014,Cent Michigan,N Illinois,-9,57
+10/11/2014,Idaho,Ga Southern,-22,63
+10/11/2014,Arkansas State,Georgia State,10.5,62
+10/11/2014,FIU,UTSA,-9,42
+10/11/2014,Air Force,Utah State,-7,50.5
+10/11/2014,ECU,USF,16.5,57.5
+10/11/2014,Penn State,Michigan,-2.5,42
+10/11/2014,Old Dominion,UTEP,-2.5,65
+10/11/2014,UConn,Tulane,-4,42
+10/11/2014,Colorado State,Nevada,1.5,65
+10/11/2014,Georgia,Missouri,3,58.5
+10/11/2014,USC,Arizona,-1.5,66
+10/11/2014,UL Monroe,Kentucky,-19,51
+10/11/2014,Ole Miss,Texas A&M,-2.5,63
+10/11/2014,Illinois,Wisconsin,-27,58.5
+10/11/2014,New Mexico St,Troy,-8.5,63
+10/11/2014,UMass,Kent State,-3,56
+10/12/2014,Wyoming,Hawaii,-6,47
+10/14/2014,LA-Lafayette,Texas State,-2.5,62.5
+10/16/2014,VT,Pitt,1,45
+10/16/2014,Utah,Oregon State,2,53
+10/17/2014,Fresno State,Boise State,-17.5,61
+10/17/2014,Temple,Houston,-9,52.5
+10/18/2014,Marshall,FIU,21.5,56
+10/18/2014,Syracuse,Wake Forest,5.5,44.5
+10/18/2014,Miami (OH),N Illinois,-13.5,57.5
+10/18/2014,Purdue,Minnesota,-12.5,49
+10/18/2014,Iowa,Maryland,-3.5,46.5
+10/18/2014,Baylor,West Virginia,8.5,80.5
+10/18/2014,UVA,Duke,-3.5,49.5
+10/18/2014,Georgia Tech,UNC,-2.5,68
+10/18/2014,North Carolina St,Louisville,-18.5,50
+10/18/2014,E Michigan,UMass,-14.5,63.5
+10/18/2014,W Michigan,Bowling Green,-3,68
+10/18/2014,Ball State,Cent Michigan,-10,53
+10/18/2014,Georgia,Arkansas,3,54
+10/18/2014,San Jose State,Wyoming,3,47
+10/18/2014,New Mexico,Air Force,-7.5,57
+10/18/2014,USF,Tulsa,2,50.5
+10/18/2014,Southern Miss,North Texas,-7.5,54.5
+10/18/2014,Cincinnati,SMU,12,62
+10/18/2014,Appalachian St,Troy,-7.5,64
+10/18/2014,Nevada,BYU,-10,59
+10/18/2014,Army,Kent State,3,52
+10/18/2014,Stanford,Arizona State,3.5,54
+10/18/2014,Washington,Oregon,-21,64.5
+10/18/2014,UCLA,Cal,7,72
+10/18/2014,UAB,Mid Tennessee,-2,66.5
+10/18/2014,Rutgers,OSU,-21,63
+10/18/2014,Texas A&M,Alabama,-11.5,63
+10/18/2014,Colorado,USC,-20,61
+10/18/2014,Michigan State,Indiana,15.5,60
+10/18/2014,Clemson,Boston College,5,45.5
+10/18/2014,Kansas State,Oklahoma,-7,54.5
+10/18/2014,New Mexico St,Idaho,-5.5,68
+10/18/2014,Georgia State,South Alabama,-20,56
+10/18/2014,W Kentucky,FAU,3.5,66.5
+10/18/2014,Utah State,Colorado State,-5,54.5
+10/18/2014,Tennessee,Ole Miss,-16,46
+10/18/2014,Iowa State,Texas,-10.5,45.5
+10/18/2014,Missouri,Florida,-6.5,46
+10/18/2014,Kansas,Texas Tech,-12.5,58
+10/18/2014,Oklahoma State,TCU,-10,62
+10/18/2014,Nebraska,Northwestern,6,55
+10/18/2014,Kentucky,LSU,-12,49.5
+10/18/2014,Notre Dame,FSU,-9.5,60
+10/18/2014,Hawaii,San Diego State,-10,49
+10/18/2014,Tulane,UCF,-17.5,44
+10/18/2014,Akron,Ohio,2.5,47.5
+10/18/2014,UTSA,LA Tech,-11,45
+10/21/2014,Arkansas State,LA-Lafayette,3,58.5
+10/23/2014,UConn,ECU,-27.5,56
+10/23/2014,Miami (FL),VT,1.5,48
+10/24/2014,Troy,South Alabama,-15,55
+10/24/2014,USF,Cincinnati,-10,60
+10/24/2014,BYU,Boise State,-6.5,57
+10/24/2014,Oregon,Cal,18,78
+10/25/2014,South Carolina,Auburn,-17.5,63
+10/25/2014,N Illinois,E Michigan,19,62
+10/25/2014,Miss St,Kentucky,14.5,59
+10/25/2014,Syracuse,Clemson,-17,47.5
+10/25/2014,Minnesota,Illinois,4,54.5
+10/25/2014,Akron,Ball State,3,52.5
+10/25/2014,Cent Michigan,Buffalo,3.5,55
+10/25/2014,Ohio,W Michigan,-8.5,53
+10/25/2014,Temple,UCF,-6.5,47
+10/25/2014,UNC,UVA,-7,61
+10/25/2014,Georgia Tech,Pitt,-3.5,56
+10/25/2014,Maryland,Wisconsin,-9.5,56
+10/25/2014,Vanderbilt,Missouri,-23,42.5
+10/25/2014,San Jose State,Navy,-9,53.5
+10/25/2014,UMass,Toledo,-17,69
+10/25/2014,UCLA,Colorado,14,65
+10/25/2014,Rutgers,Nebraska,-19.5,60.5
+10/25/2014,Kent State,Miami (OH),-4.5,53
+10/25/2014,UAB,Arkansas,-25.5,60.5
+10/25/2014,Texas Tech,TCU,-24,70.5
+10/25/2014,Memphis,SMU,23,52
+10/25/2014,Oregon State,Stanford,-13,43.5
+10/25/2014,Alabama,Tennessee,20,46
+10/25/2014,Michigan,Michigan State,-17,46
+10/25/2014,Wyoming,Colorado State,-18.5,53.5
+10/25/2014,Ole Miss,LSU,3.5,45.5
+10/25/2014,Arizona,Washington St,2.5,73.5
+10/25/2014,USC,Utah,-1,52
+10/25/2014,Ga Southern,Georgia State,17,65.5
+10/25/2014,North Texas,Rice,-16,56.5
+10/25/2014,LA Tech,Southern Miss,8.5,56
+10/25/2014,UTEP,UTSA,-14,47
+10/25/2014,FAU,Marshall,-27.5,66.5
+10/25/2014,Texas State,UL Monroe,-2.5,50.5
+10/25/2014,Old Dominion,W Kentucky,-13.5,77
+10/25/2014,West Virginia,Oklahoma State,2.5,66
+10/25/2014,Texas,Kansas State,-10,48
+10/25/2014,OSU,Penn State,14,52.5
+10/25/2014,UNLV,Utah State,-17,50
+10/25/2014,Boston College,Wake Forest,13,41
+10/25/2014,Arizona State,Washington,3.5,61
+10/26/2014,Nevada,Hawaii,3,54.5
+10/30/2014,Troy,Ga Southern,-24,61.5
+10/30/2014,FSU,Louisville,3.5,51
+10/31/2014,Tulsa,Memphis,-24,57
+10/31/2014,Cincinnati,Tulane,4,55.5
+11/1/2014,Notre Dame,Navy,14,54
+11/1/2014,Boston College,VT,-3,40.5
+11/1/2014,ECU,Temple,10,60.5
+11/1/2014,UCF,UConn,9.5,39.5
+11/1/2014,North Carolina St,Syracuse,-2.5,52.5
+11/1/2014,Duke,Pitt,-3,52.5
+11/1/2014,Maryland,Penn State,-3.5,45
+11/1/2014,UNC,Miami (FL),-16,67.5
+11/1/2014,Georgia State,Appalachian St,-12,63
+11/1/2014,Air Force,Army,3,54.5
+11/1/2014,Northwestern,Iowa,-3,43.5
+11/1/2014,Purdue,Nebraska,-21.5,60
+11/1/2014,Kansas,Baylor,-35,61
+11/1/2014,W Michigan,Miami (OH),6,56.5
+11/1/2014,Auburn,Ole Miss,-1.5,53.5
+11/1/2014,Kentucky,Missouri,-8,47.5
+11/1/2014,Arkansas,Miss St,-10.5,56.5
+11/1/2014,W Kentucky,LA Tech,-7.5,69
+11/1/2014,UL Monroe,Texas A&M,-31.5,61.5
+11/1/2014,BYU,Mid Tennessee,3,64.5
+11/1/2014,Florida,Georgia,-11,46
+11/1/2014,USC,Washington St,7,68
+11/1/2014,Stanford,Oregon,-7.5,56.5
+11/1/2014,Oklahoma,Iowa State,15.5,62
+11/1/2014,Oklahoma State,Kansas State,-13.5,53
+11/1/2014,Indiana,Michigan,-7.5,52
+11/1/2014,UVA,Georgia Tech,-4,53
+11/1/2014,South Alabama,LA-Lafayette,-7,56.5
+11/1/2014,Old Dominion,Vanderbilt,-7,60.5
+11/1/2014,Rice,FIU,6.5,46
+11/1/2014,Washington,Colorado,3,54
+11/1/2014,Cal,Oregon State,-4,64.5
+11/1/2014,Arizona,UCLA,-6.5,70.5
+11/1/2014,Colorado State,San Jose State,6,57.5
+11/1/2014,Utah,Arizona State,-6.5,56.5
+11/1/2014,TCU,West Virginia,3,68.5
+11/1/2014,Houston,USF,9,45
+11/1/2014,Southern Miss,UTEP,-8,55.5
+11/1/2014,New Mexico,UNLV,-1,61.5
+11/1/2014,Texas State,New Mexico St,7,62
+11/1/2014,Illinois,OSU,-28.5,63
+11/1/2014,Wyoming,Fresno State,-16.5,58.5
+11/1/2014,San Diego State,Nevada,-1.5,48.5
+11/1/2014,Utah State,Hawaii,3,42
+11/1/2014,Tennessee,South Carolina,-6.5,56
+11/1/2014,Arkansas State,Idaho,15,65.5
+11/1/2014,Texas,Texas Tech,4,57
+11/1/2014,Cent Michigan,E Michigan,13.5,48
+11/1/2014,UAB,FAU,-3.5,58
+11/1/2014,Wisconsin,Rutgers,12.5,52
+11/4/2014,Bowling Green,Akron,-3.5,59
+11/4/2014,Toledo,Kent State,13,57
+11/5/2014,Buffalo,Ohio,-4,56.5
+11/5/2014,N Illinois,Ball State,3,62.5
+11/6/2014,Clemson,Wake Forest,21,42
+11/7/2014,Memphis,Temple,7.5,48
+11/7/2014,Utah State,Wyoming,7.5,47
+11/8/2014,Penn State,Indiana,6,45
+11/8/2014,Georgia,Kentucky,10,58
+11/8/2014,LA Tech,UAB,5,54
+11/8/2014,Iowa,Minnesota,1.5,44
+11/8/2014,Michigan,Northwestern,1.5,41
+11/8/2014,Georgia Tech,North Carolina St,3,62.5
+11/8/2014,Wisconsin,Purdue,17,53.5
+11/8/2014,UL Monroe,Appalachian St,-4,52
+11/8/2014,Duke,Syracuse,4.5,51.5
+11/8/2014,Florida,Vanderbilt,14.5,44
+11/8/2014,Louisville,Boston College,3,46
+11/8/2014,Iowa State,Kansas,2,52.5
+11/8/2014,Tulane,Houston,-17,46.5
+11/8/2014,Georgia State,Troy,-7,65
+11/8/2014,UTSA,Rice,-7.5,43.5
+11/8/2014,West Virginia,Texas,2.5,51.5
+11/8/2014,UCLA,Washington,5,53.5
+11/8/2014,SMU,Tulsa,-14,57
+11/8/2014,UConn,Army,4.5,48.5
+11/8/2014,Texas A&M,Auburn,-23,68.5
+11/8/2014,Alabama,LSU,6.5,46.5
+11/8/2014,Baylor,Oklahoma,-6,68.5
+11/8/2014,UVA,FSU,-21,55.5
+11/8/2014,UTEP,W Kentucky,-8.5,70
+11/8/2014,Washington St,Oregon State,-8.5,59.5
+11/8/2014,Air Force,UNLV,4.5,57.5
+11/8/2014,Idaho,San Diego State,-21,57.5
+11/8/2014,FAU,North Texas,2.5,55
+11/8/2014,Ga Southern,Texas State,11.5,61.5
+11/8/2014,Colorado,Arizona,-19,69.5
+11/8/2014,Boise State,New Mexico,17.5,60.5
+11/8/2014,OSU,Michigan State,-3.5,56
+11/8/2014,LA-Lafayette,New Mexico St,16.5,66.5
+11/8/2014,Notre Dame,Arizona State,-3,62
+11/8/2014,Oregon,Utah,9,61.5
+11/8/2014,Kansas State,TCU,-6.5,59.5
+11/8/2014,San Jose State,Fresno State,-1.5,57.5
+11/8/2014,FIU,Old Dominion,-4.5,60
+11/8/2014,Hawaii,Colorado State,-20.5,57
+11/8/2014,South Alabama,Arkansas State,-10.5,52.5
+11/8/2014,Marshall,Southern Miss,27,63
+11/11/2014,Akron,Buffalo,3.5,51.5
+11/11/2014,Toledo,N Illinois,-4,62.5
+11/12/2014,Ball State,UMass,-3,65
+11/12/2014,Kent State,Bowling Green,-14,54.5
+11/13/2014,ECU,Cincinnati,1,70.5
+11/13/2014,Cal,USC,-14,72
+11/13/2014,Southern Miss,UTSA,-7,47
+11/14/2014,Tulsa,UCF,-20,54.5
+11/15/2014,Pitt,UNC,-2.5,66.5
+11/15/2014,Wake Forest,North Carolina St,-15,44.5
+11/15/2014,Temple,Penn State,-11,40.5
+11/15/2014,OSU,Minnesota,11.5,56
+11/15/2014,Iowa,Illinois,6,55
+11/15/2014,Army,W Kentucky,-7.5,71.5
+11/15/2014,Nebraska,Wisconsin,-6,55.5
+11/15/2014,Kentucky,Tennessee,-10.5,54
+11/15/2014,Indiana,Rutgers,-8.5,54
+11/15/2014,Clemson,Georgia Tech,1.5,57.5
+11/15/2014,VT,Duke,-4,47.5
+11/15/2014,Nevada,Air Force,-3,54
+11/15/2014,USF,SMU,9.5,49.5
+11/15/2014,TCU,Kansas,27.5,55
+11/15/2014,Appalachian St,Arkansas State,-16,62
+11/15/2014,UNLV,BYU,-26,62.5
+11/15/2014,Utah,Stanford,-10,42
+11/15/2014,New Mexico,Utah State,-19.5,53
+11/15/2014,San Diego State,Boise State,-14,57
+11/15/2014,LSU,Arkansas,-1,45.5
+11/15/2014,Washington,Arizona,-7.5,60.5
+11/15/2014,Auburn,Georgia,-3,71
+11/15/2014,South Carolina,Florida,-6.5,57.5
+11/15/2014,FSU,Miami (FL),2.5,62
+11/15/2014,Ga Southern,Navy,-3,61
+11/15/2014,Rice,Marshall,-21,65.5
+11/15/2014,Northwestern,Notre Dame,-17,53.5
+11/15/2014,Miami (OH),Cent Michigan,-17.5,54.5
+11/15/2014,Mid Tennessee,FIU,5,49.5
+11/15/2014,Hawaii,San Jose State,-10,54.5
+11/15/2014,Troy,Idaho,-5.5,65
+11/15/2014,Missouri,Texas A&M,-3,56
+11/15/2014,Memphis,Tulane,8.5,48.5
+11/15/2014,LA-Lafayette,UL Monroe,6.5,51.5
+11/15/2014,Arizona State,Oregon State,7,63
+11/15/2014,Miss St,Alabama,-10,54.5
+11/15/2014,Texas,Oklahoma State,1,46.5
+11/15/2014,Michigan State,Maryland,10.5,59
+11/15/2014,North Texas,UTEP,-6,47.5
+11/15/2014,E Michigan,W Michigan,-27,56.5
+11/15/2014,Texas State,South Alabama,-5.5,50
+11/15/2014,Oklahoma,Texas Tech,14,64
+11/18/2014,N Illinois,Ohio,1.5,52.5
+11/18/2014,UMass,Akron,-9.5,47
+11/19/2014,Bowling Green,Toledo,-7,60
+11/20/2014,Kansas State,West Virginia,-2.5,58.5
+11/20/2014,UNC,Duke,-6,66.5
+11/20/2014,Arkansas State,Texas State,6.5,57.5
+11/21/2014,UTEP,Rice,-8,49.5
+11/21/2014,Air Force,San Diego State,-6,49.5
+11/21/2014,San Jose State,Utah State,-14.5,46.5
+11/22/2014,VT,Wake Forest,13.5,38.5
+11/22/2014,Miami (FL),UVA,4,45
+11/22/2014,Missouri,Tennessee,-5,49
+11/22/2014,E Michigan,Ball State,-18,53
+11/22/2014,Rutgers,Michigan State,-24,57.5
+11/22/2014,Minnesota,Nebraska,-9,52
+11/22/2014,Vanderbilt,Miss St,-29,55.5
+11/22/2014,Indiana,OSU,-35.5,67
+11/22/2014,Maryland,Michigan,-6,43
+11/22/2014,Northwestern,Purdue,-1,51
+11/22/2014,W Michigan,Cent Michigan,-1.5,52.5
+11/22/2014,Tulane,ECU,-19.5,60.5
+11/22/2014,Boston College,FSU,-17,57
+11/22/2014,Penn State,Illinois,6,45
+11/22/2014,Wisconsin,Iowa,7.5,50
+11/22/2014,Marshall,UAB,18.5,69
+11/22/2014,LA Tech,Old Dominion,12.5,66
+11/22/2014,New Mexico,Colorado State,-21,65
+11/22/2014,UTSA,W Kentucky,-10,56
+11/22/2014,Boise State,Wyoming,14,51.5
+11/22/2014,Texas Tech,Iowa State,-1.5,72.5
+11/22/2014,Ole Miss,Arkansas,3,45
+11/22/2014,Oklahoma State,Baylor,-32,67
+11/22/2014,Tulsa,Houston,-20,57
+11/22/2014,Louisville,Notre Dame,-3,52.5
+11/22/2014,FIU,North Texas,-3,47
+11/22/2014,Stanford,Cal,6,55.5
+11/22/2014,Appalachian St,LA-Lafayette,-8.5,63.5
+11/22/2014,Arizona,Utah,-5.5,53.5
+11/22/2014,Oregon State,Washington,-6.5,54
+11/22/2014,Georgia State,Clemson,-40,57
+11/22/2014,Washington St,Arizona State,-14.5,71
+11/22/2014,USF,Memphis,-20,46.5
+11/22/2014,FAU,Mid Tennessee,-7,57
+11/22/2014,Cincinnati,UConn,9.5,55.5
+11/22/2014,UL Monroe,New Mexico St,6.5,55
+11/22/2014,SMU,UCF,-28.5,49
+11/22/2014,USC,UCLA,-3.5,62
+11/22/2014,Fresno State,Nevada,-7.5,63
+11/22/2014,UNLV,Hawaii,-10,57
+11/22/2014,Kansas,Oklahoma,-25.5,55
+11/22/2014,Syracuse,Pitt,-7.5,51.5
+11/22/2014,South Alabama,South Carolina,-24.5,57
+11/22/2014,Colorado,Oregon,-33,74.5
+11/25/2014,Ohio,Miami (OH),3,53
+11/27/2014,TCU,Texas,5,54
+11/27/2014,LSU,Texas A&M,3,53.5
+11/28/2014,UVA,VT,1,38.5
+11/28/2014,Ball State,Bowling Green,-10,57.5
+11/28/2014,N Illinois,W Michigan,-7.5,59
+11/28/2014,W Kentucky,Marshall,-23.5,74.5
+11/28/2014,Toledo,E Michigan,23.5,59
+11/28/2014,Nebraska,Iowa,-1.5,53.5
+11/28/2014,ECU,Tulsa,18,69
+11/28/2014,Houston,SMU,21.5,50.5
+11/28/2014,Navy,South Alabama,7.5,54.5
+11/28/2014,Stanford,UCLA,-6.5,48
+11/28/2014,Colorado State,Air Force,7,61
+11/28/2014,UCF,USF,10,43
+11/28/2014,Akron,Kent State,3,43.5
+11/28/2014,Buffalo,UMass,3,55.5
+11/28/2014,Arkansas,Missouri,2,43.5
+11/28/2014,Arizona State,Arizona,-2,64.5
+11/29/2014,Michigan,OSU,-21,55
+11/29/2014,Syracuse,Boston College,-11,45.5
+11/29/2014,Old Dominion,FAU,-4,67
+11/29/2014,Wake Forest,Duke,-18,44.5
+11/29/2014,Tennessee,Vanderbilt,15,49
+11/29/2014,Minnesota,Wisconsin,-16,49.5
+11/29/2014,Rutgers,Maryland,-8,53.5
+11/29/2014,Rice,LA Tech,-7,48
+11/29/2014,North Carolina St,UNC,-6.5,69.5
+11/29/2014,Illinois,Northwestern,-7,51
+11/29/2014,Purdue,Indiana,-3,55
+11/29/2014,Idaho,Appalachian St,-17,63.5
+11/29/2014,Cincinnati,Temple,7,57
+11/29/2014,Texas State,Georgia State,13.5,60
+11/29/2014,New Mexico St,Arkansas State,-24,64.5
+11/29/2014,UAB,Southern Miss,3,58
+11/29/2014,Wyoming,New Mexico,-3.5,62
+11/29/2014,Utah State,Boise State,-10,55
+11/29/2014,Washington,Washington St,4,63.5
+11/29/2014,Baylor,Texas Tech,26.5,80
+11/29/2014,Georgia Tech,Georgia,-10.5,66
+11/29/2014,Kansas,Kansas State,-27.5,51
+11/29/2014,BYU,Cal,-3,72
+11/29/2014,Oregon,Oregon State,20.5,66.5
+11/29/2014,Michigan State,Penn State,13,44
+11/29/2014,Auburn,Alabama,-9.5,54
+11/29/2014,Florida,FSU,-7,53
+11/29/2014,Nevada,UNLV,8,62.5
+11/29/2014,UL Monroe,Ga Southern,-14,54
+11/29/2014,Hawaii,Fresno State,-10,60
+11/29/2014,Utah,Colorado,7.5,52.5
+11/29/2014,UConn,Memphis,-24,45
+11/29/2014,Kentucky,Louisville,-14,52
+11/29/2014,Miss St,Ole Miss,2.5,51
+11/29/2014,Mid Tennessee,UTEP,-3,53.5
+11/29/2014,LA-Lafayette,Troy,9.5,60.5
+11/29/2014,North Texas,UTSA,-4.5,41
+11/29/2014,Notre Dame,USC,-5.5,62.5
+11/29/2014,Pitt,Miami (FL),-11,56
+11/29/2014,West Virginia,Iowa State,10,62
+11/29/2014,San Jose State,San Diego State,-14.5,47
+11/29/2014,South Carolina,Clemson,-4,53
+11/29/2014,Sacred Heart,Fordham,-14,0
+12/4/2014,UCF,ECU,-6.5,55.5
+12/5/2014,N Illinois,Bowling Green,5.5,64
+12/5/2014,Arizona,Oregon,-14,72
+12/6/2014,SMU,UConn,-13,44
+12/6/2014,Iowa State,TCU,-35,69.5
+12/6/2014,Temple,Tulane,2,41.5
+12/6/2014,Houston,Cincinnati,-7,56.5
+12/6/2014,Missouri,Alabama,-13.5,49
+12/6/2014,FSU,Georgia Tech,3.5,63.5
+12/6/2014,Wisconsin,OSU,4,54.5
+12/6/2014,Fresno State,Boise State,-22.5,70
+12/6/2014,Oklahoma State,Oklahoma,-19.5,58
+12/6/2014,Kansas State,Baylor,-7,72
+12/6/2014,LA Tech,Marshall,-9,67
+12/13/2014,Army,Navy,-16.5,56
+12/20/2014,Nevada,LA-Lafayette,2.5,62.5
+12/20/2014,UTEP,Utah State,-9.5,46
+12/20/2014,Utah,Colorado State,2.5,57.5
+12/20/2014,W Michigan,Air Force,2.5,59
+12/20/2014,South Alabama,Bowling Green,3.5,54.5
+12/22/2014,BYU,Memphis,-1.5,56
+12/23/2014,N Illinois,Marshall,-8,68
+12/23/2014,Navy,San Diego State,-3.5,52
+12/24/2014,Cent Michigan,W Kentucky,-3.5,67.5
+12/24/2014,Fresno State,Rice,-1,59
+12/26/2014,Illinois,LA Tech,-7,55.5
+12/26/2014,Rutgers,UNC,-3.5,71.5
+12/26/2014,North Carolina St,UCF,-2,48.5
+12/27/2014,VT,Cincinnati,-2,50.5
+12/27/2014,Duke,Arizona State,-7,65
+12/27/2014,Miami (FL),South Carolina,3,61.5
+12/27/2014,Penn State,Boston College,-3,41
+12/27/2014,Nebraska,USC,-7,63
+12/29/2014,West Virginia,Texas A&M,3,66
+12/29/2014,Texas,Arkansas,-7,43
+12/29/2014,Clemson,Oklahoma,-6.5,49.5
+12/30/2014,Notre Dame,LSU,-8,51
+12/30/2014,Louisville,Georgia,-7,55
+12/30/2014,Maryland,Stanford,-14,45.5
+12/31/2014,Ole Miss,TCU,-3.5,55
+12/31/2014,Boise State,Arizona,-2.5,66.5
+12/31/2014,Georgia Tech,Miss St,-5.5,59.5
+1/1/2015,FSU,Oregon,-7.5,73.5
+1/1/2015,OSU,Alabama,-7.5,58
+1/1/2015,Michigan State,Baylor,-3,69
+1/1/2015,Wisconsin,Auburn,-6,64.5
+1/1/2015,Minnesota,Missouri,-3,47
+1/2/2015,Pitt,Houston,5.5,54.5
+1/2/2015,Iowa,Tennessee,-3,52.5
+1/2/2015,UCLA,Kansas State,-1.5,61
+1/2/2015,Oklahoma State,Washington,-7,57
+1/3/2015,ECU,Florida,-7,54.5
+1/4/2015,Toledo,Arkansas State,3,69.5
+1/12/2015,OSU,Oregon,-6,72.5

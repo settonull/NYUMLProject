@@ -1,0 +1,700 @@
+Visiter,Home,SpreadWag,OverUnderWag,Year,Month,Day,HomeID,VisID
+UNC,South Carolina,-11.0,0.0,2013,8,29,2579,153
+UNLV,Minnesota,-14.0,0.0,2013,8,29,135,2439
+Tulsa,Bowling Green,-4.5,0.0,2013,8,29,189,202
+Akron,UCF,-21.5,0.0,2013,8,29,2116,2006
+Utah State,Utah,-2.5,0.0,2013,8,29,254,328
+Ole Miss,Vanderbilt,3.0,0.0,2013,8,29,238,145
+Rutgers,Fresno State,-10.5,0.0,2013,8,29,278,164
+USC,Hawaii,21.5,0.0,2013,8,29,62,30
+W Michigan,Michigan State,-26.5,0.0,2013,8,30,127,2711
+FAU,Miami (FL),-32.5,0.0,2013,8,30,2390,2226
+Texas Tech,SMU,6.0,0.0,2013,8,30,2567,2641
+UMass,Wisconsin,-44.5,0.0,2013,8,31,275,113
+Cent Michigan,Michigan,-31.5,0.0,2013,8,31,130,2117
+Buffalo,OSU,-36.0,0.0,2013,8,31,194,2084
+LA Tech,North Carolina St,-13.5,0.0,2013,8,31,152,2348
+FIU,Maryland,-19.5,0.0,2013,8,31,120,2229
+N Illinois,Iowa,-3.0,0.0,2013,8,31,2294,2459
+Temple,Notre Dame,-29.0,0.0,2013,8,31,87,218
+BYU,UVA,3.0,0.0,2013,8,31,258,252
+Alabama,VT,18.0,0.0,2013,8,31,259,333
+UAB,Troy,-5.0,0.0,2013,8,31,2653,5
+Purdue,Cincinnati,-10.0,0.0,2013,8,31,2132,2509
+Kentucky,W Kentucky,4.5,0.0,2013,8,31,98,96
+Miami (OH),Marshall,-17.0,0.0,2013,8,31,276,193
+Miss St,Oklahoma State,-12.0,0.0,2013,8,31,197,344
+Texas State,Southern Miss,-8.0,0.0,2013,8,31,2572,326
+New Mexico St,Texas,-42.0,0.0,2013,8,31,251,166
+Toledo,Florida,-23.0,0.0,2013,8,31,57,2649
+LA-Lafayette,Arkansas,-10.5,0.0,2013,8,31,8,309
+Washington St,Auburn,-15.0,0.0,2013,8,31,2,265
+Idaho,North Texas,-14.5,0.0,2013,8,31,249,70
+Penn State,Syracuse,7.0,0.0,2013,8,31,183,213
+Wyoming,Nebraska,-27.0,0.0,2013,8,31,158,2751
+UTSA,New Mexico,-3.5,0.0,2013,8,31,167,2636
+Georgia,Clemson,1.5,0.0,2013,8,31,228,61
+LSU,TCU,4.0,0.0,2013,8,31,2628,99
+Boise State,Washington,-3.5,0.0,2013,8,31,264,68
+Nevada,UCLA,-18.0,0.0,2013,8,31,26,2440
+Northwestern,Cal,5.5,0.0,2013,8,31,25,77
+UL Monroe,Oklahoma,-22.0,59.5,2013,8,31,201,2433
+Rice,Texas A&M,-27.0,0.0,2013,8,31,245,242
+Ohio,Louisville,-20.0,0.0,2013,9,1,97,195
+Colorado,Colorado State,-2.5,0.0,2013,9,1,36,38
+FSU,Pitt,10.0,0.0,2013,9,2,221,52
+FAU,ECU,-20.5,0.0,2013,9,5,151,2226
+Wake Forest,Boston College,-3.0,0.0,2013,9,6,103,154
+UCF,FIU,23.0,0.0,2013,9,6,2229,2116
+Florida,Miami (FL),3.0,0.0,2013,9,7,2390,57
+Miami (OH),Kentucky,-17.0,0.0,2013,9,7,96,193
+USF,Michigan State,-22.5,0.0,2013,9,7,127,58
+Oklahoma State,UTSA,27.0,0.0,2013,9,7,2636,197
+Houston,Temple,3.0,0.0,2013,9,7,218,248
+Cincinnati,Illinois,10.0,0.0,2013,9,7,356,2132
+West Virginia,Oklahoma,-18.5,0.0,2013,9,7,201,277
+South Carolina,Georgia,-3.0,0.0,2013,9,7,61,2579
+San Diego State,OSU,-28.5,0.0,2013,9,7,194,21
+Utah State,Air Force,10.5,0.0,2013,9,7,2005,328
+South Alabama,Tulane,-6.0,0.0,2013,9,7,2655,6
+Duke,Memphis,5.5,0.0,2013,9,7,235,150
+Navy,Indiana,-12.5,0.0,2013,9,7,84,2426
+Southern Miss,Nebraska,-27.5,0.0,2013,9,7,158,2572
+Texas,BYU,6.5,0.0,2013,9,7,252,251
+UAB,LSU,-34.0,0.0,2013,9,7,99,5
+Toledo,Missouri,-16.5,0.0,2013,9,7,142,2649
+Arkansas State,Auburn,-13.0,0.0,2013,9,7,2,2032
+Army,Ball State,-8.0,0.0,2013,9,7,2050,349
+E Michigan,Penn State,-24.0,0.0,2013,9,7,213,2199
+Buffalo,Baylor,-26.0,0.0,2013,9,7,239,2084
+Bowling Green,Kent State,8.0,0.0,2013,9,7,2309,189
+W Kentucky,Tennessee,-12.5,0.0,2013,9,7,2633,98
+LA-Lafayette,Kansas State,-10.0,0.0,2013,9,7,2306,309
+Notre Dame,Michigan,-3.5,0.0,2013,9,7,130,87
+Hawaii,Oregon State,-27.5,0.0,2013,9,7,204,62
+Minnesota,New Mexico St,16.5,0.0,2013,9,7,166,135
+Idaho,Wyoming,-24.5,0.0,2013,9,7,2751,70
+New Mexico,UTEP,-6.0,0.0,2013,9,7,2638,167
+Washington St,USC,-16.5,0.0,2013,9,7,30,265
+Arizona,UNLV,11.5,0.0,2013,9,7,2439,12
+San Jose State,Stanford,-25.5,0.0,2013,9,7,24,23
+North Texas,Ohio,-6.0,0.0,2013,9,7,195,249
+Oregon,UVA,21.5,0.0,2013,9,7,258,2483
+Colorado State,Tulsa,-11.0,0.0,2013,9,7,202,36
+Mid Tennessee,UNC,-18.0,66.0,2013,9,7,153,2393
+Syracuse,Northwestern,-16.5,53.0,2013,9,7,77,183
+TCU,Texas Tech,3.0,0.0,2013,9,12,2641,2628
+Tulane,LA Tech,-7.5,0.0,2013,9,12,2348,2655
+Troy,Arkansas State,-10.0,0.0,2013,9,12,2032,2653
+Air Force,Boise State,-22.5,0.0,2013,9,13,68,2005
+E Michigan,Rutgers,-27.5,0.0,2013,9,14,164,2199
+Stanford,Army,28.0,0.0,2013,9,14,349,24
+Georgia State,West Virginia,-37.0,0.0,2013,9,14,277,2247
+Louisville,Kentucky,11.0,0.0,2013,9,14,96,97
+Marshall,Ohio,7.5,0.0,2013,9,14,195,276
+Akron,Michigan,-36.5,0.0,2013,9,14,130,2006
+Bowling Green,Indiana,-2.5,0.0,2013,9,14,84,189
+VT,ECU,7.0,0.0,2013,9,14,151,259
+Maryland,UConn,8.0,0.0,2013,9,14,41,120
+New Mexico,Pitt,-21.0,0.0,2013,9,14,221,167
+UL Monroe,Wake Forest,-3.0,0.0,2013,9,14,154,2433
+W Kentucky,South Alabama,9.5,0.0,2013,9,14,6,98
+Nevada,FSU,-32.0,0.0,2013,9,14,52,2440
+UCLA,Nebraska,-4.5,0.0,2013,9,14,158,26
+Georgia Tech,Duke,8.0,0.0,2013,9,14,150,59
+Tennessee,Oregon,-24.5,0.0,2013,9,14,2483,2633
+Boston College,USC,-14.5,0.0,2013,9,14,30,103
+Iowa,Iowa State,1.5,0.0,2013,9,14,66,2294
+Alabama,Texas A&M,8.0,0.0,2013,9,14,245,333
+N Illinois,Idaho,27.0,0.0,2013,9,14,70,2459
+Miss St,Auburn,-7.0,0.0,2013,9,14,2,344
+Washington,Illinois,10.0,0.0,2013,9,14,356,264
+UCF,Penn State,-6.0,0.0,2013,9,14,213,2116
+Ball State,North Texas,3.0,0.0,2013,9,14,249,2050
+Memphis,Mid Tennessee,-4.5,0.0,2013,9,14,2393,235
+Southern Miss,Arkansas,-22.0,0.0,2013,9,14,8,2572
+Vanderbilt,South Carolina,-13.5,0.0,2013,9,14,2579,238
+Tulsa,Oklahoma,-26.5,0.0,2013,9,14,201,202
+UMass,Kansas State,-38.0,0.0,2013,9,14,2306,113
+FAU,USF,-10.5,0.0,2013,9,14,58,2226
+Kansas,Rice,-4.0,0.0,2013,9,14,242,2305
+Kent State,LSU,-37.5,0.0,2013,9,14,99,2309
+Notre Dame,Purdue,20.5,0.0,2013,9,14,2509,87
+UTEP,New Mexico St,6.5,0.0,2013,9,14,166,2638
+W Michigan,Northwestern,-32.5,0.0,2013,9,14,77,2711
+UTSA,Arizona,-25.0,0.0,2013,9,14,12,2636
+Oregon State,Utah,-2.0,0.0,2013,9,14,254,204
+Cent Michigan,UNLV,-7.5,0.0,2013,9,14,2439,2117
+Wisconsin,Arizona State,-5.5,0.0,2013,9,14,9,275
+OSU,Cal,16.0,0.0,2013,9,14,25,194
+Ole Miss,Texas,-3.0,65.5,2013,9,14,251,145
+Clemson,North Carolina St,14.0,0.0,2013,9,19,152,228
+Boise State,Fresno State,-4.0,0.0,2013,9,20,278,68
+North Texas,Georgia,-32.0,0.0,2013,9,21,61,249
+FIU,Louisville,-42.0,0.0,2013,9,21,97,2229
+W Michigan,Iowa,-17.0,0.0,2013,9,21,2294,2711
+Vanderbilt,UMass,32.0,0.0,2013,9,21,113,238
+Tennessee,Florida,-14.5,0.0,2013,9,21,57,2633
+Wake Forest,Army,4.0,0.0,2013,9,21,349,154
+Pitt,Duke,4.5,0.0,2013,9,21,150,221
+Michigan,UConn,18.5,0.0,2013,9,21,41,130
+Purdue,Wisconsin,-24.0,0.0,2013,9,21,275,2509
+Ball State,E Michigan,11.0,0.0,2013,9,21,2199,2050
+Kent State,Penn State,-18.5,0.0,2013,9,21,213,2309
+Marshall,VT,-11.5,0.0,2013,9,21,259,276
+Cincinnati,Miami (OH),22.0,0.0,2013,9,21,193,2132
+UNC,Georgia Tech,-5.5,0.0,2013,9,21,59,153
+West Virginia,Maryland,-4.5,0.0,2013,9,21,120,277
+Troy,Miss St,-14.5,0.0,2013,9,21,344,2653
+UL Monroe,Baylor,-27.5,0.0,2013,9,21,239,2433
+Wyoming,Air Force,2.5,0.0,2013,9,21,2005,2751
+Utah,BYU,-7.0,0.0,2013,9,21,252,254
+Hawaii,Nevada,-12.5,0.0,2013,9,21,2440,62
+Utah State,USC,-7.0,0.0,2013,9,21,30,328
+SMU,Texas A&M,-2.5,0.0,2013,9,21,245,2567
+Rice,Houston,-2.5,0.0,2013,9,21,248,242
+Michigan State,Notre Dame,-7.0,0.0,2013,9,21,87,127
+Kansas State,Texas,-6.0,0.0,2013,9,21,251,2306
+Arkansas State,Memphis,6.5,0.0,2013,9,21,235,2032
+LA Tech,Kansas,-9.5,0.0,2013,9,21,2305,2348
+Colorado State,Alabama,-38.0,0.0,2013,9,21,333,36
+Arizona State,Stanford,-8.0,0.0,2013,9,21,24,9
+LA-Lafayette,Akron,8.0,0.0,2013,9,21,2006,309
+Idaho,Washington St,-31.0,0.0,2013,9,21,265,70
+Mid Tennessee,FAU,5.5,0.0,2013,9,21,2226,2393
+Tulane,Syracuse,-10.5,0.0,2013,9,21,183,2655
+Texas State,Texas Tech,-26.0,0.0,2013,9,21,2641,326
+Oregon State,San Diego State,10.5,0.0,2013,9,21,21,204
+Auburn,LSU,-15.5,0.0,2013,9,21,99,2
+UTSA,UTEP,-3.0,0.0,2013,9,21,2638,2636
+Missouri,Indiana,5.5,0.0,2013,9,21,84,142
+New Mexico St,UCLA,-39.0,0.0,2013,9,21,26,166
+San Jose State,Minnesota,-4.5,51.0,2013,9,21,135,23
+Arkansas,Rutgers,1.0,0.0,2013,9,21,164,8
+Toledo,Cent Michigan,13.0,56.5,2013,9,21,2117,2649
+Iowa State,Tulsa,-3.0,0.0,2013,9,26,202,66
+VT,Georgia Tech,-7.0,0.0,2013,9,26,59,259
+Mid Tennessee,BYU,-21.5,0.0,2013,9,27,252,2393
+Utah State,San Jose State,9.5,0.0,2013,9,27,23,328
+UVA,Pitt,-7.0,0.0,2013,9,28,221,258
+N Illinois,Purdue,3.5,0.0,2013,9,28,2509,2459
+Troy,Duke,-11.0,0.0,2013,9,28,150,2653
+UConn,Buffalo,2.5,0.0,2013,9,28,2084,41
+Toledo,Ball State,-3.0,0.0,2013,9,28,2050,2649
+Cent Michigan,North Carolina St,-23.0,0.0,2013,9,28,152,2117
+Kent State,W Michigan,-3.0,0.0,2013,9,28,2711,2309
+ECU,UNC,-11.0,0.0,2013,9,28,153,151
+FSU,Boston College,22.0,0.0,2013,9,28,103,52
+UAB,Vanderbilt,-20.0,0.0,2013,9,28,238,5
+Miami (OH),Illinois,-24.5,0.0,2013,9,28,356,193
+SMU,TCU,-19.0,0.0,2013,9,28,2628,2567
+Arkansas State,Missouri,-21.0,0.0,2013,9,28,142,2032
+Iowa,Minnesota,0.0,0.0,2013,9,28,135,2294
+UTEP,Colorado State,-12.0,0.0,2013,9,28,36,2638
+LSU,Georgia,-3.0,0.0,2013,9,28,61,99
+Arizona,Washington,-7.0,0.0,2013,9,28,264,12
+Ole Miss,Alabama,-17.5,0.0,2013,9,28,333,145
+Cal,Oregon,-35.0,0.0,2013,9,28,2483,25
+USC,Arizona State,-7.0,0.0,2013,9,28,9,30
+Army,LA Tech,-1.0,0.0,2013,9,28,2348,349
+Oklahoma,Notre Dame,3.0,0.0,2013,9,28,87,201
+Southern Miss,Boise State,-26.0,0.0,2013,9,28,68,2572
+Wake Forest,Clemson,-27.5,0.0,2013,9,28,228,154
+Temple,Idaho,9.5,0.0,2013,9,28,70,218
+Tulane,UL Monroe,-11.5,0.0,2013,9,28,2433,2655
+Houston,UTSA,3.0,0.0,2013,9,28,2636,248
+Akron,Bowling Green,-15.5,0.0,2013,9,28,189,2006
+Colorado,Oregon State,-10.0,0.0,2013,9,28,204,38
+South Carolina,UCF,7.5,0.0,2013,9,28,2116,2579
+Florida,Kentucky,14.0,0.0,2013,9,28,96,57
+Stanford,Washington St,9.5,0.0,2013,9,28,265,24
+Wyoming,Texas State,11.0,0.0,2013,9,28,326,2751
+Navy,W Kentucky,1.0,0.0,2013,9,28,98,2426
+FAU,Rice,-13.5,0.0,2013,9,28,242,2226
+South Alabama,Tennessee,-19.0,0.0,2013,9,28,2633,6
+Oklahoma State,West Virginia,21.0,0.0,2013,9,28,277,197
+Wisconsin,OSU,-8.0,0.0,2013,9,28,194,275
+UNLV,New Mexico,2.0,0.0,2013,9,28,167,2439
+San Diego State,New Mexico St,17.5,0.0,2013,9,28,166,21
+Miami (FL),USF,19.5,0.0,2013,9,28,58,2390
+Air Force,Nevada,-7.0,63.0,2013,9,28,2440,2005
+Texas A&M,Arkansas,14.0,62.0,2013,9,28,8,245
+Texas,Iowa State,7.0,55.0,2013,10,3,66,251
+W Kentucky,UL Monroe,4.0,0.0,2013,10,3,2433,98
+UCLA,Utah,4.0,0.0,2013,10,3,254,26
+BYU,Utah State,-5.5,0.0,2013,10,4,328,252
+Nevada,San Diego State,-5.5,0.0,2013,10,4,21,2440
+Michigan State,Iowa,-1.0,38.0,2013,10,5,2294,127
+Louisville,Temple,32.0,59.0,2013,10,5,218,97
+W Michigan,Toledo,-23.0,58.0,2013,10,5,2649,2711
+E Michigan,Buffalo,-13.5,53.0,2013,10,5,2084,2199
+Georgia State,Alabama,-54.0,58.0,2013,10,5,333,2247
+Army,Boston College,-11.0,50.0,2013,10,5,103,349
+Cent Michigan,Miami (OH),3.0,47.0,2013,10,5,193,2117
+Ball State,UVA,-3.5,48.0,2013,10,5,258,2050
+Maryland,FSU,-16.0,58.0,2013,10,5,52,120
+Clemson,Syracuse,14.5,64.5,2013,10,5,183,228
+North Carolina St,Wake Forest,7.5,47.0,2013,10,5,154,152
+Illinois,Nebraska,-7.0,61.0,2013,10,5,158,356
+UTSA,Marshall,-14.5,65.0,2013,10,5,276,2636
+North Texas,Tulane,3.0,53.5,2013,10,5,2655,249
+Oregon,Colorado,38.0,69.0,2013,10,5,38,2483
+Georgia,Tennessee,11.0,64.0,2013,10,5,2633,61
+Arkansas,Florida,-13.0,42.0,2013,10,5,57,8
+LSU,Miss St,8.0,55.0,2013,10,5,344,99
+Rice,Tulsa,-3.0,55.0,2013,10,5,202,242
+UNC,VT,-7.0,45.0,2013,10,5,259,153
+TCU,Oklahoma,-8.0,46.0,2013,10,5,201,2628
+Cincinnati,USF,11.0,48.0,2013,10,5,58,2132
+Kansas State,Oklahoma State,-13.5,59.0,2013,10,5,197,2306
+Missouri,Vanderbilt,1.0,56.5,2013,10,5,238,142
+Minnesota,Michigan,-18.0,48.5,2013,10,5,130,135
+UCF,Memphis,9.5,48.0,2013,10,5,235,2116
+Rutgers,SMU,4.0,55.0,2013,10,5,2567,164
+Fresno State,Idaho,28.0,67.0,2013,10,5,70,278
+Texas State,LA-Lafayette,-11.0,55.0,2013,10,5,309,326
+South Alabama,Troy,-3.5,62.5,2013,10,5,2653,6
+New Mexico St,New Mexico,-11.0,61.0,2013,10,5,167,166
+Washington,Stanford,-8.0,53.0,2013,10,5,24,264
+N Illinois,Kent State,8.0,64.0,2013,10,5,2309,2459
+Ole Miss,Auburn,3.0,56.5,2013,10,5,2,145
+Kentucky,South Carolina,-22.0,54.0,2013,10,5,2579,96
+FIU,Southern Miss,-17.0,46.0,2013,10,5,2572,2229
+UMass,Bowling Green,-26.0,51.0,2013,10,5,189,113
+FAU,UAB,-4.0,53.0,2013,10,5,5,2226
+ECU,Mid Tennessee,7.5,52.0,2013,10,5,2393,151
+Ohio,Akron,3.5,57.0,2013,10,5,2006,195
+Arizona State,Notre Dame,6.0,63.0,2013,10,5,87,9
+West Virginia,Baylor,-29.5,70.0,2013,10,5,239,277
+LA Tech,UTEP,-2.0,60.0,2013,10,5,2638,2348
+OSU,Northwestern,6.5,58.0,2013,10,5,77,194
+Penn State,Indiana,3.5,65.0,2013,10,5,84,213
+Washington St,Cal,1.5,66.0,2013,10,5,25,265
+Georgia Tech,Miami (FL),-6.5,55.5,2013,10,5,2390,59
+Air Force,Navy,-11.5,0.0,2013,10,5,2426,2005
+Texas Tech,Kansas,16.5,56.0,2013,10,5,2305,2641
+Rutgers,Louisville,-19.0,0.0,2013,10,10,97,164
+Arizona,USC,-5.5,48.0,2013,10,10,30,12
+San Diego State,Air Force,3.5,52.5,2013,10,10,2005,21
+Temple,Cincinnati,-20.0,55.0,2013,10,11,2132,218
+Oklahoma,Texas,14.0,57.0,2013,10,12,251,201
+Indiana,Michigan State,-10.0,53.5,2013,10,12,127,84
+Pitt,VT,-8.0,42.5,2013,10,12,259,221
+Miami (OH),UMass,-6.0,44.5,2013,10,12,113,193
+Boston College,Clemson,-24.0,64.0,2013,10,12,228,103
+Buffalo,W Michigan,10.0,50.0,2013,10,12,2711,2084
+Cent Michigan,Ohio,-20.0,53.0,2013,10,12,195,2117
+USF,UConn,-4.0,41.5,2013,10,12,41,58
+Navy,Duke,-3.5,56.5,2013,10,12,150,2426
+Troy,Georgia State,15.0,62.0,2013,10,12,2247,2653
+Texas A&M,Ole Miss,7.0,78.5,2013,10,12,145,245
+Kent State,Ball State,-14.0,62.5,2013,10,12,2050,2309
+Bowling Green,Miss St,-11.0,52.5,2013,10,12,344,189
+Akron,N Illinois,-23.5,62.0,2013,10,12,2459,2006
+Iowa State,Texas Tech,-14.5,58.0,2013,10,12,2641,66
+Rice,UTSA,1.5,55.0,2013,10,12,2636,242
+New Mexico,Wyoming,-14.0,71.0,2013,10,12,2751,167
+Stanford,Utah,7.5,52.5,2013,10,12,254,24
+Georgia Tech,BYU,-7.0,53.5,2013,10,12,252,59
+Nebraska,Purdue,14.0,57.0,2013,10,12,2509,158
+Missouri,Georgia,-7.0,67.0,2013,10,12,61,142
+Baylor,Kansas State,17.5,74.0,2013,10,12,2306,239
+Florida,LSU,-7.5,48.5,2013,10,12,99,57
+Colorado,Arizona State,-28.0,68.0,2013,10,12,9,38
+Oregon,Washington,13.5,76.0,2013,10,12,264,2483
+Cal,UCLA,-25.0,74.0,2013,10,12,26,25
+ECU,Tulane,12.5,53.0,2013,10,12,2655,151
+South Carolina,Arkansas,4.5,51.0,2013,10,12,8,2579
+Alabama,Kentucky,27.0,51.5,2013,10,12,96,333
+San Jose State,Colorado State,-4.0,60.0,2013,10,12,36,23
+Idaho,Arkansas State,-26.5,62.5,2013,10,12,2032,70
+Michigan,Penn State,2.5,50.5,2013,10,12,213,130
+Syracuse,North Carolina St,-6.5,53.0,2013,10,12,152,183
+Memphis,Houston,-9.0,52.5,2013,10,12,248,235
+Marshall,FAU,10.0,56.0,2013,10,12,2226,276
+Kansas,TCU,-24.5,45.0,2013,10,12,2628,2305
+Mid Tennessee,North Texas,-6.0,54.0,2013,10,12,249,2393
+UL Monroe,Texas State,-6.5,45.0,2013,10,12,326,2433
+Boise State,Utah State,6.0,50.5,2013,10,12,328,68
+Oregon State,Washington St,-1.5,62.5,2013,10,12,265,204
+Tulsa,UTEP,10.5,65.5,2013,10,12,2638,202
+Hawaii,UNLV,-8.5,57.0,2013,10,12,2439,62
+E Michigan,Army,-9.5,58.0,2013,10,12,349,2199
+UVA,Maryland,-5.0,44.0,2013,10,12,120,258
+Northwestern,Wisconsin,-10.0,57.5,2013,10,12,275,77
+UAB,FIU,7.0,53.0,2013,10,12,2229,5
+LA-Lafayette,W Kentucky,-3.0,61.5,2013,10,15,98,309
+Miami (FL),UNC,9.5,66.0,2013,10,17,153,2390
+UCF,Louisville,-14.0,55.5,2013,10,18,97,2116
+LSU,Ole Miss,10.0,60.0,2013,10,19,145,99
+Florida,Missouri,3.0,44.0,2013,10,19,142,57
+North Texas,LA Tech,3.5,53.0,2013,10,19,2348,249
+Washington,Arizona State,-3.5,66.5,2013,10,19,9,264
+South Carolina,Tennessee,7.5,54.5,2013,10,19,2633,2579
+Arkansas,Alabama,-29.0,49.0,2013,10,19,333,8
+Iowa,OSU,-18.0,54.5,2013,10,19,194,2294
+Oregon State,Cal,11.0,71.5,2013,10,19,25,204
+Syracuse,Georgia Tech,-7.5,54.0,2013,10,19,59,183
+Indiana,Michigan,-9.5,67.0,2013,10,19,130,84
+Washington St,Oregon,-40.0,72.0,2013,10,19,2483,265
+Auburn,Texas A&M,-13.0,72.0,2013,10,19,245,2
+Colorado State,Wyoming,-6.0,66.5,2013,10,19,2751,36
+SMU,Memphis,-3.5,47.0,2013,10,19,235,2567
+UConn,Cincinnati,-15.5,45.5,2013,10,19,2132,41
+Navy,Toledo,-9.5,54.5,2013,10,19,2649,2426
+Texas Tech,West Virginia,5.5,57.0,2013,10,19,277,2641
+FSU,Clemson,4.5,63.5,2013,10,19,228,52
+Southern Miss,ECU,-23.5,55.0,2013,10,19,151,2572
+Purdue,Michigan State,-27.5,44.0,2013,10,19,127,2509
+N Illinois,Cent Michigan,14.5,59.5,2013,10,19,2117,2459
+Ball State,W Michigan,20.0,58.5,2013,10,19,2711,2050
+Ohio,E Michigan,15.0,55.5,2013,10,19,2199,195
+Army,Temple,1.0,60.5,2013,10,19,218,349
+Duke,UVA,-2.5,53.0,2013,10,19,258,150
+Maryland,Wake Forest,5.5,50.0,2013,10,19,154,120
+Minnesota,Northwestern,-13.5,53.5,2013,10,19,77,135
+Kent State,South Alabama,-7.0,55.0,2013,10,19,6,2309
+Utah State,New Mexico,13.0,52.5,2013,10,19,167,328
+BYU,Houston,9.0,64.0,2013,10,19,248,252
+UMass,Buffalo,-19.5,47.5,2013,10,19,2084,113
+Georgia State,Texas State,-16.5,48.0,2013,10,19,326,2247
+Akron,Miami (OH),7.0,45.0,2013,10,19,193,2006
+Iowa State,Baylor,-33.0,77.0,2013,10,19,239,66
+Oklahoma,Kansas,22.0,49.5,2013,10,19,2305,201
+TCU,Oklahoma State,-7.5,51.0,2013,10,19,197,2628
+UCLA,Stanford,-5.0,54.0,2013,10,19,24,26
+USC,Notre Dame,-3.0,50.5,2013,10,19,87,30
+Rice,New Mexico St,17.5,56.5,2013,10,19,166,242
+Nevada,Boise State,-24.0,68.0,2013,10,19,68,2440
+Wisconsin,Illinois,14.0,56.0,2013,10,19,356,275
+Georgia,Vanderbilt,7.0,61.0,2013,10,19,238,61
+Utah,Arizona,-4.0,60.0,2013,10,19,12,254
+UNLV,Fresno State,-25.0,74.5,2013,10,19,278,2439
+LA-Lafayette,Arkansas State,2.5,68.0,2013,10,22,2032,309
+Kentucky,Miss St,-12.0,54.5,2013,10,24,344,96
+Marshall,Mid Tennessee,10.0,56.5,2013,10,24,2393,276
+Boise State,BYU,-7.0,61.0,2013,10,25,252,68
+Buffalo,Kent State,-1.0,50.5,2013,10,26,2309,2084
+W Michigan,UMass,-3.5,46.5,2013,10,26,113,2711
+Houston,Rutgers,-7.0,61.0,2013,10,26,164,248
+Boston College,UNC,-7.0,57.5,2013,10,26,153,103
+South Alabama,Texas State,2.0,51.5,2013,10,26,326,6
+Notre Dame,Air Force,20.0,56.0,2013,10,26,2005,87
+Georgia State,UL Monroe,-11.5,50.5,2013,10,26,2433,2247
+Troy,W Kentucky,-10.0,61.5,2013,10,26,98,2653
+Stanford,Oregon State,3.5,56.5,2013,10,26,204,24
+Wyoming,San Jose State,-7.5,71.0,2013,10,26,23,2751
+UNLV,Nevada,-5.0,66.5,2013,10,26,2440,2439
+Northwestern,Iowa,-4.0,53.0,2013,10,26,2294,77
+Texas,TCU,-2.0,51.0,2013,10,26,2628,251
+Texas Tech,Oklahoma,-7.0,59.0,2013,10,26,201,2641
+North Carolina St,FSU,-32.5,58.0,2013,10,26,52,152
+Wake Forest,Miami (FL),-24.0,54.0,2013,10,26,2390,154
+Michigan State,Illinois,10.0,49.5,2013,10,26,356,127
+West Virginia,Kansas State,-11.5,53.0,2013,10,26,2306,277
+Cal,Washington,-27.5,65.5,2013,10,26,264,25
+Tulsa,Tulane,2.5,48.5,2013,10,26,2655,202
+Utah,USC,-6.5,54.5,2013,10,26,30,254
+UCLA,Oregon,-23.0,71.0,2013,10,26,2483,26
+Tennessee,Alabama,-28.0,52.0,2013,10,26,333,2633
+FAU,Auburn,-24.0,51.0,2013,10,26,2,2226
+Vanderbilt,Texas A&M,-17.0,69.0,2013,10,26,245,238
+Arizona,Colorado,13.5,58.0,2013,10,26,38,12
+E Michigan,N Illinois,-30.5,66.5,2013,10,26,2459,2199
+Temple,SMU,-13.5,60.5,2013,10,26,2567,218
+Idaho,Ole Miss,-42.0,58.5,2013,10,26,145,70
+UAB,UTSA,-7.0,59.5,2013,10,26,2636,5
+Pitt,Navy,5.0,51.5,2013,10,26,2426,221
+Duke,VT,-13.5,47.5,2013,10,26,259,150
+Clemson,Maryland,14.0,59.5,2013,10,26,120,228
+Miami (OH),Ohio,-25.0,51.0,2013,10,26,195,193
+Ball State,Akron,9.0,55.5,2013,10,26,2006,2050
+UConn,UCF,-23.5,53.0,2013,10,26,2116,41
+Georgia Tech,UVA,10.0,48.0,2013,10,26,258,59
+North Texas,Southern Miss,11.5,49.5,2013,10,26,2572,249
+LA Tech,FIU,6.0,50.0,2013,10,26,2229,2348
+South Carolina,Missouri,-3.0,53.0,2013,10,26,142,2579
+Oklahoma State,Iowa State,13.0,56.5,2013,10,26,66,197
+Baylor,Kansas,34.5,66.0,2013,10,26,2305,239
+Nebraska,Minnesota,10.0,52.0,2013,10,26,135,158
+Louisville,USF,20.5,46.5,2013,10,26,58,97
+Toledo,Bowling Green,-3.5,56.0,2013,10,26,189,2649
+Penn State,OSU,-14.5,56.5,2013,10,26,194,213
+UTEP,Rice,-18.0,59.0,2013,10,26,242,2638
+Fresno State,San Diego State,6.0,65.0,2013,10,26,21,278
+Cincinnati,Memphis,1.5,44.5,2013,10,30,235,2132
+USF,Houston,-19.5,54.0,2013,10,31,248,58
+Rice,North Texas,-3.0,52.5,2013,10,31,249,242
+UL Monroe,Troy,-3.0,60.5,2013,10,31,2653,2433
+Arizona State,Washington St,10.5,70.0,2013,10,31,265,9
+USC,Oregon State,-999.0,0.0,2013,11,1,204,30
+Arkansas State,South Alabama,-3.5,63.5,2013,11,2,6,2032
+Hawaii,Utah State,-24.0,50.5,2013,11,2,328,62
+Auburn,Arkansas,7.5,55.5,2013,11,2,8,2
+Northwestern,Nebraska,-6.0,59.0,2013,11,2,158,77
+Navy,Notre Dame,-15.0,48.5,2013,11,2,87,2426
+Colorado,UCLA,-27.5,57.0,2013,11,2,26,38
+Minnesota,Indiana,-7.5,67.0,2013,11,2,84,135
+OSU,Purdue,32.0,57.5,2013,11,2,2509,194
+Michigan,Michigan State,-4.0,46.5,2013,11,2,127,130
+Wisconsin,Iowa,9.0,48.5,2013,11,2,2294,275
+Miami (FL),FSU,-21.0,62.0,2013,11,2,52,2390
+Arizona,Cal,15.5,68.0,2013,11,2,25,12
+Georgia,Florida,3.0,46.0,2013,11,2,57,61
+West Virginia,TCU,-11.5,45.5,2013,11,2,2628,277
+Army,Air Force,-1.0,54.0,2013,11,2,2005,349
+UTSA,Tulsa,-4.0,53.5,2013,11,2,202,2636
+Mid Tennessee,UAB,3.0,62.0,2013,11,2,5,2393
+UTEP,Texas A&M,-47.5,76.5,2013,11,2,245,2638
+Southern Miss,Marshall,-32.0,57.0,2013,11,2,276,2572
+Iowa State,Kansas State,-17.5,52.0,2013,11,2,2306,66
+Tennessee,Missouri,-11.0,55.5,2013,11,2,142,2633
+W Kentucky,Georgia State,18.0,56.0,2013,11,2,2247,98
+Wake Forest,Syracuse,-4.0,51.5,2013,11,2,183,154
+Pitt,Georgia Tech,-11.5,54.0,2013,11,2,59,221
+Illinois,Penn State,-12.0,56.0,2013,11,2,213,356
+Kent State,Akron,-1.0,52.5,2013,11,2,2006,2309
+Temple,Rutgers,-13.0,57.0,2013,11,2,164,218
+N Illinois,UMass,25.5,59.5,2013,11,2,113,2459
+E Michigan,Toledo,-30.5,66.0,2013,11,2,2649,2199
+VT,Boston College,4.5,40.0,2013,11,2,103,259
+Clemson,UVA,17.5,56.5,2013,11,2,258,228
+San Jose State,UNLV,4.0,66.5,2013,11,2,2439,23
+New Mexico St,LA-Lafayette,-32.5,65.5,2013,11,2,309,166
+Texas State,Idaho,11.0,50.5,2013,11,2,70,326
+UNC,North Carolina St,5.5,58.0,2013,11,2,152,153
+Kansas,Texas,-27.5,52.5,2013,11,2,251,2305
+Tulane,FAU,-2.5,47.5,2013,11,2,2226,2655
+Oklahoma State,Texas Tech,1.0,69.0,2013,11,2,2641,197
+ECU,FIU,24.5,51.5,2013,11,2,2229,151
+Nevada,Fresno State,-20.5,73.0,2013,11,2,278,2440
+Miss St,South Carolina,-12.0,52.0,2013,11,2,2579,344
+Boise State,Colorado State,6.5,60.0,2013,11,2,36,68
+New Mexico,San Diego State,-14.0,56.5,2013,11,2,21,167
+Ohio,Buffalo,-4.0,55.5,2013,11,5,2084,195
+Bowling Green,Miami (OH),24.0,48.0,2013,11,5,193,189
+Cent Michigan,Ball State,-19.5,0.0,2013,11,6,2050,2117
+Oklahoma,Baylor,-15.5,73.0,2013,11,7,239,201
+Troy,LA-Lafayette,-13.5,67.0,2013,11,7,309,2653
+Oregon,Stanford,10.5,61.5,2013,11,7,24,2483
+Louisville,UConn,28.0,49.0,2013,11,8,41,97
+Air Force,New Mexico,-3.0,59.0,2013,11,8,167,2005
+Boston College,New Mexico St,24.5,60.5,2013,11,9,166,103
+Notre Dame,Pitt,3.5,50.0,2013,11,9,221,87
+USC,Cal,16.0,57.0,2013,11,9,25,30
+Texas,West Virginia,6.0,55.5,2013,11,9,277,251
+Colorado,Washington,-28.0,61.0,2013,11,9,264,38
+Kansas State,Texas Tech,-2.5,59.5,2013,11,9,2641,2306
+Fresno State,Wyoming,8.5,78.5,2013,11,9,2751,278
+W Michigan,E Michigan,2.5,58.0,2013,11,9,2199,2711
+Hawaii,Navy,-16.0,52.5,2013,11,9,2426,62
+VT,Miami (FL),-6.5,44.0,2013,11,9,2390,259
+UAB,Marshall,-24.0,67.0,2013,11,9,276,5
+FSU,Wake Forest,34.5,54.5,2013,11,9,154,52
+TCU,Iowa State,7.0,46.5,2013,11,9,66,2628
+Illinois,Indiana,-9.5,78.5,2013,11,9,84,356
+Tulsa,ECU,-16.0,52.5,2013,11,9,151,202
+North Carolina St,Duke,-10.0,55.5,2013,11,9,150,152
+SMU,Cincinnati,-8.5,65.5,2013,11,9,2132,2567
+W Kentucky,Army,5.5,57.0,2013,11,9,349,98
+Iowa,Purdue,14.5,44.5,2013,11,9,2509,2294
+UTEP,North Texas,-25.0,55.5,2013,11,9,249,2638
+Miss St,Texas A&M,-19.0,68.5,2013,11,9,245,344
+Kansas,Oklahoma State,-30.5,53.0,2013,11,9,197,2305
+Nebraska,Michigan,-6.5,57.5,2013,11,9,130,158
+Arizona State,Utah,7.0,63.5,2013,11,9,254,9
+Nevada,Colorado State,-8.5,66.0,2013,11,9,36,2440
+Arkansas,Ole Miss,-17.0,54.0,2013,11,9,145,8
+BYU,Wisconsin,-8.5,55.5,2013,11,9,275,252
+Tulane,UTSA,-8.5,50.5,2013,11,9,2636,2655
+UVA,UNC,-13.0,52.5,2013,11,9,153,258
+Missouri,Kentucky,14.0,56.5,2013,11,9,96,142
+Syracuse,Maryland,-5.0,55.0,2013,11,9,120,183
+Penn State,Minnesota,-3.0,48.0,2013,11,9,135,213
+Utah State,UNLV,14.0,55.5,2013,11,9,2439,328
+FIU,Mid Tennessee,-18.5,48.5,2013,11,9,2393,2229
+Arkansas State,UL Monroe,-3.5,56.5,2013,11,9,2433,2032
+Southern Miss,LA Tech,-16.5,53.0,2013,11,9,2348,2572
+Auburn,Tennessee,7.0,55.0,2013,11,9,2633,2
+Houston,UCF,-11.5,64.0,2013,11,9,2116,248
+UCLA,Arizona,-2.5,57.5,2013,11,9,12,26
+LSU,Alabama,-12.5,54.5,2013,11,9,333,99
+San Diego State,San Jose State,-6.5,56.0,2013,11,9,23,21
+Vanderbilt,Florida,-12.0,41.5,2013,11,9,57,238
+Ohio,Bowling Green,-10.0,50.0,2013,11,12,189,195
+Buffalo,Toledo,-4.5,55.0,2013,11,12,2649,2084
+Ball State,N Illinois,-7.5,72.0,2013,11,13,2459,2050
+Miami (OH),Kent State,-17.5,48.0,2013,11,13,2309,193
+Georgia Tech,Clemson,-10.5,61.0,2013,11,14,228,59
+Marshall,Tulsa,13.5,63.0,2013,11,14,202,276
+Washington,UCLA,-2.5,61.0,2013,11,15,26,264
+LA Tech,Rice,-16.5,52.0,2013,11,16,242,2348
+Purdue,Penn State,-21.5,46.0,2013,11,16,213,2509
+UCF,Temple,16.0,56.0,2013,11,16,218,2116
+UNC,Pitt,-1.0,52.5,2013,11,16,221,153
+Cincinnati,Rutgers,-1.0,52.5,2013,11,16,164,2132
+North Carolina St,Boston College,-7.0,53.5,2013,11,16,103,152
+Maryland,VT,-16.0,43.0,2013,11,16,259,120
+Cent Michigan,W Michigan,2.0,51.5,2013,11,16,2711,2117
+Houston,Louisville,-17.0,57.5,2013,11,16,97,248
+Kentucky,Vanderbilt,-12.5,52.5,2013,11,16,238,96
+Indiana,Wisconsin,-25.5,69.0,2013,11,16,275,84
+Miami (FL),Duke,3.0,61.5,2013,11,16,150,2390
+Memphis,USF,1.5,40.5,2013,11,16,58,235
+Colorado State,New Mexico,6.5,65.5,2013,11,16,167,36
+Stanford,USC,3.5,47.0,2013,11,16,30,24
+Alabama,Miss St,23.0,52.0,2013,11,16,344,333
+San Jose State,Nevada,7.0,66.0,2013,11,16,2440,23
+OSU,Illinois,32.5,66.5,2013,11,16,356,194
+Michigan State,Nebraska,5.5,42.0,2013,11,16,158,127
+South Alabama,Navy,-7.5,57.0,2013,11,16,2426,6
+Iowa State,Oklahoma,-24.0,49.0,2013,11,16,201,66
+Oklahoma State,Texas,3.0,63.5,2013,11,16,251,197
+Georgia,Auburn,-3.5,63.5,2013,11,16,2,61
+Oregon State,Arizona State,-14.0,64.0,2013,11,16,9,204
+Wyoming,Boise State,-23.0,68.5,2013,11,16,68,2751
+Texas Tech,Baylor,-27.5,85.0,2013,11,16,239,2641
+Cal,Colorado,-2.5,66.5,2013,11,16,38,25
+LA-Lafayette,Georgia State,21.0,60.0,2013,11,16,2247,309
+West Virginia,Kansas,6.5,48.5,2013,11,16,2305,277
+Florida,South Carolina,-13.0,42.0,2013,11,16,2579,57
+Utah,Oregon,-26.5,65.0,2013,11,16,2483,254
+UAB,ECU,-27.5,66.0,2013,11,16,151,5
+Akron,UMass,7.0,45.0,2013,11,16,113,2006
+FAU,Southern Miss,17.0,50.0,2013,11,16,2572,2226
+Syracuse,FSU,-37.5,55.5,2013,11,16,52,183
+Michigan,Northwestern,-2.5,50.5,2013,11,16,77,130
+UConn,SMU,-15.5,56.5,2013,11,16,2567,41
+TCU,Kansas State,-11.0,46.0,2013,11,16,2306,2628
+Troy,Ole Miss,-28.0,68.0,2013,11,16,145,2653
+Texas State,Arkansas State,-7.5,52.0,2013,11,16,2032,326
+FIU,UTEP,-6.0,47.5,2013,11,16,2638,2229
+Washington St,Arizona,-11.5,65.5,2013,11,16,12,265
+San Diego State,Hawaii,4.5,58.5,2013,11,16,62,21
+Buffalo,Miami (OH),24.0,0.0,2013,11,19,193,2084
+Kent State,Ohio,-5.5,0.0,2013,11,19,195,2309
+N Illinois,Toledo,2.5,72.5,2013,11,20,2649,2459
+Rutgers,UCF,-17.5,59.5,2013,11,21,2116,164
+Rice,UAB,17.0,63.5,2013,11,21,5,242
+UNLV,Air Force,-2.0,60.0,2013,11,21,2005,2439
+Navy,San Jose State,-2.5,59.0,2013,11,22,23,2426
+UL Monroe,South Alabama,-3.5,56.0,2013,11,23,6,2433
+BYU,Notre Dame,1.0,54.0,2013,11,23,87,252
+UTEP,Tulane,-16.0,47.5,2013,11,23,2655,2638
+Oregon,Arizona,20.5,67.0,2013,11,23,12,2483
+Texas A&M,LSU,-4.5,71.5,2013,11,23,99,245
+USC,Colorado,22.0,54.5,2013,11,23,38,30
+Michigan,Iowa,-5.5,46.5,2013,11,23,2294,130
+W Kentucky,Texas State,4.5,51.0,2013,11,23,326,98
+Hawaii,Wyoming,-6.5,62.5,2013,11,23,2751,62
+UMass,Cent Michigan,-11.5,46.5,2013,11,23,2117,113
+Vanderbilt,Tennessee,-3.0,53.5,2013,11,23,2633,238
+Memphis,Louisville,-23.5,43.0,2013,11,23,97,235
+Cincinnati,Houston,-3.0,59.0,2013,11,23,248,2132
+UVA,Miami (FL),-20.5,58.0,2013,11,23,2390,258
+Duke,Wake Forest,5.5,49.5,2013,11,23,154,150
+Kansas,Iowa State,-5.0,45.5,2013,11,23,66,2305
+Kentucky,Georgia,-24.5,62.5,2013,11,23,61,96
+ECU,North Carolina St,5.5,54.5,2013,11,23,152,151
+Pitt,Syracuse,1.0,49.5,2013,11,23,183,221
+Miss St,Arkansas,1.5,0.0,2013,11,23,8,344
+Illinois,Purdue,7.0,55.5,2013,11,23,2509,356
+New Mexico,Fresno State,-31.5,66.5,2013,11,23,278,167
+Georgia State,Arkansas State,-24.0,57.0,2013,11,23,2032,2247
+Mid Tennessee,Southern Miss,23.0,55.0,2013,11,23,2572,2393
+Baylor,Oklahoma State,9.5,77.5,2013,11,23,197,239
+UTSA,North Texas,-7.5,49.0,2013,11,23,249,2636
+Cal,Stanford,-31.5,56.0,2013,11,23,24,25
+Colorado State,Utah State,-10.0,58.0,2013,11,23,328,36
+Arizona State,UCLA,2.5,62.0,2013,11,23,26,9
+Bowling Green,E Michigan,24.0,56.5,2013,11,23,2199,189
+Wisconsin,Minnesota,16.5,50.0,2013,11,23,135,275
+Boston College,Maryland,0.0,53.5,2013,11,23,120,103
+Marshall,FIU,32.5,55.0,2013,11,23,2229,276
+Idaho,FSU,-57.0,69.0,2013,11,23,52,70
+Michigan State,Northwestern,7.0,41.5,2013,11,23,77,127
+Indiana,OSU,-34.5,82.0,2013,11,23,194,84
+UConn,Temple,-7.5,50.5,2013,11,23,218,41
+Nebraska,Penn State,-1.5,50.0,2013,11,23,213,158
+SMU,USF,4.0,55.0,2013,11,23,58,2567
+New Mexico St,FAU,-22.5,56.0,2013,11,23,2226,166
+Tulsa,LA Tech,3.5,53.5,2013,11,23,2348,202
+Oklahoma,Kansas State,-5.0,54.5,2013,11,23,2306,201
+Missouri,Ole Miss,2.5,58.0,2013,11,23,145,142
+Utah,Washington St,-1.5,53.5,2013,11,23,265,254
+Boise State,San Diego State,5.5,57.0,2013,11,23,21,68
+Washington,Oregon State,1.5,62.0,2013,11,23,204,264
+W Michigan,N Illinois,-35.0,61.0,2013,11,26,2459,2711
+Texas Tech,Texas,-4.5,0.0,2013,11,28,251,2641
+Ole Miss,Miss St,3.0,0.0,2013,11,28,344,145
+Iowa,Nebraska,-3.0,0.0,2013,11,29,158,2294
+Toledo,Akron,7.5,0.0,2013,11,29,2006,2649
+Miami (OH),Ball State,-34.5,0.0,2013,11,29,2050,193
+ECU,Marshall,-3.0,0.0,2013,11,29,276,151
+Bowling Green,Buffalo,1.5,0.0,2013,11,29,2084,189
+Arkansas,LSU,-25.0,0.0,2013,11,29,99,8
+Texas State,Troy,-6.5,0.0,2013,11,29,2653,326
+FIU,FAU,-28.5,0.0,2013,11,29,2226,2229
+USF,UCF,-27.0,0.0,2013,11,29,2116,58
+Fresno State,San Jose State,8.5,0.0,2013,11,29,23,278
+Miami (FL),Pitt,2.5,0.0,2013,11,29,221,2390
+E Michigan,Cent Michigan,-19.0,0.0,2013,11,29,2117,2199
+UMass,Ohio,-16.5,0.0,2013,11,29,195,113
+SMU,Houston,-9.5,0.0,2013,11,29,248,2567
+Oregon State,Oregon,-21.5,0.0,2013,11,29,2483,204
+Washington St,Washington,-14.0,0.0,2013,11,29,264,265
+OSU,Michigan,14.5,0.0,2013,11,30,130,194
+Boston College,Syracuse,2.0,0.0,2013,11,30,183,103
+Maryland,North Carolina St,2.5,0.0,2013,11,30,152,120
+Wake Forest,Vanderbilt,-14.0,0.0,2013,11,30,238,154
+Duke,UNC,-5.0,0.0,2013,11,30,153,150
+Iowa State,West Virginia,-9.5,0.0,2013,11,30,277,66
+Northwestern,Illinois,3.5,0.0,2013,11,30,356,77
+Purdue,Indiana,-20.5,0.0,2013,11,30,84,2509
+Rutgers,UConn,3.0,0.0,2013,11,30,41,164
+Tennessee,Kentucky,3.5,0.0,2013,11,30,96,2633
+Minnesota,Michigan State,-14.0,0.0,2013,11,30,127,135
+Temple,Memphis,-8.5,0.0,2013,11,30,235,218
+Southern Miss,UAB,-14.5,0.0,2013,11,30,5,2572
+South Alabama,Georgia State,9.5,0.0,2013,11,30,2247,6
+Wyoming,Utah State,-20.5,0.0,2013,11,30,328,2751
+Colorado,Utah,-16.5,0.0,2013,11,30,254,38
+BYU,Nevada,14.5,0.0,2013,11,30,2440,252
+Tulane,Rice,-13.5,0.0,2013,11,30,242,2655
+Texas A&M,Missouri,-4.5,0.0,2013,11,30,142,245
+VT,UVA,13.0,0.0,2013,11,30,258,259
+Alabama,Auburn,10.5,0.0,2013,11,30,2,333
+New Mexico,Boise State,-35.5,0.0,2013,11,30,68,167
+Baylor,TCU,12.5,0.0,2013,11,30,2628,239
+Air Force,Colorado State,-15.0,0.0,2013,11,30,36,2005
+Kansas State,Kansas,16.5,0.0,2013,11,30,2305,2306
+Penn State,Wisconsin,-24.5,0.0,2013,11,30,275,213
+LA Tech,UTSA,-15.5,0.0,2013,11,30,2636,2348
+Idaho,New Mexico St,-4.5,0.0,2013,11,30,166,70
+San Diego State,UNLV,3.5,0.0,2013,11,30,2439,21
+Arkansas State,W Kentucky,-6.5,0.0,2013,11,30,98,2032
+North Texas,Tulsa,4.5,0.0,2013,11,30,202,249
+UL Monroe,LA-Lafayette,-14.5,0.0,2013,11,30,309,2433
+UTEP,Mid Tennessee,-22.5,0.0,2013,11,30,2393,2638
+Clemson,South Carolina,-5.0,0.0,2013,11,30,2579,228
+UCLA,USC,-3.5,0.0,2013,11,30,30,26
+Notre Dame,Stanford,-14.0,0.0,2013,11,30,24,87
+Arizona,Arizona State,-11.5,0.0,2013,11,30,9,12
+Army,Hawaii,-6.5,0.0,2013,11,30,62,349
+Georgia,Georgia Tech,3.5,0.0,2013,11,30,59,61
+FSU,Florida,27.5,0.0,2013,11,30,57,52
+Louisville,Cincinnati,3.5,0.0,2013,12,5,2132,97
+Bowling Green,N Illinois,-3.0,0.0,2013,12,6,2459,189
+Memphis,UConn,1.0,0.0,2013,12,7,41,235
+USF,Rutgers,-7.0,0.0,2013,12,7,164,58
+Texas,Baylor,-13.5,0.0,2013,12,7,239,251
+Oklahoma,Oklahoma State,-11.0,0.0,2013,12,7,197,201
+Missouri,Auburn,-2.0,0.0,2013,12,7,2,142
+Duke,FSU,-28.0,0.0,2013,12,7,52,150
+Stanford,Arizona State,-4.0,0.0,2013,12,7,9,24
+OSU,Michigan State,6.0,0.0,2013,12,7,127,194
+Utah State,Fresno State,-3.5,0.0,2013,12,7,278,328
+LA-Lafayette,South Alabama,-3.0,58.0,2013,12,7,6,309
+Marshall,Rice,-999.0,61.0,2013,12,7,242,276
+UCF,SMU,10.0,59.5,2013,12,7,2567,2116
+Army,Navy,-11.0,54.5,2013,12,14,2426,349
