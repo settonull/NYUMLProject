@@ -11,7 +11,8 @@ def unique_teams_faced(df):
     """
 
     # Matrix of games played with values of the opponents ID
-    games = pd.pivot_table(df, index='HomeID', columns='AwayID', aggfunc='count')[df.columns[0]]
+    games = pd.pivot_table(df, index='HomeID', columns='AwayID',
+                            aggfunc='count')[df.columns[0]]
     games /= games
     games = games.fillna(0)
     home_games = games * games.columns.values
@@ -41,7 +42,8 @@ def compare(a, b, larger_is_better):
     else:
         return a < b
 
-def build_transition_matrix(df, home_metric_label, away_metric_label, larger_is_better):
+def build_transition_matrix(df, home_metric_label, away_metric_label,
+                            larger_is_better):
     """
     Computes the transition matrix based on the column names supplied
     """
@@ -49,17 +51,22 @@ def build_transition_matrix(df, home_metric_label, away_metric_label, larger_is_
     # Determine who is the "better" and "worse" team based on the metric and
     # sum metrics for better and worse teams
     df['betterID'] = list(map(lambda home_id, away_id, home_metric, away_metric:
-        home_id if compare(home_metric, away_metric, larger_is_better) else away_id, df['HomeID'], df['AwayID'],
+        home_id if compare(home_metric, away_metric, larger_is_better) else \
+        away_id, df['HomeID'], df['AwayID'],
         df[home_metric_label], df[away_metric_label]))
     df['betterMetric'] = list(map(lambda home_id, away_id, home_metric, away_metric:
-        home_metric if compare(home_metric, away_metric, larger_is_better) else away_metric, df['HomeID'], df['AwayID'],
+        home_metric if compare(home_metric, away_metric, larger_is_better) else \
+        away_metric, df['HomeID'], df['AwayID'],
         df[home_metric_label], df[away_metric_label]))
 
-    df['worseID'] = list(map(lambda home_id, away_id, better_id: home_id if better_id == away_id else away_id,
-        df['HomeID'], df['AwayID'], df['betterID']))
-    df['worseMetric'] = list(map(lambda home_id, home_score, away_id, away_score, better_id:
-        home_score if better_id == away_id else away_score, df['HomeID'],
-        df[home_metric_label], df['AwayID'], df[away_metric_label], df['betterID']))
+    df['worseID'] = list(map(lambda home_id, away_id, better_id: home_id if \
+                            better_id == away_id else away_id,
+                            df['HomeID'], df['AwayID'], df['betterID']))
+    df['worseMetric'] = list(map(lambda home_id, home_score, away_id, \
+                        away_score, better_id:
+                        home_score if better_id == away_id else \
+                        away_score, df['HomeID'], df[home_metric_label], \
+                        df['AwayID'], df[away_metric_label], df['betterID']))
 
     # Combine the better and worse data
     better_df = df[['betterID', 'worseID', 'betterMetric']]
@@ -70,7 +77,8 @@ def build_transition_matrix(df, home_metric_label, away_metric_label, larger_is_
     both_df = both_df.groupby(['TeamID', 'OpponentID']).agg('sum')
 
     # Create and return the transition matrix
-    return pd.pivot_table(both_df, index=['OpponentID'], columns=['TeamID'], fill_value=0)
+    return pd.pivot_table(both_df, index=['OpponentID'], columns=['TeamID'],
+                            fill_value=1) #changed to one for ultimate
 
 def unique_matches_filter(df, min_matches=2):
     """
@@ -80,12 +88,14 @@ def unique_matches_filter(df, min_matches=2):
     teams = unique_teams_faced(df)
     teams = teams[teams >= min_matches].dropna()
     teams_mask = list(map(lambda home_id, away_id:
-        True if home_id in teams.index.values or away_id in teams.index.values else False,
+        True if home_id in teams.index.values or away_id in \
+        teams.index.values else False,
         df['HomeID'], df['AwayID']))
     df = df[teams_mask]
     return df
 
-def CTMC(df, metrics=('HomeFinal', 'VisFinal'), larger_is_better = True, unique_matches_required = 2):
+def CTMC(df, metrics=('HomeFinal', 'VisFinal'), larger_is_better = True,
+        unique_matches_required = 2):
     """Computes the rankings of all teams based on the given metrics."""
 
     # Remove teams with fewer than the required number of matches
@@ -109,7 +119,6 @@ def CTMC(df, metrics=('HomeFinal', 'VisFinal'), larger_is_better = True, unique_
 
     return pd.DataFrame({'TeamID': transition_df.index.values, 'Ratings': ratings}).set_index('TeamID')
 
-
 def ctmc_summarize(df, metrics=('HomeFinal', 'VisFinal'), larger_is_better = True,
                    unique_matches_required = 2, min_weeks=4):
     """
@@ -122,7 +131,8 @@ def ctmc_summarize(df, metrics=('HomeFinal', 'VisFinal'), larger_is_better = Tru
     for season in df['Season'].unique():
         for week in df[df['Season']==season]['Week'].unique():
             if week > min_weeks:
-                ratings = CTMC(df[(df['Season']==season) & (df['Week']<=week)])
+                ratings = CTMC(df[(df['Season']==season) & (df['Week']<week)].copy(),
+                                metrics, larger_is_better, unique_matches_required)
                 ratings.reset_index(inplace=True)
                 ratings.columns = ['TeamID','CTMC_Rating']
                 ratings['Season'] = season
@@ -141,8 +151,7 @@ def ctmc_summarize(df, metrics=('HomeFinal', 'VisFinal'), larger_is_better = Tru
     df.drop('TeamID', 1, inplace=True)
 
     # Create key and set index to join with n_game summaries dataset.
-    df['teams_key'] = list(map(lambda x, y: str(x)+"-"+str(y), df['HomeID'], df['AwayID']))
-    df.set_index(['teams_key', 'DateTime', 'Season'], inplace=True)
+    df.set_index(['HomeID', 'AwayID', 'Season', 'Week'], inplace=True)
     df = df[['CTMC_Rating', 'CTMC_Rating_Away']]
     df.columns = ['CTMC_Rating_Home', 'CTMC_Rating_Away']
 
