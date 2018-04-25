@@ -1,0 +1,803 @@
+Visiter,Home,SpreadWag,OverUnderWag,Year,Month,Day,HomeID,VisID
+FIU,Florida,-13.0,45.5,2015,9,3,57,2229
+Oklahoma State,Michigan,23.5,59.0,2015,9,3,130,197
+Kentucky,Vanderbilt,2.5,62.0,2015,9,3,238,96
+South Carolina,UNC,1.5,62.0,2015,9,3,153,2579
+FIU,UCF,-11.5,44.5,2015,9,3,2116,2229
+Oklahoma State,Cent Michigan,21.0,58.0,2015,9,3,2117,197
+Michigan,Utah,-5.5,44.5,2015,9,3,254,130
+TCU,Minnesota,15.5,56.5,2015,9,3,135,2628
+Duke,Tulane,6.0,52.0,2015,9,3,2655,150
+Ohio,Idaho,7.0,57.5,2015,9,3,70,195
+UTSA,Arizona,-32.5,59.0,2015,9,3,12,2636
+W Kentucky,Vanderbilt,2.5,60.5,2015,9,3,238,98
+Colorado,Hawaii,7.0,60.0,2015,9,4,62,38
+Michigan State,Michigan,17.0,57.0,2015,9,4,130,127
+Kent State,Illinois,-14.5,51.5,2015,9,4,356,2309
+Baylor,SMU,36.5,71.0,2015,9,4,2567,239
+Michigan State,W Michigan,16.5,55.5,2015,9,4,2711,127
+Washington,Boise State,-12.5,54.5,2015,9,4,68,264
+Charlotte,Georgia State,-7.5,68.5,2015,9,4,2247,2429
+Old Dominion,Michigan,4.5,61.5,2015,9,5,130,295
+UNLV,Illinois,-23.0,62.5,2015,9,5,356,2439
+Lafayette,Kentucky,-17.0,57.5,2015,9,5,96,322
+Southern,West Virginia,-17.5,56.0,2015,9,5,277,2582
+Arkansas State,Cal,-27.0,69.5,2015,9,5,25,2032
+Old Dominion,E Michigan,6.5,59.5,2015,9,5,2199,295
+New Mexico St,Florida,-34.0,54.5,2015,9,5,57,166
+Penn State,Temple,6.0,43.0,2015,9,5,218,213
+FAU,Tulsa,-3.5,66.0,2015,9,5,202,2226
+UVA,UCLA,-18.0,53.0,2015,9,5,26,258
+Stanford,Northwestern,10.5,48.0,2015,9,5,77,24
+Louisville,Auburn,-10.5,54.0,2015,9,5,2,97
+Arizona State,Texas A&M,-3.0,64.5,2015,9,5,245,9
+BYU,Nebraska,-4.5,57.5,2015,9,5,158,252
+Troy,North Carolina St,-25.0,62.0,2015,9,5,152,2653
+UNLV,N Illinois,-22.0,61.0,2015,9,5,2459,2439
+Akron,Oklahoma,-31.5,57.5,2015,9,5,201,2006
+Bowling Green,Tennessee,-21.5,67.5,2015,9,5,2633,189
+UL Monroe,Georgia,-34.5,56.5,2015,9,5,61,2433
+LA-Lafayette,Kentucky,-16.0,57.5,2015,9,5,96,309
+UTEP,Arkansas,-31.5,50.0,2015,9,5,8,2638
+Ga Southern,West Virginia,-16.5,55.0,2015,9,5,277,290
+Texas,Notre Dame,-9.0,48.5,2015,9,5,87,251
+Texas State,FSU,-27.5,59.5,2015,9,5,52,326
+Wisconsin,Alabama,-12.5,44.5,2015,9,5,333,275
+Miss St,Southern Miss,20.5,61.0,2015,9,5,2572,344
+Arkansas State,USC,-27.0,66.5,2015,9,5,30,2032
+Kent State,Illinois,-13.5,53.5,2015,9,5,356,2309
+Purdue,Marshall,-7.5,61.5,2015,9,6,276,2509
+OSU,VT,13.5,53.0,2015,9,7,259,194
+LA Tech,Kentucky,1.5,61.5,2015,9,10,96,2348
+Florida,FAU,17.5,55.5,2015,9,11,2226,57
+Miami (FL),FAU,17.0,56.0,2015,9,11,2226,2390
+Utah State,Utah,-11.5,44.5,2015,9,11,254,328
+Florida,FSU,-28.5,54.5,2015,9,12,52,57
+Michigan,Southern,4.5,56.0,2015,9,12,2582,130
+Texas,SMU,-5.0,61.0,2015,9,12,2567,251
+Alabama,Nebraska,-27.0,54.0,2015,9,12,158,333
+Idaho,Cal,-44.0,67.0,2015,9,12,25,70
+Florida,Stanford,-18.5,45.5,2015,9,12,24,57
+Michigan,Wyoming,-13.5,53.0,2015,9,12,2751,130
+Ohio,Wisconsin,-31.0,52.0,2015,9,12,275,195
+USF,FSU,-28.5,54.0,2015,9,12,52,58
+W Michigan,Ga Southern,4.5,56.5,2015,9,12,290,2711
+Buffalo,Penn State,-17.0,48.0,2015,9,12,213,2084
+Army,UConn,-6.5,47.0,2015,9,12,41,349
+ECU,Florida,-20.5,53.0,2015,9,12,57,151
+Houston,Louisville,-13.5,56.0,2015,9,12,97,248
+Fresno State,Ole Miss,-32.0,55.5,2015,9,12,145,278
+Temple,Cincinnati,-5.5,56.0,2015,9,12,2132,218
+LSU,Miss St,3.5,53.0,2015,9,12,344,99
+Kansas State,UTSA,14.5,51.0,2015,9,12,2636,2306
+Wake Forest,Syracuse,-4.0,42.0,2015,9,12,183,154
+Appalachian St,Clemson,-18.5,57.5,2015,9,12,228,2026
+Missouri,Arkansas State,10.0,55.0,2015,9,12,2032,142
+UMass,Colorado,-13.0,61.0,2015,9,12,38,113
+Minnesota,Colorado State,4.0,59.5,2015,9,12,36,135
+Oregon State,Michigan,-13.5,45.5,2015,9,12,130,204
+Tulane,Georgia Tech,-31.5,59.5,2015,9,12,59,2655
+Georgia,Vanderbilt,18.0,49.0,2015,9,12,238,61
+Boise State,BYU,2.5,57.0,2015,9,12,252,68
+Notre Dame,UVA,13.0,47.0,2015,9,12,258,87
+Iowa,Iowa State,3.0,48.5,2015,9,12,66,2294
+San Diego State,Cal,-12.5,59.0,2015,9,12,25,21
+Memphis,Kansas,12.5,63.0,2015,9,12,2305,235
+Toledo,Arkansas,-23.0,56.0,2015,9,12,8,2649
+Mid Tennessee,Alabama,-33.5,56.0,2015,9,12,333,2393
+San Jose State,Air Force,-5.0,58.5,2015,9,12,2005,23
+Pitt,Akron,12.0,50.5,2015,9,12,2006,221
+Bowling Green,Maryland,-7.0,70.5,2015,9,12,120,189
+Arizona,Nevada,10.0,62.5,2015,9,12,2440,12
+Kentucky,South Carolina,-7.0,56.5,2015,9,12,2579,96
+North Texas,SMU,-6.0,60.0,2015,9,12,2567,249
+Ball State,Texas A&M,-31.0,64.5,2015,9,12,245,2050
+UTEP,Texas Tech,-20.0,65.5,2015,9,12,2641,2638
+Washington St,Rutgers,-5.5,61.5,2015,9,12,164,265
+Oklahoma,Tennessee,2.0,64.0,2015,9,12,2633,201
+Rice,Texas,-14.5,49.5,2015,9,12,251,242
+Georgia State,New Mexico St,-4.5,64.5,2015,9,12,166,2247
+South Alabama,Nebraska,-27.0,54.0,2015,9,12,158,6
+Oregon,Michigan State,-4.5,67.0,2015,9,12,127,2483
+FIU,Indiana,-8.0,56.5,2015,9,12,84,2229
+Idaho,USC,-45.0,67.0,2015,9,12,30,70
+Tulsa,New Mexico,-6.5,72.0,2015,9,12,167,202
+UCF,Stanford,-19.5,46.5,2015,9,12,24,2116
+UCLA,UNLV,32.0,65.5,2015,9,12,2439,26
+E Michigan,Wyoming,-12.5,53.0,2015,9,12,2751,2199
+Miami (OH),Wisconsin,-31.0,52.0,2015,9,12,275,193
+Marshall,Ohio,3.0,59.5,2015,9,12,195,276
+Hawaii,OSU,-41.5,65.0,2015,9,12,194,62
+Clemson,Louisville,5.0,52.5,2015,9,17,97,228
+FSU,Boston College,8.5,48.0,2015,9,18,103,52
+New Mexico,Arizona State,-25.0,64.0,2015,9,18,9,167
+Idaho State,Boise State,-27.0,58.0,2015,9,18,68,304
+Ball State,Michigan,5.0,62.5,2015,9,19,130,2050
+Illinois,OSU,-34.5,66.5,2015,9,19,194,356
+Michigan,Syracuse,-8.5,44.5,2015,9,19,183,130
+Rice,Texas,7.5,55.0,2015,9,19,251,242
+Nebraska,Florida,-3.0,59.0,2015,9,19,57,158
+Cincinnati,Ohio,20.5,59.5,2015,9,19,195,2132
+Florida,Maryland,-7.0,51.5,2015,9,19,120,57
+Kentucky,Indiana,-2.0,72.0,2015,9,19,84,96
+Alabama,San Diego State,-17.5,46.5,2015,9,19,21,333
+Stanford,Cal,-9.0,50.5,2015,9,19,25,24
+Wake Forest,Army,6.0,49.5,2015,9,19,349,154
+Temple,UMass,13.0,54.5,2015,9,19,113,218
+Ball State,E Michigan,4.5,61.5,2015,9,19,2199,2050
+Charlotte,Mid Tennessee,-18.0,65.0,2015,9,19,2393,2429
+Kent State,Minnesota,-24.0,47.5,2015,9,19,135,2309
+Troy,Wisconsin,-30.0,59.0,2015,9,19,275,2653
+Illinois,UNC,-7.0,63.5,2015,9,19,153,356
+N Illinois,OSU,-34.0,66.5,2015,9,19,194,2459
+North Carolina St,Old Dominion,17.5,58.0,2015,9,19,295,152
+Tulsa,Oklahoma,-31.5,70.0,2015,9,19,201,202
+Cent Michigan,Syracuse,-8.5,46.5,2015,9,19,183,2117
+Northwestern,Duke,-4.0,50.0,2015,9,19,150,77
+Nevada,Texas A&M,-32.0,64.5,2015,9,19,245,2440
+Georgia State,Oregon,-43.5,71.5,2015,9,19,2483,2247
+Rice,North Texas,7.0,54.5,2015,9,19,249,242
+LA Tech,Kansas State,-10.0,52.5,2015,9,19,2306,2348
+South Carolina,Georgia,-16.0,53.0,2015,9,19,61,2579
+ECU,Navy,-5.5,57.5,2015,9,19,2426,151
+Auburn,LSU,-6.5,50.0,2015,9,19,99,2
+Ole Miss,Alabama,-8.0,52.5,2015,9,19,333,145
+VT,Purdue,5.5,49.0,2015,9,19,2509,259
+UTSA,Oklahoma State,-26.5,56.0,2015,9,19,197,2636
+Nebraska,Miami (FL),-3.5,59.0,2015,9,19,2390,158
+Georgia Tech,Notre Dame,2.0,55.5,2015,9,19,87,59
+Utah State,Washington,-7.0,45.0,2015,9,19,264,328
+Southern Miss,Texas State,-2.0,66.0,2015,9,19,326,2572
+Cincinnati,Miami (OH),21.0,59.5,2015,9,19,193,2132
+Iowa State,Toledo,-7.0,58.5,2015,9,19,2649,66
+Texas Tech,Arkansas,-10.0,69.0,2015,9,19,8,2641
+Memphis,Bowling Green,3.5,72.5,2015,9,19,189,235
+Colorado,Colorado State,3.0,56.0,2015,9,19,36,38
+USF,Maryland,-6.5,52.0,2015,9,19,120,58
+UConn,Missouri,-22.0,42.0,2015,9,19,142,41
+Florida,Kentucky,4.0,53.0,2015,9,19,96,57
+W Kentucky,Indiana,-3.0,72.5,2015,9,19,84,98
+Cal,Texas,4.5,58.0,2015,9,19,251,25
+San Jose State,Oregon State,-6.5,50.0,2015,9,19,204,23
+SMU,TCU,-37.5,67.5,2015,9,19,2628,2567
+UTEP,New Mexico St,2.5,60.0,2015,9,19,166,2638
+Rutgers,Penn State,-8.5,46.5,2015,9,19,213,164
+South Alabama,San Diego State,-18.0,47.0,2015,9,19,21,6
+Stanford,USC,-9.5,50.5,2015,9,19,30,24
+Pitt,Iowa,-4.0,47.5,2015,9,19,2294,221
+Air Force,Michigan State,-25.5,54.5,2015,9,19,127,2005
+BYU,UCLA,-16.0,58.5,2015,9,19,26,252
+UNLV,Michigan,-34.0,49.0,2015,9,19,130,2439
+Buffalo,FAU,-2.0,60.5,2015,9,19,2226,2084
+Wyoming,Washington St,-25.0,66.0,2015,9,19,265,2751
+Utah,Fresno State,12.0,52.5,2015,9,19,278,254
+Cincinnati,Memphis,-10.0,66.5,2015,9,24,235,2132
+Boise State,UVA,2.5,49.0,2015,9,25,258,68
+Stanford,Oregon State,15.0,44.5,2015,9,25,204,24
+BYU,Michigan,-6.5,48.5,2015,9,26,130,252
+Army,E Michigan,1.5,55.0,2015,9,26,2199,349
+Nevada,Buffalo,-3.0,53.5,2015,9,26,2084,2440
+Cent Michigan,Michigan State,-27.0,54.0,2015,9,26,127,2117
+Southern Miss,Nebraska,-21.0,67.5,2015,9,26,158,2572
+Missouri,Kentucky,-2.5,44.5,2015,9,26,96,142
+Texas State,Houston,-17.5,73.0,2015,9,26,248,326
+Navy,UConn,7.0,48.0,2015,9,26,41,2426
+VT,ECU,10.0,50.5,2015,9,26,151,259
+San Diego State,Penn State,-14.0,40.0,2015,9,26,213,21
+Bowling Green,Purdue,4.0,74.5,2015,9,26,2509,189
+Kansas,Rutgers,-13.5,62.5,2015,9,26,164,2305
+W Michigan,OSU,-32.5,62.0,2015,9,26,194,2711
+Arkansas State,Toledo,-4.5,58.5,2015,9,26,2649,2032
+Maryland,West Virginia,-16.5,57.0,2015,9,26,277,120
+Georgia Tech,Duke,7.5,56.0,2015,9,26,150,59
+Vanderbilt,Ole Miss,-27.0,54.0,2015,9,26,145,238
+North Texas,Iowa,-25.0,54.5,2015,9,26,2294,249
+Mid Tennessee,Illinois,-3.5,61.5,2015,9,26,356,2393
+New Mexico,Wyoming,4.0,58.5,2015,9,26,2751,167
+FIU,LA Tech,-14.0,55.5,2015,9,26,2348,2229
+Rice,Baylor,-32.0,74.0,2015,9,26,239,242
+Texas A&M,Arkansas,6.5,60.5,2015,9,26,8,245
+Tennessee,Florida,1.0,50.5,2015,9,26,57,2633
+Ohio,Minnesota,-7.5,47.0,2015,9,26,135,195
+Miami (OH),W Kentucky,-20.0,66.5,2015,9,26,98,193
+UMass,Notre Dame,-28.0,60.5,2015,9,26,87,113
+North Carolina St,South Alabama,17.5,55.0,2015,9,26,6,152
+Ga Southern,Idaho,16.0,67.5,2015,9,26,70,290
+Marshall,Kent State,6.5,47.0,2015,9,26,2309,276
+Miss St,Auburn,-2.0,58.5,2015,9,26,2,344
+UL Monroe,Alabama,-37.0,53.0,2015,9,26,333,2433
+TCU,Texas Tech,5.0,84.0,2015,9,26,2641,2628
+Akron,LA-Lafayette,-7.5,53.5,2015,9,26,309,2006
+Colorado State,UTSA,9.5,56.5,2015,9,26,2636,36
+Appalachian St,Old Dominion,7.0,54.5,2015,9,26,295,2026
+N Illinois,Boston College,-3.0,45.0,2015,9,26,103,2459
+Oklahoma State,Texas,3.0,62.0,2015,9,26,251,197
+USC,Arizona State,4.0,61.0,2015,9,26,9,30
+Ball State,Northwestern,-17.0,48.5,2015,9,26,77,2050
+Hawaii,Wisconsin,-24.5,52.5,2015,9,26,275,62
+UCLA,Arizona,1.5,65.0,2015,9,26,12,26
+Cal,Washington,0.0,60.5,2015,9,26,264,25
+Fresno State,San Jose State,-4.5,54.0,2015,9,26,23,278
+UCF,South Carolina,-14.0,45.0,2015,9,26,2579,2116
+LSU,Syracuse,24.0,45.5,2015,9,26,183,99
+Indiana,Wake Forest,3.5,54.0,2015,9,26,154,84
+FAU,Charlotte,9.5,65.0,2015,9,26,2429,2226
+Utah,Oregon,-11.0,63.5,2015,9,26,2483,254
+Miami (FL),Cincinnati,7.0,70.0,2015,10,1,2132,2390
+Memphis,USF,7.0,58.5,2015,10,2,58,235
+Temple,Charlotte,20.5,43.5,2015,10,2,2429,218
+UConn,BYU,-15.0,44.0,2015,10,2,252,41
+UNC,Georgia Tech,-6.5,63.5,2015,10,3,59,153
+Bowling Green,Buffalo,7.0,68.5,2015,10,3,2084,189
+Toledo,Ball State,5.5,54.5,2015,10,3,2050,2649
+Wyoming,Appalachian St,-26.0,52.5,2015,10,3,2026,2751
+Ohio,Akron,2.5,45.0,2015,10,3,2006,195
+Miami (OH),Kent State,-10.5,43.5,2015,10,3,2309,193
+Kansas,Iowa State,-19.0,59.0,2015,10,3,66,2305
+Purdue,Michigan State,-22.0,54.0,2015,10,3,127,2509
+FIU,UMass,-3.0,56.5,2015,10,3,113,2229
+Minnesota,Northwestern,-4.5,40.5,2015,10,3,77,135
+Louisville,North Carolina St,-3.0,47.0,2015,10,3,152,97
+West Virginia,Oklahoma,-7.0,60.0,2015,10,3,201,277
+Iowa,Wisconsin,-6.0,46.0,2015,10,3,275,2294
+Pitt,VT,-4.0,45.0,2015,10,3,259,221
+Miss St,Texas A&M,-4.0,62.5,2015,10,3,245,344
+W Kentucky,Rice,7.0,69.5,2015,10,3,242,98
+Kansas State,Oklahoma State,-7.0,48.0,2015,10,3,197,2306
+Houston,Tulsa,9.0,81.0,2015,10,3,202,248
+Arizona State,UCLA,-13.0,61.5,2015,10,3,26,9
+Texas,TCU,-14.0,71.5,2015,10,3,2628,251
+Air Force,Navy,-5.0,49.5,2015,10,3,2426,2005
+Alabama,Georgia,-1.0,51.5,2015,10,3,61,333
+Ole Miss,Florida,6.5,50.5,2015,10,3,57,145
+Boston College,Duke,-5.5,37.5,2015,10,3,150,103
+Nebraska,Illinois,3.5,56.0,2015,10,3,356,158
+OSU,Indiana,22.5,66.0,2015,10,3,84,194
+N Illinois,Cent Michigan,1.5,51.5,2015,10,3,2117,2459
+Texas Tech,Baylor,-17.0,88.0,2015,10,3,239,2641
+Hawaii,Boise State,-27.0,56.5,2015,10,3,68,62
+Oregon,Colorado,6.5,69.0,2015,10,3,38,2483
+Washington St,Cal,-17.0,73.0,2015,10,3,25,265
+San Jose State,Auburn,-21.0,55.5,2015,10,3,2,23
+Idaho,Arkansas State,-21.5,60.5,2015,10,3,2032,70
+LA-Lafayette,LA Tech,-14.0,59.5,2015,10,3,2348,309
+Vanderbilt,Mid Tennessee,-2.5,48.5,2015,10,3,2393,238
+South Carolina,Missouri,-3.0,42.5,2015,10,3,142,2579
+E Michigan,LSU,-45.0,64.0,2015,10,3,99,2199
+Old Dominion,Marshall,-17.0,54.0,2015,10,3,276,295
+Arkansas,Tennessee,-6.0,53.0,2015,10,3,2633,8
+ECU,SMU,5.5,65.0,2015,10,3,2567,151
+North Texas,Southern Miss,-16.5,66.0,2015,10,3,2572,249
+South Alabama,Troy,-6.5,61.5,2015,10,3,2653,6
+Ga Southern,UL Monroe,5.5,48.0,2015,10,3,2433,290
+FSU,Wake Forest,19.0,45.0,2015,10,3,154,52
+Colorado State,Utah State,-4.5,50.5,2015,10,3,328,36
+UTSA,UTEP,3.0,57.0,2015,10,3,2638,2636
+Notre Dame,Clemson,-3.0,49.0,2015,10,3,228,87
+New Mexico St,New Mexico,-12.0,66.0,2015,10,3,167,166
+UNLV,Nevada,-6.5,56.0,2015,10,3,2440,2439
+Fresno State,San Diego State,-7.5,52.0,2015,10,3,21,278
+Michigan,Maryland,14.0,46.5,2015,10,3,120,130
+Army,Penn State,-26.5,45.0,2015,10,3,213,349
+UCF,Tulane,1.0,44.0,2015,10,3,2655,2116
+Arizona,Stanford,-11.0,59.5,2015,10,3,24,12
+SMU,Houston,-24.5,69.5,2015,10,8,248,2567
+Washington,USC,-17.0,58.0,2015,10,8,30,264
+Southern Miss,Marshall,-3.0,57.0,2015,10,9,276,2572
+North Carolina St,VT,-2.5,44.0,2015,10,9,259,152
+LSU,South Carolina,13.5,49.0,2015,10,10,2579,99
+Oklahoma,Texas,16.0,59.5,2015,10,10,251,201
+Minnesota,Purdue,3.5,47.0,2015,10,10,2509,135
+Akron,E Michigan,8.0,53.5,2015,10,10,2199,2006
+Oklahoma State,West Virginia,-6.5,60.5,2015,10,10,277,197
+Duke,Army,13.0,47.5,2015,10,10,349,150
+Tulane,Temple,-14.5,44.0,2015,10,10,218,2655
+Illinois,Iowa,-10.5,46.0,2015,10,10,2294,356
+Maryland,OSU,-32.0,56.0,2015,10,10,194,120
+Wake Forest,Boston College,-7.5,36.5,2015,10,10,103,154
+Miami (OH),Ohio,-16.0,50.5,2015,10,10,195,193
+Kent State,Toledo,-15.5,45.5,2015,10,10,2649,2309
+Ball State,N Illinois,-10.0,57.5,2015,10,10,2459,2050
+Appalachian St,Georgia State,15.0,62.0,2015,10,10,2247,2026
+UVA,Pitt,-10.0,47.0,2015,10,10,221,258
+Cent Michigan,W Michigan,-6.5,50.0,2015,10,10,2711,2117
+Arkansas,Alabama,-16.5,48.5,2015,10,10,333,8
+Wyoming,Air Force,-21.5,56.5,2015,10,10,2005,2751
+UMass,Bowling Green,-14.0,79.0,2015,10,10,189,113
+Troy,Miss St,-30.5,56.0,2015,10,10,344,2653
+New Mexico St,Ole Miss,-45.0,70.0,2015,10,10,145,166
+ECU,BYU,-9.5,58.5,2015,10,10,252,151
+Baylor,Kansas,45.0,76.0,2015,10,10,2305,239
+Rice,FAU,-4.0,58.5,2015,10,10,2226,242
+Washington St,Oregon,-17.0,72.5,2015,10,10,2483,265
+Georgia,Tennessee,2.5,59.5,2015,10,10,2633,61
+Mid Tennessee,W Kentucky,-7.5,70.0,2015,10,10,98,2393
+UL Monroe,Tulsa,-9.0,66.5,2015,10,10,202,2433
+Navy,Notre Dame,-14.0,56.5,2015,10,10,87,2426
+Colorado,Arizona State,-15.5,58.0,2015,10,10,9,38
+Miami (FL),FSU,-7.0,51.0,2015,10,10,52,2390
+Northwestern,Michigan,-10.0,34.5,2015,10,10,130,77
+Georgia Tech,Clemson,-7.5,54.5,2015,10,10,228,59
+Texas State,LA-Lafayette,-4.0,70.5,2015,10,10,309,326
+Cal,Utah,-7.5,61.0,2015,10,10,254,25
+UConn,UCF,-3.0,38.0,2015,10,10,2116,41
+UTEP,FIU,-14.5,45.0,2015,10,10,2229,2638
+LA Tech,UTSA,12.5,54.0,2015,10,10,2636,2348
+Boise State,Colorado State,15.5,59.0,2015,10,10,36,68
+Florida,Missouri,4.0,38.0,2015,10,10,142,57
+Oregon State,Arizona,-10.0,64.0,2015,10,10,12,204
+TCU,Kansas State,9.5,63.0,2015,10,10,2306,2628
+Iowa State,Texas Tech,-10.5,74.0,2015,10,10,2641,66
+Michigan State,Rutgers,13.5,52.5,2015,10,10,164,127
+Wisconsin,Nebraska,1.5,49.0,2015,10,10,158,275
+New Mexico,Nevada,-4.5,54.5,2015,10,10,2440,167
+Utah State,Fresno State,11.0,47.5,2015,10,10,278,328
+Syracuse,USF,-1.5,47.0,2015,10,10,58,183
+San Jose State,UNLV,3.0,51.0,2015,10,10,2439,23
+South Carolina,LSU,-19.5,50.0,2015,10,10,99,2579
+Indiana,Penn State,-7.0,54.0,2015,10,10,213,84
+San Diego State,Hawaii,0.0,46.5,2015,10,11,62,21
+Arkansas State,South Alabama,4.0,59.0,2015,10,13,6,2032
+Auburn,Kentucky,1.5,53.5,2015,10,15,96,2
+W Kentucky,North Texas,34.0,71.0,2015,10,15,249,98
+UCLA,Stanford,-6.5,55.5,2015,10,15,24,26
+Houston,Tulane,20.0,58.0,2015,10,16,2655,248
+Boise State,Utah State,9.5,50.5,2015,10,16,328,68
+UNLV,Fresno State,4.5,50.0,2015,10,16,278,2439
+Cincinnati,BYU,-6.0,67.5,2015,10,16,252,2132
+E Michigan,Toledo,-29.0,58.5,2015,10,17,2649,2199
+UCF,Temple,-20.0,46.5,2015,10,17,218,2116
+Buffalo,Cent Michigan,-6.0,56.0,2015,10,17,2117,2084
+Marshall,FAU,4.0,47.0,2015,10,17,2226,276
+USF,UConn,-2.5,45.0,2015,10,17,41,58
+New Mexico St,Ga Southern,-30.5,63.5,2015,10,17,290,166
+FIU,Mid Tennessee,-10.5,56.0,2015,10,17,2393,2229
+Georgia State,Ball State,-13.0,65.5,2015,10,17,2050,2247
+Boston College,Clemson,-17.0,38.0,2015,10,17,228,103
+Syracuse,UVA,-6.5,53.5,2015,10,17,258,183
+Purdue,Wisconsin,-23.5,50.5,2015,10,17,275,2509
+Iowa,Northwestern,1.5,41.0,2015,10,17,77,2294
+Wake Forest,UNC,-17.0,53.5,2015,10,17,153,154
+Texas Tech,Kansas,33.0,77.0,2015,10,17,2305,2641
+Nevada,Wyoming,5.5,53.5,2015,10,17,2751,2440
+LA Tech,Miss St,-13.0,59.5,2015,10,17,344,2348
+Kent State,UMass,-7.0,55.0,2015,10,17,113,2309
+W Michigan,Ohio,-4.0,52.5,2015,10,17,195,2711
+N Illinois,Miami (OH),16.0,56.5,2015,10,17,193,2459
+Air Force,Colorado State,3.0,53.0,2015,10,17,36,2005
+Alabama,Texas A&M,3.0,54.5,2015,10,17,245,333
+Florida,LSU,-7.0,45.0,2015,10,17,99,57
+Nebraska,Minnesota,-2.0,47.5,2015,10,17,135,158
+Missouri,Georgia,-14.5,48.0,2015,10,17,61,142
+Oklahoma,Kansas State,4.5,53.5,2015,10,17,2306,201
+Pitt,Georgia Tech,-3.5,47.0,2015,10,17,59,221
+VT,Miami (FL),-3.0,52.0,2015,10,17,2390,259
+Michigan State,Michigan,-7.0,42.0,2015,10,17,130,127
+West Virginia,Baylor,-20.0,77.0,2015,10,17,239,277
+Tulsa,ECU,-13.5,79.0,2015,10,17,151,202
+UTSA,Southern Miss,-8.5,57.5,2015,10,17,2572,2636
+Appalachian St,UL Monroe,14.0,49.0,2015,10,17,2433,2026
+Charlotte,Old Dominion,-5.5,49.5,2015,10,17,295,2429
+Vanderbilt,South Carolina,-2.5,45.0,2015,10,17,2579,238
+Oregon State,Washington St,-7.5,61.0,2015,10,17,265,204
+Arizona State,Utah,-5.0,52.0,2015,10,17,254,9
+Akron,Bowling Green,-10.0,66.0,2015,10,17,189,2006
+TCU,Iowa State,20.0,71.0,2015,10,17,66,2628
+Louisville,FSU,-7.0,46.5,2015,10,17,52,97
+Ole Miss,Memphis,10.5,70.0,2015,10,17,235,145
+Penn State,OSU,-18.5,47.5,2015,10,17,194,213
+Hawaii,New Mexico,-5.0,50.5,2015,10,17,167,62
+San Diego State,San Jose State,-2.5,48.5,2015,10,17,23,21
+Oregon,Washington,-3.0,59.0,2015,10,17,264,2483
+Arizona,Colorado,7.0,67.5,2015,10,17,38,12
+USC,Notre Dame,-5.0,61.0,2015,10,17,87,30
+Rutgers,Indiana,-5.5,64.5,2015,10,17,84,164
+Idaho,Troy,-10.0,61.0,2015,10,17,2653,70
+LA-Lafayette,Arkansas State,-7.0,57.5,2015,10,20,2032,309
+Ga Southern,Appalachian St,-7.0,61.0,2015,10,22,2026,290
+Temple,ECU,-3.0,48.5,2015,10,22,151,218
+Cal,UCLA,-4.0,69.5,2015,10,22,26,25
+Memphis,Tulsa,10.5,76.5,2015,10,23,202,235
+Utah State,San Diego State,3.5,43.5,2015,10,23,21,328
+E Michigan,N Illinois,-27.0,67.0,2015,10,24,2459,2199
+Cent Michigan,Ball State,7.0,56.5,2015,10,24,2050,2117
+Toledo,UMass,14.5,61.5,2015,10,24,113,2649
+Bowling Green,Kent State,14.0,59.0,2015,10,24,2309,189
+Ohio,Buffalo,2.5,53.5,2015,10,24,2084,195
+Pitt,Syracuse,7.0,49.5,2015,10,24,183,221
+Indiana,Michigan State,-15.0,61.0,2015,10,24,127,84
+Clemson,Miami (FL),7.0,55.0,2015,10,24,2390,228
+North Carolina St,Wake Forest,9.0,46.0,2015,10,24,154,152
+Missouri,Vanderbilt,1.5,34.5,2015,10,24,238,142
+Miami (OH),W Michigan,-27.5,56.0,2015,10,24,2711,193
+Wyoming,Boise State,-34.5,58.5,2015,10,24,68,2751
+Fresno State,Air Force,-17.0,55.5,2015,10,24,2005,278
+North Texas,Marshall,-28.5,59.5,2015,10,24,276,249
+Utah,USC,-6.5,57.5,2015,10,24,30,254
+Tennessee,Alabama,-15.0,49.5,2015,10,24,333,2633
+Kansas State,Texas,-7.0,47.5,2015,10,24,251,2306
+Texas A&M,Ole Miss,-6.0,64.0,2015,10,24,145,245
+UVA,UNC,-17.0,59.0,2015,10,24,153,258
+Northwestern,Nebraska,-7.0,49.5,2015,10,24,158,77
+Wisconsin,Illinois,4.5,46.0,2015,10,24,356,275
+Duke,VT,-3.0,46.0,2015,10,24,259,150
+UL Monroe,Idaho,-1.0,57.5,2015,10,24,70,2433
+Houston,UCF,21.5,54.0,2015,10,24,2116,248
+Colorado,Oregon State,-1.0,59.0,2015,10,24,204,38
+Iowa State,Baylor,-37.0,74.5,2015,10,24,239,66
+Penn State,Maryland,6.0,47.0,2015,10,24,120,213
+Southern Miss,Charlotte,15.0,62.5,2015,10,24,2429,2572
+Boston College,Louisville,-8.0,37.5,2015,10,24,97,103
+Mid Tennessee,LA Tech,-7.5,63.0,2015,10,24,2348,2393
+UConn,Cincinnati,-11.0,57.5,2015,10,24,2132,41
+SMU,USF,-12.0,62.0,2015,10,24,58,2567
+South Alabama,Texas State,-1.0,62.0,2015,10,24,326,6
+Old Dominion,FIU,-13.5,52.5,2015,10,24,2229,295
+Kentucky,Miss St,-12.5,59.0,2015,10,24,344,96
+Auburn,Arkansas,-6.5,51.5,2015,10,24,8,2
+Texas Tech,Oklahoma,-14.0,73.5,2015,10,24,201,2641
+Kansas,Oklahoma State,-35.0,58.0,2015,10,24,197,2305
+FSU,Georgia Tech,6.0,56.0,2015,10,24,59,52
+OSU,Rutgers,21.0,63.0,2015,10,24,164,194
+W Kentucky,LSU,-15.5,65.5,2015,10,24,99,98
+FAU,UTEP,4.5,53.5,2015,10,24,2638,2226
+New Mexico,San Jose State,-8.0,56.0,2015,10,24,23,167
+Hawaii,Nevada,-7.5,52.0,2015,10,24,2440,62
+Washington St,Arizona,-6.0,73.0,2015,10,24,12,265
+Army,Rice,-7.5,54.5,2015,10,24,242,349
+Tulane,Navy,-24.0,54.0,2015,10,24,2426,2655
+Washington,Stanford,-16.0,48.0,2015,10,24,24,264
+Troy,New Mexico St,3.0,58.5,2015,10,24,166,2653
+UNC,Pitt,2.5,57.0,2015,10,29,221,153
+W Michigan,E Michigan,20.0,65.0,2015,10,29,2199,2711
+Buffalo,Miami (OH),7.0,50.0,2015,10,29,193,2084
+Texas State,Ga Southern,-21.0,69.0,2015,10,29,290,326
+West Virginia,TCU,-13.0,75.0,2015,10,29,2628,277
+Oregon,Arizona State,-3.0,65.0,2015,10,29,9,2483
+ECU,UConn,6.0,50.5,2015,10,30,41,151
+LA Tech,Rice,11.0,62.0,2015,10,30,242,2348
+Louisville,Wake Forest,11.5,43.5,2015,10,30,154,97
+Wyoming,Utah State,-26.0,50.0,2015,10,30,328,2751
+Tennessee,Kentucky,10.0,58.0,2015,10,31,96,2633
+Oregon,Utah,-23.5,0.0,2015,10,31,254,2483
+UCF,Cincinnati,-26.5,61.5,2015,10,31,2132,2116
+Syracuse,FSU,-17.0,53.0,2015,10,31,52,183
+UL Monroe,LA-Lafayette,-10.5,53.5,2015,10,31,309,2433
+W Kentucky,Old Dominion,24.0,65.5,2015,10,31,295,98
+UTEP,Southern Miss,-24.5,59.0,2015,10,31,2572,2638
+FIU,FAU,3.0,50.5,2015,10,31,2226,2229
+Tulsa,SMU,2.0,72.5,2015,10,31,2567,202
+VT,Boston College,2.5,38.0,2015,10,31,103,259
+Idaho,New Mexico St,7.0,66.5,2015,10,31,166,70
+Tulane,Memphis,-30.5,62.0,2015,10,31,235,2655
+Michigan,Minnesota,11.5,37.5,2015,10,31,135,130
+Boise State,UNLV,20.5,56.5,2015,10,31,2439,68
+Colorado,UCLA,-23.0,62.5,2015,10,31,26,38
+Air Force,Hawaii,5.5,49.5,2015,10,31,62,2005
+USF,Navy,-7.0,50.5,2015,10,31,2426,58
+Marshall,Charlotte,17.0,51.5,2015,10,31,2429,276
+Troy,Appalachian St,-23.5,55.0,2015,10,31,2026,2653
+UMass,Ball State,-1.5,66.5,2015,10,31,2050,113
+Nebraska,Purdue,7.5,54.0,2015,10,31,2509,158
+Clemson,North Carolina St,10.5,50.5,2015,10,31,152,228
+Maryland,Iowa,-17.5,53.5,2015,10,31,2294,120
+Ole Miss,Auburn,7.5,57.5,2015,10,31,2,145
+Georgia State,Arkansas State,-17.0,58.5,2015,10,31,2032,2247
+Cent Michigan,Akron,2.5,48.0,2015,10,31,2006,2117
+San Diego State,Colorado State,3.0,51.5,2015,10,31,36,21
+Stanford,Washington St,10.0,60.0,2015,10,31,265,24
+Georgia,Florida,-2.5,47.5,2015,10,31,57,61
+USC,Cal,3.5,68.5,2015,10,31,25,30
+Notre Dame,Temple,10.5,51.0,2015,10,31,218,87
+Georgia Tech,UVA,6.0,54.0,2015,10,31,258,59
+Oklahoma State,Texas Tech,1.5,76.5,2015,10,31,2641,197
+Oklahoma,Kansas,40.0,60.5,2015,10,31,2305,201
+Texas,Iowa State,4.0,50.5,2015,10,31,66,251
+Illinois,Penn State,-5.5,43.0,2015,10,31,213,356
+Vanderbilt,Houston,-10.0,49.5,2015,10,31,248,238
+South Carolina,Texas A&M,-15.0,56.0,2015,10,31,245,2579
+Oregon State,Utah,-26.5,53.5,2015,10,31,254,204
+Rutgers,Wisconsin,-19.0,51.5,2015,10,31,275,164
+Arizona,Washington,-4.0,56.5,2015,10,31,264,12
+UTSA,North Texas,6.5,55.0,2015,10,31,249,2636
+Miami (FL),Duke,-11.5,51.5,2015,10,31,150,2390
+N Illinois,Toledo,-7.5,59.5,2015,11,3,2649,2459
+Ohio,Bowling Green,-20.0,67.5,2015,11,4,189,195
+Baylor,Kansas State,18.0,67.0,2015,11,5,2306,239
+Buffalo,Kent State,2.0,43.5,2015,11,5,2309,2084
+Arkansas State,Appalachian St,-10.5,55.5,2015,11,5,2026,2032
+Ball State,W Michigan,-14.5,62.0,2015,11,5,2711,2050
+Miss St,Missouri,7.5,42.5,2015,11,5,142,344
+Nevada,Fresno State,3.5,54.5,2015,11,5,278,2440
+FAU,W Kentucky,-25.5,0.0,2015,11,6,98,2226
+Texas Tech,West Virginia,-7.5,0.0,2015,11,6,277,2641
+Kentucky,Georgia,-14.0,0.0,2015,11,6,61,96
+LA-Lafayette,Georgia State,6.5,0.0,2015,11,6,2247,309
+Temple,SMU,13.5,51.0,2015,11,6,2567,218
+Rice,UTEP,6.0,58.0,2015,11,6,2638,242
+BYU,San Jose State,12.5,55.0,2015,11,6,23,252
+Illinois,Purdue,3.0,52.0,2015,11,7,2509,356
+Duke,UNC,-7.0,58.5,2015,11,7,153,150
+FAU,W Kentucky,-24.0,68.0,2015,11,7,98,2226
+Texas Tech,West Virginia,-8.0,80.5,2015,11,7,277,2641
+Kentucky,Georgia,-15.5,59.0,2015,11,7,61,96
+LA-Lafayette,Georgia State,2.5,63.0,2015,11,7,2247,309
+Iowa,Indiana,6.5,59.5,2015,11,7,84,2294
+USF,ECU,-5.5,55.5,2015,11,7,151,58
+Vanderbilt,Florida,-20.5,36.5,2015,11,7,57,238
+Charlotte,FIU,-17.5,52.5,2015,11,7,2229,2429
+Syracuse,Louisville,-13.5,51.5,2015,11,7,97,183
+Cincinnati,Houston,-9.0,69.5,2015,11,7,248,2132
+Akron,UMass,-2.5,54.0,2015,11,7,113,2006
+E Michigan,Miami (OH),-5.0,62.5,2015,11,7,193,2199
+Army,Air Force,-17.0,49.0,2015,11,7,2005,349
+North Carolina St,Boston College,3.5,38.5,2015,11,7,103,152
+Penn State,Northwestern,-1.0,41.0,2015,11,7,77,213
+New Mexico St,Texas State,-17.0,70.0,2015,11,7,326,166
+Kansas,Texas,-28.0,52.5,2015,11,7,251,2305
+Stanford,Colorado,16.0,55.0,2015,11,7,38,24
+UCF,Tulsa,-16.5,62.5,2015,11,7,202,2116
+Utah State,New Mexico,15.0,58.0,2015,11,7,167,328
+Utah,Washington,-2.5,44.0,2015,11,7,264,254
+Arizona,USC,-19.5,68.5,2015,11,7,30,12
+South Carolina,Tennessee,-17.0,58.0,2015,11,7,2633,2579
+Iowa State,Oklahoma,-24.0,58.0,2015,11,7,201,66
+TCU,Oklahoma State,4.5,76.5,2015,11,7,197,2628
+UCLA,Oregon State,17.0,57.5,2015,11,7,204,26
+Navy,Memphis,-10.0,64.0,2015,11,7,235,2426
+Wisconsin,Maryland,10.5,48.5,2015,11,7,120,275
+North Texas,LA Tech,-29.0,62.5,2015,11,7,2348,249
+LSU,Alabama,-7.0,46.0,2015,11,7,333,99
+UL Monroe,Troy,-9.0,53.0,2015,11,7,2653,2433
+Hawaii,UNLV,-9.5,55.0,2015,11,7,2439,62
+Cal,Oregon,-3.5,74.5,2015,11,7,2483,25
+Old Dominion,UTSA,-8.5,54.5,2015,11,7,2636,295
+Notre Dame,Pitt,9.5,53.5,2015,11,7,221,87
+Marshall,Mid Tennessee,-2.5,57.0,2015,11,7,2393,276
+Arkansas,Ole Miss,-9.5,54.5,2015,11,7,145,8
+Minnesota,OSU,-23.0,52.5,2015,11,7,194,135
+Auburn,Texas A&M,-7.0,59.5,2015,11,7,245,2
+Arizona State,Washington St,-2.0,66.0,2015,11,7,265,9
+Idaho,South Alabama,-7.5,62.5,2015,11,7,6,70
+Michigan State,Nebraska,4.0,55.0,2015,11,7,158,127
+Rutgers,Michigan,-24.0,50.5,2015,11,7,130,164
+FSU,Clemson,-10.0,55.5,2015,11,7,228,52
+UConn,Tulane,4.5,45.0,2015,11,7,2655,41
+Colorado State,Wyoming,9.5,55.0,2015,11,7,2751,36
+UVA,Miami (FL),-6.0,52.5,2015,11,7,2390,258
+Toledo,Cent Michigan,4.5,0.0,2015,11,10,2117,2649
+Kent State,Ohio,-7.0,0.0,2015,11,10,195,2309
+Bowling Green,W Michigan,3.0,72.0,2015,11,11,2711,189
+N Illinois,Buffalo,7.0,55.0,2015,11,11,2084,2459
+VT,Georgia Tech,-3.0,51.5,2015,11,12,59,259
+LA-Lafayette,South Alabama,-2.5,57.5,2015,11,12,6,309
+USC,Colorado,17.0,59.0,2015,11,13,38,30
+Pitt,Duke,-3.0,50.5,2015,11,14,150,221
+Tulsa,Cincinnati,-21.5,77.0,2015,11,14,2132,202
+UTSA,Charlotte,4.0,56.0,2015,11,14,2429,2636
+UMass,E Michigan,6.5,70.0,2015,11,14,2199,113
+Mid Tennessee,FAU,5.5,58.5,2015,11,14,2226,2393
+Michigan,Indiana,13.0,56.5,2015,11,14,84,130
+FIU,Marshall,-10.0,54.0,2015,11,14,276,2229
+Akron,Miami (OH),6.5,42.0,2015,11,14,193,2006
+Maryland,Michigan State,-15.5,56.0,2015,11,14,127,120
+Memphis,Houston,-5.0,70.0,2015,11,14,248,235
+OSU,Illinois,17.0,55.0,2015,11,14,356,194
+Tulane,Army,-2.5,44.0,2015,11,14,349,2655
+Clemson,Syracuse,30.0,57.5,2015,11,14,183,228
+Temple,USF,2.5,45.0,2015,11,14,58,218
+Nebraska,Rutgers,8.0,65.0,2015,11,14,164,158
+UTEP,Old Dominion,-6.5,56.0,2015,11,14,295,2638
+Kansas,TCU,-45.0,70.5,2015,11,14,2628,2305
+Kansas State,Texas Tech,-6.0,71.5,2015,11,14,2641,2306
+Kentucky,Vanderbilt,-3.0,40.5,2015,11,14,238,96
+North Carolina St,FSU,-9.0,54.5,2015,11,14,52,152
+Utah State,Air Force,2.5,51.5,2015,11,14,2005,328
+Georgia State,Texas State,-3.0,65.5,2015,11,14,326,2247
+Arkansas State,UL Monroe,14.5,57.5,2015,11,14,2433,2032
+Washington St,UCLA,-12.0,66.5,2015,11,14,26,265
+Texas,West Virginia,-9.0,53.0,2015,11,14,277,251
+Wake Forest,Notre Dame,-26.5,52.5,2015,11,14,87,154
+Alabama,Miss St,8.0,50.5,2015,11,14,344,333
+Miami (FL),UNC,-13.0,68.5,2015,11,14,153,2390
+Southern Miss,Rice,7.0,61.0,2015,11,14,242,2572
+SMU,Navy,-21.5,61.0,2015,11,14,2426,2567
+Oklahoma State,Iowa State,12.5,60.5,2015,11,14,66,197
+Arkansas,LSU,-6.5,54.5,2015,11,14,99,8
+Georgia,Auburn,-1.0,52.5,2015,11,14,2,61
+Washington,Arizona State,-2.5,53.0,2015,11,14,9,264
+Oklahoma,Baylor,-2.5,76.5,2015,11,14,239,201
+BYU,Missouri,5.0,41.0,2015,11,14,142,252
+Ga Southern,Troy,6.5,58.5,2015,11,14,2653,290
+San Jose State,Nevada,-1.0,52.5,2015,11,14,2440,23
+Oregon State,Cal,-21.5,62.0,2015,11,14,25,204
+Appalachian St,Idaho,20.5,66.5,2015,11,14,70,2026
+UNLV,Colorado State,-7.5,59.0,2015,11,14,36,2439
+UVA,Louisville,-13.5,48.0,2015,11,14,97,258
+Utah,Arizona,6.0,61.0,2015,11,14,12,254
+North Texas,Tennessee,-42.0,66.0,2015,11,14,2633,249
+Florida,South Carolina,7.5,47.0,2015,11,14,2579,57
+Oregon,Stanford,-9.0,67.5,2015,11,14,24,2483
+New Mexico,Boise State,-30.5,58.5,2015,11,14,68,167
+Minnesota,Iowa,-9.5,46.0,2015,11,14,2294,135
+Wyoming,San Diego State,-24.0,49.0,2015,11,14,21,2751
+Fresno State,Hawaii,-7.0,53.5,2015,11,14,62,278
+Purdue,Northwestern,-14.5,48.5,2015,11,14,77,2509
+Toledo,Bowling Green,-7.0,70.0,2015,11,17,189,2649
+Ball State,Ohio,-9.0,53.5,2015,11,17,195,2050
+W Michigan,N Illinois,-2.5,61.0,2015,11,18,2459,2711
+Cent Michigan,Kent State,10.0,41.5,2015,11,18,2309,2117
+ECU,UCF,14.5,52.5,2015,11,19,2116,151
+UL Monroe,Texas State,-6.5,58.5,2015,11,19,326,2433
+Cincinnati,USF,1.5,66.0,2015,11,20,58,2132
+Air Force,Boise State,-11.0,55.0,2015,11,20,68,2005
+Louisville,Pitt,-1.0,49.0,2015,11,21,221,97
+Buffalo,Akron,-5.0,45.0,2015,11,21,2006,2084
+Ga Southern,Georgia,-14.0,51.0,2015,11,21,61,290
+Rutgers,Army,3.5,55.5,2015,11,21,349,164
+Charlotte,Kentucky,-23.5,56.0,2015,11,21,96,2429
+Indiana,Maryland,1.0,64.0,2015,11,21,120,84
+Miami (OH),UMass,-7.5,54.5,2015,11,21,113,193
+West Virginia,Kansas,28.5,56.0,2015,11,21,2305,277
+South Alabama,Georgia State,-3.0,61.0,2015,11,21,2247,6
+Wake Forest,Clemson,-28.5,48.5,2015,11,21,228,154
+W Kentucky,FIU,20.0,66.5,2015,11,21,2229,98
+LSU,Ole Miss,-7.0,57.0,2015,11,21,145,99
+North Texas,Mid Tennessee,-22.5,63.5,2015,11,21,2393,249
+Illinois,Minnesota,-5.0,47.5,2015,11,21,135,356
+Memphis,Temple,3.0,57.0,2015,11,21,218,235
+Duke,UVA,2.5,53.0,2015,11,21,258,150
+UNC,VT,3.5,61.0,2015,11,21,259,153
+Northwestern,Wisconsin,-11.5,41.5,2015,11,21,275,77
+Miss St,Arkansas,-5.5,59.0,2015,11,21,8,344
+Fresno State,BYU,-27.0,57.5,2015,11,21,252,278
+Navy,Tulsa,13.0,65.0,2015,11,21,202,2426
+Georgia Tech,Miami (FL),2.5,57.0,2015,11,21,2390,59
+Tennessee,Missouri,6.0,42.0,2015,11,21,142,2633
+Baylor,Oklahoma State,2.5,77.0,2015,11,21,197,239
+Michigan State,OSU,-14.0,53.0,2015,11,21,194,127
+Michigan,Penn State,3.0,43.0,2015,11,21,213,130
+Old Dominion,Southern Miss,-22.5,61.5,2015,11,21,2572,295
+Iowa State,Kansas State,-3.5,51.0,2015,11,21,2306,66
+Nevada,Utah State,-14.0,54.0,2015,11,21,328,2440
+Cal,Stanford,-10.0,63.5,2015,11,21,24,25
+Tulane,SMU,-3.0,56.5,2015,11,21,2567,2655
+New Mexico St,LA-Lafayette,-16.5,63.0,2015,11,21,309,166
+Colorado State,New Mexico,3.0,57.0,2015,11,21,167,36
+Washington,Oregon State,14.5,48.0,2015,11,21,204,264
+Rice,UTSA,-3.0,56.5,2015,11,21,2636,242
+UCLA,Utah,-1.0,56.5,2015,11,21,254,26
+Texas A&M,Vanderbilt,4.0,43.0,2015,11,21,238,245
+Colorado,Washington St,-14.0,61.0,2015,11,21,265,38
+FAU,Florida,-28.5,45.5,2015,11,21,57,2226
+Idaho,Auburn,-34.0,64.0,2015,11,21,2,70
+Notre Dame,Boston College,14.5,43.0,2015,11,21,103,87
+USC,Oregon,-3.5,71.5,2015,11,21,2483,30
+LA Tech,UTEP,25.0,54.0,2015,11,21,2638,2348
+Purdue,Iowa,-22.5,54.0,2015,11,21,2294,2509
+San Diego State,UNLV,16.0,51.0,2015,11,21,2439,21
+San Jose State,Hawaii,9.0,53.0,2015,11,21,62,23
+Syracuse,North Carolina St,-18.0,55.0,2015,11,21,152,183
+Houston,UConn,9.5,50.5,2015,11,21,41,248
+TCU,Oklahoma,-18.0,63.5,2015,11,21,201,2628
+Arizona,Arizona State,-6.5,68.0,2015,11,21,9,12
+Bowling Green,Ball State,23.0,74.0,2015,11,24,2050,189
+Ohio,N Illinois,-11.5,58.0,2015,11,24,2459,195
+Texas Tech,Texas,-1.0,71.5,2015,11,26,251,2641
+USF,UCF,24.0,53.5,2015,11,26,2116,58
+Marshall,W Kentucky,-12.0,63.0,2015,11,27,98,276
+Iowa,Nebraska,2.0,58.0,2015,11,27,158,2294
+Miami (FL),Pitt,-7.0,55.0,2015,11,27,221,2390
+UMass,Buffalo,-6.5,54.5,2015,11,27,2084,113
+Kent State,Akron,-10.5,39.0,2015,11,27,2006,2309
+Troy,Georgia State,1.0,56.5,2015,11,27,2247,2653
+W Michigan,Toledo,-7.5,59.5,2015,11,27,2649,2711
+E Michigan,Cent Michigan,-23.5,59.0,2015,11,27,2117,2199
+Missouri,Arkansas,-14.5,44.0,2015,11,27,8,142
+Tulsa,Tulane,7.5,59.0,2015,11,27,2655,202
+Oregon State,Oregon,-35.5,71.0,2015,11,27,2483,204
+Boise State,San Jose State,8.0,58.0,2015,11,27,23,68
+Navy,Houston,1.0,59.0,2015,11,27,248,2426
+Washington St,Washington,-8.5,53.0,2015,11,27,264,265
+Baylor,TCU,1.5,73.5,2015,11,27,2628,239
+OSU,Michigan,2.0,47.0,2015,11,28,130,194
+LA-Lafayette,Appalachian St,-22.0,59.5,2015,11,28,2026,309
+Louisville,Kentucky,6.0,51.5,2015,11,28,96,97
+Cincinnati,ECU,2.0,70.5,2015,11,28,151,2132
+UConn,Temple,-12.5,39.5,2015,11,28,218,41
+Iowa State,West Virginia,-13.5,57.5,2015,11,28,277,66
+Duke,Wake Forest,3.5,46.0,2015,11,28,154,150
+Boston College,Syracuse,2.0,39.0,2015,11,28,183,103
+Indiana,Purdue,7.0,69.5,2015,11,28,2509,84
+Vanderbilt,Tennessee,-17.5,41.5,2015,11,28,2633,238
+South Alabama,Ga Southern,-23.0,56.0,2015,11,28,290,6
+Mid Tennessee,UTSA,12.0,58.0,2015,11,28,2636,2393
+Colorado,Utah,-16.5,48.5,2015,11,28,254,38
+BYU,Utah State,3.0,54.5,2015,11,28,328,252
+VT,UVA,3.5,48.5,2015,11,28,258,259
+UNC,North Carolina St,4.0,66.0,2015,11,28,152,153
+Charlotte,Rice,-11.0,58.0,2015,11,28,242,2429
+Maryland,Rutgers,-1.0,56.0,2015,11,28,164,120
+FSU,Florida,3.0,44.0,2015,11,28,57,52
+Kansas State,Kansas,21.0,53.0,2015,11,28,2305,2306
+Texas A&M,LSU,-5.5,54.5,2015,11,28,99,245
+Northwestern,Illinois,1.5,42.0,2015,11,28,356,77
+Alabama,Auburn,14.0,48.0,2015,11,28,2,333
+Arizona State,Cal,-3.5,68.5,2015,11,28,25,9
+Texas State,Idaho,-3.5,66.5,2015,11,28,70,326
+Southern Miss,LA Tech,-5.5,62.5,2015,11,28,2348,2572
+SMU,Memphis,-21.0,71.0,2015,11,28,235,2567
+Clemson,South Carolina,20.5,57.5,2015,11,28,2579,228
+UTEP,North Texas,-2.5,52.0,2015,11,28,249,2638
+Wisconsin,Minnesota,2.0,44.5,2015,11,28,135,275
+Ole Miss,Miss St,2.5,65.0,2015,11,28,344,145
+Notre Dame,Stanford,-4.5,57.0,2015,11,28,24,87
+Arkansas State,New Mexico St,18.0,71.0,2015,11,28,166,2032
+Nevada,San Diego State,-17.0,49.5,2015,11,28,21,2440
+Air Force,New Mexico,10.0,54.0,2015,11,28,167,2005
+UCLA,USC,-3.0,61.0,2015,11,28,30,26
+Colorado State,Fresno State,10.0,61.0,2015,11,28,278,36
+Georgia,Georgia Tech,3.5,48.5,2015,11,28,59,61
+Oklahoma,Oklahoma State,7.5,64.5,2015,11,28,197,201
+Penn State,Michigan State,-8.0,44.0,2015,11,28,127,213
+UNLV,Wyoming,-1.0,57.5,2015,11,28,2751,2439
+FAU,Old Dominion,4.0,54.5,2015,11,28,295,2226
+UL Monroe,Hawaii,-7.0,48.5,2015,11,28,62,2433
+N Illinois,Bowling Green,-9.5,0.0,2015,12,4,189,2459
+Texas,Baylor,-19.5,0.0,2015,12,5,239,251
+Georgia State,Ga Southern,-20.5,0.0,2015,12,5,290,2247
+Texas State,Arkansas State,-22.0,0.0,2015,12,5,2032,326
+West Virginia,Kansas State,6.5,0.0,2015,12,5,2306,277
+Appalachian St,South Alabama,18.0,0.0,2015,12,5,6,2026
+Troy,LA-Lafayette,0.0,0.0,2015,12,5,309,2653
+Southern Miss,W Kentucky,-8.5,0.0,2015,12,5,98,2572
+Temple,Houston,-6.5,0.0,2015,12,5,248,218
+USC,Stanford,-4.5,0.0,2015,12,5,24,30
+Florida,Alabama,-16.5,0.0,2015,12,5,333,57
+UNC,Clemson,-5.5,0.0,2015,12,5,228,153
+Michigan State,Iowa,3.5,0.0,2015,12,5,2294,127
+Air Force,San Diego State,-6.5,0.0,2015,12,5,21,2005
+New Mexico St,UL Monroe,-3.0,61.0,2015,12,5,2433,166
+Army,Navy,-22.0,0.0,2015,12,12,2426,349
+Richmond,North Dakota St,-13.0,51.5,2015,12,18,2449,257
+Arizona,New Mexico,10.0,0.0,2015,12,19,167,12
+BYU,Utah,-2.5,0.0,2015,12,19,254,252
+Ohio,Appalachian St,-9.0,0.0,2015,12,19,2026,195
+San Jose State,Georgia State,4.5,0.0,2015,12,19,2247,23
+Arkansas State,LA Tech,-1.0,0.0,2015,12,19,2348,2032
+W Kentucky,USF,3.5,0.0,2015,12,21,58,98
+Akron,Utah State,-6.0,0.0,2015,12,22,328,2006
+Toledo,Temple,-1.0,0.0,2015,12,22,218,2649
+Boise State,N Illinois,8.0,0.0,2015,12,23,2459,68
+Ga Southern,Bowling Green,-7.0,0.0,2015,12,23,189,290
+Mid Tennessee,W Michigan,-3.5,0.0,2015,12,24,2711,2393
+Cincinnati,San Diego State,1.0,0.0,2015,12,24,21,2132
+UConn,Marshall,-4.5,0.0,2015,12,26,276,41
+Miami (FL),Washington St,-2.0,0.0,2015,12,26,265,2390
+Southern Miss,Washington,-8.5,0.0,2015,12,26,264,2572
+Indiana,Duke,1.5,0.0,2015,12,26,150,84
+Tulsa,VT,-13.5,0.0,2015,12,26,259,202
+Nebraska,UCLA,-6.5,0.0,2015,12,26,26,158
+Pitt,Navy,-4.5,0.0,2015,12,28,2426,221
+Cent Michigan,Minnesota,-5.5,0.0,2015,12,28,135,2117
+Air Force,Cal,-6.0,0.0,2015,12,29,25,2005
+Baylor,UNC,3.0,0.0,2015,12,29,153,239
+Nevada,Colorado State,-3.0,0.0,2015,12,29,36,2440
+Texas Tech,LSU,-7.0,0.0,2015,12,29,99,2641
+Memphis,Auburn,-2.5,0.0,2015,12,30,2,235
+North Carolina St,Miss St,-5.5,0.0,2015,12,30,344,152
+Louisville,Texas A&M,-2.5,0.0,2015,12,30,245,97
+Wisconsin,USC,-3.0,0.0,2015,12,30,30,275
+Michigan State,Alabama,-9.5,49.0,2015,12,31,333,127
+Oklahoma,Clemson,3.5,65.0,2015,12,31,228,201
+Houston,FSU,-7.0,0.0,2015,12,31,52,248
+Notre Dame,OSU,-6.5,0.0,2016,1,1,194,87
+Iowa,Stanford,-6.5,0.0,2016,1,1,24,2294
+Ole Miss,Oklahoma State,6.5,0.0,2016,1,1,197,145
+Tennessee,Northwestern,8.5,0.0,2016,1,1,77,2633
+Florida,Michigan,-4.0,0.0,2016,1,1,130,57
+Penn State,Georgia,-6.5,0.0,2016,1,2,61,213
+Kansas State,Arkansas,-11.0,0.0,2016,1,2,8,2306
+TCU,Oregon,0.0,0.0,2016,1,2,2483,2628
+West Virginia,Arizona State,-1.0,0.0,2016,1,2,9,277
+Alabama,Clemson,6.5,51.0,2016,1,11,228,333
