@@ -1,0 +1,3228 @@
+ID,Team,Conf,Year
+2,Auburn,sec,2001
+5,UAB,cusa,2001
+8,Arkansas,sec,2001
+9,Arizona State,pac-12,2001
+12,Arizona,pac-12,2001
+21,San Diego State,mwc,2001
+23,SJSU,wac,2001
+24,Stanford,pac-12,2001
+25,California,pac-12,2001
+26,UCLA,pac-12,2001
+30,USC,pac-12,2001
+36,Colorado State,mwc,2001
+38,Colorado,big-12,2001
+41,Connecticut,independent,2001
+52,Florida State,acc,2001
+55,NotMajor,NotMajor,2001
+57,Florida,sec,2001
+58,South Florida,independent,2001
+59,Georgia Tech,acc,2001
+61,Georgia,sec,2001
+62,Hawaii,wac,2001
+66,Iowa State,big-12,2001
+68,Boise State,wac,2001
+70,Idaho,sun-belt,2001
+77,Northwestern,big-ten,2001
+79,NotMajor,NotMajor,2001
+84,Indiana,big-ten,2001
+87,Notre Dame,independent,2001
+93,NotMajor,NotMajor,2001
+96,Kentucky,sec,2001
+97,Louisville,cusa,2001
+98,NotMajor,NotMajor,2001
+99,LSU,sec,2001
+103,Boston College,big-east,2001
+113,NotMajor,NotMajor,2001
+120,Maryland,acc,2001
+127,Michigan State,big-ten,2001
+130,Michigan,big-ten,2001
+135,Minnesota,big-ten,2001
+142,Missouri,big-12,2001
+145,Ole Miss,sec,2001
+147,NotMajor,NotMajor,2001
+149,NotMajor,NotMajor,2001
+150,Duke,acc,2001
+151,East Carolina,cusa,2001
+152,North Carolina State,acc,2001
+153,North Carolina,acc,2001
+154,Wake Forest,acc,2001
+158,Nebraska,big-12,2001
+164,Rutgers,big-east,2001
+166,New Mexico State,sun-belt,2001
+167,New Mexico,mwc,2001
+183,Syracuse,big-east,2001
+189,Bowling Green State,mac,2001
+193,Miami (OH),mac,2001
+194,Ohio State,big-ten,2001
+195,Ohio,mac,2001
+197,Oklahoma State,big-12,2001
+201,Oklahoma,big-12,2001
+202,Tulsa,wac,2001
+204,Oregon State,pac-12,2001
+213,Penn State,big-ten,2001
+218,Temple,big-east,2001
+221,Pitt,big-east,2001
+228,Clemson,acc,2001
+231,NotMajor,NotMajor,2001
+235,Memphis,cusa,2001
+236,NotMajor,NotMajor,2001
+238,Vanderbilt,sec,2001
+239,Baylor,big-12,2001
+242,Rice,wac,2001
+245,Texas A&M,big-12,2001
+248,Houston,cusa,2001
+249,North Texas,sun-belt,2001
+251,Texas,big-12,2001
+252,Brigham Young,mwc,2001
+253,NotMajor,NotMajor,2001
+254,Utah,mwc,2001
+257,NotMajor,NotMajor,2001
+258,Virginia,acc,2001
+259,Virginia Tech,big-east,2001
+264,Washington,pac-12,2001
+265,Washington State,pac-12,2001
+275,Wisconsin,big-ten,2001
+276,Marshall,mac,2001
+277,West Virginia,big-east,2001
+278,Fresno State,wac,2001
+282,NotMajor,NotMajor,2001
+309,Louisiana-Lafayette,sun-belt,2001
+326,NotMajor,NotMajor,2001
+328,Utah State,independent,2001
+331,NotMajor,NotMajor,2001
+333,Alabama,sec,2001
+344,Mississippi State,sec,2001
+349,Army,cusa,2001
+356,Illinois,big-ten,2001
+2005,Air Force,mwc,2001
+2006,Akron,mac,2001
+2026,NotMajor,NotMajor,2001
+2032,Arkansas State,sun-belt,2001
+2050,Ball State,mac,2001
+2083,NotMajor,NotMajor,2001
+2084,Buffalo,mac,2001
+2116,UCF,independent,2001
+2117,Central Michigan,mac,2001
+2132,Cincinnati,cusa,2001
+2193,NotMajor,NotMajor,2001
+2197,NotMajor,NotMajor,2001
+2198,NotMajor,NotMajor,2001
+2199,Eastern Michigan,mac,2001
+2287,NotMajor,NotMajor,2001
+2294,Iowa,big-ten,2001
+2305,Kansas,big-12,2001
+2306,Kansas State,big-12,2001
+2309,Kent State,mac,2001
+2335,NotMajor,NotMajor,2001
+2348,Louisiana Tech,wac,2001
+2377,NotMajor,NotMajor,2001
+2390,Miami (FL),big-east,2001
+2393,Middle Tennessee State,sun-belt,2001
+2426,Navy,independent,2001
+2433,Louisiana-Monroe,sun-belt,2001
+2439,Nevada-Las Vegas,mwc,2001
+2440,Nevada,wac,2001
+2447,NotMajor,NotMajor,2001
+2459,Northern Illinois,mac,2001
+2460,NotMajor,NotMajor,2001
+2464,NotMajor,NotMajor,2001
+2466,NotMajor,NotMajor,2001
+2483,Oregon,pac-12,2001
+2509,Purdue,big-ten,2001
+2534,NotMajor,NotMajor,2001
+2546,NotMajor,NotMajor,2001
+2567,SMU,wac,2001
+2572,Southern Mississippi,cusa,2001
+2579,South Carolina,sec,2001
+2582,NotMajor,NotMajor,2001
+2617,NotMajor,NotMajor,2001
+2623,NotMajor,NotMajor,2001
+2628,Texas Christian,cusa,2001
+2633,Tennessee,sec,2001
+2635,NotMajor,NotMajor,2001
+2638,UTEP,wac,2001
+2640,NotMajor,NotMajor,2001
+2641,Texas Tech,big-12,2001
+2643,NotMajor,NotMajor,2001
+2649,Toledo,mac,2001
+2653,Troy,independent,2001
+2655,Tulane,cusa,2001
+2692,NotMajor,NotMajor,2001
+2710,NotMajor,NotMajor,2001
+2711,Western Michigan,mac,2001
+2717,NotMajor,NotMajor,2001
+2729,NotMajor,NotMajor,2001
+2747,NotMajor,NotMajor,2001
+2751,Wyoming,mwc,2001
+2754,NotMajor,NotMajor,2001
+2,Auburn,sec,2002
+5,UAB,cusa,2002
+8,Arkansas,sec,2002
+9,Arizona State,pac-12,2002
+12,Arizona,pac-12,2002
+13,NotMajor,NotMajor,2002
+16,NotMajor,NotMajor,2002
+21,San Diego State,mwc,2002
+23,SJSU,wac,2002
+24,Stanford,pac-12,2002
+25,California,pac-12,2002
+26,UCLA,pac-12,2002
+30,USC,pac-12,2002
+36,Colorado State,mwc,2002
+38,Colorado,big-12,2002
+41,Connecticut,independent,2002
+50,NotMajor,NotMajor,2002
+52,Florida State,acc,2002
+55,NotMajor,NotMajor,2002
+57,Florida,sec,2002
+58,South Florida,independent,2002
+59,Georgia Tech,acc,2002
+61,Georgia,sec,2002
+62,Hawaii,wac,2002
+66,Iowa State,big-12,2002
+68,Boise State,wac,2002
+70,Idaho,sun-belt,2002
+77,Northwestern,big-ten,2002
+79,NotMajor,NotMajor,2002
+84,Indiana,big-ten,2002
+87,Notre Dame,independent,2002
+93,NotMajor,NotMajor,2002
+96,Kentucky,sec,2002
+97,Louisville,cusa,2002
+98,NotMajor,NotMajor,2002
+99,LSU,sec,2002
+103,Boston College,big-east,2002
+107,NotMajor,NotMajor,2002
+111,NotMajor,NotMajor,2002
+113,NotMajor,NotMajor,2002
+120,Maryland,acc,2002
+127,Michigan State,big-ten,2002
+130,Michigan,big-ten,2002
+135,Minnesota,big-ten,2002
+142,Missouri,big-12,2002
+145,Ole Miss,sec,2002
+147,NotMajor,NotMajor,2002
+149,NotMajor,NotMajor,2002
+150,Duke,acc,2002
+151,East Carolina,cusa,2002
+152,North Carolina State,acc,2002
+153,North Carolina,acc,2002
+154,Wake Forest,acc,2002
+158,Nebraska,big-12,2002
+160,NotMajor,NotMajor,2002
+164,Rutgers,big-east,2002
+166,New Mexico State,sun-belt,2002
+167,New Mexico,mwc,2002
+183,Syracuse,big-east,2002
+189,Bowling Green State,mac,2002
+193,Miami (OH),mac,2002
+194,Ohio State,big-ten,2002
+195,Ohio,mac,2002
+197,Oklahoma State,big-12,2002
+201,Oklahoma,big-12,2002
+202,Tulsa,wac,2002
+204,Oregon State,pac-12,2002
+213,Penn State,big-ten,2002
+218,Temple,big-east,2002
+221,Pitt,big-east,2002
+222,NotMajor,NotMajor,2002
+227,NotMajor,NotMajor,2002
+228,Clemson,acc,2002
+231,NotMajor,NotMajor,2002
+235,Memphis,cusa,2002
+236,NotMajor,NotMajor,2002
+238,Vanderbilt,sec,2002
+239,Baylor,big-12,2002
+242,Rice,wac,2002
+245,Texas A&M,big-12,2002
+248,Houston,cusa,2002
+249,North Texas,sun-belt,2002
+251,Texas,big-12,2002
+252,Brigham Young,mwc,2002
+253,NotMajor,NotMajor,2002
+254,Utah,mwc,2002
+257,NotMajor,NotMajor,2002
+258,Virginia,acc,2002
+259,Virginia Tech,big-east,2002
+264,Washington,pac-12,2002
+265,Washington State,pac-12,2002
+275,Wisconsin,big-ten,2002
+276,Marshall,mac,2002
+277,West Virginia,big-east,2002
+278,Fresno State,wac,2002
+282,NotMajor,NotMajor,2002
+304,NotMajor,NotMajor,2002
+309,Louisiana-Lafayette,sun-belt,2002
+326,NotMajor,NotMajor,2002
+328,Utah State,independent,2002
+331,NotMajor,NotMajor,2002
+333,Alabama,sec,2002
+344,Mississippi State,sec,2002
+349,Army,cusa,2002
+356,Illinois,big-ten,2002
+2005,Air Force,mwc,2002
+2006,Akron,mac,2002
+2026,NotMajor,NotMajor,2002
+2032,Arkansas State,sun-belt,2002
+2046,NotMajor,NotMajor,2002
+2050,Ball State,mac,2002
+2084,Buffalo,mac,2002
+2116,UCF,mac,2002
+2117,Central Michigan,mac,2002
+2127,NotMajor,NotMajor,2002
+2132,Cincinnati,cusa,2002
+2193,NotMajor,NotMajor,2002
+2197,NotMajor,NotMajor,2002
+2198,NotMajor,NotMajor,2002
+2199,Eastern Michigan,mac,2002
+2226,NotMajor,NotMajor,2002
+2287,NotMajor,NotMajor,2002
+2294,Iowa,big-ten,2002
+2296,NotMajor,NotMajor,2002
+2305,Kansas,big-12,2002
+2306,Kansas State,big-12,2002
+2309,Kent State,mac,2002
+2329,NotMajor,NotMajor,2002
+2335,NotMajor,NotMajor,2002
+2348,Louisiana Tech,wac,2002
+2377,NotMajor,NotMajor,2002
+2390,Miami (FL),big-east,2002
+2393,Middle Tennessee State,sun-belt,2002
+2426,Navy,independent,2002
+2433,Louisiana-Monroe,sun-belt,2002
+2439,Nevada-Las Vegas,mwc,2002
+2440,Nevada,wac,2002
+2447,NotMajor,NotMajor,2002
+2459,Northern Illinois,mac,2002
+2460,NotMajor,NotMajor,2002
+2464,NotMajor,NotMajor,2002
+2466,NotMajor,NotMajor,2002
+2483,Oregon,pac-12,2002
+2502,NotMajor,NotMajor,2002
+2509,Purdue,big-ten,2002
+2534,NotMajor,NotMajor,2002
+2535,NotMajor,NotMajor,2002
+2546,NotMajor,NotMajor,2002
+2567,SMU,wac,2002
+2572,Southern Mississippi,cusa,2002
+2579,South Carolina,sec,2002
+2582,NotMajor,NotMajor,2002
+2623,NotMajor,NotMajor,2002
+2628,Texas Christian,cusa,2002
+2630,NotMajor,NotMajor,2002
+2633,Tennessee,sec,2002
+2635,NotMajor,NotMajor,2002
+2638,UTEP,wac,2002
+2641,Texas Tech,big-12,2002
+2643,NotMajor,NotMajor,2002
+2649,Toledo,mac,2002
+2653,Troy,independent,2002
+2655,Tulane,cusa,2002
+2692,NotMajor,NotMajor,2002
+2710,NotMajor,NotMajor,2002
+2711,Western Michigan,mac,2002
+2717,NotMajor,NotMajor,2002
+2729,NotMajor,NotMajor,2002
+2747,NotMajor,NotMajor,2002
+2751,Wyoming,mwc,2002
+2,Auburn,sec,2003
+5,UAB,cusa,2003
+8,Arkansas,sec,2003
+9,Arizona State,pac-12,2003
+12,Arizona,pac-12,2003
+13,NotMajor,NotMajor,2003
+16,NotMajor,NotMajor,2003
+21,San Diego State,mwc,2003
+23,SJSU,wac,2003
+24,Stanford,pac-12,2003
+25,California,pac-12,2003
+26,UCLA,pac-12,2003
+30,USC,pac-12,2003
+36,Colorado State,mwc,2003
+38,Colorado,big-12,2003
+41,Connecticut,independent,2003
+47,NotMajor,NotMajor,2003
+48,NotMajor,NotMajor,2003
+50,NotMajor,NotMajor,2003
+52,Florida State,acc,2003
+55,NotMajor,NotMajor,2003
+57,Florida,sec,2003
+58,South Florida,cusa,2003
+59,Georgia Tech,acc,2003
+61,Georgia,sec,2003
+62,Hawaii,wac,2003
+66,Iowa State,big-12,2003
+68,Boise State,wac,2003
+70,Idaho,sun-belt,2003
+77,Northwestern,big-ten,2003
+84,Indiana,big-ten,2003
+87,Notre Dame,independent,2003
+93,NotMajor,NotMajor,2003
+96,Kentucky,sec,2003
+97,Louisville,cusa,2003
+98,NotMajor,NotMajor,2003
+99,LSU,sec,2003
+103,Boston College,big-east,2003
+113,NotMajor,NotMajor,2003
+120,Maryland,acc,2003
+127,Michigan State,big-ten,2003
+130,Michigan,big-ten,2003
+135,Minnesota,big-ten,2003
+142,Missouri,big-12,2003
+145,Ole Miss,sec,2003
+147,NotMajor,NotMajor,2003
+149,NotMajor,NotMajor,2003
+150,Duke,acc,2003
+151,East Carolina,cusa,2003
+152,North Carolina State,acc,2003
+153,North Carolina,acc,2003
+154,Wake Forest,acc,2003
+158,Nebraska,big-12,2003
+160,NotMajor,NotMajor,2003
+164,Rutgers,big-east,2003
+166,New Mexico State,sun-belt,2003
+167,New Mexico,mwc,2003
+183,Syracuse,big-east,2003
+189,Bowling Green State,mac,2003
+193,Miami (OH),mac,2003
+194,Ohio State,big-ten,2003
+195,Ohio,mac,2003
+197,Oklahoma State,big-12,2003
+201,Oklahoma,big-12,2003
+202,Tulsa,wac,2003
+204,Oregon State,pac-12,2003
+213,Penn State,big-ten,2003
+218,Temple,big-east,2003
+221,Pitt,big-east,2003
+222,NotMajor,NotMajor,2003
+227,NotMajor,NotMajor,2003
+228,Clemson,acc,2003
+231,NotMajor,NotMajor,2003
+235,Memphis,cusa,2003
+236,NotMajor,NotMajor,2003
+238,Vanderbilt,sec,2003
+239,Baylor,big-12,2003
+242,Rice,wac,2003
+245,Texas A&M,big-12,2003
+248,Houston,cusa,2003
+249,North Texas,sun-belt,2003
+251,Texas,big-12,2003
+252,Brigham Young,mwc,2003
+253,NotMajor,NotMajor,2003
+254,Utah,mwc,2003
+256,NotMajor,NotMajor,2003
+258,Virginia,acc,2003
+259,Virginia Tech,big-east,2003
+264,Washington,pac-12,2003
+265,Washington State,pac-12,2003
+275,Wisconsin,big-ten,2003
+276,Marshall,mac,2003
+277,West Virginia,big-east,2003
+278,Fresno State,wac,2003
+282,NotMajor,NotMajor,2003
+304,NotMajor,NotMajor,2003
+309,Louisiana-Lafayette,sun-belt,2003
+326,NotMajor,NotMajor,2003
+328,Utah State,sun-belt,2003
+331,NotMajor,NotMajor,2003
+333,Alabama,sec,2003
+344,Mississippi State,sec,2003
+349,Army,cusa,2003
+356,Illinois,big-ten,2003
+2005,Air Force,mwc,2003
+2006,Akron,mac,2003
+2026,NotMajor,NotMajor,2003
+2032,Arkansas State,sun-belt,2003
+2050,Ball State,mac,2003
+2084,Buffalo,mac,2003
+2116,UCF,mac,2003
+2117,Central Michigan,mac,2003
+2127,NotMajor,NotMajor,2003
+2132,Cincinnati,cusa,2003
+2142,NotMajor,NotMajor,2003
+2193,NotMajor,NotMajor,2003
+2197,NotMajor,NotMajor,2003
+2198,NotMajor,NotMajor,2003
+2199,Eastern Michigan,mac,2003
+2226,NotMajor,NotMajor,2003
+2229,NotMajor,NotMajor,2003
+2275,NotMajor,NotMajor,2003
+2287,NotMajor,NotMajor,2003
+2294,Iowa,big-ten,2003
+2305,Kansas,big-12,2003
+2306,Kansas State,big-12,2003
+2309,Kent State,mac,2003
+2329,NotMajor,NotMajor,2003
+2335,NotMajor,NotMajor,2003
+2348,Louisiana Tech,wac,2003
+2377,NotMajor,NotMajor,2003
+2390,Miami (FL),big-east,2003
+2393,Middle Tennessee State,sun-belt,2003
+2426,Navy,independent,2003
+2433,Louisiana-Monroe,sun-belt,2003
+2439,Nevada-Las Vegas,mwc,2003
+2440,Nevada,wac,2003
+2447,NotMajor,NotMajor,2003
+2459,Northern Illinois,mac,2003
+2460,NotMajor,NotMajor,2003
+2464,NotMajor,NotMajor,2003
+2466,NotMajor,NotMajor,2003
+2483,Oregon,pac-12,2003
+2502,NotMajor,NotMajor,2003
+2509,Purdue,big-ten,2003
+2534,NotMajor,NotMajor,2003
+2535,NotMajor,NotMajor,2003
+2545,NotMajor,NotMajor,2003
+2546,NotMajor,NotMajor,2003
+2567,SMU,wac,2003
+2572,Southern Mississippi,cusa,2003
+2579,South Carolina,sec,2003
+2617,NotMajor,NotMajor,2003
+2623,NotMajor,NotMajor,2003
+2628,Texas Christian,cusa,2003
+2630,NotMajor,NotMajor,2003
+2633,Tennessee,sec,2003
+2635,NotMajor,NotMajor,2003
+2638,UTEP,wac,2003
+2641,Texas Tech,big-12,2003
+2643,NotMajor,NotMajor,2003
+2649,Toledo,mac,2003
+2653,Troy,independent,2003
+2655,Tulane,cusa,2003
+2678,NotMajor,NotMajor,2003
+2692,NotMajor,NotMajor,2003
+2703,NotMajor,NotMajor,2003
+2710,NotMajor,NotMajor,2003
+2711,Western Michigan,mac,2003
+2717,NotMajor,NotMajor,2003
+2729,NotMajor,NotMajor,2003
+2747,NotMajor,NotMajor,2003
+2751,Wyoming,mwc,2003
+2754,NotMajor,NotMajor,2003
+2755,NotMajor,NotMajor,2003
+2,Auburn,sec,2004
+5,UAB,cusa,2004
+8,Arkansas,sec,2004
+9,Arizona State,pac-12,2004
+12,Arizona,pac-12,2004
+16,NotMajor,NotMajor,2004
+21,San Diego State,mwc,2004
+23,SJSU,wac,2004
+24,Stanford,pac-12,2004
+25,California,pac-12,2004
+26,UCLA,pac-12,2004
+30,USC,pac-12,2004
+36,Colorado State,mwc,2004
+38,Colorado,big-12,2004
+41,Connecticut,big-east,2004
+48,NotMajor,NotMajor,2004
+50,Florida A&M,independent,2004
+52,Florida State,acc,2004
+57,Florida,sec,2004
+58,South Florida,cusa,2004
+59,Georgia Tech,acc,2004
+61,Georgia,sec,2004
+62,Hawaii,wac,2004
+66,Iowa State,big-12,2004
+68,Boise State,wac,2004
+70,Idaho,sun-belt,2004
+77,Northwestern,big-ten,2004
+79,NotMajor,NotMajor,2004
+84,Indiana,big-ten,2004
+87,Notre Dame,independent,2004
+93,NotMajor,NotMajor,2004
+96,Kentucky,sec,2004
+97,Louisville,cusa,2004
+98,NotMajor,NotMajor,2004
+99,LSU,sec,2004
+103,Boston College,big-east,2004
+111,NotMajor,NotMajor,2004
+113,NotMajor,NotMajor,2004
+120,Maryland,acc,2004
+127,Michigan State,big-ten,2004
+130,Michigan,big-ten,2004
+135,Minnesota,big-ten,2004
+142,Missouri,big-12,2004
+145,Ole Miss,sec,2004
+147,NotMajor,NotMajor,2004
+150,Duke,acc,2004
+151,East Carolina,cusa,2004
+152,North Carolina State,acc,2004
+153,North Carolina,acc,2004
+154,Wake Forest,acc,2004
+158,Nebraska,big-12,2004
+160,NotMajor,NotMajor,2004
+164,Rutgers,big-east,2004
+166,New Mexico State,sun-belt,2004
+167,New Mexico,mwc,2004
+183,Syracuse,big-east,2004
+189,Bowling Green State,mac,2004
+193,Miami (OH),mac,2004
+194,Ohio State,big-ten,2004
+195,Ohio,mac,2004
+197,Oklahoma State,big-12,2004
+201,Oklahoma,big-12,2004
+202,Tulsa,wac,2004
+204,Oregon State,pac-12,2004
+213,Penn State,big-ten,2004
+218,Temple,big-east,2004
+221,Pitt,big-east,2004
+228,Clemson,acc,2004
+231,NotMajor,NotMajor,2004
+235,Memphis,cusa,2004
+236,NotMajor,NotMajor,2004
+238,Vanderbilt,sec,2004
+239,Baylor,big-12,2004
+242,Rice,wac,2004
+245,Texas A&M,big-12,2004
+248,Houston,cusa,2004
+249,North Texas,sun-belt,2004
+251,Texas,big-12,2004
+252,Brigham Young,mwc,2004
+254,Utah,mwc,2004
+256,NotMajor,NotMajor,2004
+257,NotMajor,NotMajor,2004
+258,Virginia,acc,2004
+259,Virginia Tech,acc,2004
+264,Washington,pac-12,2004
+265,Washington State,pac-12,2004
+275,Wisconsin,big-ten,2004
+276,Marshall,mac,2004
+277,West Virginia,big-east,2004
+278,Fresno State,wac,2004
+282,NotMajor,NotMajor,2004
+290,NotMajor,NotMajor,2004
+304,NotMajor,NotMajor,2004
+309,Louisiana-Lafayette,sun-belt,2004
+311,NotMajor,NotMajor,2004
+326,NotMajor,NotMajor,2004
+328,Utah State,sun-belt,2004
+331,NotMajor,NotMajor,2004
+333,Alabama,sec,2004
+344,Mississippi State,sec,2004
+349,Army,cusa,2004
+356,Illinois,big-ten,2004
+2005,Air Force,mwc,2004
+2006,Akron,mac,2004
+2026,NotMajor,NotMajor,2004
+2032,Arkansas State,sun-belt,2004
+2050,Ball State,mac,2004
+2084,Buffalo,mac,2004
+2116,UCF,mac,2004
+2117,Central Michigan,mac,2004
+2132,Cincinnati,cusa,2004
+2197,NotMajor,NotMajor,2004
+2198,NotMajor,NotMajor,2004
+2199,Eastern Michigan,mac,2004
+2226,Florida Atlantic,sun-belt,2004
+2229,Florida International,sun-belt,2004
+2287,NotMajor,NotMajor,2004
+2294,Iowa,big-ten,2004
+2305,Kansas,big-12,2004
+2306,Kansas State,big-12,2004
+2309,Kent State,mac,2004
+2335,NotMajor,NotMajor,2004
+2348,Louisiana Tech,wac,2004
+2390,Miami (FL),acc,2004
+2393,Middle Tennessee State,sun-belt,2004
+2415,NotMajor,NotMajor,2004
+2426,Navy,independent,2004
+2433,Louisiana-Monroe,sun-belt,2004
+2439,Nevada-Las Vegas,mwc,2004
+2440,Nevada,wac,2004
+2448,NotMajor,NotMajor,2004
+2459,Northern Illinois,mac,2004
+2460,NotMajor,NotMajor,2004
+2464,NotMajor,NotMajor,2004
+2466,NotMajor,NotMajor,2004
+2483,Oregon,pac-12,2004
+2502,NotMajor,NotMajor,2004
+2509,Purdue,big-ten,2004
+2535,NotMajor,NotMajor,2004
+2546,NotMajor,NotMajor,2004
+2567,SMU,wac,2004
+2572,Southern Mississippi,cusa,2004
+2579,South Carolina,sec,2004
+2623,NotMajor,NotMajor,2004
+2628,Texas Christian,cusa,2004
+2630,NotMajor,NotMajor,2004
+2633,Tennessee,sec,2004
+2635,NotMajor,NotMajor,2004
+2638,UTEP,wac,2004
+2641,Texas Tech,big-12,2004
+2643,NotMajor,NotMajor,2004
+2649,Toledo,mac,2004
+2653,Troy,sun-belt,2004
+2655,Tulane,cusa,2004
+2678,NotMajor,NotMajor,2004
+2692,NotMajor,NotMajor,2004
+2710,NotMajor,NotMajor,2004
+2711,Western Michigan,mac,2004
+2717,NotMajor,NotMajor,2004
+2729,NotMajor,NotMajor,2004
+2751,Wyoming,mwc,2004
+2,Auburn,sec,2005
+5,UAB,cusa,2005
+8,Arkansas,sec,2005
+9,Arizona State,pac-12,2005
+12,Arizona,pac-12,2005
+13,NotMajor,NotMajor,2005
+16,NotMajor,NotMajor,2005
+21,San Diego State,mwc,2005
+23,SJSU,wac,2005
+24,Stanford,pac-12,2005
+25,California,pac-12,2005
+26,UCLA,pac-12,2005
+30,USC,pac-12,2005
+36,Colorado State,mwc,2005
+38,Colorado,big-12,2005
+41,Connecticut,big-east,2005
+50,NotMajor,NotMajor,2005
+52,Florida State,acc,2005
+55,NotMajor,NotMajor,2005
+57,Florida,sec,2005
+58,South Florida,big-east,2005
+59,Georgia Tech,acc,2005
+61,Georgia,sec,2005
+62,Hawaii,wac,2005
+66,Iowa State,big-12,2005
+68,Boise State,wac,2005
+70,Idaho,wac,2005
+77,Northwestern,big-ten,2005
+79,NotMajor,NotMajor,2005
+84,Indiana,big-ten,2005
+87,Notre Dame,independent,2005
+93,NotMajor,NotMajor,2005
+96,Kentucky,sec,2005
+97,Louisville,big-east,2005
+98,NotMajor,NotMajor,2005
+99,LSU,sec,2005
+103,Boston College,acc,2005
+113,NotMajor,NotMajor,2005
+120,Maryland,acc,2005
+127,Michigan State,big-ten,2005
+130,Michigan,big-ten,2005
+135,Minnesota,big-ten,2005
+142,Missouri,big-12,2005
+145,Ole Miss,sec,2005
+147,NotMajor,NotMajor,2005
+149,NotMajor,NotMajor,2005
+150,Duke,acc,2005
+151,East Carolina,cusa,2005
+152,North Carolina State,acc,2005
+153,North Carolina,acc,2005
+154,Wake Forest,acc,2005
+158,Nebraska,big-12,2005
+164,Rutgers,big-east,2005
+166,New Mexico State,wac,2005
+167,New Mexico,mwc,2005
+183,Syracuse,big-east,2005
+189,Bowling Green State,mac,2005
+193,Miami (OH),mac,2005
+194,Ohio State,big-ten,2005
+195,Ohio,mac,2005
+197,Oklahoma State,big-12,2005
+201,Oklahoma,big-12,2005
+202,Tulsa,cusa,2005
+204,Oregon State,pac-12,2005
+213,Penn State,big-ten,2005
+218,Temple,independent,2005
+221,Pitt,big-east,2005
+222,NotMajor,NotMajor,2005
+228,Clemson,acc,2005
+235,Memphis,cusa,2005
+236,NotMajor,NotMajor,2005
+238,Vanderbilt,sec,2005
+239,Baylor,big-12,2005
+242,Rice,cusa,2005
+245,Texas A&M,big-12,2005
+248,Houston,cusa,2005
+249,North Texas,sun-belt,2005
+251,Texas,big-12,2005
+252,Brigham Young,mwc,2005
+254,Utah,mwc,2005
+257,NotMajor,NotMajor,2005
+258,Virginia,acc,2005
+259,Virginia Tech,acc,2005
+264,Washington,pac-12,2005
+265,Washington State,pac-12,2005
+275,Wisconsin,big-ten,2005
+276,Marshall,cusa,2005
+277,West Virginia,big-east,2005
+278,Fresno State,wac,2005
+282,NotMajor,NotMajor,2005
+302,NotMajor,NotMajor,2005
+304,NotMajor,NotMajor,2005
+309,Louisiana-Lafayette,sun-belt,2005
+311,NotMajor,NotMajor,2005
+326,NotMajor,NotMajor,2005
+328,Utah State,wac,2005
+331,NotMajor,NotMajor,2005
+333,Alabama,sec,2005
+344,Mississippi State,sec,2005
+349,Army,independent,2005
+356,Illinois,big-ten,2005
+2005,Air Force,mwc,2005
+2006,Akron,mac,2005
+2026,NotMajor,NotMajor,2005
+2032,Arkansas State,sun-belt,2005
+2050,Ball State,mac,2005
+2084,Buffalo,mac,2005
+2116,UCF,cusa,2005
+2117,Central Michigan,mac,2005
+2132,Cincinnati,big-east,2005
+2197,NotMajor,NotMajor,2005
+2198,NotMajor,NotMajor,2005
+2199,Eastern Michigan,mac,2005
+2226,Florida Atlantic,sun-belt,2005
+2229,Florida International,sun-belt,2005
+2287,NotMajor,NotMajor,2005
+2294,Iowa,big-ten,2005
+2305,Kansas,big-12,2005
+2306,Kansas State,big-12,2005
+2309,Kent State,mac,2005
+2335,NotMajor,NotMajor,2005
+2348,Louisiana Tech,wac,2005
+2377,NotMajor,NotMajor,2005
+2390,Miami (FL),acc,2005
+2393,Middle Tennessee State,sun-belt,2005
+2426,Navy,independent,2005
+2433,Louisiana-Monroe,sun-belt,2005
+2439,Nevada-Las Vegas,mwc,2005
+2440,Nevada,wac,2005
+2447,NotMajor,NotMajor,2005
+2459,Northern Illinois,mac,2005
+2460,NotMajor,NotMajor,2005
+2464,NotMajor,NotMajor,2005
+2466,NotMajor,NotMajor,2005
+2483,Oregon,pac-12,2005
+2502,NotMajor,NotMajor,2005
+2509,Purdue,big-ten,2005
+2534,NotMajor,NotMajor,2005
+2535,NotMajor,NotMajor,2005
+2545,NotMajor,NotMajor,2005
+2546,NotMajor,NotMajor,2005
+2567,SMU,cusa,2005
+2572,Southern Mississippi,cusa,2005
+2579,South Carolina,sec,2005
+2623,NotMajor,NotMajor,2005
+2628,Texas Christian,mwc,2005
+2630,NotMajor,NotMajor,2005
+2633,Tennessee,sec,2005
+2635,NotMajor,NotMajor,2005
+2638,UTEP,cusa,2005
+2640,NotMajor,NotMajor,2005
+2641,Texas Tech,big-12,2005
+2643,NotMajor,NotMajor,2005
+2649,Toledo,mac,2005
+2653,Troy,sun-belt,2005
+2655,Tulane,cusa,2005
+2678,NotMajor,NotMajor,2005
+2692,NotMajor,NotMajor,2005
+2710,NotMajor,NotMajor,2005
+2711,Western Michigan,mac,2005
+2717,NotMajor,NotMajor,2005
+2729,NotMajor,NotMajor,2005
+2747,NotMajor,NotMajor,2005
+2751,Wyoming,mwc,2005
+2754,NotMajor,NotMajor,2005
+2755,NotMajor,NotMajor,2005
+2,Auburn,sec,2006
+5,UAB,cusa,2006
+8,Arkansas,sec,2006
+9,Arizona State,pac-12,2006
+12,Arizona,pac-12,2006
+13,NotMajor,NotMajor,2006
+16,NotMajor,NotMajor,2006
+21,San Diego State,mwc,2006
+23,SJSU,wac,2006
+24,Stanford,pac-12,2006
+25,California,pac-12,2006
+26,UCLA,pac-12,2006
+30,USC,pac-12,2006
+36,Colorado State,mwc,2006
+38,Colorado,big-12,2006
+41,Connecticut,big-east,2006
+47,NotMajor,NotMajor,2006
+50,NotMajor,NotMajor,2006
+52,Florida State,acc,2006
+55,NotMajor,NotMajor,2006
+57,Florida,sec,2006
+58,South Florida,big-east,2006
+59,Georgia Tech,acc,2006
+61,Georgia,sec,2006
+62,Hawaii,wac,2006
+66,Iowa State,big-12,2006
+68,Boise State,wac,2006
+70,Idaho,wac,2006
+77,Northwestern,big-ten,2006
+79,NotMajor,NotMajor,2006
+84,Indiana,big-ten,2006
+87,Notre Dame,independent,2006
+93,NotMajor,NotMajor,2006
+96,Kentucky,sec,2006
+97,Louisville,big-east,2006
+98,NotMajor,NotMajor,2006
+99,LSU,sec,2006
+103,Boston College,acc,2006
+111,NotMajor,NotMajor,2006
+113,NotMajor,NotMajor,2006
+120,Maryland,acc,2006
+127,Michigan State,big-ten,2006
+130,Michigan,big-ten,2006
+135,Minnesota,big-ten,2006
+142,Missouri,big-12,2006
+145,Ole Miss,sec,2006
+147,NotMajor,NotMajor,2006
+149,NotMajor,NotMajor,2006
+150,Duke,acc,2006
+151,East Carolina,cusa,2006
+152,North Carolina State,acc,2006
+153,North Carolina,acc,2006
+154,Wake Forest,acc,2006
+158,Nebraska,big-12,2006
+160,NotMajor,NotMajor,2006
+164,Rutgers,big-east,2006
+166,New Mexico State,wac,2006
+167,New Mexico,mwc,2006
+183,Syracuse,big-east,2006
+189,Bowling Green State,mac,2006
+193,Miami (OH),mac,2006
+194,Ohio State,big-ten,2006
+195,Ohio,mac,2006
+197,Oklahoma State,big-12,2006
+201,Oklahoma,big-12,2006
+202,Tulsa,cusa,2006
+204,Oregon State,pac-12,2006
+213,Penn State,big-ten,2006
+218,Temple,independent,2006
+221,Pitt,big-east,2006
+222,NotMajor,NotMajor,2006
+227,NotMajor,NotMajor,2006
+228,Clemson,acc,2006
+231,NotMajor,NotMajor,2006
+235,Memphis,cusa,2006
+236,NotMajor,NotMajor,2006
+238,Vanderbilt,sec,2006
+239,Baylor,big-12,2006
+242,Rice,cusa,2006
+245,Texas A&M,big-12,2006
+248,Houston,cusa,2006
+249,North Texas,sun-belt,2006
+251,Texas,big-12,2006
+252,Brigham Young,mwc,2006
+253,NotMajor,NotMajor,2006
+254,Utah,mwc,2006
+257,NotMajor,NotMajor,2006
+258,Virginia,acc,2006
+259,Virginia Tech,acc,2006
+264,Washington,pac-12,2006
+265,Washington State,pac-12,2006
+275,Wisconsin,big-ten,2006
+276,Marshall,cusa,2006
+277,West Virginia,big-east,2006
+278,Fresno State,wac,2006
+282,NotMajor,NotMajor,2006
+302,NotMajor,NotMajor,2006
+304,NotMajor,NotMajor,2006
+309,Louisiana-Lafayette,sun-belt,2006
+311,NotMajor,NotMajor,2006
+326,NotMajor,NotMajor,2006
+328,Utah State,wac,2006
+331,NotMajor,NotMajor,2006
+333,Alabama,sec,2006
+344,Mississippi State,sec,2006
+349,Army,independent,2006
+356,Illinois,big-ten,2006
+2005,Air Force,mwc,2006
+2006,Akron,mac,2006
+2011,NotMajor,NotMajor,2006
+2016,NotMajor,NotMajor,2006
+2026,NotMajor,NotMajor,2006
+2032,Arkansas State,sun-belt,2006
+2050,Ball State,mac,2006
+2084,Buffalo,mac,2006
+2116,UCF,cusa,2006
+2117,Central Michigan,mac,2006
+2132,Cincinnati,big-east,2006
+2197,NotMajor,NotMajor,2006
+2198,NotMajor,NotMajor,2006
+2199,Eastern Michigan,mac,2006
+2226,Florida Atlantic,sun-belt,2006
+2229,Florida International,sun-belt,2006
+2275,NotMajor,NotMajor,2006
+2287,NotMajor,NotMajor,2006
+2294,Iowa,big-ten,2006
+2305,Kansas,big-12,2006
+2306,Kansas State,big-12,2006
+2309,Kent State,mac,2006
+2335,NotMajor,NotMajor,2006
+2348,Louisiana Tech,wac,2006
+2377,NotMajor,NotMajor,2006
+2390,Miami (FL),acc,2006
+2393,Middle Tennessee State,sun-belt,2006
+2426,Navy,independent,2006
+2433,Louisiana-Monroe,sun-belt,2006
+2439,Nevada-Las Vegas,mwc,2006
+2440,Nevada,wac,2006
+2447,NotMajor,NotMajor,2006
+2448,NotMajor,NotMajor,2006
+2449,NotMajor,NotMajor,2006
+2459,Northern Illinois,mac,2006
+2460,NotMajor,NotMajor,2006
+2464,NotMajor,NotMajor,2006
+2466,NotMajor,NotMajor,2006
+2483,Oregon,pac-12,2006
+2502,NotMajor,NotMajor,2006
+2509,Purdue,big-ten,2006
+2534,NotMajor,NotMajor,2006
+2535,NotMajor,NotMajor,2006
+2545,NotMajor,NotMajor,2006
+2546,NotMajor,NotMajor,2006
+2567,SMU,cusa,2006
+2572,Southern Mississippi,cusa,2006
+2579,South Carolina,sec,2006
+2617,NotMajor,NotMajor,2006
+2623,NotMajor,NotMajor,2006
+2628,Texas Christian,mwc,2006
+2630,NotMajor,NotMajor,2006
+2633,Tennessee,sec,2006
+2634,NotMajor,NotMajor,2006
+2635,NotMajor,NotMajor,2006
+2638,UTEP,cusa,2006
+2640,NotMajor,NotMajor,2006
+2641,Texas Tech,big-12,2006
+2643,NotMajor,NotMajor,2006
+2649,Toledo,mac,2006
+2653,Troy,sun-belt,2006
+2655,Tulane,cusa,2006
+2678,NotMajor,NotMajor,2006
+2692,NotMajor,NotMajor,2006
+2710,NotMajor,NotMajor,2006
+2711,Western Michigan,mac,2006
+2717,NotMajor,NotMajor,2006
+2729,NotMajor,NotMajor,2006
+2747,NotMajor,NotMajor,2006
+2751,Wyoming,mwc,2006
+2754,NotMajor,NotMajor,2006
+2755,NotMajor,NotMajor,2006
+2,Auburn,sec,2007
+5,UAB,cusa,2007
+8,Arkansas,sec,2007
+9,Arizona State,pac-12,2007
+12,Arizona,pac-12,2007
+13,NotMajor,NotMajor,2007
+16,NotMajor,NotMajor,2007
+21,San Diego State,mwc,2007
+23,SJSU,wac,2007
+24,Stanford,pac-12,2007
+25,California,pac-12,2007
+26,UCLA,pac-12,2007
+30,USC,pac-12,2007
+36,Colorado State,mwc,2007
+38,Colorado,big-12,2007
+41,Connecticut,big-east,2007
+47,NotMajor,NotMajor,2007
+48,NotMajor,NotMajor,2007
+52,Florida State,acc,2007
+55,NotMajor,NotMajor,2007
+57,Florida,sec,2007
+58,South Florida,big-east,2007
+59,Georgia Tech,acc,2007
+61,Georgia,sec,2007
+62,Hawaii,wac,2007
+66,Iowa State,big-12,2007
+68,Boise State,wac,2007
+70,Idaho,wac,2007
+77,Northwestern,big-ten,2007
+79,NotMajor,NotMajor,2007
+84,Indiana,big-ten,2007
+87,Notre Dame,independent,2007
+93,NotMajor,NotMajor,2007
+96,Kentucky,sec,2007
+97,Louisville,big-east,2007
+98,Western Kentucky,independent,2007
+99,LSU,sec,2007
+103,Boston College,acc,2007
+111,NotMajor,NotMajor,2007
+113,NotMajor,NotMajor,2007
+120,Maryland,acc,2007
+127,Michigan State,big-ten,2007
+130,Michigan,big-ten,2007
+135,Minnesota,big-ten,2007
+142,Missouri,big-12,2007
+145,Ole Miss,sec,2007
+147,NotMajor,NotMajor,2007
+150,Duke,acc,2007
+151,East Carolina,cusa,2007
+152,North Carolina State,acc,2007
+153,North Carolina,acc,2007
+154,Wake Forest,acc,2007
+158,Nebraska,big-12,2007
+160,NotMajor,NotMajor,2007
+164,Rutgers,big-east,2007
+166,New Mexico State,wac,2007
+167,New Mexico,mwc,2007
+183,Syracuse,big-east,2007
+189,Bowling Green State,mac,2007
+193,Miami (OH),mac,2007
+194,Ohio State,big-ten,2007
+195,Ohio,mac,2007
+197,Oklahoma State,big-12,2007
+201,Oklahoma,big-12,2007
+202,Tulsa,cusa,2007
+204,Oregon State,pac-12,2007
+213,Penn State,big-ten,2007
+218,Temple,mac,2007
+221,Pitt,big-east,2007
+222,NotMajor,NotMajor,2007
+227,NotMajor,NotMajor,2007
+228,Clemson,acc,2007
+231,NotMajor,NotMajor,2007
+235,Memphis,cusa,2007
+236,NotMajor,NotMajor,2007
+238,Vanderbilt,sec,2007
+239,Baylor,big-12,2007
+242,Rice,cusa,2007
+245,Texas A&M,big-12,2007
+248,Houston,cusa,2007
+249,North Texas,sun-belt,2007
+251,Texas,big-12,2007
+252,Brigham Young,mwc,2007
+254,Utah,mwc,2007
+256,NotMajor,NotMajor,2007
+257,NotMajor,NotMajor,2007
+258,Virginia,acc,2007
+259,Virginia Tech,acc,2007
+264,Washington,pac-12,2007
+265,Washington State,pac-12,2007
+275,Wisconsin,big-ten,2007
+276,Marshall,cusa,2007
+277,West Virginia,big-east,2007
+278,Fresno State,wac,2007
+282,NotMajor,NotMajor,2007
+290,NotMajor,NotMajor,2007
+302,NotMajor,NotMajor,2007
+304,NotMajor,NotMajor,2007
+309,Louisiana-Lafayette,sun-belt,2007
+311,NotMajor,NotMajor,2007
+326,NotMajor,NotMajor,2007
+328,Utah State,wac,2007
+331,NotMajor,NotMajor,2007
+333,Alabama,sec,2007
+344,Mississippi State,sec,2007
+349,Army,independent,2007
+356,Illinois,big-ten,2007
+2005,Air Force,mwc,2007
+2006,Akron,mac,2007
+2016,NotMajor,NotMajor,2007
+2026,NotMajor,NotMajor,2007
+2029,NotMajor,NotMajor,2007
+2032,Arkansas State,sun-belt,2007
+2050,Ball State,mac,2007
+2084,Buffalo,mac,2007
+2110,NotMajor,NotMajor,2007
+2115,NotMajor,NotMajor,2007
+2116,UCF,cusa,2007
+2117,Central Michigan,mac,2007
+2127,NotMajor,NotMajor,2007
+2132,Cincinnati,big-east,2007
+2169,NotMajor,NotMajor,2007
+2197,NotMajor,NotMajor,2007
+2198,NotMajor,NotMajor,2007
+2199,Eastern Michigan,mac,2007
+2210,NotMajor,NotMajor,2007
+2226,Florida Atlantic,sun-belt,2007
+2229,Florida International,sun-belt,2007
+2241,NotMajor,NotMajor,2007
+2287,NotMajor,NotMajor,2007
+2294,Iowa,big-ten,2007
+2305,Kansas,big-12,2007
+2306,Kansas State,big-12,2007
+2309,Kent State,mac,2007
+2335,NotMajor,NotMajor,2007
+2348,Louisiana Tech,wac,2007
+2377,NotMajor,NotMajor,2007
+2390,Miami (FL),acc,2007
+2393,Middle Tennessee State,sun-belt,2007
+2413,NotMajor,NotMajor,2007
+2426,Navy,independent,2007
+2428,NotMajor,NotMajor,2007
+2433,Louisiana-Monroe,sun-belt,2007
+2439,Nevada-Las Vegas,mwc,2007
+2440,Nevada,wac,2007
+2447,NotMajor,NotMajor,2007
+2449,NotMajor,NotMajor,2007
+2450,NotMajor,NotMajor,2007
+2458,NotMajor,NotMajor,2007
+2459,Northern Illinois,mac,2007
+2460,NotMajor,NotMajor,2007
+2464,NotMajor,NotMajor,2007
+2466,NotMajor,NotMajor,2007
+2483,Oregon,pac-12,2007
+2502,NotMajor,NotMajor,2007
+2509,Purdue,big-ten,2007
+2534,NotMajor,NotMajor,2007
+2535,NotMajor,NotMajor,2007
+2545,NotMajor,NotMajor,2007
+2546,NotMajor,NotMajor,2007
+2567,SMU,cusa,2007
+2569,NotMajor,NotMajor,2007
+2572,Southern Mississippi,cusa,2007
+2579,South Carolina,sec,2007
+2623,NotMajor,NotMajor,2007
+2628,Texas Christian,mwc,2007
+2630,NotMajor,NotMajor,2007
+2633,Tennessee,sec,2007
+2635,NotMajor,NotMajor,2007
+2638,UTEP,cusa,2007
+2640,NotMajor,NotMajor,2007
+2641,Texas Tech,big-12,2007
+2643,NotMajor,NotMajor,2007
+2649,Toledo,mac,2007
+2653,Troy,sun-belt,2007
+2655,Tulane,cusa,2007
+2692,NotMajor,NotMajor,2007
+2706,NotMajor,NotMajor,2007
+2710,NotMajor,NotMajor,2007
+2711,Western Michigan,mac,2007
+2717,NotMajor,NotMajor,2007
+2729,NotMajor,NotMajor,2007
+2747,NotMajor,NotMajor,2007
+2751,Wyoming,mwc,2007
+2754,NotMajor,NotMajor,2007
+2755,NotMajor,NotMajor,2007
+2,Auburn,sec,2008
+5,UAB,cusa,2008
+8,Arkansas,sec,2008
+9,Arizona State,pac-12,2008
+12,Arizona,pac-12,2008
+13,NotMajor,NotMajor,2008
+16,NotMajor,NotMajor,2008
+21,San Diego State,mwc,2008
+23,SJSU,wac,2008
+24,Stanford,pac-12,2008
+25,California,pac-12,2008
+26,UCLA,pac-12,2008
+30,USC,pac-12,2008
+36,Colorado State,mwc,2008
+38,Colorado,big-12,2008
+41,Connecticut,big-east,2008
+48,NotMajor,NotMajor,2008
+52,Florida State,acc,2008
+55,NotMajor,NotMajor,2008
+57,Florida,sec,2008
+58,South Florida,big-east,2008
+59,Georgia Tech,acc,2008
+61,Georgia,sec,2008
+62,Hawaii,wac,2008
+66,Iowa State,big-12,2008
+68,Boise State,wac,2008
+70,Idaho,wac,2008
+77,Northwestern,big-ten,2008
+79,NotMajor,NotMajor,2008
+84,Indiana,big-ten,2008
+87,Notre Dame,independent,2008
+93,NotMajor,NotMajor,2008
+96,Kentucky,sec,2008
+97,Louisville,big-east,2008
+98,Western Kentucky,independent,2008
+99,LSU,sec,2008
+103,Boston College,acc,2008
+111,NotMajor,NotMajor,2008
+113,NotMajor,NotMajor,2008
+119,NotMajor,NotMajor,2008
+120,Maryland,acc,2008
+127,Michigan State,big-ten,2008
+130,Michigan,big-ten,2008
+135,Minnesota,big-ten,2008
+142,Missouri,big-12,2008
+145,Ole Miss,sec,2008
+147,NotMajor,NotMajor,2008
+150,Duke,acc,2008
+151,East Carolina,cusa,2008
+152,North Carolina State,acc,2008
+153,North Carolina,acc,2008
+154,Wake Forest,acc,2008
+158,Nebraska,big-12,2008
+160,NotMajor,NotMajor,2008
+164,Rutgers,big-east,2008
+166,New Mexico State,wac,2008
+167,New Mexico,mwc,2008
+183,Syracuse,big-east,2008
+189,Bowling Green State,mac,2008
+193,Miami (OH),mac,2008
+194,Ohio State,big-ten,2008
+195,Ohio,mac,2008
+197,Oklahoma State,big-12,2008
+201,Oklahoma,big-12,2008
+202,Tulsa,cusa,2008
+204,Oregon State,pac-12,2008
+213,Penn State,big-ten,2008
+218,Temple,mac,2008
+221,Pitt,big-east,2008
+222,NotMajor,NotMajor,2008
+227,NotMajor,NotMajor,2008
+228,Clemson,acc,2008
+231,NotMajor,NotMajor,2008
+235,Memphis,cusa,2008
+236,NotMajor,NotMajor,2008
+238,Vanderbilt,sec,2008
+239,Baylor,big-12,2008
+242,Rice,cusa,2008
+245,Texas A&M,big-12,2008
+248,Houston,cusa,2008
+249,North Texas,sun-belt,2008
+251,Texas,big-12,2008
+252,Brigham Young,mwc,2008
+253,NotMajor,NotMajor,2008
+254,Utah,mwc,2008
+256,NotMajor,NotMajor,2008
+257,NotMajor,NotMajor,2008
+258,Virginia,acc,2008
+259,Virginia Tech,acc,2008
+264,Washington,pac-12,2008
+265,Washington State,pac-12,2008
+275,Wisconsin,big-ten,2008
+276,Marshall,cusa,2008
+277,West Virginia,big-east,2008
+278,Fresno State,wac,2008
+282,NotMajor,NotMajor,2008
+290,NotMajor,NotMajor,2008
+302,NotMajor,NotMajor,2008
+304,NotMajor,NotMajor,2008
+309,Louisiana-Lafayette,sun-belt,2008
+311,NotMajor,NotMajor,2008
+324,NotMajor,NotMajor,2008
+326,NotMajor,NotMajor,2008
+328,Utah State,wac,2008
+331,NotMajor,NotMajor,2008
+333,Alabama,sec,2008
+344,Mississippi State,sec,2008
+349,Army,independent,2008
+356,Illinois,big-ten,2008
+2005,Air Force,mwc,2008
+2006,Akron,mac,2008
+2010,NotMajor,NotMajor,2008
+2011,NotMajor,NotMajor,2008
+2016,NotMajor,NotMajor,2008
+2026,NotMajor,NotMajor,2008
+2032,Arkansas State,sun-belt,2008
+2050,Ball State,mac,2008
+2084,Buffalo,mac,2008
+2110,NotMajor,NotMajor,2008
+2116,UCF,cusa,2008
+2117,Central Michigan,mac,2008
+2127,NotMajor,NotMajor,2008
+2132,Cincinnati,big-east,2008
+2169,NotMajor,NotMajor,2008
+2197,NotMajor,NotMajor,2008
+2198,NotMajor,NotMajor,2008
+2199,Eastern Michigan,mac,2008
+2226,Florida Atlantic,sun-belt,2008
+2229,Florida International,sun-belt,2008
+2241,NotMajor,NotMajor,2008
+2275,NotMajor,NotMajor,2008
+2287,NotMajor,NotMajor,2008
+2294,Iowa,big-ten,2008
+2305,Kansas,big-12,2008
+2306,Kansas State,big-12,2008
+2309,Kent State,mac,2008
+2348,Louisiana Tech,wac,2008
+2377,NotMajor,NotMajor,2008
+2390,Miami (FL),acc,2008
+2393,Middle Tennessee State,sun-belt,2008
+2415,NotMajor,NotMajor,2008
+2426,Navy,independent,2008
+2433,Louisiana-Monroe,sun-belt,2008
+2439,Nevada-Las Vegas,mwc,2008
+2440,Nevada,wac,2008
+2447,NotMajor,NotMajor,2008
+2449,NotMajor,NotMajor,2008
+2450,NotMajor,NotMajor,2008
+2458,NotMajor,NotMajor,2008
+2459,Northern Illinois,mac,2008
+2460,NotMajor,NotMajor,2008
+2464,NotMajor,NotMajor,2008
+2466,NotMajor,NotMajor,2008
+2483,Oregon,pac-12,2008
+2502,NotMajor,NotMajor,2008
+2509,Purdue,big-ten,2008
+2534,NotMajor,NotMajor,2008
+2535,NotMajor,NotMajor,2008
+2545,NotMajor,NotMajor,2008
+2546,NotMajor,NotMajor,2008
+2567,SMU,cusa,2008
+2569,NotMajor,NotMajor,2008
+2571,NotMajor,NotMajor,2008
+2572,Southern Mississippi,cusa,2008
+2579,South Carolina,sec,2008
+2582,NotMajor,NotMajor,2008
+2617,NotMajor,NotMajor,2008
+2623,NotMajor,NotMajor,2008
+2628,Texas Christian,mwc,2008
+2630,NotMajor,NotMajor,2008
+2633,Tennessee,sec,2008
+2635,NotMajor,NotMajor,2008
+2638,UTEP,cusa,2008
+2640,NotMajor,NotMajor,2008
+2641,Texas Tech,big-12,2008
+2643,NotMajor,NotMajor,2008
+2649,Toledo,mac,2008
+2653,Troy,sun-belt,2008
+2655,Tulane,cusa,2008
+2678,NotMajor,NotMajor,2008
+2692,NotMajor,NotMajor,2008
+2710,NotMajor,NotMajor,2008
+2711,Western Michigan,mac,2008
+2717,NotMajor,NotMajor,2008
+2729,NotMajor,NotMajor,2008
+2747,NotMajor,NotMajor,2008
+2751,Wyoming,mwc,2008
+2754,NotMajor,NotMajor,2008
+2755,NotMajor,NotMajor,2008
+2,Auburn,sec,2009
+5,UAB,cusa,2009
+8,Arkansas,sec,2009
+9,Arizona State,pac-12,2009
+12,Arizona,pac-12,2009
+13,NotMajor,NotMajor,2009
+16,NotMajor,NotMajor,2009
+21,San Diego State,mwc,2009
+23,SJSU,wac,2009
+24,Stanford,pac-12,2009
+25,California,pac-12,2009
+26,UCLA,pac-12,2009
+30,USC,pac-12,2009
+36,Colorado State,mwc,2009
+38,Colorado,big-12,2009
+41,Connecticut,big-east,2009
+47,NotMajor,NotMajor,2009
+48,NotMajor,NotMajor,2009
+50,NotMajor,NotMajor,2009
+52,Florida State,acc,2009
+55,NotMajor,NotMajor,2009
+57,Florida,sec,2009
+58,South Florida,big-east,2009
+59,Georgia Tech,acc,2009
+61,Georgia,sec,2009
+62,Hawaii,wac,2009
+66,Iowa State,big-12,2009
+68,Boise State,wac,2009
+70,Idaho,wac,2009
+77,Northwestern,big-ten,2009
+79,NotMajor,NotMajor,2009
+84,Indiana,big-ten,2009
+87,Notre Dame,independent,2009
+93,NotMajor,NotMajor,2009
+96,Kentucky,sec,2009
+97,Louisville,big-east,2009
+98,Western Kentucky,sun-belt,2009
+99,LSU,sec,2009
+103,Boston College,acc,2009
+111,NotMajor,NotMajor,2009
+113,NotMajor,NotMajor,2009
+119,NotMajor,NotMajor,2009
+120,Maryland,acc,2009
+127,Michigan State,big-ten,2009
+130,Michigan,big-ten,2009
+135,Minnesota,big-ten,2009
+142,Missouri,big-12,2009
+145,Ole Miss,sec,2009
+147,NotMajor,NotMajor,2009
+150,Duke,acc,2009
+151,East Carolina,cusa,2009
+152,North Carolina State,acc,2009
+153,North Carolina,acc,2009
+154,Wake Forest,acc,2009
+155,NotMajor,NotMajor,2009
+158,Nebraska,big-12,2009
+160,NotMajor,NotMajor,2009
+164,Rutgers,big-east,2009
+166,New Mexico State,wac,2009
+167,New Mexico,mwc,2009
+183,Syracuse,big-east,2009
+189,Bowling Green State,mac,2009
+193,Miami (OH),mac,2009
+194,Ohio State,big-ten,2009
+195,Ohio,mac,2009
+197,Oklahoma State,big-12,2009
+201,Oklahoma,big-12,2009
+202,Tulsa,cusa,2009
+204,Oregon State,pac-12,2009
+213,Penn State,big-ten,2009
+218,Temple,mac,2009
+221,Pitt,big-east,2009
+222,NotMajor,NotMajor,2009
+227,NotMajor,NotMajor,2009
+228,Clemson,acc,2009
+231,NotMajor,NotMajor,2009
+235,Memphis,cusa,2009
+236,NotMajor,NotMajor,2009
+238,Vanderbilt,sec,2009
+239,Baylor,big-12,2009
+242,Rice,cusa,2009
+245,Texas A&M,big-12,2009
+248,Houston,cusa,2009
+249,North Texas,sun-belt,2009
+251,Texas,big-12,2009
+252,Brigham Young,mwc,2009
+253,NotMajor,NotMajor,2009
+254,Utah,mwc,2009
+256,NotMajor,NotMajor,2009
+257,NotMajor,NotMajor,2009
+258,Virginia,acc,2009
+259,Virginia Tech,acc,2009
+264,Washington,pac-12,2009
+265,Washington State,pac-12,2009
+275,Wisconsin,big-ten,2009
+276,Marshall,cusa,2009
+277,West Virginia,big-east,2009
+278,Fresno State,wac,2009
+282,NotMajor,NotMajor,2009
+290,NotMajor,NotMajor,2009
+302,NotMajor,NotMajor,2009
+304,NotMajor,NotMajor,2009
+309,Louisiana-Lafayette,sun-belt,2009
+311,NotMajor,NotMajor,2009
+324,NotMajor,NotMajor,2009
+326,NotMajor,NotMajor,2009
+328,Utah State,wac,2009
+331,NotMajor,NotMajor,2009
+333,Alabama,sec,2009
+344,Mississippi State,sec,2009
+349,Army,independent,2009
+356,Illinois,big-ten,2009
+2005,Air Force,mwc,2009
+2006,Akron,mac,2009
+2016,NotMajor,NotMajor,2009
+2026,NotMajor,NotMajor,2009
+2032,Arkansas State,sun-belt,2009
+2050,Ball State,mac,2009
+2084,Buffalo,mac,2009
+2110,NotMajor,NotMajor,2009
+2116,UCF,cusa,2009
+2117,Central Michigan,mac,2009
+2127,NotMajor,NotMajor,2009
+2132,Cincinnati,big-east,2009
+2169,NotMajor,NotMajor,2009
+2197,NotMajor,NotMajor,2009
+2198,NotMajor,NotMajor,2009
+2199,Eastern Michigan,mac,2009
+2210,NotMajor,NotMajor,2009
+2226,Florida Atlantic,sun-belt,2009
+2229,Florida International,sun-belt,2009
+2241,NotMajor,NotMajor,2009
+2275,NotMajor,NotMajor,2009
+2287,NotMajor,NotMajor,2009
+2294,Iowa,big-ten,2009
+2296,NotMajor,NotMajor,2009
+2305,Kansas,big-12,2009
+2306,Kansas State,big-12,2009
+2309,Kent State,mac,2009
+2335,NotMajor,NotMajor,2009
+2348,Louisiana Tech,wac,2009
+2377,NotMajor,NotMajor,2009
+2390,Miami (FL),acc,2009
+2393,Middle Tennessee State,sun-belt,2009
+2400,NotMajor,NotMajor,2009
+2415,NotMajor,NotMajor,2009
+2426,Navy,independent,2009
+2428,NotMajor,NotMajor,2009
+2433,Louisiana-Monroe,sun-belt,2009
+2439,Nevada-Las Vegas,mwc,2009
+2440,Nevada,wac,2009
+2447,NotMajor,NotMajor,2009
+2449,NotMajor,NotMajor,2009
+2458,NotMajor,NotMajor,2009
+2459,Northern Illinois,mac,2009
+2460,NotMajor,NotMajor,2009
+2464,NotMajor,NotMajor,2009
+2466,NotMajor,NotMajor,2009
+2483,Oregon,pac-12,2009
+2502,NotMajor,NotMajor,2009
+2504,NotMajor,NotMajor,2009
+2509,Purdue,big-ten,2009
+2534,NotMajor,NotMajor,2009
+2535,NotMajor,NotMajor,2009
+2545,NotMajor,NotMajor,2009
+2546,NotMajor,NotMajor,2009
+2567,SMU,cusa,2009
+2569,NotMajor,NotMajor,2009
+2571,NotMajor,NotMajor,2009
+2572,Southern Mississippi,cusa,2009
+2579,South Carolina,sec,2009
+2582,NotMajor,NotMajor,2009
+2617,NotMajor,NotMajor,2009
+2623,NotMajor,NotMajor,2009
+2628,Texas Christian,mwc,2009
+2630,NotMajor,NotMajor,2009
+2633,Tennessee,sec,2009
+2635,NotMajor,NotMajor,2009
+2638,UTEP,cusa,2009
+2640,NotMajor,NotMajor,2009
+2641,Texas Tech,big-12,2009
+2643,NotMajor,NotMajor,2009
+2649,Toledo,mac,2009
+2653,Troy,sun-belt,2009
+2655,Tulane,cusa,2009
+2678,NotMajor,NotMajor,2009
+2692,NotMajor,NotMajor,2009
+2710,NotMajor,NotMajor,2009
+2711,Western Michigan,mac,2009
+2717,NotMajor,NotMajor,2009
+2729,NotMajor,NotMajor,2009
+2747,NotMajor,NotMajor,2009
+2751,Wyoming,mwc,2009
+2754,NotMajor,NotMajor,2009
+2755,NotMajor,NotMajor,2009
+2,Auburn,sec,2010
+5,UAB,cusa,2010
+8,Arkansas,sec,2010
+9,Arizona State,pac-12,2010
+12,Arizona,pac-12,2010
+13,NotMajor,NotMajor,2010
+16,NotMajor,NotMajor,2010
+21,San Diego State,mwc,2010
+23,SJSU,wac,2010
+24,Stanford,pac-12,2010
+25,California,pac-12,2010
+26,UCLA,pac-12,2010
+30,USC,pac-12,2010
+36,Colorado State,mwc,2010
+38,Colorado,big-12,2010
+41,Connecticut,big-east,2010
+50,NotMajor,NotMajor,2010
+52,Florida State,acc,2010
+55,NotMajor,NotMajor,2010
+57,Florida,sec,2010
+58,South Florida,big-east,2010
+59,Georgia Tech,acc,2010
+61,Georgia,sec,2010
+62,Hawaii,wac,2010
+66,Iowa State,big-12,2010
+68,Boise State,wac,2010
+70,Idaho,wac,2010
+77,Northwestern,big-ten,2010
+79,NotMajor,NotMajor,2010
+84,Indiana,big-ten,2010
+87,Notre Dame,independent,2010
+93,NotMajor,NotMajor,2010
+96,Kentucky,sec,2010
+97,Louisville,big-east,2010
+98,Western Kentucky,sun-belt,2010
+99,LSU,sec,2010
+103,Boston College,acc,2010
+113,NotMajor,NotMajor,2010
+119,NotMajor,NotMajor,2010
+120,Maryland,acc,2010
+127,Michigan State,big-ten,2010
+130,Michigan,big-ten,2010
+135,Minnesota,big-ten,2010
+142,Missouri,big-12,2010
+145,Ole Miss,sec,2010
+147,NotMajor,NotMajor,2010
+150,Duke,acc,2010
+151,East Carolina,cusa,2010
+152,North Carolina State,acc,2010
+153,North Carolina,acc,2010
+154,Wake Forest,acc,2010
+155,NotMajor,NotMajor,2010
+158,Nebraska,big-12,2010
+160,NotMajor,NotMajor,2010
+164,Rutgers,big-east,2010
+166,New Mexico State,wac,2010
+167,New Mexico,mwc,2010
+183,Syracuse,big-east,2010
+189,Bowling Green State,mac,2010
+193,Miami (OH),mac,2010
+194,Ohio State,big-ten,2010
+195,Ohio,mac,2010
+197,Oklahoma State,big-12,2010
+201,Oklahoma,big-12,2010
+202,Tulsa,cusa,2010
+204,Oregon State,pac-12,2010
+213,Penn State,big-ten,2010
+218,Temple,mac,2010
+221,Pitt,big-east,2010
+222,NotMajor,NotMajor,2010
+227,NotMajor,NotMajor,2010
+228,Clemson,acc,2010
+231,NotMajor,NotMajor,2010
+233,NotMajor,NotMajor,2010
+235,Memphis,cusa,2010
+236,NotMajor,NotMajor,2010
+238,Vanderbilt,sec,2010
+239,Baylor,big-12,2010
+242,Rice,cusa,2010
+245,Texas A&M,big-12,2010
+248,Houston,cusa,2010
+249,North Texas,sun-belt,2010
+251,Texas,big-12,2010
+252,Brigham Young,mwc,2010
+253,NotMajor,NotMajor,2010
+254,Utah,mwc,2010
+256,NotMajor,NotMajor,2010
+257,NotMajor,NotMajor,2010
+258,Virginia,acc,2010
+259,Virginia Tech,acc,2010
+264,Washington,pac-12,2010
+265,Washington State,pac-12,2010
+275,Wisconsin,big-ten,2010
+276,Marshall,cusa,2010
+277,West Virginia,big-east,2010
+278,Fresno State,wac,2010
+282,NotMajor,NotMajor,2010
+290,NotMajor,NotMajor,2010
+302,NotMajor,NotMajor,2010
+304,NotMajor,NotMajor,2010
+309,Louisiana-Lafayette,sun-belt,2010
+311,NotMajor,NotMajor,2010
+324,NotMajor,NotMajor,2010
+326,NotMajor,NotMajor,2010
+328,Utah State,wac,2010
+331,NotMajor,NotMajor,2010
+333,Alabama,sec,2010
+344,Mississippi State,sec,2010
+349,Army,independent,2010
+356,Illinois,big-ten,2010
+2005,Air Force,mwc,2010
+2006,Akron,mac,2010
+2016,NotMajor,NotMajor,2010
+2026,NotMajor,NotMajor,2010
+2029,NotMajor,NotMajor,2010
+2032,Arkansas State,sun-belt,2010
+2046,NotMajor,NotMajor,2010
+2050,Ball State,mac,2010
+2084,Buffalo,mac,2010
+2110,NotMajor,NotMajor,2010
+2116,UCF,cusa,2010
+2117,Central Michigan,mac,2010
+2127,NotMajor,NotMajor,2010
+2132,Cincinnati,big-east,2010
+2142,NotMajor,NotMajor,2010
+2197,NotMajor,NotMajor,2010
+2198,NotMajor,NotMajor,2010
+2199,Eastern Michigan,mac,2010
+2210,NotMajor,NotMajor,2010
+2226,Florida Atlantic,sun-belt,2010
+2229,Florida International,sun-belt,2010
+2241,NotMajor,NotMajor,2010
+2247,NotMajor,NotMajor,2010
+2261,NotMajor,NotMajor,2010
+2287,NotMajor,NotMajor,2010
+2294,Iowa,big-ten,2010
+2305,Kansas,big-12,2010
+2306,Kansas State,big-12,2010
+2309,Kent State,mac,2010
+2335,NotMajor,NotMajor,2010
+2348,Louisiana Tech,wac,2010
+2377,NotMajor,NotMajor,2010
+2390,Miami (FL),acc,2010
+2393,Middle Tennessee State,sun-belt,2010
+2415,NotMajor,NotMajor,2010
+2426,Navy,independent,2010
+2433,Louisiana-Monroe,sun-belt,2010
+2439,Nevada-Las Vegas,mwc,2010
+2440,Nevada,wac,2010
+2447,NotMajor,NotMajor,2010
+2449,NotMajor,NotMajor,2010
+2450,NotMajor,NotMajor,2010
+2458,NotMajor,NotMajor,2010
+2459,Northern Illinois,mac,2010
+2460,NotMajor,NotMajor,2010
+2464,NotMajor,NotMajor,2010
+2466,NotMajor,NotMajor,2010
+2483,Oregon,pac-12,2010
+2502,NotMajor,NotMajor,2010
+2504,NotMajor,NotMajor,2010
+2506,NotMajor,NotMajor,2010
+2509,Purdue,big-ten,2010
+2534,NotMajor,NotMajor,2010
+2535,NotMajor,NotMajor,2010
+2545,NotMajor,NotMajor,2010
+2546,NotMajor,NotMajor,2010
+2567,SMU,cusa,2010
+2569,NotMajor,NotMajor,2010
+2571,NotMajor,NotMajor,2010
+2572,Southern Mississippi,cusa,2010
+2579,South Carolina,sec,2010
+2617,NotMajor,NotMajor,2010
+2619,NotMajor,NotMajor,2010
+2623,NotMajor,NotMajor,2010
+2628,Texas Christian,mwc,2010
+2630,NotMajor,NotMajor,2010
+2633,Tennessee,sec,2010
+2635,NotMajor,NotMajor,2010
+2638,UTEP,cusa,2010
+2640,NotMajor,NotMajor,2010
+2641,Texas Tech,big-12,2010
+2643,NotMajor,NotMajor,2010
+2649,Toledo,mac,2010
+2653,Troy,sun-belt,2010
+2655,Tulane,cusa,2010
+2678,NotMajor,NotMajor,2010
+2692,NotMajor,NotMajor,2010
+2710,NotMajor,NotMajor,2010
+2711,Western Michigan,mac,2010
+2717,NotMajor,NotMajor,2010
+2729,NotMajor,NotMajor,2010
+2747,NotMajor,NotMajor,2010
+2751,Wyoming,mwc,2010
+2754,NotMajor,NotMajor,2010
+2755,NotMajor,NotMajor,2010
+2,Auburn,sec,2011
+5,UAB,cusa,2011
+6,NotMajor,NotMajor,2011
+8,Arkansas,sec,2011
+9,Arizona State,pac-12,2011
+12,Arizona,pac-12,2011
+13,NotMajor,NotMajor,2011
+16,NotMajor,NotMajor,2011
+21,San Diego State,mwc,2011
+23,SJSU,wac,2011
+24,Stanford,pac-12,2011
+25,California,pac-12,2011
+26,UCLA,pac-12,2011
+30,USC,pac-12,2011
+36,Colorado State,mwc,2011
+38,Colorado,pac-12,2011
+41,Connecticut,big-east,2011
+47,NotMajor,NotMajor,2011
+48,NotMajor,NotMajor,2011
+50,NotMajor,NotMajor,2011
+52,Florida State,acc,2011
+55,NotMajor,NotMajor,2011
+57,Florida,sec,2011
+58,South Florida,big-east,2011
+59,Georgia Tech,acc,2011
+61,Georgia,sec,2011
+62,Hawaii,wac,2011
+66,Iowa State,big-12,2011
+68,Boise State,mwc,2011
+70,Idaho,wac,2011
+77,Northwestern,big-ten,2011
+79,NotMajor,NotMajor,2011
+84,Indiana,big-ten,2011
+87,Notre Dame,independent,2011
+93,NotMajor,NotMajor,2011
+96,Kentucky,sec,2011
+97,Louisville,big-east,2011
+98,Western Kentucky,sun-belt,2011
+99,LSU,sec,2011
+103,Boston College,acc,2011
+113,NotMajor,NotMajor,2011
+119,NotMajor,NotMajor,2011
+120,Maryland,acc,2011
+127,Michigan State,big-ten,2011
+130,Michigan,big-ten,2011
+135,Minnesota,big-ten,2011
+142,Missouri,big-12,2011
+145,Ole Miss,sec,2011
+147,NotMajor,NotMajor,2011
+149,NotMajor,NotMajor,2011
+150,Duke,acc,2011
+151,East Carolina,cusa,2011
+152,North Carolina State,acc,2011
+153,North Carolina,acc,2011
+154,Wake Forest,acc,2011
+155,NotMajor,NotMajor,2011
+158,Nebraska,big-ten,2011
+160,NotMajor,NotMajor,2011
+164,Rutgers,big-east,2011
+166,New Mexico State,wac,2011
+167,New Mexico,mwc,2011
+183,Syracuse,big-east,2011
+189,Bowling Green State,mac,2011
+193,Miami (OH),mac,2011
+194,Ohio State,big-ten,2011
+195,Ohio,mac,2011
+197,Oklahoma State,big-12,2011
+201,Oklahoma,big-12,2011
+202,Tulsa,cusa,2011
+204,Oregon State,pac-12,2011
+213,Penn State,big-ten,2011
+218,Temple,mac,2011
+221,Pitt,big-east,2011
+222,NotMajor,NotMajor,2011
+227,NotMajor,NotMajor,2011
+228,Clemson,acc,2011
+231,NotMajor,NotMajor,2011
+233,NotMajor,NotMajor,2011
+235,Memphis,cusa,2011
+236,NotMajor,NotMajor,2011
+238,Vanderbilt,sec,2011
+239,Baylor,big-12,2011
+242,Rice,cusa,2011
+245,Texas A&M,big-12,2011
+248,Houston,cusa,2011
+249,North Texas,sun-belt,2011
+251,Texas,big-12,2011
+252,Brigham Young,independent,2011
+253,NotMajor,NotMajor,2011
+254,Utah,pac-12,2011
+256,NotMajor,NotMajor,2011
+257,NotMajor,NotMajor,2011
+258,Virginia,acc,2011
+259,Virginia Tech,acc,2011
+264,Washington,pac-12,2011
+265,Washington State,pac-12,2011
+275,Wisconsin,big-ten,2011
+276,Marshall,cusa,2011
+277,West Virginia,big-east,2011
+278,Fresno State,wac,2011
+282,NotMajor,NotMajor,2011
+290,NotMajor,NotMajor,2011
+302,NotMajor,NotMajor,2011
+304,NotMajor,NotMajor,2011
+309,Louisiana-Lafayette,sun-belt,2011
+311,NotMajor,NotMajor,2011
+324,NotMajor,NotMajor,2011
+326,NotMajor,NotMajor,2011
+328,Utah State,wac,2011
+331,NotMajor,NotMajor,2011
+333,Alabama,sec,2011
+344,Mississippi State,sec,2011
+349,Army,independent,2011
+356,Illinois,big-ten,2011
+2005,Air Force,mwc,2011
+2006,Akron,mac,2011
+2011,NotMajor,NotMajor,2011
+2026,NotMajor,NotMajor,2011
+2032,Arkansas State,sun-belt,2011
+2046,NotMajor,NotMajor,2011
+2050,Ball State,mac,2011
+2065,NotMajor,NotMajor,2011
+2084,Buffalo,mac,2011
+2110,NotMajor,NotMajor,2011
+2116,UCF,cusa,2011
+2117,Central Michigan,mac,2011
+2127,NotMajor,NotMajor,2011
+2132,Cincinnati,big-east,2011
+2197,NotMajor,NotMajor,2011
+2198,NotMajor,NotMajor,2011
+2199,Eastern Michigan,mac,2011
+2210,NotMajor,NotMajor,2011
+2226,Florida Atlantic,sun-belt,2011
+2229,Florida International,sun-belt,2011
+2230,NotMajor,NotMajor,2011
+2241,NotMajor,NotMajor,2011
+2247,NotMajor,NotMajor,2011
+2294,Iowa,big-ten,2011
+2305,Kansas,big-12,2011
+2306,Kansas State,big-12,2011
+2309,Kent State,mac,2011
+2335,NotMajor,NotMajor,2011
+2348,Louisiana Tech,wac,2011
+2377,NotMajor,NotMajor,2011
+2390,Miami (FL),acc,2011
+2393,Middle Tennessee State,sun-belt,2011
+2415,NotMajor,NotMajor,2011
+2426,Navy,independent,2011
+2428,NotMajor,NotMajor,2011
+2433,Louisiana-Monroe,sun-belt,2011
+2439,Nevada-Las Vegas,mwc,2011
+2440,Nevada,wac,2011
+2447,NotMajor,NotMajor,2011
+2449,NotMajor,NotMajor,2011
+2450,NotMajor,NotMajor,2011
+2458,NotMajor,NotMajor,2011
+2459,Northern Illinois,mac,2011
+2460,NotMajor,NotMajor,2011
+2464,NotMajor,NotMajor,2011
+2466,NotMajor,NotMajor,2011
+2483,Oregon,pac-12,2011
+2502,NotMajor,NotMajor,2011
+2506,NotMajor,NotMajor,2011
+2509,Purdue,big-ten,2011
+2534,NotMajor,NotMajor,2011
+2535,NotMajor,NotMajor,2011
+2545,NotMajor,NotMajor,2011
+2546,NotMajor,NotMajor,2011
+2567,SMU,cusa,2011
+2569,NotMajor,NotMajor,2011
+2571,NotMajor,NotMajor,2011
+2572,Southern Mississippi,cusa,2011
+2579,South Carolina,sec,2011
+2617,NotMajor,NotMajor,2011
+2619,NotMajor,NotMajor,2011
+2623,NotMajor,NotMajor,2011
+2628,Texas Christian,mwc,2011
+2630,NotMajor,NotMajor,2011
+2633,Tennessee,sec,2011
+2634,NotMajor,NotMajor,2011
+2635,NotMajor,NotMajor,2011
+2638,UTEP,cusa,2011
+2641,Texas Tech,big-12,2011
+2643,NotMajor,NotMajor,2011
+2649,Toledo,mac,2011
+2653,Troy,sun-belt,2011
+2655,Tulane,cusa,2011
+2678,NotMajor,NotMajor,2011
+2692,NotMajor,NotMajor,2011
+2710,NotMajor,NotMajor,2011
+2711,Western Michigan,mac,2011
+2717,NotMajor,NotMajor,2011
+2729,NotMajor,NotMajor,2011
+2747,NotMajor,NotMajor,2011
+2751,Wyoming,mwc,2011
+2754,NotMajor,NotMajor,2011
+2755,NotMajor,NotMajor,2011
+2,Auburn,sec,2012
+5,UAB,cusa,2012
+6,South Alabama,sun-belt,2012
+8,Arkansas,sec,2012
+9,Arizona State,pac-12,2012
+12,Arizona,pac-12,2012
+13,NotMajor,NotMajor,2012
+16,NotMajor,NotMajor,2012
+21,San Diego State,mwc,2012
+23,SJSU,wac,2012
+24,Stanford,pac-12,2012
+25,California,pac-12,2012
+26,UCLA,pac-12,2012
+30,USC,pac-12,2012
+36,Colorado State,mwc,2012
+38,Colorado,pac-12,2012
+41,Connecticut,big-east,2012
+47,NotMajor,NotMajor,2012
+50,NotMajor,NotMajor,2012
+52,Florida State,acc,2012
+55,NotMajor,NotMajor,2012
+57,Florida,sec,2012
+58,South Florida,big-east,2012
+59,Georgia Tech,acc,2012
+61,Georgia,sec,2012
+62,Hawaii,mwc,2012
+66,Iowa State,big-12,2012
+68,Boise State,mwc,2012
+70,Idaho,wac,2012
+77,Northwestern,big-ten,2012
+79,NotMajor,NotMajor,2012
+84,Indiana,big-ten,2012
+87,Notre Dame,independent,2012
+93,NotMajor,NotMajor,2012
+96,Kentucky,sec,2012
+97,Louisville,big-east,2012
+98,Western Kentucky,sun-belt,2012
+99,LSU,sec,2012
+103,Boston College,acc,2012
+113,Massachusetts,mac,2012
+119,NotMajor,NotMajor,2012
+120,Maryland,acc,2012
+127,Michigan State,big-ten,2012
+130,Michigan,big-ten,2012
+135,Minnesota,big-ten,2012
+142,Missouri,sec,2012
+145,Ole Miss,sec,2012
+150,Duke,acc,2012
+151,East Carolina,cusa,2012
+152,North Carolina State,acc,2012
+153,North Carolina,acc,2012
+154,Wake Forest,acc,2012
+155,NotMajor,NotMajor,2012
+158,Nebraska,big-ten,2012
+160,NotMajor,NotMajor,2012
+164,Rutgers,big-east,2012
+166,New Mexico State,wac,2012
+167,New Mexico,mwc,2012
+183,Syracuse,big-east,2012
+189,Bowling Green State,mac,2012
+193,Miami (OH),mac,2012
+194,Ohio State,big-ten,2012
+195,Ohio,mac,2012
+197,Oklahoma State,big-12,2012
+201,Oklahoma,big-12,2012
+202,Tulsa,cusa,2012
+204,Oregon State,pac-12,2012
+213,Penn State,big-ten,2012
+218,Temple,big-east,2012
+221,Pitt,big-east,2012
+222,NotMajor,NotMajor,2012
+227,NotMajor,NotMajor,2012
+228,Clemson,acc,2012
+231,NotMajor,NotMajor,2012
+233,NotMajor,NotMajor,2012
+235,Memphis,cusa,2012
+236,NotMajor,NotMajor,2012
+238,Vanderbilt,sec,2012
+239,Baylor,big-12,2012
+242,Rice,cusa,2012
+245,Texas A&M,sec,2012
+248,Houston,cusa,2012
+249,North Texas,sun-belt,2012
+251,Texas,big-12,2012
+252,Brigham Young,independent,2012
+253,NotMajor,NotMajor,2012
+254,Utah,pac-12,2012
+256,NotMajor,NotMajor,2012
+257,NotMajor,NotMajor,2012
+258,Virginia,acc,2012
+259,Virginia Tech,acc,2012
+264,Washington,pac-12,2012
+265,Washington State,pac-12,2012
+275,Wisconsin,big-ten,2012
+276,Marshall,cusa,2012
+277,West Virginia,big-12,2012
+278,Fresno State,mwc,2012
+282,NotMajor,NotMajor,2012
+290,NotMajor,NotMajor,2012
+302,NotMajor,NotMajor,2012
+304,NotMajor,NotMajor,2012
+309,Louisiana-Lafayette,sun-belt,2012
+311,NotMajor,NotMajor,2012
+324,NotMajor,NotMajor,2012
+326,Texas State,wac,2012
+328,Utah State,wac,2012
+331,NotMajor,NotMajor,2012
+333,Alabama,sec,2012
+344,Mississippi State,sec,2012
+349,Army,independent,2012
+356,Illinois,big-ten,2012
+2005,Air Force,mwc,2012
+2006,Akron,mac,2012
+2010,NotMajor,NotMajor,2012
+2016,NotMajor,NotMajor,2012
+2026,NotMajor,NotMajor,2012
+2032,Arkansas State,sun-belt,2012
+2046,NotMajor,NotMajor,2012
+2050,Ball State,mac,2012
+2065,NotMajor,NotMajor,2012
+2084,Buffalo,mac,2012
+2110,NotMajor,NotMajor,2012
+2116,UCF,cusa,2012
+2117,Central Michigan,mac,2012
+2127,NotMajor,NotMajor,2012
+2132,Cincinnati,big-east,2012
+2169,NotMajor,NotMajor,2012
+2197,NotMajor,NotMajor,2012
+2198,NotMajor,NotMajor,2012
+2199,Eastern Michigan,mac,2012
+2210,NotMajor,NotMajor,2012
+2226,Florida Atlantic,sun-belt,2012
+2229,Florida International,sun-belt,2012
+2230,NotMajor,NotMajor,2012
+2241,NotMajor,NotMajor,2012
+2247,NotMajor,NotMajor,2012
+2287,NotMajor,NotMajor,2012
+2294,Iowa,big-ten,2012
+2296,NotMajor,NotMajor,2012
+2305,Kansas,big-12,2012
+2306,Kansas State,big-12,2012
+2309,Kent State,mac,2012
+2320,NotMajor,NotMajor,2012
+2335,NotMajor,NotMajor,2012
+2348,Louisiana Tech,wac,2012
+2377,NotMajor,NotMajor,2012
+2390,Miami (FL),acc,2012
+2393,Middle Tennessee State,sun-belt,2012
+2415,NotMajor,NotMajor,2012
+2426,Navy,independent,2012
+2428,NotMajor,NotMajor,2012
+2433,Louisiana-Monroe,sun-belt,2012
+2439,Nevada-Las Vegas,mwc,2012
+2440,Nevada,mwc,2012
+2447,NotMajor,NotMajor,2012
+2449,NotMajor,NotMajor,2012
+2450,NotMajor,NotMajor,2012
+2458,NotMajor,NotMajor,2012
+2459,Northern Illinois,mac,2012
+2460,NotMajor,NotMajor,2012
+2464,NotMajor,NotMajor,2012
+2466,NotMajor,NotMajor,2012
+2483,Oregon,pac-12,2012
+2502,NotMajor,NotMajor,2012
+2506,NotMajor,NotMajor,2012
+2509,Purdue,big-ten,2012
+2534,NotMajor,NotMajor,2012
+2535,NotMajor,NotMajor,2012
+2542,NotMajor,NotMajor,2012
+2545,NotMajor,NotMajor,2012
+2546,NotMajor,NotMajor,2012
+2567,SMU,cusa,2012
+2569,NotMajor,NotMajor,2012
+2571,NotMajor,NotMajor,2012
+2572,Southern Mississippi,cusa,2012
+2579,South Carolina,sec,2012
+2582,NotMajor,NotMajor,2012
+2617,NotMajor,NotMajor,2012
+2619,NotMajor,NotMajor,2012
+2623,NotMajor,NotMajor,2012
+2628,Texas Christian,big-12,2012
+2630,NotMajor,NotMajor,2012
+2633,Tennessee,sec,2012
+2635,NotMajor,NotMajor,2012
+2636,UTSA,wac,2012
+2638,UTEP,cusa,2012
+2640,NotMajor,NotMajor,2012
+2641,Texas Tech,big-12,2012
+2643,NotMajor,NotMajor,2012
+2649,Toledo,mac,2012
+2653,Troy,sun-belt,2012
+2655,Tulane,cusa,2012
+2678,NotMajor,NotMajor,2012
+2681,NotMajor,NotMajor,2012
+2692,NotMajor,NotMajor,2012
+2710,NotMajor,NotMajor,2012
+2711,Western Michigan,mac,2012
+2717,NotMajor,NotMajor,2012
+2729,NotMajor,NotMajor,2012
+2747,NotMajor,NotMajor,2012
+2751,Wyoming,mwc,2012
+2754,NotMajor,NotMajor,2012
+2755,NotMajor,NotMajor,2012
+2823,NotMajor,NotMajor,2012
+2837,NotMajor,NotMajor,2012
+2,Auburn,sec,2013
+5,UAB,cusa,2013
+6,South Alabama,sun-belt,2013
+8,Arkansas,sec,2013
+9,Arizona State,pac-12,2013
+12,Arizona,pac-12,2013
+13,NotMajor,NotMajor,2013
+16,NotMajor,NotMajor,2013
+21,San Diego State,mwc,2013
+23,SJSU,mwc,2013
+24,Stanford,pac-12,2013
+25,California,pac-12,2013
+26,UCLA,pac-12,2013
+30,USC,pac-12,2013
+36,Colorado State,mwc,2013
+38,Colorado,pac-12,2013
+41,Connecticut,american,2013
+47,NotMajor,NotMajor,2013
+48,NotMajor,NotMajor,2013
+50,NotMajor,NotMajor,2013
+52,Florida State,acc,2013
+55,NotMajor,NotMajor,2013
+57,Florida,sec,2013
+58,South Florida,american,2013
+59,Georgia Tech,acc,2013
+61,Georgia,sec,2013
+62,Hawaii,mwc,2013
+66,Iowa State,big-12,2013
+68,Boise State,mwc,2013
+70,Idaho,independent,2013
+77,Northwestern,big-ten,2013
+79,NotMajor,NotMajor,2013
+84,Indiana,big-ten,2013
+87,Notre Dame,independent,2013
+93,NotMajor,NotMajor,2013
+96,Kentucky,sec,2013
+97,Louisville,american,2013
+98,Western Kentucky,sun-belt,2013
+99,LSU,sec,2013
+103,Boston College,acc,2013
+113,Massachusetts,mac,2013
+119,NotMajor,NotMajor,2013
+120,Maryland,acc,2013
+127,Michigan State,big-ten,2013
+130,Michigan,big-ten,2013
+135,Minnesota,big-ten,2013
+142,Missouri,sec,2013
+145,Ole Miss,sec,2013
+147,NotMajor,NotMajor,2013
+150,Duke,acc,2013
+151,East Carolina,cusa,2013
+152,North Carolina State,acc,2013
+153,North Carolina,acc,2013
+154,Wake Forest,acc,2013
+158,Nebraska,big-ten,2013
+160,NotMajor,NotMajor,2013
+164,Rutgers,american,2013
+166,New Mexico State,independent,2013
+167,New Mexico,mwc,2013
+183,Syracuse,acc,2013
+189,Bowling Green State,mac,2013
+193,Miami (OH),mac,2013
+194,Ohio State,big-ten,2013
+195,Ohio,mac,2013
+197,Oklahoma State,big-12,2013
+201,Oklahoma,big-12,2013
+202,Tulsa,cusa,2013
+204,Oregon State,pac-12,2013
+213,Penn State,big-ten,2013
+218,Temple,american,2013
+221,Pitt,acc,2013
+222,NotMajor,NotMajor,2013
+227,NotMajor,NotMajor,2013
+228,Clemson,acc,2013
+231,NotMajor,NotMajor,2013
+233,NotMajor,NotMajor,2013
+235,Memphis,american,2013
+236,NotMajor,NotMajor,2013
+238,Vanderbilt,sec,2013
+239,Baylor,big-12,2013
+242,Rice,cusa,2013
+245,Texas A&M,sec,2013
+248,Houston,american,2013
+249,North Texas,cusa,2013
+251,Texas,big-12,2013
+252,Brigham Young,independent,2013
+253,NotMajor,NotMajor,2013
+254,Utah,pac-12,2013
+256,NotMajor,NotMajor,2013
+257,NotMajor,NotMajor,2013
+258,Virginia,acc,2013
+259,Virginia Tech,acc,2013
+264,Washington,pac-12,2013
+265,Washington State,pac-12,2013
+275,Wisconsin,big-ten,2013
+276,Marshall,cusa,2013
+277,West Virginia,big-12,2013
+278,Fresno State,mwc,2013
+282,NotMajor,NotMajor,2013
+290,NotMajor,NotMajor,2013
+295,NotMajor,NotMajor,2013
+302,NotMajor,NotMajor,2013
+304,NotMajor,NotMajor,2013
+309,Louisiana-Lafayette,sun-belt,2013
+311,NotMajor,NotMajor,2013
+324,NotMajor,NotMajor,2013
+326,Texas State,sun-belt,2013
+328,Utah State,mwc,2013
+331,NotMajor,NotMajor,2013
+333,Alabama,sec,2013
+344,Mississippi State,sec,2013
+349,Army,independent,2013
+356,Illinois,big-ten,2013
+399,NotMajor,NotMajor,2013
+2000,NotMajor,NotMajor,2013
+2005,Air Force,mwc,2013
+2006,Akron,mac,2013
+2010,NotMajor,NotMajor,2013
+2011,NotMajor,NotMajor,2013
+2016,NotMajor,NotMajor,2013
+2026,NotMajor,NotMajor,2013
+2029,NotMajor,NotMajor,2013
+2032,Arkansas State,sun-belt,2013
+2046,NotMajor,NotMajor,2013
+2050,Ball State,mac,2013
+2065,NotMajor,NotMajor,2013
+2084,Buffalo,mac,2013
+2097,NotMajor,NotMajor,2013
+2110,NotMajor,NotMajor,2013
+2116,UCF,american,2013
+2117,Central Michigan,mac,2013
+2127,NotMajor,NotMajor,2013
+2132,Cincinnati,american,2013
+2142,NotMajor,NotMajor,2013
+2197,NotMajor,NotMajor,2013
+2198,NotMajor,NotMajor,2013
+2199,Eastern Michigan,mac,2013
+2210,NotMajor,NotMajor,2013
+2226,Florida Atlantic,cusa,2013
+2229,Florida International,cusa,2013
+2230,NotMajor,NotMajor,2013
+2241,NotMajor,NotMajor,2013
+2247,Georgia State,sun-belt,2013
+2287,NotMajor,NotMajor,2013
+2294,Iowa,big-ten,2013
+2296,NotMajor,NotMajor,2013
+2305,Kansas,big-12,2013
+2306,Kansas State,big-12,2013
+2309,Kent State,mac,2013
+2320,NotMajor,NotMajor,2013
+2335,NotMajor,NotMajor,2013
+2348,Louisiana Tech,cusa,2013
+2377,NotMajor,NotMajor,2013
+2390,Miami (FL),acc,2013
+2393,Middle Tennessee State,cusa,2013
+2415,NotMajor,NotMajor,2013
+2426,Navy,independent,2013
+2428,NotMajor,NotMajor,2013
+2433,Louisiana-Monroe,sun-belt,2013
+2439,Nevada-Las Vegas,mwc,2013
+2440,Nevada,mwc,2013
+2447,NotMajor,NotMajor,2013
+2449,NotMajor,NotMajor,2013
+2450,NotMajor,NotMajor,2013
+2458,NotMajor,NotMajor,2013
+2459,Northern Illinois,mac,2013
+2460,NotMajor,NotMajor,2013
+2464,NotMajor,NotMajor,2013
+2466,NotMajor,NotMajor,2013
+2483,Oregon,pac-12,2013
+2502,NotMajor,NotMajor,2013
+2504,NotMajor,NotMajor,2013
+2506,NotMajor,NotMajor,2013
+2509,Purdue,big-ten,2013
+2534,NotMajor,NotMajor,2013
+2535,NotMajor,NotMajor,2013
+2542,NotMajor,NotMajor,2013
+2545,NotMajor,NotMajor,2013
+2546,NotMajor,NotMajor,2013
+2567,SMU,american,2013
+2569,NotMajor,NotMajor,2013
+2571,NotMajor,NotMajor,2013
+2572,Southern Mississippi,cusa,2013
+2579,South Carolina,sec,2013
+2582,NotMajor,NotMajor,2013
+2617,NotMajor,NotMajor,2013
+2619,NotMajor,NotMajor,2013
+2623,NotMajor,NotMajor,2013
+2628,Texas Christian,big-12,2013
+2630,NotMajor,NotMajor,2013
+2633,Tennessee,sec,2013
+2635,NotMajor,NotMajor,2013
+2636,UTSA,cusa,2013
+2638,UTEP,cusa,2013
+2641,Texas Tech,big-12,2013
+2643,NotMajor,NotMajor,2013
+2649,Toledo,mac,2013
+2653,Troy,sun-belt,2013
+2655,Tulane,cusa,2013
+2678,NotMajor,NotMajor,2013
+2681,NotMajor,NotMajor,2013
+2692,NotMajor,NotMajor,2013
+2710,NotMajor,NotMajor,2013
+2711,Western Michigan,mac,2013
+2717,NotMajor,NotMajor,2013
+2729,NotMajor,NotMajor,2013
+2747,NotMajor,NotMajor,2013
+2751,Wyoming,mwc,2013
+2754,NotMajor,NotMajor,2013
+2755,NotMajor,NotMajor,2013
+2,Auburn,sec,2014
+5,UAB,cusa,2014
+6,South Alabama,sun-belt,2014
+8,Arkansas,sec,2014
+9,Arizona State,pac-12,2014
+12,Arizona,pac-12,2014
+13,NotMajor,NotMajor,2014
+16,NotMajor,NotMajor,2014
+21,San Diego State,mwc,2014
+23,SJSU,mwc,2014
+24,Stanford,pac-12,2014
+25,California,pac-12,2014
+26,UCLA,pac-12,2014
+30,USC,pac-12,2014
+36,Colorado State,mwc,2014
+38,Colorado,pac-12,2014
+41,Connecticut,american,2014
+43,NotMajor,NotMajor,2014
+47,NotMajor,NotMajor,2014
+48,NotMajor,NotMajor,2014
+50,NotMajor,NotMajor,2014
+52,Florida State,acc,2014
+55,NotMajor,NotMajor,2014
+57,Florida,sec,2014
+58,South Florida,american,2014
+59,Georgia Tech,acc,2014
+61,Georgia,sec,2014
+62,Hawaii,mwc,2014
+66,Iowa State,big-12,2014
+68,Boise State,mwc,2014
+70,Idaho,sun-belt,2014
+77,Northwestern,big-ten,2014
+79,NotMajor,NotMajor,2014
+84,Indiana,big-ten,2014
+87,Notre Dame,independent,2014
+93,NotMajor,NotMajor,2014
+96,Kentucky,sec,2014
+97,Louisville,acc,2014
+98,Western Kentucky,cusa,2014
+99,LSU,sec,2014
+103,Boston College,acc,2014
+113,Massachusetts,mac,2014
+119,NotMajor,NotMajor,2014
+120,Maryland,big-ten,2014
+127,Michigan State,big-ten,2014
+130,Michigan,big-ten,2014
+135,Minnesota,big-ten,2014
+142,Missouri,sec,2014
+145,Ole Miss,sec,2014
+147,NotMajor,NotMajor,2014
+149,NotMajor,NotMajor,2014
+150,Duke,acc,2014
+151,East Carolina,american,2014
+152,North Carolina State,acc,2014
+153,North Carolina,acc,2014
+154,Wake Forest,acc,2014
+155,NotMajor,NotMajor,2014
+158,Nebraska,big-ten,2014
+160,NotMajor,NotMajor,2014
+164,Rutgers,big-ten,2014
+166,New Mexico State,sun-belt,2014
+167,New Mexico,mwc,2014
+183,Syracuse,acc,2014
+189,Bowling Green State,mac,2014
+193,Miami (OH),mac,2014
+194,Ohio State,big-ten,2014
+195,Ohio,mac,2014
+197,Oklahoma State,big-12,2014
+201,Oklahoma,big-12,2014
+202,Tulsa,american,2014
+204,Oregon State,pac-12,2014
+213,Penn State,big-ten,2014
+218,Temple,american,2014
+221,Pitt,acc,2014
+222,NotMajor,NotMajor,2014
+227,NotMajor,NotMajor,2014
+228,Clemson,acc,2014
+231,NotMajor,NotMajor,2014
+233,NotMajor,NotMajor,2014
+235,Memphis,american,2014
+236,NotMajor,NotMajor,2014
+238,Vanderbilt,sec,2014
+239,Baylor,big-12,2014
+242,Rice,cusa,2014
+245,Texas A&M,sec,2014
+248,Houston,american,2014
+249,North Texas,cusa,2014
+251,Texas,big-12,2014
+252,Brigham Young,independent,2014
+253,NotMajor,NotMajor,2014
+254,Utah,pac-12,2014
+256,NotMajor,NotMajor,2014
+257,NotMajor,NotMajor,2014
+258,Virginia,acc,2014
+259,Virginia Tech,acc,2014
+264,Washington,pac-12,2014
+265,Washington State,pac-12,2014
+275,Wisconsin,big-ten,2014
+276,Marshall,cusa,2014
+277,West Virginia,big-12,2014
+278,Fresno State,mwc,2014
+282,NotMajor,NotMajor,2014
+290,Georgia Southern,sun-belt,2014
+295,Old Dominion,cusa,2014
+302,NotMajor,NotMajor,2014
+304,NotMajor,NotMajor,2014
+309,Louisiana-Lafayette,sun-belt,2014
+311,NotMajor,NotMajor,2014
+326,Texas State,sun-belt,2014
+328,Utah State,mwc,2014
+331,NotMajor,NotMajor,2014
+333,Alabama,sec,2014
+344,Mississippi State,sec,2014
+349,Army,independent,2014
+356,Illinois,big-ten,2014
+2000,NotMajor,NotMajor,2014
+2005,Air Force,mwc,2014
+2006,Akron,mac,2014
+2010,NotMajor,NotMajor,2014
+2016,NotMajor,NotMajor,2014
+2026,Appalachian State,sun-belt,2014
+2029,NotMajor,NotMajor,2014
+2032,Arkansas State,sun-belt,2014
+2046,NotMajor,NotMajor,2014
+2050,Ball State,mac,2014
+2065,NotMajor,NotMajor,2014
+2084,Buffalo,mac,2014
+2097,NotMajor,NotMajor,2014
+2110,NotMajor,NotMajor,2014
+2116,UCF,american,2014
+2117,Central Michigan,mac,2014
+2127,NotMajor,NotMajor,2014
+2132,Cincinnati,american,2014
+2142,NotMajor,NotMajor,2014
+2169,NotMajor,NotMajor,2014
+2184,NotMajor,NotMajor,2014
+2197,NotMajor,NotMajor,2014
+2198,NotMajor,NotMajor,2014
+2199,Eastern Michigan,mac,2014
+2210,NotMajor,NotMajor,2014
+2226,Florida Atlantic,cusa,2014
+2229,Florida International,cusa,2014
+2230,NotMajor,NotMajor,2014
+2241,NotMajor,NotMajor,2014
+2247,Georgia State,sun-belt,2014
+2261,NotMajor,NotMajor,2014
+2294,Iowa,big-ten,2014
+2305,Kansas,big-12,2014
+2306,Kansas State,big-12,2014
+2309,Kent State,mac,2014
+2320,NotMajor,NotMajor,2014
+2335,NotMajor,NotMajor,2014
+2348,Louisiana Tech,cusa,2014
+2377,NotMajor,NotMajor,2014
+2390,Miami (FL),acc,2014
+2393,Middle Tennessee State,cusa,2014
+2415,NotMajor,NotMajor,2014
+2426,Navy,independent,2014
+2428,NotMajor,NotMajor,2014
+2433,Louisiana-Monroe,sun-belt,2014
+2439,Nevada-Las Vegas,mwc,2014
+2440,Nevada,mwc,2014
+2447,NotMajor,NotMajor,2014
+2449,NotMajor,NotMajor,2014
+2450,NotMajor,NotMajor,2014
+2458,NotMajor,NotMajor,2014
+2459,Northern Illinois,mac,2014
+2460,NotMajor,NotMajor,2014
+2464,NotMajor,NotMajor,2014
+2466,NotMajor,NotMajor,2014
+2483,Oregon,pac-12,2014
+2502,NotMajor,NotMajor,2014
+2506,NotMajor,NotMajor,2014
+2509,Purdue,big-ten,2014
+2534,NotMajor,NotMajor,2014
+2535,NotMajor,NotMajor,2014
+2542,NotMajor,NotMajor,2014
+2545,NotMajor,NotMajor,2014
+2546,NotMajor,NotMajor,2014
+2567,SMU,american,2014
+2569,NotMajor,NotMajor,2014
+2571,NotMajor,NotMajor,2014
+2572,Southern Mississippi,cusa,2014
+2579,South Carolina,sec,2014
+2582,NotMajor,NotMajor,2014
+2617,NotMajor,NotMajor,2014
+2619,NotMajor,NotMajor,2014
+2623,NotMajor,NotMajor,2014
+2628,Texas Christian,big-12,2014
+2630,NotMajor,NotMajor,2014
+2633,Tennessee,sec,2014
+2636,UTSA,cusa,2014
+2638,UTEP,cusa,2014
+2641,Texas Tech,big-12,2014
+2643,NotMajor,NotMajor,2014
+2649,Toledo,mac,2014
+2653,Troy,sun-belt,2014
+2655,Tulane,american,2014
+2678,NotMajor,NotMajor,2014
+2681,NotMajor,NotMajor,2014
+2692,NotMajor,NotMajor,2014
+2710,NotMajor,NotMajor,2014
+2711,Western Michigan,mac,2014
+2717,NotMajor,NotMajor,2014
+2729,NotMajor,NotMajor,2014
+2747,NotMajor,NotMajor,2014
+2751,Wyoming,mwc,2014
+2754,NotMajor,NotMajor,2014
+2755,NotMajor,NotMajor,2014
+2,Auburn,sec,2015
+6,South Alabama,sun-belt,2015
+8,Arkansas,sec,2015
+9,Arizona State,pac-12,2015
+12,Arizona,pac-12,2015
+13,NotMajor,NotMajor,2015
+16,NotMajor,NotMajor,2015
+21,San Diego State,mwc,2015
+23,SJSU,mwc,2015
+24,Stanford,pac-12,2015
+25,California,pac-12,2015
+26,UCLA,pac-12,2015
+30,USC,pac-12,2015
+36,Colorado State,mwc,2015
+38,Colorado,pac-12,2015
+41,Connecticut,american,2015
+47,NotMajor,NotMajor,2015
+48,NotMajor,NotMajor,2015
+50,NotMajor,NotMajor,2015
+52,Florida State,acc,2015
+55,NotMajor,NotMajor,2015
+57,Florida,sec,2015
+58,South Florida,american,2015
+59,Georgia Tech,acc,2015
+61,Georgia,sec,2015
+62,Hawaii,mwc,2015
+66,Iowa State,big-12,2015
+68,Boise State,mwc,2015
+70,Idaho,sun-belt,2015
+77,Northwestern,big-ten,2015
+79,NotMajor,NotMajor,2015
+84,Indiana,big-ten,2015
+87,Notre Dame,independent,2015
+93,NotMajor,NotMajor,2015
+96,Kentucky,sec,2015
+97,Louisville,acc,2015
+98,Western Kentucky,cusa,2015
+99,LSU,sec,2015
+103,Boston College,acc,2015
+113,Massachusetts,mac,2015
+119,NotMajor,NotMajor,2015
+120,Maryland,big-ten,2015
+127,Michigan State,big-ten,2015
+130,Michigan,big-ten,2015
+135,Minnesota,big-ten,2015
+142,Missouri,sec,2015
+145,Ole Miss,sec,2015
+150,Duke,acc,2015
+151,East Carolina,american,2015
+152,North Carolina State,acc,2015
+153,North Carolina,acc,2015
+154,Wake Forest,acc,2015
+155,NotMajor,NotMajor,2015
+158,Nebraska,big-ten,2015
+160,NotMajor,NotMajor,2015
+164,Rutgers,big-ten,2015
+166,New Mexico State,sun-belt,2015
+167,New Mexico,mwc,2015
+183,Syracuse,acc,2015
+189,Bowling Green State,mac,2015
+193,Miami (OH),mac,2015
+194,Ohio State,big-ten,2015
+195,Ohio,mac,2015
+197,Oklahoma State,big-12,2015
+201,Oklahoma,big-12,2015
+202,Tulsa,american,2015
+204,Oregon State,pac-12,2015
+213,Penn State,big-ten,2015
+218,Temple,american,2015
+221,Pitt,acc,2015
+222,NotMajor,NotMajor,2015
+227,NotMajor,NotMajor,2015
+228,Clemson,acc,2015
+231,NotMajor,NotMajor,2015
+233,NotMajor,NotMajor,2015
+235,Memphis,american,2015
+236,NotMajor,NotMajor,2015
+238,Vanderbilt,sec,2015
+239,Baylor,big-12,2015
+242,Rice,cusa,2015
+245,Texas A&M,sec,2015
+248,Houston,american,2015
+249,North Texas,cusa,2015
+251,Texas,big-12,2015
+252,Brigham Young,independent,2015
+253,NotMajor,NotMajor,2015
+254,Utah,pac-12,2015
+256,NotMajor,NotMajor,2015
+257,NotMajor,NotMajor,2015
+258,Virginia,acc,2015
+259,Virginia Tech,acc,2015
+264,Washington,pac-12,2015
+265,Washington State,pac-12,2015
+275,Wisconsin,big-ten,2015
+276,Marshall,cusa,2015
+277,West Virginia,big-12,2015
+278,Fresno State,mwc,2015
+282,NotMajor,NotMajor,2015
+290,Georgia Southern,sun-belt,2015
+295,Old Dominion,cusa,2015
+301,NotMajor,NotMajor,2015
+302,NotMajor,NotMajor,2015
+304,NotMajor,NotMajor,2015
+309,Louisiana-Lafayette,sun-belt,2015
+311,NotMajor,NotMajor,2015
+326,Texas State,sun-belt,2015
+328,Utah State,mwc,2015
+331,NotMajor,NotMajor,2015
+333,Alabama,sec,2015
+344,Mississippi State,sec,2015
+349,Army,independent,2015
+356,Illinois,big-ten,2015
+399,NotMajor,NotMajor,2015
+2000,NotMajor,NotMajor,2015
+2005,Air Force,mwc,2015
+2006,Akron,mac,2015
+2010,NotMajor,NotMajor,2015
+2016,NotMajor,NotMajor,2015
+2026,Appalachian State,sun-belt,2015
+2032,Arkansas State,sun-belt,2015
+2046,NotMajor,NotMajor,2015
+2050,Ball State,mac,2015
+2065,NotMajor,NotMajor,2015
+2083,NotMajor,NotMajor,2015
+2084,Buffalo,mac,2015
+2110,NotMajor,NotMajor,2015
+2116,UCF,american,2015
+2117,Central Michigan,mac,2015
+2127,NotMajor,NotMajor,2015
+2132,Cincinnati,american,2015
+2142,NotMajor,NotMajor,2015
+2169,NotMajor,NotMajor,2015
+2197,NotMajor,NotMajor,2015
+2198,NotMajor,NotMajor,2015
+2199,Eastern Michigan,mac,2015
+2210,NotMajor,NotMajor,2015
+2226,Florida Atlantic,cusa,2015
+2229,Florida International,cusa,2015
+2230,NotMajor,NotMajor,2015
+2241,NotMajor,NotMajor,2015
+2247,Georgia State,sun-belt,2015
+2287,NotMajor,NotMajor,2015
+2294,Iowa,big-ten,2015
+2296,NotMajor,NotMajor,2015
+2305,Kansas,big-12,2015
+2306,Kansas State,big-12,2015
+2309,Kent State,mac,2015
+2320,NotMajor,NotMajor,2015
+2335,NotMajor,NotMajor,2015
+2348,Louisiana Tech,cusa,2015
+2390,Miami (FL),acc,2015
+2393,Middle Tennessee State,cusa,2015
+2400,NotMajor,NotMajor,2015
+2405,NotMajor,NotMajor,2015
+2415,NotMajor,NotMajor,2015
+2426,Navy,american,2015
+2428,NotMajor,NotMajor,2015
+2429,Charlotte,cusa,2015
+2433,Louisiana-Monroe,sun-belt,2015
+2439,Nevada-Las Vegas,mwc,2015
+2440,Nevada,mwc,2015
+2447,NotMajor,NotMajor,2015
+2448,NotMajor,NotMajor,2015
+2450,NotMajor,NotMajor,2015
+2459,Northern Illinois,mac,2015
+2460,NotMajor,NotMajor,2015
+2464,NotMajor,NotMajor,2015
+2466,NotMajor,NotMajor,2015
+2483,Oregon,pac-12,2015
+2502,NotMajor,NotMajor,2015
+2504,NotMajor,NotMajor,2015
+2506,NotMajor,NotMajor,2015
+2509,Purdue,big-ten,2015
+2534,NotMajor,NotMajor,2015
+2535,NotMajor,NotMajor,2015
+2542,NotMajor,NotMajor,2015
+2545,NotMajor,NotMajor,2015
+2546,NotMajor,NotMajor,2015
+2567,SMU,american,2015
+2571,NotMajor,NotMajor,2015
+2572,Southern Mississippi,cusa,2015
+2579,South Carolina,sec,2015
+2582,NotMajor,NotMajor,2015
+2617,NotMajor,NotMajor,2015
+2623,NotMajor,NotMajor,2015
+2628,Texas Christian,big-12,2015
+2630,NotMajor,NotMajor,2015
+2633,Tennessee,sec,2015
+2635,NotMajor,NotMajor,2015
+2636,UTSA,cusa,2015
+2638,UTEP,cusa,2015
+2641,Texas Tech,big-12,2015
+2643,NotMajor,NotMajor,2015
+2649,Toledo,mac,2015
+2653,Troy,sun-belt,2015
+2655,Tulane,american,2015
+2678,NotMajor,NotMajor,2015
+2681,NotMajor,NotMajor,2015
+2692,NotMajor,NotMajor,2015
+2710,NotMajor,NotMajor,2015
+2711,Western Michigan,mac,2015
+2717,NotMajor,NotMajor,2015
+2729,NotMajor,NotMajor,2015
+2747,NotMajor,NotMajor,2015
+2751,Wyoming,mwc,2015
+2754,NotMajor,NotMajor,2015
+2755,NotMajor,NotMajor,2015
+2916,NotMajor,NotMajor,2015
+2,Auburn,sec,2016
+6,South Alabama,sun-belt,2016
+8,Arkansas,sec,2016
+9,Arizona State,pac-12,2016
+12,Arizona,pac-12,2016
+13,NotMajor,NotMajor,2016
+16,NotMajor,NotMajor,2016
+21,San Diego State,mwc,2016
+23,SJSU,mwc,2016
+24,Stanford,pac-12,2016
+25,California,pac-12,2016
+26,UCLA,pac-12,2016
+30,USC,pac-12,2016
+36,Colorado State,mwc,2016
+38,Colorado,pac-12,2016
+41,Connecticut,american,2016
+47,NotMajor,NotMajor,2016
+48,NotMajor,NotMajor,2016
+50,NotMajor,NotMajor,2016
+52,Florida State,acc,2016
+55,NotMajor,NotMajor,2016
+57,Florida,sec,2016
+58,South Florida,american,2016
+59,Georgia Tech,acc,2016
+61,Georgia,sec,2016
+62,Hawaii,mwc,2016
+66,Iowa State,big-12,2016
+68,Boise State,mwc,2016
+70,Idaho,sun-belt,2016
+77,Northwestern,big-ten,2016
+79,NotMajor,NotMajor,2016
+84,Indiana,big-ten,2016
+87,Notre Dame,independent,2016
+93,NotMajor,NotMajor,2016
+96,Kentucky,sec,2016
+97,Louisville,acc,2016
+98,Western Kentucky,cusa,2016
+99,LSU,sec,2016
+103,Boston College,acc,2016
+113,Massachusetts,independent,2016
+119,NotMajor,NotMajor,2016
+120,Maryland,big-ten,2016
+127,Michigan State,big-ten,2016
+130,Michigan,big-ten,2016
+135,Minnesota,big-ten,2016
+142,Missouri,sec,2016
+145,Ole Miss,sec,2016
+147,NotMajor,NotMajor,2016
+150,Duke,acc,2016
+151,East Carolina,american,2016
+152,North Carolina State,acc,2016
+153,North Carolina,acc,2016
+154,Wake Forest,acc,2016
+155,NotMajor,NotMajor,2016
+158,Nebraska,big-ten,2016
+160,NotMajor,NotMajor,2016
+164,Rutgers,big-ten,2016
+166,New Mexico State,sun-belt,2016
+167,New Mexico,mwc,2016
+183,Syracuse,acc,2016
+189,Bowling Green State,mac,2016
+193,Miami (OH),mac,2016
+194,Ohio State,big-ten,2016
+195,Ohio,mac,2016
+197,Oklahoma State,big-12,2016
+201,Oklahoma,big-12,2016
+202,Tulsa,american,2016
+204,Oregon State,pac-12,2016
+213,Penn State,big-ten,2016
+218,Temple,american,2016
+221,Pitt,acc,2016
+222,NotMajor,NotMajor,2016
+227,NotMajor,NotMajor,2016
+228,Clemson,acc,2016
+231,NotMajor,NotMajor,2016
+233,NotMajor,NotMajor,2016
+235,Memphis,american,2016
+236,NotMajor,NotMajor,2016
+238,Vanderbilt,sec,2016
+239,Baylor,big-12,2016
+242,Rice,cusa,2016
+245,Texas A&M,sec,2016
+248,Houston,american,2016
+249,North Texas,cusa,2016
+251,Texas,big-12,2016
+252,Brigham Young,independent,2016
+253,NotMajor,NotMajor,2016
+254,Utah,pac-12,2016
+256,NotMajor,NotMajor,2016
+257,NotMajor,NotMajor,2016
+258,Virginia,acc,2016
+259,Virginia Tech,acc,2016
+264,Washington,pac-12,2016
+265,Washington State,pac-12,2016
+275,Wisconsin,big-ten,2016
+276,Marshall,cusa,2016
+277,West Virginia,big-12,2016
+278,Fresno State,mwc,2016
+282,NotMajor,NotMajor,2016
+290,Georgia Southern,sun-belt,2016
+295,Old Dominion,cusa,2016
+302,NotMajor,NotMajor,2016
+304,NotMajor,NotMajor,2016
+309,Louisiana-Lafayette,sun-belt,2016
+311,NotMajor,NotMajor,2016
+322,NotMajor,NotMajor,2016
+326,Texas State,sun-belt,2016
+328,Utah State,mwc,2016
+331,NotMajor,NotMajor,2016
+333,Alabama,sec,2016
+344,Mississippi State,sec,2016
+349,Army,independent,2016
+356,Illinois,big-ten,2016
+399,NotMajor,NotMajor,2016
+2000,NotMajor,NotMajor,2016
+2005,Air Force,mwc,2016
+2006,Akron,mac,2016
+2010,NotMajor,NotMajor,2016
+2011,NotMajor,NotMajor,2016
+2016,NotMajor,NotMajor,2016
+2026,Appalachian State,sun-belt,2016
+2032,Arkansas State,sun-belt,2016
+2046,NotMajor,NotMajor,2016
+2050,Ball State,mac,2016
+2065,NotMajor,NotMajor,2016
+2084,Buffalo,mac,2016
+2110,NotMajor,NotMajor,2016
+2116,UCF,american,2016
+2117,Central Michigan,mac,2016
+2127,NotMajor,NotMajor,2016
+2132,Cincinnati,american,2016
+2142,NotMajor,NotMajor,2016
+2169,NotMajor,NotMajor,2016
+2197,NotMajor,NotMajor,2016
+2198,NotMajor,NotMajor,2016
+2199,Eastern Michigan,mac,2016
+2210,NotMajor,NotMajor,2016
+2226,Florida Atlantic,cusa,2016
+2229,Florida International,cusa,2016
+2230,NotMajor,NotMajor,2016
+2241,NotMajor,NotMajor,2016
+2247,Georgia State,sun-belt,2016
+2261,NotMajor,NotMajor,2016
+2277,NotMajor,NotMajor,2016
+2287,NotMajor,NotMajor,2016
+2294,Iowa,big-ten,2016
+2296,NotMajor,NotMajor,2016
+2305,Kansas,big-12,2016
+2306,Kansas State,big-12,2016
+2309,Kent State,mac,2016
+2320,NotMajor,NotMajor,2016
+2335,NotMajor,NotMajor,2016
+2348,Louisiana Tech,cusa,2016
+2377,NotMajor,NotMajor,2016
+2382,NotMajor,NotMajor,2016
+2390,Miami (FL),acc,2016
+2393,Middle Tennessee State,cusa,2016
+2400,NotMajor,NotMajor,2016
+2405,NotMajor,NotMajor,2016
+2415,NotMajor,NotMajor,2016
+2426,Navy,american,2016
+2428,NotMajor,NotMajor,2016
+2429,Charlotte,cusa,2016
+2433,Louisiana-Monroe,sun-belt,2016
+2439,Nevada-Las Vegas,mwc,2016
+2440,Nevada,mwc,2016
+2447,NotMajor,NotMajor,2016
+2448,NotMajor,NotMajor,2016
+2449,NotMajor,NotMajor,2016
+2458,NotMajor,NotMajor,2016
+2459,Northern Illinois,mac,2016
+2460,NotMajor,NotMajor,2016
+2464,NotMajor,NotMajor,2016
+2466,NotMajor,NotMajor,2016
+2483,Oregon,pac-12,2016
+2502,NotMajor,NotMajor,2016
+2504,NotMajor,NotMajor,2016
+2506,NotMajor,NotMajor,2016
+2509,Purdue,big-ten,2016
+2535,NotMajor,NotMajor,2016
+2542,NotMajor,NotMajor,2016
+2545,NotMajor,NotMajor,2016
+2546,NotMajor,NotMajor,2016
+2567,SMU,american,2016
+2569,NotMajor,NotMajor,2016
+2571,NotMajor,NotMajor,2016
+2572,Southern Mississippi,cusa,2016
+2579,South Carolina,sec,2016
+2582,NotMajor,NotMajor,2016
+2617,NotMajor,NotMajor,2016
+2619,NotMajor,NotMajor,2016
+2623,NotMajor,NotMajor,2016
+2628,Texas Christian,big-12,2016
+2630,NotMajor,NotMajor,2016
+2633,Tennessee,sec,2016
+2634,NotMajor,NotMajor,2016
+2635,NotMajor,NotMajor,2016
+2636,UTSA,cusa,2016
+2638,UTEP,cusa,2016
+2641,Texas Tech,big-12,2016
+2643,NotMajor,NotMajor,2016
+2649,Toledo,mac,2016
+2653,Troy,sun-belt,2016
+2655,Tulane,american,2016
+2678,NotMajor,NotMajor,2016
+2681,NotMajor,NotMajor,2016
+2692,NotMajor,NotMajor,2016
+2710,NotMajor,NotMajor,2016
+2711,Western Michigan,mac,2016
+2717,NotMajor,NotMajor,2016
+2729,NotMajor,NotMajor,2016
+2747,NotMajor,NotMajor,2016
+2751,Wyoming,mwc,2016
+2754,NotMajor,NotMajor,2016
+2755,NotMajor,NotMajor,2016
+2916,NotMajor,NotMajor,2016
+2,Auburn,sec,2017
+5,UAB,cusa,2017
+6,South Alabama,sun-belt,2017
+8,Arkansas,sec,2017
+9,Arizona State,pac-12,2017
+12,Arizona,pac-12,2017
+13,NotMajor,NotMajor,2017
+16,NotMajor,NotMajor,2017
+21,San Diego State,mwc,2017
+23,SJSU,mwc,2017
+24,Stanford,pac-12,2017
+25,California,pac-12,2017
+26,UCLA,pac-12,2017
+30,USC,pac-12,2017
+36,Colorado State,mwc,2017
+38,Colorado,pac-12,2017
+41,Connecticut,american,2017
+47,NotMajor,NotMajor,2017
+48,NotMajor,NotMajor,2017
+50,NotMajor,NotMajor,2017
+52,Florida State,acc,2017
+55,NotMajor,NotMajor,2017
+57,Florida,sec,2017
+58,South Florida,american,2017
+59,Georgia Tech,acc,2017
+61,Georgia,sec,2017
+62,Hawaii,mwc,2017
+66,Iowa State,big-12,2017
+68,Boise State,mwc,2017
+70,Idaho,sun-belt,2017
+77,Northwestern,big-ten,2017
+79,NotMajor,NotMajor,2017
+84,Indiana,big-ten,2017
+87,Notre Dame,independent,2017
+93,NotMajor,NotMajor,2017
+96,Kentucky,sec,2017
+97,Louisville,acc,2017
+98,Western Kentucky,cusa,2017
+99,LSU,sec,2017
+103,Boston College,acc,2017
+107,NotMajor,NotMajor,2017
+113,Massachusetts,independent,2017
+119,NotMajor,NotMajor,2017
+120,Maryland,big-ten,2017
+127,Michigan State,big-ten,2017
+130,Michigan,big-ten,2017
+135,Minnesota,big-ten,2017
+142,Missouri,sec,2017
+145,Ole Miss,sec,2017
+147,NotMajor,NotMajor,2017
+149,NotMajor,NotMajor,2017
+150,Duke,acc,2017
+151,East Carolina,american,2017
+152,North Carolina State,acc,2017
+153,North Carolina,acc,2017
+154,Wake Forest,acc,2017
+155,NotMajor,NotMajor,2017
+158,Nebraska,big-ten,2017
+160,NotMajor,NotMajor,2017
+164,Rutgers,big-ten,2017
+166,New Mexico State,sun-belt,2017
+167,New Mexico,mwc,2017
+183,Syracuse,acc,2017
+189,Bowling Green State,mac,2017
+193,Miami (OH),mac,2017
+194,Ohio State,big-ten,2017
+195,Ohio,mac,2017
+197,Oklahoma State,big-12,2017
+201,Oklahoma,big-12,2017
+202,Tulsa,american,2017
+204,Oregon State,pac-12,2017
+213,Penn State,big-ten,2017
+218,Temple,american,2017
+221,Pitt,acc,2017
+222,NotMajor,NotMajor,2017
+227,NotMajor,NotMajor,2017
+228,Clemson,acc,2017
+231,NotMajor,NotMajor,2017
+233,NotMajor,NotMajor,2017
+235,Memphis,american,2017
+236,NotMajor,NotMajor,2017
+238,Vanderbilt,sec,2017
+239,Baylor,big-12,2017
+242,Rice,cusa,2017
+245,Texas A&M,sec,2017
+248,Houston,american,2017
+249,North Texas,cusa,2017
+251,Texas,big-12,2017
+252,Brigham Young,independent,2017
+253,NotMajor,NotMajor,2017
+254,Utah,pac-12,2017
+256,NotMajor,NotMajor,2017
+258,Virginia,acc,2017
+259,Virginia Tech,acc,2017
+264,Washington,pac-12,2017
+265,Washington State,pac-12,2017
+275,Wisconsin,big-ten,2017
+276,Marshall,cusa,2017
+277,West Virginia,big-12,2017
+278,Fresno State,mwc,2017
+282,NotMajor,NotMajor,2017
+290,Georgia Southern,sun-belt,2017
+295,Old Dominion,cusa,2017
+302,NotMajor,NotMajor,2017
+304,NotMajor,NotMajor,2017
+309,Louisiana-Lafayette,sun-belt,2017
+324,Coastal Carolina,sun-belt,2017
+326,Texas State,sun-belt,2017
+328,Utah State,mwc,2017
+331,NotMajor,NotMajor,2017
+333,Alabama,sec,2017
+344,Mississippi State,sec,2017
+349,Army,independent,2017
+356,Illinois,big-ten,2017
+399,NotMajor,NotMajor,2017
+2000,NotMajor,NotMajor,2017
+2005,Air Force,mwc,2017
+2006,Akron,mac,2017
+2010,NotMajor,NotMajor,2017
+2011,NotMajor,NotMajor,2017
+2016,NotMajor,NotMajor,2017
+2026,Appalachian State,sun-belt,2017
+2029,NotMajor,NotMajor,2017
+2032,Arkansas State,sun-belt,2017
+2046,NotMajor,NotMajor,2017
+2050,Ball State,mac,2017
+2065,NotMajor,NotMajor,2017
+2084,Buffalo,mac,2017
+2110,NotMajor,NotMajor,2017
+2115,NotMajor,NotMajor,2017
+2116,UCF,american,2017
+2117,Central Michigan,mac,2017
+2127,NotMajor,NotMajor,2017
+2132,Cincinnati,american,2017
+2142,NotMajor,NotMajor,2017
+2169,NotMajor,NotMajor,2017
+2197,NotMajor,NotMajor,2017
+2198,NotMajor,NotMajor,2017
+2199,Eastern Michigan,mac,2017
+2210,NotMajor,NotMajor,2017
+2226,Florida Atlantic,cusa,2017
+2229,Florida International,cusa,2017
+2230,NotMajor,NotMajor,2017
+2241,NotMajor,NotMajor,2017
+2247,Georgia State,sun-belt,2017
+2261,NotMajor,NotMajor,2017
+2277,NotMajor,NotMajor,2017
+2294,Iowa,big-ten,2017
+2296,NotMajor,NotMajor,2017
+2305,Kansas,big-12,2017
+2306,Kansas State,big-12,2017
+2309,Kent State,mac,2017
+2320,NotMajor,NotMajor,2017
+2335,NotMajor,NotMajor,2017
+2348,Louisiana Tech,cusa,2017
+2382,NotMajor,NotMajor,2017
+2390,Miami (FL),acc,2017
+2393,Middle Tennessee State,cusa,2017
+2415,NotMajor,NotMajor,2017
+2426,Navy,american,2017
+2428,NotMajor,NotMajor,2017
+2429,Charlotte,cusa,2017
+2433,Louisiana-Monroe,sun-belt,2017
+2439,Nevada-Las Vegas,mwc,2017
+2440,Nevada,mwc,2017
+2447,NotMajor,NotMajor,2017
+2448,NotMajor,NotMajor,2017
+2458,NotMajor,NotMajor,2017
+2459,Northern Illinois,mac,2017
+2460,NotMajor,NotMajor,2017
+2464,NotMajor,NotMajor,2017
+2466,NotMajor,NotMajor,2017
+2483,Oregon,pac-12,2017
+2502,NotMajor,NotMajor,2017
+2506,NotMajor,NotMajor,2017
+2509,Purdue,big-ten,2017
+2535,NotMajor,NotMajor,2017
+2542,NotMajor,NotMajor,2017
+2545,NotMajor,NotMajor,2017
+2546,NotMajor,NotMajor,2017
+2567,SMU,american,2017
+2572,Southern Mississippi,cusa,2017
+2579,South Carolina,sec,2017
+2582,NotMajor,NotMajor,2017
+2617,NotMajor,NotMajor,2017
+2619,NotMajor,NotMajor,2017
+2623,NotMajor,NotMajor,2017
+2628,Texas Christian,big-12,2017
+2630,NotMajor,NotMajor,2017
+2633,Tennessee,sec,2017
+2634,NotMajor,NotMajor,2017
+2635,NotMajor,NotMajor,2017
+2636,UTSA,cusa,2017
+2638,UTEP,cusa,2017
+2641,Texas Tech,big-12,2017
+2649,Toledo,mac,2017
+2653,Troy,sun-belt,2017
+2655,Tulane,american,2017
+2678,NotMajor,NotMajor,2017
+2681,NotMajor,NotMajor,2017
+2692,NotMajor,NotMajor,2017
+2710,NotMajor,NotMajor,2017
+2711,Western Michigan,mac,2017
+2717,NotMajor,NotMajor,2017
+2729,NotMajor,NotMajor,2017
+2751,Wyoming,mwc,2017
+2754,NotMajor,NotMajor,2017
+2755,NotMajor,NotMajor,2017
+2916,NotMajor,NotMajor,2017
