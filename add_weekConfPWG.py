@@ -31,43 +31,6 @@ def fix_week(year): #Fix the week column in allscores_201X data
     scores_clean = pd.merge(scores_data, sched[['WeekDate','Week']], on='WeekDate',how='left') #Merge df's to get proper Week
     
     return scores_clean
-    
-#######################################################################################
-   
-conferences = ['SunBelt','SEC','PAC12','MountainWest','MidAmerican','Independent','ConferenceUSA','Big10','Big12','AAC','ACC'] #FBS confs
-teams_info = pd.read_csv('data/cfbTeams.csv', encoding='latin-1').fillna('NotMe')[['id','SportsRefName','SportsRefAlt']] #TeamName and id
-teams_info['Team'] = teams_info.apply(lambda x: x['SportsRefName'] if x['SportsRefAlt']=='NotMe' else x['SportsRefAlt'], axis=1) #Fix inconsistincies btwn SportsRefName and SportsRefAlt
-teams_info.drop(['SportsRefName','SportsRefAlt'],axis=1,inplace=True) #Drop bad cols
-
-def find_Conference(teams, conferences, ind): #Find conf for given team
-    game = pd.Series(['',''],index=ind) #Array to return
-    
-    for i, team in enumerate(teams): #Iterate through Home, Vis
-        pos = 'Home' if i ==0 else 'Vis'
-        conf = conferences.loc[conferences['id']==team,'Conference'] #Find matching conf using ID
-        if conf.shape[0] == 0: #If conf not found. notMajor team
-            game['{}Conf'.format(pos)] = 'NotD1'
-        else:
-            game['{}Conf'.format(pos)] = conf.values[0]
-    return game
-
-def add_conference(year, scores, conferences, teams_info): #Add Conference info for allscores
-    teams_list = [0 for x in range(len(conferences))] #unique list of teams
-
-    for i,conf in enumerate(conferences): #connect team and conference for given year
-        conf_team = pd.read_csv('data/conferences/{}_{}.csv'.format(conf,year),header=1).iloc[:,0] #conference data
-        teams_list[i] = pd.DataFrame({'Conference':[conf for x in range(conf_team.shape[0])],'Team':conf_team}) #Apply conference to teams
-    teams = pd.concat(teams_list).reset_index(drop=True) #to dataFrame
-    
-    teams.loc[teams['Team']=='San Jose State','Team'] = 'SJSU' #Fix special case
-    
-    teams_conf = pd.merge(teams, teams_info, on='Team',how='left') #Join team and conf data
-    
-    ind = ['HomeConf','VisConf']
-    scores = scores.assign(HomeConf=0,VisConf=0)
-    scores[ind] = scores.apply(lambda x: find_Conference((x['HomeID'],x['VisID']), teams_conf, ind), axis=1) #Add conf to allScores
-    scores = scores.join(pd.get_dummies(scores[ind]))
-    return scores
 
 #######################################################################################
 
