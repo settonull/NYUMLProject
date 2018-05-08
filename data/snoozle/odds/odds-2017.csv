@@ -1,0 +1,804 @@
+Date, Vis Team, Home Team, Vis Spread, Home Spread, Over Under
+2017-08-26, Oregon State, Colorado State, +3.5, -3.5, +61.0
+2017-08-26, Hawaii, UMass, +3.0, -3.0, +61.5
+2017-08-26, USF, San Jose State, -21.0, +21.0, +70.0
+2017-08-26, Rice, Stanford, +29.5, -29.5, +50.5
+2017-08-31, OSU, Indiana, -20.5, +20.5, +56.5
+2017-08-31, Buffalo, Minnesota, +23.0, -23.0, +50.0
+2017-08-31, UL Monroe, Memphis, +26.5, -26.5, +62.5
+2017-08-31, New Mexico St, Arizona State, +24.0, -24.0, +69.5
+2017-08-31, FIU, UCF, +17.0, -17.0, +56.5
+2017-08-31, Tulsa, Oklahoma State, +18.5, -18.5, +70.5
+2017-08-31, Presbyterian, Wake Forest, +43.0, -43.0, +0.0
+2017-08-31, Austin Peay, Cincinnati, +42.0, -42.0, +0.0
+2017-08-31, Elon, Toledo, +44.5, -44.5, +0.0
+2017-08-31, Holy Cross, UConn, +22.5, -22.5, +0.0
+2017-08-31, North Dakota, Utah, +20.5, -20.5, +0.0
+2017-08-31, Florida A&M, Arkansas, +47.0, -47.0, +0.0
+2017-08-31, Sacramento St, Idaho, +22.5, -22.5, +0.0
+2017-09-01, Charlotte, E Michigan, +14.0, -14.0, +58.5
+2017-09-01, Washington, Rutgers, -27.5, +27.5, +53.5
+2017-09-01, Navy, FAU, -9.5, +9.5, +65.5
+2017-09-01, Utah State, Wisconsin, +27.0, -27.0, +52.5
+2017-09-01, Boston College, N Illinois, -3.5, +3.5, +47.5
+2017-09-01, Colorado State, Colorado, +3.0, -3.0, +68.5
+2017-09-02, Houston, UTSA, -11.0, +11.0, +51.5
+2017-09-02, Bowling Green, Michigan State, +18.0, -18.0, +56.0
+2017-09-02, Wyoming, Iowa, +12.5, -12.5, +53.0
+2017-09-02, Miami (OH), Marshall, -4.0, +4.0, +48.5
+2017-09-02, Kent State, Clemson, +38.0, -38.0, +52.5
+2017-09-02, Akron, Penn State, +30.0, -30.0, +64.0
+2017-09-02, Louisville, Purdue, -25.0, +25.0, +67.5
+2017-09-02, Arkansas State, Nebraska, +14.0, -14.0, +49.5
+2017-09-02, Nevada, Northwestern, +24.0, -24.0, +60.5
+2017-09-02, Ball State, Illinois, +6.0, -6.0, +55.0
+2017-09-02, UTEP, Oklahoma, +43.5, -43.5, +63.0
+2017-09-02, Cal, UNC, +12.5, -12.5, +59.0
+2017-09-02, South Alabama, Ole Miss, +21.5, -21.5, +59.0
+2017-09-02, W Michigan, USC, +27.5, -27.5, +59.0
+2017-09-02, BYU, LSU, +13.5, -13.5, +47.5
+2017-09-02, Maryland, Texas, +17.5, -17.5, +56.5
+2017-09-02, Temple, Notre Dame, +19.0, -19.0, +56.0
+2017-09-02, Ga Southern, Auburn, +34.0, -34.0, +59.0
+2017-09-02, Appalachian St, Georgia, +12.5, -12.5, +46.5
+2017-09-02, Kentucky, Southern Miss, -9.5, +9.5, +57.5
+2017-09-02, South Carolina, North Carolina St, +7.0, -7.0, +51.0
+2017-09-02, Michigan, Florida, -4.5, +4.5, +45.5
+2017-09-02, Vanderbilt, Mid Tennessee, -3.0, +3.0, +57.5
+2017-09-02, FSU, Alabama, +7.0, -7.0, +51.0
+2017-09-02, Troy, Boise State, +10.0, -10.0, +59.5
+2017-09-02, UMass, Coastal Carolina, -2.0, +2.0, +56.5
+2017-09-03, West Virginia, VT, +4.5, -4.5, +54.0
+2017-09-03, Texas A&M, UCLA, +6.0, -6.0, +60.5
+2017-09-04, Tennessee, Georgia Tech, -4.0, +4.0, +54.5
+2017-09-08, Memphis, UCF, +3.0, -3.0, +68.5
+2017-09-08, Ohio, Purdue, +3.0, -3.0, +55.0
+2017-09-08, Oklahoma State, South Alabama, -28.0, +28.0, +67.5
+2017-09-08, Alcorn State, FIU, +19.0, -19.0, +0.0
+2017-09-09, Memphis, UCF, +3.0, -3.0, +0.0
+2017-09-09, USF, UConn, -17.0, +17.0, +66.0
+2017-09-09, UL Monroe, FSU, +34.0, -34.0, +53.0
+2017-09-09, Cent Michigan, Kansas, +3.5, -3.5, +57.0
+2017-09-09, Nebraska, Oregon, +10.5, -10.5, +69.0
+2017-09-09, FAU, Wisconsin, +34.0, -34.0, +59.0
+2017-09-09, Buffalo, Army, +15.0, -15.0, +54.0
+2017-09-09, W Michigan, Michigan State, +7.0, -7.0, +51.5
+2017-09-09, E Michigan, Rutgers, +5.0, -5.0, +51.5
+2017-09-09, Old Dominion, UMass, -3.5, +3.5, +60.5
+2017-09-09, Northwestern, Duke, -2.0, +2.0, +54.5
+2017-09-09, Cincinnati, Michigan, +32.5, -32.5, +51.5
+2017-09-09, Charlotte, Kansas State, +34.5, -34.5, +55.5
+2017-09-09, Iowa, Iowa State, -3.0, +3.0, +48.5
+2017-09-09, Wake Forest, Boston College, -0.0, +0.0, +46.5
+2017-09-09, New Mexico St, New Mexico, +6.5, -6.5, +71.5
+2017-09-09, Rice, UTEP, +1.5, -1.5, +55.5
+2017-09-09, Texas State, Colorado, +36.5, -36.5, +57.0
+2017-09-09, UAB, Ball State, +14.0, -14.0, +54.0
+2017-09-09, Mid Tennessee, Syracuse, +8.0, -8.0, +0.0
+2017-09-09, Indiana, UVA, -3.5, +3.5, +56.5
+2017-09-09, Pitt, Penn State, +19.5, -19.5, +63.5
+2017-09-09, Fresno State, Alabama, +42.5, -42.5, +53.5
+2017-09-09, Tulane, Navy, +9.5, -9.5, +48.5
+2017-09-09, W Kentucky, Illinois, -7.0, +7.0, +51.5
+2017-09-09, UTSA, Baylor, +12.5, -12.5, +58.5
+2017-09-09, San Jose State, Texas, +25.0, -25.0, +61.5
+2017-09-09, TCU, Arkansas, -3.0, +3.0, +58.5
+2017-09-09, LA-Lafayette, Tulsa, +13.5, -13.5, +59.0
+2017-09-09, Marshall, North Carolina St, +22.5, -22.5, +55.5
+2017-09-09, Toledo, Nevada, -10.0, +10.0, +68.5
+2017-09-09, South Carolina, Missouri, +3.0, -3.0, +71.0
+2017-09-09, North Texas, SMU, +13.5, -13.5, +63.5
+2017-09-09, Auburn, Clemson, +4.5, -4.5, +55.5
+2017-09-09, Miss St, LA Tech, -10.0, +10.0, +67.5
+2017-09-09, Oklahoma, OSU, +7.0, -7.0, +64.5
+2017-09-09, UNLV, Idaho, +6.0, -6.0, +70.0
+2017-09-09, Minnesota, Oregon State, +3.0, -3.0, +51.0
+2017-09-09, San Diego State, Arizona State, +3.0, -3.0, +54.0
+2017-09-09, Utah, BYU, -4.0, +4.0, +45.5
+2017-09-09, Houston, Arizona, -1.0, +1.0, +66.5
+2017-09-09, Boise State, Washington St, +7.5, -7.5, +58.0
+2017-09-09, Stanford, USC, +5.0, -5.0, +55.0
+2017-09-09, Miami (FL), Arkansas State, -14.5, +14.5, +55.5
+2017-09-09, Louisville, UNC, -10.0, +10.0, +63.0
+2017-09-09, ECU, West Virginia, +25.0, -25.0, +65.5
+2017-09-09, Hawaii, UCLA, +24.0, -24.0, +64.0
+2017-09-09, Georgia, Notre Dame, +6.0, -6.0, +58.0
+2017-09-14, New Mexico, Boise State, +15.5, -15.5, +57.0
+2017-09-15, UMass, Temple, +14.5, -14.5, +53.0
+2017-09-15, Illinois, USF, +17.0, -17.0, +55.5
+2017-09-15, Arizona, UTEP, -24.5, +24.5, +58.5
+2017-09-16, Georgia Tech, UCF, -2.0, +2.0, +0.0
+2017-09-16, Kentucky, South Carolina, +6.5, -6.5, +48.0
+2017-09-16, Kent State, Marshall, +14.0, -14.0, +51.0
+2017-09-16, Notre Dame, Boston College, -13.5, +13.5, +51.5
+2017-09-16, UConn, UVA, +10.5, -10.5, +51.0
+2017-09-16, Air Force, Michigan, +22.5, -22.5, +51.5
+2017-09-16, Coastal Carolina, UAB, +2.0, -2.0, +52.5
+2017-09-16, Cincinnati, Miami (OH), +3.5, -3.5, +49.0
+2017-09-16, Georgia State, Penn State, +37.5, -37.5, +55.0
+2017-09-16, Iowa State, Akron, -10.0, +10.0, +63.0
+2017-09-16, Oklahoma State, Pitt, -10.5, +10.5, +66.0
+2017-09-16, Mid Tennessee, Minnesota, +10.0, -10.0, +53.0
+2017-09-16, FIU, Indiana, +25.0, -25.0, +0.0
+2017-09-16, UCLA, Memphis, -3.0, +3.0, +72.0
+2017-09-16, N Illinois, Nebraska, +11.0, -11.0, +56.5
+2017-09-16, Baylor, Duke, +12.5, -12.5, +59.0
+2017-09-16, Kansas, Ohio, +7.5, -7.5, +58.5
+2017-09-16, Utah State, Wake Forest, +14.0, -14.0, +51.5
+2017-09-16, Clemson, Louisville, -3.0, +3.0, +60.5
+2017-09-16, Cent Michigan, Syracuse, +7.0, -7.0, +67.5
+2017-09-16, VT, ECU, -25.5, +25.5, +60.0
+2017-09-16, Wisconsin, BYU, -14.0, +14.0, +42.0
+2017-09-16, Purdue, Missouri, +6.0, -6.0, +76.0
+2017-09-16, North Texas, Iowa, +19.5, -19.5, +52.5
+2017-09-16, LA-Lafayette, Texas A&M, +23.0, -23.0, +63.0
+2017-09-16, Bowling Green, Northwestern, +21.0, -21.0, +56.0
+2017-09-16, Tulane, Oklahoma, +32.5, -32.5, +54.5
+2017-09-16, Tennessee, Florida, +5.5, -5.5, +49.5
+2017-09-16, SMU, TCU, +22.0, -22.0, +64.0
+2017-09-16, LA Tech, W Kentucky, +4.5, -4.5, +62.0
+2017-09-16, Army, OSU, +31.0, -31.0, +54.0
+2017-09-16, Oregon State, Washington St, +20.0, -20.0, +65.5
+2017-09-16, Appalachian St, Texas State, -22.0, +22.0, +48.5
+2017-09-16, Colorado State, Alabama, +30.5, -30.5, +55.5
+2017-09-16, Tulsa, Toledo, +7.0, -7.0, +74.0
+2017-09-16, Idaho, W Michigan, +17.5, -17.5, +55.0
+2017-09-16, Southern Miss, UL Monroe, -6.5, +6.5, +55.5
+2017-09-16, Oregon, Wyoming, -14.0, +14.0, +63.5
+2017-09-16, LSU, Miss St, -7.0, +7.0, +53.0
+2017-09-16, Kansas State, Vanderbilt, -5.0, +5.0, +49.0
+2017-09-16, Rice, Houston, +22.5, -22.5, +54.0
+2017-09-16, Troy, New Mexico St, -8.5, +8.5, +60.5
+2017-09-16, Texas, USC, +17.0, -17.0, +66.5
+2017-09-16, San Jose State, Utah, +27.0, -27.0, +59.0
+2017-09-16, Fresno State, Washington, +33.5, -33.5, +56.5
+2017-09-16, Ole Miss, Cal, -6.5, +6.5, +68.5
+2017-09-16, Stanford, San Diego State, -8.5, +8.5, +47.5
+2017-09-16, Arizona State, Texas Tech, +6.5, -6.5, +75.5
+2017-09-16, UNC, Old Dominion, -10.5, +10.5, +55.0
+2017-09-21, Temple, USF, +17.5, -17.5, +62.0
+2017-09-22, Utah, Arizona, -4.0, +4.0, +60.5
+2017-09-22, UVA, Boise State, +13.0, -13.0, +49.0
+2017-09-23, Wake Forest, Appalachian St, -5.5, +5.5, +48.5
+2017-09-23, Duke, UNC, +1.5, -1.5, +61.0
+2017-09-23, Michigan, Purdue, -11.5, +11.5, +51.5
+2017-09-23, Pitt, Georgia Tech, +7.5, -7.5, +55.5
+2017-09-23, Penn State, Iowa, -12.0, +12.0, +53.0
+2017-09-23, Boston College, Clemson, +33.0, -33.0, +52.5
+2017-09-23, North Carolina St, FSU, +11.0, -11.0, +50.5
+2017-09-23, Miss St, Georgia, +3.0, -3.0, +47.5
+2017-09-23, LA Tech, South Carolina, +9.5, -9.5, +51.5
+2017-09-23, UMass, Tennessee, +28.0, -28.0, +60.0
+2017-09-23, West Virginia, Kansas, -23.0, +23.0, +71.0
+2017-09-23, Florida, Kentucky, -2.5, +2.5, +44.5
+2017-09-23, UCF, Maryland, +4.0, -4.0, +61.0
+2017-09-23, Ohio, E Michigan, +1.5, -1.5, +54.5
+2017-09-23, Miami (OH), Cent Michigan, -1.0, +1.0, +51.5
+2017-09-23, Old Dominion, VT, +28.5, -28.5, +52.0
+2017-09-23, Georgia State, Charlotte, +1.0, -1.0, +49.5
+2017-09-23, Ga Southern, Indiana, +21.5, -21.5, +51.5
+2017-09-23, FAU, Buffalo, +2.0, -2.0, +57.5
+2017-09-23, Rutgers, Nebraska, +11.0, -11.0, +47.5
+2017-09-23, Toledo, Miami (FL), +13.0, -13.0, +60.5
+2017-09-23, Washington, Colorado, -10.5, +10.5, +54.0
+2017-09-23, UTEP, New Mexico St, +17.0, -17.0, +58.5
+2017-09-23, Cincinnati, Navy, +9.0, -9.0, +52.5
+2017-09-23, UNLV, OSU, +41.0, -41.0, +67.0
+2017-09-23, Notre Dame, Michigan State, -3.0, +3.0, +54.0
+2017-09-23, Hawaii, Wyoming, +5.5, -5.5, +54.5
+2017-09-23, Syracuse, LSU, +21.0, -21.0, +56.0
+2017-09-23, Akron, Troy, +17.0, -17.0, +54.5
+2017-09-23, Auburn, Missouri, -18.0, +18.0, +59.0
+2017-09-23, Texas Tech, Houston, +6.5, -6.5, +68.0
+2017-09-23, Arkansas State, SMU, +3.0, -3.0, +72.5
+2017-09-23, Alabama, Vanderbilt, -20.0, +20.0, +43.0
+2017-09-23, TCU, Oklahoma State, +8.5, -8.5, +68.0
+2017-09-23, Ball State, W Kentucky, +12.5, -12.5, +50.0
+2017-09-23, UTSA, Texas State, -13.5, +13.5, +45.0
+2017-09-23, San Diego State, Air Force, -2.5, +2.5, +48.0
+2017-09-23, Arkansas, Texas A&M, +2.0, -2.0, +56.0
+2017-09-23, FIU, Rice, +2.0, -2.0, +52.5
+2017-09-23, Idaho, South Alabama, +7.0, -7.0, +56.0
+2017-09-23, Oklahoma, Baylor, -28.0, +28.0, +61.5
+2017-09-23, USC, Cal, -16.5, +16.5, +63.5
+2017-09-23, Oregon, Arizona State, -13.5, +13.5, +76.0
+2017-09-23, UCLA, Stanford, +7.0, -7.0, +59.0
+2017-09-23, Nevada, Washington St, +29.0, -29.0, +65.5
+2017-09-23, Kent State, Louisville, +41.5, -41.5, +56.0
+2017-09-23, New Mexico, Tulsa, +10.0, -10.0, +68.0
+2017-09-23, Bowling Green, Mid Tennessee, +6.5, -6.5, +53.5
+2017-09-23, Army, Tulane, +3.0, -3.0, +45.0
+2017-09-23, UAB, North Texas, +10.5, -10.5, +60.0
+2017-09-23, UL Monroe, LA-Lafayette, +5.0, -5.0, +60.0
+2017-09-23, Utah State, San Jose State, -1.5, +1.5, +55.0
+2017-09-24, ECU, UConn, +4.5, -4.5, +63.5
+2017-09-28, Texas, Iowa State, -5.0, +5.0, +61.0
+2017-09-29, Miami (FL), Duke, -5.5, +5.5, +55.5
+2017-09-29, Nebraska, Illinois, -6.0, +6.0, +47.5
+2017-09-29, BYU, Utah State, -1.0, +1.0, +48.5
+2017-09-29, USC, Washington St, -4.5, +4.5, +58.5
+2017-09-30, Charlotte, FIU, +9.5, -9.5, +48.0
+2017-09-30, Rice, Pitt, +20.5, -20.5, +52.5
+2017-09-30, USF, ECU, -21.5, +21.5, +73.5
+2017-09-30, Syracuse, UNC, +11.5, -11.5, +0.0
+2017-09-30, E Michigan, Kentucky, +14.0, -14.0, +50.0
+2017-09-30, Akron, Bowling Green, -3.0, +3.0, +57.5
+2017-09-30, Buffalo, Kent State, -7.5, +7.5, +41.0
+2017-09-30, Houston, Temple, -11.0, +11.0, +44.5
+2017-09-30, Baylor, Kansas State, +14.5, -14.5, +56.5
+2017-09-30, OSU, Rutgers, -28.0, +28.0, +54.5
+2017-09-30, Iowa, Michigan State, +3.0, -3.0, +44.5
+2017-09-30, FSU, Wake Forest, -7.5, +7.5, +47.0
+2017-09-30, Northwestern, Wisconsin, +16.0, -16.0, +50.5
+2017-09-30, Indiana, Penn State, +19.5, -19.5, +62.5
+2017-09-30, Navy, Tulsa, -8.0, +8.0, +70.5
+2017-09-30, UConn, SMU, +17.0, -17.0, +75.0
+2017-09-30, Texas State, Wyoming, +17.0, -17.0, +45.0
+2017-09-30, Colorado, UCLA, +7.5, -7.5, +67.0
+2017-09-30, Cal, Oregon, +16.5, -16.5, +66.5
+2017-09-30, Washington, Oregon State, -27.5, +27.5, +59.5
+2017-09-30, Coastal Carolina, UL Monroe, +8.0, -8.0, +53.5
+2017-09-30, South Carolina, Texas A&M, +7.0, -7.0, +50.0
+2017-09-30, Troy, LSU, +20.5, -20.5, +48.0
+2017-09-30, New Mexico St, Arkansas, +18.0, -18.0, +61.5
+2017-09-30, San Jose State, UNLV, +16.5, -16.5, +64.0
+2017-09-30, UTEP, Army, +22.0, -22.0, +49.5
+2017-09-30, Vanderbilt, Florida, +9.0, -9.0, +40.5
+2017-09-30, Georgia, Tennessee, -10.0, +10.0, +47.0
+2017-09-30, North Texas, Southern Miss, +8.0, -8.0, +57.5
+2017-09-30, Miami (OH), Notre Dame, +21.0, -21.0, +53.5
+2017-09-30, Miss St, Auburn, +7.5, -7.5, +51.0
+2017-09-30, UNC, Georgia Tech, +10.0, -10.0, +58.5
+2017-09-30, Clemson, VT, -7.0, +7.0, +47.5
+2017-09-30, Ole Miss, Alabama, +30.0, -30.0, +56.0
+2017-09-30, Oklahoma State, Texas Tech, -10.0, +10.0, +83.0
+2017-09-30, Arizona State, Stanford, +17.0, -17.0, +61.0
+2017-09-30, Nevada, Fresno State, +8.5, -8.5, +59.0
+2017-09-30, N Illinois, San Diego State, +10.0, -10.0, +47.5
+2017-09-30, Memphis, UCF, +4.5, -4.5, +69.0
+2017-09-30, Syracuse, North Carolina St, +14.0, -14.0, +62.0
+2017-09-30, Marshall, Cincinnati, +3.0, -3.0, +52.5
+2017-09-30, Air Force, New Mexico, -3.0, +3.0, +51.0
+2017-09-30, Ball State, W Michigan, +13.5, -13.5, +55.0
+2017-09-30, Cent Michigan, Boston College, +10.5, -10.5, +51.0
+2017-09-30, Ohio, UMass, -4.0, +4.0, +53.5
+2017-09-30, Maryland, Minnesota, +13.5, -13.5, +45.0
+2017-09-30, South Alabama, LA Tech, +11.0, -11.0, +58.5
+2017-09-30, Mid Tennessee, FAU, +2.5, -2.5, +59.0
+2017-10-01, Colorado State, Hawaii, -7.0, +7.0, +66.0
+2017-10-04, Arkansas State, Ga Southern, -8.5, +8.5, +55.0
+2017-10-05, Louisville, North Carolina St, -3.0, +3.0, +66.5
+2017-10-06, Memphis, UConn, -15.0, +15.0, +74.0
+2017-10-06, Boise State, BYU, -7.0, +7.0, +46.0
+2017-10-07, UCF, Cincinnati, -16.5, +16.5, +53.5
+2017-10-07, Illinois, Iowa, +16.0, -16.0, +43.0
+2017-10-07, Notre Dame, UNC, -13.5, +13.5, +63.0
+2017-10-07, W Michigan, Buffalo, -7.5, +7.5, +51.0
+2017-10-07, E Michigan, Toledo, +14.0, -14.0, +60.0
+2017-10-07, Cent Michigan, Ohio, +11.5, -11.5, +53.5
+2017-10-07, Ball State, Akron, +4.5, -4.5, +51.5
+2017-10-07, Bowling Green, Miami (OH), +17.0, -17.0, +51.0
+2017-10-07, Marshall, Charlotte, -14.5, +14.5, +51.0
+2017-10-07, Georgia State, Coastal Carolina, -1.0, +1.0, +50.0
+2017-10-07, Penn State, Northwestern, -14.0, +14.0, +51.0
+2017-10-07, Temple, ECU, -3.0, +3.0, +58.0
+2017-10-07, Duke, UVA, -1.0, +1.0, +52.0
+2017-10-07, Pitt, Syracuse, +3.0, -3.0, +64.0
+2017-10-07, VT, Boston College, -16.5, +16.5, +46.5
+2017-10-07, New Mexico St, Appalachian St, +13.0, -13.0, +55.5
+2017-10-07, Maryland, OSU, +30.5, -30.5, +60.5
+2017-10-07, Wake Forest, Clemson, +21.0, -21.0, +50.5
+2017-10-07, Michigan State, Michigan, +11.5, -11.5, +40.0
+2017-10-07, Southern Miss, UTSA, +11.0, -11.0, +50.0
+2017-10-07, W Kentucky, UTEP, -17.0, +17.0, +54.5
+2017-10-07, Stanford, Utah, -3.0, +3.0, +51.5
+2017-10-07, LA-Lafayette, Idaho, +6.5, -6.5, +62.0
+2017-10-07, Colorado State, Utah State, -9.5, +9.5, +64.5
+2017-10-07, Tulsa, Tulane, +5.0, -5.0, +50.5
+2017-10-07, Army, Rice, -13.0, +13.0, +48.0
+2017-10-07, San Diego State, UNLV, -10.0, +10.0, +56.5
+2017-10-07, Air Force, Navy, +7.5, -7.5, +54.5
+2017-10-07, Arkansas, South Carolina, -3.5, +3.5, +45.0
+2017-10-07, Arizona, Colorado, +6.5, -6.5, +58.5
+2017-10-07, Texas Tech, Kansas, -14.5, +14.5, +77.5
+2017-10-07, Cal, Washington, +28.5, -28.5, +54.5
+2017-10-07, Oregon State, USC, +33.0, -33.0, +58.5
+2017-10-07, UL Monroe, Texas State, -6.0, +6.0, +56.0
+2017-10-07, Georgia, Vanderbilt, -17.0, +17.0, +41.0
+2017-10-07, West Virginia, TCU, +13.0, -13.0, +66.0
+2017-10-07, LA Tech, UAB, -10.5, +10.5, +66.0
+2017-10-07, Kent State, N Illinois, +23.0, -23.0, +44.5
+2017-10-07, FAU, Old Dominion, -5.0, +5.0, +57.5
+2017-10-07, LSU, Florida, -1.5, +1.5, +43.5
+2017-10-07, Iowa State, Oklahoma, +30.5, -30.5, +62.0
+2017-10-07, SMU, Houston, +9.5, -9.5, +61.0
+2017-10-07, Missouri, Kentucky, +9.0, -9.0, +60.0
+2017-10-07, Wisconsin, Nebraska, -11.5, +11.5, +47.0
+2017-10-07, Ole Miss, Auburn, +22.0, -22.0, +56.0
+2017-10-07, Kansas State, Texas, +6.5, -6.5, +47.0
+2017-10-07, Alabama, Texas A&M, -26.0, +26.0, +56.0
+2017-10-07, Fresno State, San Jose State, -17.0, +17.0, +60.5
+2017-10-07, Hawaii, Nevada, -3.5, +3.5, +62.5
+2017-10-07, Miami (FL), FSU, -2.5, +2.5, +45.5
+2017-10-07, Washington St, Oregon, -2.5, +2.5, +61.0
+2017-10-07, FIU, Mid Tennessee, +9.5, -9.5, +53.0
+2017-10-07, Minnesota, Purdue, +3.5, -3.5, +46.5
+2017-10-11, South Alabama, Troy, +18.0, -18.0, +51.5
+2017-10-12, Texas State, LA-Lafayette, +14.5, -14.5, +55.5
+2017-10-13, Washington St, Cal, -16.0, +16.0, +54.0
+2017-10-13, Clemson, Syracuse, -24.0, +24.0, +57.5
+2017-10-14, Akron, W Michigan, +14.0, -14.0, +55.5
+2017-10-14, Purdue, Wisconsin, +17.0, -17.0, +49.0
+2017-10-14, Ohio, Bowling Green, -9.0, +9.0, +62.0
+2017-10-14, Toledo, Cent Michigan, -9.5, +9.5, +54.5
+2017-10-14, E Michigan, Army, +5.0, -5.0, +48.5
+2017-10-14, UConn, Temple, +10.5, -10.5, +55.5
+2017-10-14, UVA, UNC, -3.0, +3.0, +52.0
+2017-10-14, Rutgers, Illinois, +2.5, -2.5, +48.5
+2017-10-14, Texas Tech, West Virginia, +3.5, -3.5, +75.5
+2017-10-14, North Carolina St, Pitt, -10.5, +10.5, +54.5
+2017-10-14, Michigan, Indiana, -7.0, +7.0, +45.5
+2017-10-14, ECU, UCF, +35.0, -35.0, +69.5
+2017-10-14, Tulane, FIU, -13.0, +13.0, +51.0
+2017-10-14, Boston College, Louisville, +20.5, -20.5, +58.5
+2017-10-14, Kansas, Iowa State, +22.5, -22.5, +62.0
+2017-10-14, Old Dominion, Marshall, +12.0, -12.0, +49.0
+2017-10-14, FSU, Duke, -7.0, +7.0, +45.5
+2017-10-14, Houston, Tulsa, -13.5, +13.5, +63.5
+2017-10-14, Georgia State, UL Monroe, +3.5, -3.5, +58.0
+2017-10-14, Charlotte, W Kentucky, +18.0, -18.0, +48.0
+2017-10-14, Wyoming, Utah State, +2.5, -2.5, +50.0
+2017-10-14, UNLV, Air Force, +8.0, -8.0, +66.0
+2017-10-14, Nevada, Colorado State, +25.5, -25.5, +65.0
+2017-10-14, Appalachian St, Idaho, -12.5, +12.5, +51.0
+2017-10-14, Utah, USC, +13.0, -13.0, +51.5
+2017-10-14, Colorado, Oregon State, -10.0, +10.0, +56.5
+2017-10-14, UCLA, Arizona, -2.5, +2.5, +77.0
+2017-10-14, Vanderbilt, Ole Miss, +3.5, -3.5, +55.5
+2017-10-14, Oklahoma, Texas, -9.0, +9.0, +63.5
+2017-10-14, OSU, Nebraska, -24.5, +24.5, +58.0
+2017-10-14, BYU, Miss St, +23.5, -23.5, +51.0
+2017-10-14, Arkansas, Alabama, +37.5, -37.5, +54.0
+2017-10-14, Baylor, Oklahoma State, +26.0, -26.0, +66.5
+2017-10-14, Missouri, Georgia, +29.0, -29.0, +59.0
+2017-10-14, Navy, Memphis, +3.5, -3.5, +71.5
+2017-10-14, New Mexico St, Ga Southern, -4.5, +4.5, +58.5
+2017-10-14, UTEP, Southern Miss, +23.0, -23.0, +52.5
+2017-10-14, Coastal Carolina, Arkansas State, +16.0, -16.0, +64.5
+2017-10-14, UTSA, North Texas, -2.5, +2.5, +59.0
+2017-10-14, Texas A&M, Florida, +3.0, -3.0, +51.5
+2017-10-14, South Carolina, Tennessee, +3.0, -3.0, +45.5
+2017-10-14, Auburn, LSU, -6.5, +6.5, +46.0
+2017-10-14, Michigan, Minnesota, -3.0, +3.0, +0.0
+2017-10-14, Oregon, Stanford, +10.0, -10.0, +58.0
+2017-10-14, Washington, Arizona State, -17.0, +17.0, +60.5
+2017-10-14, New Mexico, Fresno State, -2.0, +2.0, +54.5
+2017-10-14, Boise State, San Diego State, +4.5, -4.5, +47.5
+2017-10-14, Cincinnati, USF, +24.0, -24.0, +64.0
+2017-10-14, Georgia Tech, Miami (FL), +6.5, -6.5, +51.0
+2017-10-14, Michigan State, Minnesota, -4.0, +4.0, +41.0
+2017-10-14, Northwestern, Maryland, -3.0, +3.0, +49.0
+2017-10-14, Miami (OH), Kent State, -8.5, +8.5, +42.5
+2017-10-14, N Illinois, Buffalo, -7.5, +7.5, +50.0
+2017-10-14, TCU, Kansas State, -7.0, +7.0, +49.5
+2017-10-14, Mid Tennessee, UAB, -4.0, +4.0, +54.5
+2017-10-15, San Jose State, Hawaii, +16.5, -16.5, +60.5
+2017-10-15, Akron, W Michigan, +12.5, -12.5, +54.5
+2017-10-19, Memphis, Houston, +2.0, -2.0, +61.5
+2017-10-19, LA-Lafayette, Arkansas State, +11.5, -11.5, +66.0
+2017-10-20, W Kentucky, Old Dominion, -7.0, +7.0, +49.0
+2017-10-20, Marshall, Mid Tennessee, -2.0, +2.0, +49.5
+2017-10-20, Air Force, Nevada, -6.5, +6.5, +64.5
+2017-10-20, Colorado State, New Mexico, -10.0, +10.0, +61.0
+2017-10-21, Iowa, Northwestern, +3.0, -3.0, +46.5
+2017-10-21, Tulsa, UConn, -4.0, +4.0, +77.0
+2017-10-21, North Texas, FAU, +3.5, -3.5, +67.5
+2017-10-21, Kent State, Ohio, +17.5, -17.5, +47.5
+2017-10-21, N Illinois, Bowling Green, -14.0, +14.0, +55.0
+2017-10-21, Indiana, Michigan State, +6.5, -6.5, +47.0
+2017-10-21, UAB, Charlotte, -9.0, +9.0, +52.0
+2017-10-21, Temple, Army, +7.5, -7.5, +46.0
+2017-10-21, BYU, ECU, -6.0, +6.0, +55.5
+2017-10-21, Purdue, Rutgers, -9.0, +9.0, +49.0
+2017-10-21, Pitt, Duke, +8.0, -8.0, +50.0
+2017-10-21, Syracuse, Miami (FL), +17.5, -17.5, +59.0
+2017-10-21, Wake Forest, Georgia Tech, +3.5, -3.5, +49.0
+2017-10-21, Michigan, Penn State, +7.5, -7.5, +43.5
+2017-10-21, Maryland, Wisconsin, +25.0, -25.0, +50.5
+2017-10-21, UNC, VT, +20.0, -20.0, +52.0
+2017-10-21, Wyoming, Boise State, +16.0, -16.0, +44.5
+2017-10-21, Kansas, TCU, +37.5, -37.5, +61.0
+2017-10-21, Rice, UTSA, +20.0, -20.0, +53.0
+2017-10-21, Ga Southern, UMass, +7.5, -7.5, +54.5
+2017-10-21, UCF, Navy, -9.5, +9.5, +65.5
+2017-10-21, Idaho, Missouri, +14.0, -14.0, +64.0
+2017-10-21, Kentucky, Miss St, +13.0, -13.0, +54.5
+2017-10-21, USF, Tulane, -10.5, +10.5, +54.5
+2017-10-21, Utah State, UNLV, +3.5, -3.5, +60.5
+2017-10-21, Southern Miss, LA Tech, +1.0, -1.0, +55.5
+2017-10-21, Oregon, UCLA, +6.0, -6.0, +69.0
+2017-10-21, Arizona, Cal, -4.0, +4.0, +66.0
+2017-10-21, Illinois, Minnesota, +14.0, -14.0, +48.0
+2017-10-21, Tennessee, Alabama, +35.5, -35.5, +51.0
+2017-10-21, Oklahoma State, Texas, -7.0, +7.0, +64.5
+2017-10-21, West Virginia, Baylor, -9.0, +9.0, +67.5
+2017-10-21, Louisville, FSU, +6.5, -6.5, +58.0
+2017-10-21, USC, Notre Dame, +4.5, -4.5, +62.5
+2017-10-21, Oklahoma, Kansas State, -14.0, +14.0, +55.5
+2017-10-21, LSU, Ole Miss, -6.5, +6.5, +58.5
+2017-10-21, Iowa State, Texas Tech, +7.0, -7.0, +68.5
+2017-10-21, Colorado, Washington St, +8.0, -8.0, +52.5
+2017-10-21, Fresno State, San Diego State, +7.0, -7.0, +50.0
+2017-10-21, Troy, Georgia State, -7.5, +7.5, +51.5
+2017-10-21, SMU, Cincinnati, -6.0, +6.0, +66.0
+2017-10-21, Buffalo, Miami (OH), +3.0, -3.0, +46.5
+2017-10-21, Akron, Toledo, +15.0, -15.0, +59.0
+2017-10-21, W Michigan, E Michigan, -2.5, +2.5, +51.5
+2017-10-21, Cent Michigan, Ball State, -3.0, +3.0, +48.5
+2017-10-21, Coastal Carolina, Appalachian St, +20.5, -20.5, +53.5
+2017-10-21, Boston College, UVA, +6.5, -6.5, +49.5
+2017-10-21, Auburn, Arkansas, -17.0, +17.0, +51.0
+2017-10-21, Arizona State, Utah, +10.0, -10.0, +54.5
+2017-10-21, UL Monroe, South Alabama, +4.5, -4.5, +57.0
+2017-10-26, Toledo, Ball State, -27.0, +27.0, +55.5
+2017-10-26, South Alabama, Georgia State, -1.0, +1.0, +51.0
+2017-10-26, E Michigan, N Illinois, +7.0, -7.0, +46.0
+2017-10-26, Stanford, Oregon, -21.5, +21.5, +0.0
+2017-10-26, Stanford, Oregon State, -19.0, +19.0, +56.5
+2017-10-27, FSU, Boston College, -6.0, +6.0, +47.0
+2017-10-27, Tulane, Memphis, +11.0, -11.0, +63.0
+2017-10-27, Tulsa, SMU, +10.5, -10.5, +75.5
+2017-10-28, Nebraska, Purdue, +4.0, -4.0, +53.0
+2017-10-28, Tennessee, Kentucky, +4.0, -4.0, +46.0
+2017-10-28, Vanderbilt, South Carolina, +7.0, -7.0, +44.0
+2017-10-28, Louisville, Wake Forest, -2.5, +2.5, +66.0
+2017-10-28, Miami (FL), UNC, -21.0, +21.0, +54.5
+2017-10-28, Rutgers, Michigan, +23.0, -23.0, +43.5
+2017-10-28, FIU, Marshall, +15.5, -15.5, +47.5
+2017-10-28, Appalachian St, UMass, -4.0, +4.0, +57.5
+2017-10-28, UVA, Pitt, +2.5, -2.5, +50.0
+2017-10-28, Missouri, UConn, -13.5, +13.5, +74.5
+2017-10-28, Oklahoma State, West Virginia, -8.5, +8.5, +71.0
+2017-10-28, Indiana, Maryland, -6.5, +6.5, +52.5
+2017-10-28, Duke, VT, +17.0, -17.0, +48.5
+2017-10-28, Texas State, Coastal Carolina, +10.0, -10.0, +54.0
+2017-10-28, Wisconsin, Illinois, -26.5, +26.5, +51.0
+2017-10-28, Kansas State, Kansas, -23.5, +23.5, +55.0
+2017-10-28, Minnesota, Iowa, +7.0, -7.0, +43.5
+2017-10-28, New Mexico, Wyoming, +2.5, -2.5, +47.0
+2017-10-28, Arkansas State, New Mexico St, -3.0, +3.0, +71.0
+2017-10-28, San Jose State, BYU, +10.0, -10.0, +50.0
+2017-10-28, UTSA, UTEP, -15.5, +15.5, +47.0
+2017-10-28, UL Monroe, Idaho, +2.5, -2.5, +61.5
+2017-10-28, Air Force, Colorado State, +9.5, -9.5, +68.5
+2017-10-28, UAB, Southern Miss, +14.0, -14.0, +0.0
+2017-10-28, Cal, Colorado, +3.5, -3.5, +55.0
+2017-10-28, USC, Arizona State, -5.0, +5.0, +58.0
+2017-10-28, LA Tech, Rice, -11.5, +11.5, +51.0
+2017-10-28, Utah, Oregon, -1.5, +1.5, +50.0
+2017-10-28, North Carolina St, Notre Dame, +7.0, -7.0, +60.0
+2017-10-28, UCLA, Washington, +17.5, -17.5, +58.5
+2017-10-28, Michigan, Northwestern, -2.5, +2.5, +0.0
+2017-10-28, Old Dominion, North Texas, +12.0, -12.0, +59.0
+2017-10-28, Texas, Baylor, -9.5, +9.5, +52.0
+2017-10-28, TCU, Iowa State, -7.0, +7.0, +48.5
+2017-10-28, Georgia, Florida, -13.5, +13.5, +44.0
+2017-10-28, FAU, W Kentucky, -6.0, +6.0, +68.0
+2017-10-28, Michigan State, Northwestern, -2.5, +2.5, +41.0
+2017-10-28, Washington St, Arizona, +1.0, -1.0, +63.0
+2017-10-28, Texas Tech, Oklahoma, +20.0, -20.0, +77.5
+2017-10-28, Penn State, OSU, +7.0, -7.0, +57.5
+2017-10-28, Miss St, Texas A&M, -3.5, +3.5, +55.5
+2017-10-28, Boise State, Utah State, -10.5, +10.5, +52.0
+2017-10-28, UNLV, Fresno State, +21.5, -21.5, +59.0
+2017-10-28, San Diego State, Hawaii, -8.0, +8.0, +54.0
+2017-10-28, Houston, USF, +10.5, -10.5, +54.5
+2017-10-28, Georgia Tech, Clemson, +13.5, -13.5, +49.0
+2017-10-28, Ga Southern, Troy, +23.5, -23.5, +50.0
+2017-10-28, Buffalo, Akron, -1.0, +1.0, +49.0
+2017-10-28, Arkansas, Ole Miss, +2.5, -2.5, +63.5
+2017-10-29, San Diego State, Hawaii, -9.0, +9.0, +0.0
+2017-10-31, Bowling Green, Kent State, -2.5, +2.5, +47.5
+2017-10-31, Miami (OH), Ohio, +7.5, -7.5, +53.5
+2017-11-01, Cent Michigan, W Michigan, +4.0, -4.0, +48.0
+2017-11-02, N Illinois, Toledo, +7.5, -7.5, +56.5
+2017-11-02, Ball State, E Michigan, +24.0, -24.0, +47.5
+2017-11-02, Navy, Temple, -6.5, +6.5, +51.5
+2017-11-02, Idaho, Troy, +18.5, -18.5, +50.5
+2017-11-03, Marshall, FAU, +6.5, -6.5, +64.0
+2017-11-03, Memphis, Tulsa, -14.0, +14.0, +80.0
+2017-11-03, UCLA, Utah, +9.5, -9.5, +53.5
+2017-11-04, Baylor, Kansas, -7.5, +7.5, +60.0
+2017-11-04, Clemson, North Carolina St, -10.0, +10.0, +51.0
+2017-11-04, Illinois, Purdue, +14.0, -14.0, +49.0
+2017-11-04, Ole Miss, Kentucky, +3.5, -3.5, +63.5
+2017-11-04, Syracuse, FSU, +7.5, -7.5, +51.0
+2017-11-04, Northwestern, Nebraska, -2.5, +2.5, +55.0
+2017-11-04, OSU, Iowa, -20.5, +20.5, +54.0
+2017-11-04, Iowa State, West Virginia, +3.5, -3.5, +59.0
+2017-11-04, VT, Miami (FL), +2.0, -2.0, +48.5
+2017-11-04, Maryland, Rutgers, -4.5, +4.5, +52.0
+2017-11-04, Georgia Tech, UVA, -8.0, +8.0, +50.0
+2017-11-04, Nevada, Boise State, +21.0, -21.0, +62.0
+2017-11-04, Colorado, Arizona State, +6.0, -6.0, +58.5
+2017-11-04, New Mexico St, Texas State, -9.0, +9.0, +57.0
+2017-11-04, Georgia State, Ga Southern, -4.5, +4.5, +50.0
+2017-11-04, Appalachian St, UL Monroe, -8.0, +8.0, +62.0
+2017-11-04, Charlotte, Old Dominion, +9.0, -9.0, +50.0
+2017-11-04, Southern Miss, Tennessee, +7.0, -7.0, +48.0
+2017-11-04, Auburn, Texas A&M, -14.5, +14.5, +52.0
+2017-11-04, Army, Air Force, +6.5, -6.5, +54.5
+2017-11-04, Wisconsin, Indiana, -11.5, +11.5, +49.5
+2017-11-04, Cincinnati, Tulane, +6.5, -6.5, +54.0
+2017-11-04, South Carolina, Georgia, +23.5, -23.5, +45.5
+2017-11-04, UCF, SMU, -14.0, +14.0, +75.0
+2017-11-04, W Kentucky, Vanderbilt, +12.5, -12.5, +54.0
+2017-11-04, North Texas, LA Tech, +3.5, -3.5, +67.5
+2017-11-04, Minnesota, Michigan, +16.0, -16.0, +39.5
+2017-11-04, Oklahoma, Oklahoma State, +1.5, -1.5, +76.5
+2017-11-04, Wake Forest, Notre Dame, +15.5, -15.5, +56.5
+2017-11-04, Rice, UAB, +9.5, -9.5, +50.0
+2017-11-04, LA-Lafayette, South Alabama, +6.0, -6.0, +52.5
+2017-11-04, Utah State, New Mexico, +3.0, -3.0, +52.5
+2017-11-04, BYU, Fresno State, +10.0, -10.0, +48.0
+2017-11-04, Colorado State, Wyoming, -4.0, +4.0, +48.5
+2017-11-04, UTSA, FIU, -6.5, +6.5, +51.5
+2017-11-04, Florida, Missouri, +1.5, -1.5, +61.0
+2017-11-04, LSU, Alabama, +21.0, -21.0, +46.5
+2017-11-04, Penn State, Michigan State, -10.0, +10.0, +47.5
+2017-11-04, San Diego State, San Jose State, -23.5, +23.5, +51.0
+2017-11-04, Oregon State, Cal, +7.0, -7.0, +54.5
+2017-11-04, Arizona, USC, +6.5, -6.5, +76.0
+2017-11-04, USF, UConn, -23.0, +23.0, +65.5
+2017-11-04, ECU, Houston, +23.5, -23.5, +63.0
+2017-11-04, UMass, Miss St, +33.0, -33.0, +57.5
+2017-11-04, Kansas State, Texas Tech, +3.5, -3.5, +63.5
+2017-11-04, Texas, TCU, +8.0, -8.0, +46.0
+2017-11-04, Oregon, Washington, +14.5, -14.5, +54.0
+2017-11-04, Coastal Carolina, Arkansas, +24.0, -24.0, +60.0
+2017-11-04, Hawaii, UNLV, +7.0, -7.0, +59.5
+2017-11-04, Stanford, Washington St, -2.0, +2.0, +56.0
+2017-11-04, UTEP, Mid Tennessee, +19.5, -19.5, +49.5
+2017-11-07, Bowling Green, Buffalo, +7.5, -7.5, +60.0
+2017-11-07, Akron, Miami (OH), +9.5, -9.5, +52.5
+2017-11-08, Kent State, W Michigan, +20.5, -20.5, +46.5
+2017-11-08, Toledo, Ohio, -3.0, +3.0, +63.5
+2017-11-08, E Michigan, Cent Michigan, -2.0, +2.0, +51.0
+2017-11-09, Ball State, N Illinois, +29.5, -29.5, +51.5
+2017-11-09, Ga Southern, Appalachian St, +17.5, -17.5, +51.5
+2017-11-09, UNC, Pitt, +9.0, -9.0, +53.0
+2017-11-10, Temple, Cincinnati, -2.5, +2.5, +48.5
+2017-11-10, Washington, Stanford, -6.5, +6.5, +50.0
+2017-11-10, BYU, UNLV, +1.0, -1.0, +49.5
+2017-11-11, Florida, South Carolina, +4.5, -4.5, +43.5
+2017-11-11, Tulane, ECU, -6.5, +6.5, +63.0
+2017-11-11, North Carolina St, Boston College, -3.0, +3.0, +52.5
+2017-11-11, Wake Forest, Syracuse, -2.5, +2.5, +63.5
+2017-11-11, Rutgers, Penn State, +32.0, -32.0, +55.5
+2017-11-11, Duke, Army, -3.5, +3.5, +50.5
+2017-11-11, Michigan State, OSU, +17.5, -17.5, +55.0
+2017-11-11, Wyoming, Air Force, +2.5, -2.5, +51.0
+2017-11-11, San Jose State, Nevada, +17.5, -17.5, +67.0
+2017-11-11, Texas Tech, Baylor, -8.5, +8.5, +68.0
+2017-11-11, TCU, Oklahoma, +6.0, -6.0, +63.5
+2017-11-11, Oklahoma State, Iowa State, -7.5, +7.5, +61.0
+2017-11-11, UVA, Louisville, +13.5, -13.5, +66.5
+2017-11-11, Notre Dame, Miami (FL), -3.5, +3.5, +59.5
+2017-11-11, Washington St, Utah, +1.0, -1.0, +51.0
+2017-11-11, Purdue, Northwestern, +6.0, -6.0, +49.5
+2017-11-11, LA-Lafayette, Ole Miss, +22.0, -22.0, +67.5
+2017-11-11, Nebraska, Minnesota, +1.5, -1.5, +47.5
+2017-11-11, Alabama, Miss St, -14.5, +14.5, +51.0
+2017-11-11, FAU, LA Tech, -3.0, +3.0, +68.0
+2017-11-11, Southern Miss, Rice, -11.0, +11.0, +49.5
+2017-11-11, USC, Colorado, -13.5, +13.5, +62.0
+2017-11-11, Iowa, Wisconsin, +11.0, -11.0, +44.0
+2017-11-11, Georgia, Auburn, -2.5, +2.5, +48.5
+2017-11-11, Tennessee, Missouri, +13.0, -13.0, +63.0
+2017-11-11, New Mexico, Texas A&M, +17.5, -17.5, +51.0
+2017-11-11, Kentucky, Vanderbilt, +2.5, -2.5, +52.5
+2017-11-11, Arkansas State, South Alabama, -12.5, +12.5, +55.0
+2017-11-11, Georgia State, Texas State, -6.5, +6.5, +51.5
+2017-11-11, UTEP, North Texas, +23.5, -23.5, +55.5
+2017-11-11, Kansas, Texas, +32.0, -32.0, +54.0
+2017-11-11, Old Dominion, FIU, +10.0, -10.0, +48.5
+2017-11-11, UAB, UTSA, +8.0, -8.0, +50.0
+2017-11-11, FSU, Clemson, +16.5, -16.5, +45.0
+2017-11-11, Arkansas, LSU, +18.0, -18.0, +55.5
+2017-11-11, Oregon State, Arizona, +21.0, -21.0, +70.5
+2017-11-11, Fresno State, Hawaii, -10.0, +10.0, +53.0
+2017-11-11, Michigan, Maryland, -17.0, +17.0, +48.0
+2017-11-11, VT, Georgia Tech, -3.0, +3.0, +48.5
+2017-11-11, UConn, UCF, +39.0, -39.0, +64.5
+2017-11-11, Indiana, Illinois, -9.0, +9.0, +51.0
+2017-11-11, Troy, Coastal Carolina, -17.0, +17.0, +52.5
+2017-11-11, Mid Tennessee, Charlotte, -16.0, +16.0, +49.5
+2017-11-11, West Virginia, Kansas State, -2.5, +2.5, +59.0
+2017-11-11, SMU, Navy, +3.0, -3.0, +68.0
+2017-11-11, W Kentucky, Marshall, +10.5, -10.5, +52.0
+2017-11-11, Boise State, Colorado State, -6.5, +6.5, +58.5
+2017-11-11, Arizona State, UCLA, +3.0, -3.0, +65.5
+2017-11-11, Maine, UMass, +16.0, -16.0, +0.0
+2017-11-14, Cent Michigan, Kent State, -17.5, +17.5, +45.5
+2017-11-14, Ohio, Akron, -14.0, +14.0, +51.0
+2017-11-15, Toledo, Bowling Green, -17.0, +17.0, +65.0
+2017-11-15, E Michigan, Miami (OH), +2.5, -2.5, +50.5
+2017-11-15, W Michigan, N Illinois, +8.0, -8.0, +49.5
+2017-11-16, Buffalo, Ball State, -18.5, +18.5, +55.5
+2017-11-16, Tulsa, USF, +22.5, -22.5, +65.5
+2017-11-17, Mid Tennessee, W Kentucky, +1.0, -1.0, +56.0
+2017-11-17, UNLV, New Mexico, +3.0, -3.0, +55.5
+2017-11-18, Rutgers, Indiana, +10.5, -10.5, +46.5
+2017-11-18, Kentucky, Georgia, +22.0, -22.0, +51.0
+2017-11-18, Cincinnati, ECU, -4.5, +4.5, +65.5
+2017-11-18, Georgia Tech, Duke, -7.0, +7.0, +49.5
+2017-11-18, Pitt, VT, +14.5, -14.5, +49.5
+2017-11-18, UCF, Temple, -12.0, +12.0, +57.5
+2017-11-18, North Carolina St, Wake Forest, +3.0, -3.0, +61.5
+2017-11-18, Minnesota, Northwestern, +7.0, -7.0, +39.0
+2017-11-18, Texas, West Virginia, +3.0, -3.0, +54.5
+2017-11-18, Oklahoma, Kansas, -38.5, +38.5, +68.5
+2017-11-18, Air Force, Boise State, +17.5, -17.5, +61.0
+2017-11-18, Hawaii, Utah State, +10.5, -10.5, +56.5
+2017-11-18, Rice, Old Dominion, +7.5, -7.5, +52.5
+2017-11-18, Charlotte, Southern Miss, +17.5, -17.5, +48.5
+2017-11-18, UMass, BYU, +3.5, -3.5, +51.5
+2017-11-18, LA Tech, UTEP, -17.0, +17.0, +48.0
+2017-11-18, South Alabama, Ga Southern, -5.0, +5.0, +45.0
+2017-11-18, TCU, Texas Tech, -7.0, +7.0, +52.0
+2017-11-18, Purdue, Iowa, +6.0, -6.0, +42.0
+2017-11-18, Illinois, OSU, +41.0, -41.0, +54.0
+2017-11-18, UAB, Florida, +10.5, -10.5, +48.5
+2017-11-18, Arizona State, Oregon State, -7.0, +7.0, +58.5
+2017-11-18, SMU, Memphis, +11.0, -11.0, +69.0
+2017-11-18, UVA, Miami (FL), +20.0, -20.0, +49.5
+2017-11-18, Iowa State, Baylor, -7.5, +7.5, +49.0
+2017-11-18, Miss St, Arkansas, -13.0, +13.0, +57.5
+2017-11-18, Missouri, Vanderbilt, -8.0, +8.0, +64.0
+2017-11-18, Utah, Washington St, +17.0, -17.0, +47.0
+2017-11-18, UL Monroe, Auburn, +38.0, -38.0, +68.5
+2017-11-18, San Jose State, Colorado State, +32.0, -32.0, +66.5
+2017-11-18, LSU, Tennessee, -17.0, +17.0, +42.0
+2017-11-18, Houston, Tulane, -8.5, +8.5, +48.0
+2017-11-18, New Mexico St, LA-Lafayette, -3.0, +3.0, +64.5
+2017-11-18, Army, North Texas, +2.0, -2.0, +59.0
+2017-11-18, Texas State, Arkansas State, +27.5, -27.5, +59.5
+2017-11-18, FIU, FAU, +14.5, -14.5, +65.5
+2017-11-18, Marshall, UTSA, +3.0, -3.0, +45.5
+2017-11-18, Texas A&M, Ole Miss, -2.5, +2.5, +68.5
+2017-11-18, Michigan, Wisconsin, +6.5, -6.5, +43.0
+2017-11-18, UCLA, USC, +15.0, -15.0, +70.0
+2017-11-18, Cal, Stanford, +14.0, -14.0, +55.0
+2017-11-18, Nevada, San Diego State, +17.0, -17.0, +56.0
+2017-11-18, Syracuse, Louisville, +14.5, -14.5, +68.0
+2017-11-18, Maryland, Michigan State, +14.0, -14.0, +43.0
+2017-11-18, Kansas State, Oklahoma State, +20.0, -20.0, +63.0
+2017-11-18, Nebraska, Penn State, +27.5, -27.5, +58.0
+2017-11-18, Navy, Notre Dame, +19.0, -19.0, +59.0
+2017-11-18, Coastal Carolina, Idaho, +7.0, -7.0, +50.5
+2017-11-18, UConn, Boston College, +21.0, -21.0, +51.0
+2017-11-18, Utah, Washington, +17.5, -17.5, +47.5
+2017-11-18, Fresno State, Wyoming, -2.5, +2.5, +39.5
+2017-11-18, Arizona, Oregon, +3.0, -3.0, +77.0
+2017-11-21, Bowling Green, E Michigan, +14.5, -14.5, +61.5
+2017-11-21, Miami (OH), Ball State, -17.0, +17.0, +54.5
+2017-11-21, Kent State, Akron, +15.5, -15.5, +47.0
+2017-11-23, Ole Miss, Miss St, +14.0, -14.0, +65.0
+2017-11-24, VT, UVA, -7.0, +7.0, +48.0
+2017-11-24, N Illinois, Cent Michigan, -3.0, +3.0, +52.0
+2017-11-24, Ohio, Buffalo, -6.0, +6.0, +56.0
+2017-11-24, Missouri, Arkansas, -9.5, +9.5, +69.5
+2017-11-24, New Mexico, San Diego State, +21.0, -21.0, +46.5
+2017-11-24, Navy, Houston, +6.0, -6.0, +55.5
+2017-11-24, Miami (FL), Pitt, -11.5, +11.5, +54.0
+2017-11-24, Iowa, Nebraska, -5.0, +5.0, +50.5
+2017-11-24, Texas State, Troy, +24.5, -24.5, +53.5
+2017-11-24, USF, UCF, +9.5, -9.5, +66.0
+2017-11-24, W Kentucky, FIU, -3.0, +3.0, +56.0
+2017-11-24, Texas Tech, Texas, +7.5, -7.5, +58.5
+2017-11-24, Cal, UCLA, +7.0, -7.0, +66.0
+2017-11-24, Baylor, TCU, +24.5, -24.5, +51.5
+2017-11-24, W Michigan, Toledo, +11.0, -11.0, +61.5
+2017-11-25, Clemson, South Alabama, -14.0, +14.0, +46.5
+2017-11-25, UConn, Cincinnati, +6.5, -6.5, +58.5
+2017-11-25, Michigan State, Rutgers, -13.5, +13.5, +42.5
+2017-11-25, Indiana, Purdue, +2.5, -2.5, +51.0
+2017-11-25, UNC, North Carolina St, +16.0, -16.0, +56.5
+2017-11-25, Duke, Wake Forest, +10.0, -10.0, +59.0
+2017-11-25, Appalachian St, Georgia State, -6.5, +6.5, +50.5
+2017-11-25, Vanderbilt, Tennessee, +2.5, -2.5, +45.5
+2017-11-25, Louisville, Kentucky, -9.5, +9.5, +68.0
+2017-11-25, Georgia, Georgia Tech, -11.0, +11.0, +51.0
+2017-11-25, Penn State, Maryland, -24.0, +24.0, +57.0
+2017-11-25, Northwestern, Illinois, -16.5, +16.5, +45.5
+2017-11-25, North Texas, Rice, -12.0, +12.0, +64.0
+2017-11-25, FAU, Charlotte, -24.0, +24.0, +65.0
+2017-11-25, Southern Miss, Marshall, +2.5, -2.5, +48.0
+2017-11-25, UNLV, Nevada, +3.5, -3.5, +69.5
+2017-11-25, Washington St, Washington, +9.5, -9.5, +49.5
+2017-11-25, Colorado, Utah, +9.5, -9.5, +57.0
+2017-11-25, Arkansas, UL Monroe, -8.0, +8.0, +0.0
+2017-11-25, Old Dominion, Mid Tennessee, +13.5, -13.5, +52.0
+2017-11-25, Wisconsin, Minnesota, -19.0, +19.0, +43.5
+2017-11-25, Notre Dame, Stanford, -3.0, +3.0, +56.0
+2017-11-25, Texas A&M, LSU, +10.5, -10.5, +51.0
+2017-11-25, Boise State, Fresno State, -6.5, +6.5, +49.0
+2017-11-25, Tulane, SMU, +7.0, -7.0, +67.0
+2017-11-25, Kansas, Oklahoma State, +41.0, -41.0, +68.0
+2017-11-25, Arizona, Arizona State, -2.0, +2.0, +75.5
+2017-11-25, Oregon State, Oregon, +25.5, -25.5, +63.0
+2017-11-25, Ga Southern, LA-Lafayette, +5.0, -5.0, +57.0
+2017-11-25, UTSA, LA Tech, -1.5, +1.5, +51.0
+2017-11-25, ECU, Memphis, +29.0, -29.0, +81.0
+2017-11-25, UTEP, UAB, +21.0, -21.0, +48.0
+2017-11-25, Alabama, Auburn, -5.5, +5.5, +47.5
+2017-11-25, FSU, Florida, -4.5, +4.5, +43.5
+2017-11-25, BYU, Hawaii, -3.0, +3.0, +47.0
+2017-11-25, OSU, Michigan, -12.5, +12.5, +49.5
+2017-11-25, Iowa State, Kansas State, +3.0, -3.0, +50.0
+2017-11-25, Arkansas State, UL Monroe, -9.0, +9.0, +69.0
+2017-11-25, Clemson, South Carolina, -13.5, +13.5, +46.5
+2017-11-25, Boston College, Syracuse, -4.0, +4.0, +55.5
+2017-11-25, Utah State, Air Force, +1.5, -1.5, +58.0
+2017-11-25, Wyoming, San Jose State, -19.5, +19.5, +48.5
+2017-11-25, West Virginia, Oklahoma, +22.5, -22.5, +69.0
+2017-11-25, Idaho, New Mexico St, +9.5, -9.5, +56.5
+2017-11-25, Temple, Tulsa, -4.5, +4.5, +58.0
+2017-12-01, Stanford, USC, +3.5, -3.5, +58.5
+2017-12-02, Georgia, Auburn, -1.5, +1.5, +47.0
+2017-12-02, Miami (FL), Clemson, +12.0, -12.0, +48.5
+2017-12-02, OSU, Wisconsin, -3.5, +3.5, +51.5
+2017-12-02, TCU, Oklahoma, +7.0, -7.0, +64.0
+2017-12-02, LA-Lafayette, Appalachian St, +15.0, -15.0, +58.5
+2017-12-02, Troy, Arkansas State, -1.0, +1.0, +59.5
+2017-12-02, South Alabama, New Mexico St, +11.0, -11.0, +54.5
+2017-12-02, North Texas, FAU, +11.5, -11.5, +71.0
+2017-12-02, Akron, Toledo, +20.0, -20.0, +61.5
+2017-12-02, UMass, FIU, -2.5, +2.5, +56.0
+2017-12-02, UL Monroe, FSU, +26.0, -26.0, +65.5
+2017-12-02, Memphis, UCF, +7.0, -7.0, +80.5
+2017-12-02, Fresno State, Boise State, +10.0, -10.0, +51.0
+2017-12-02, Idaho, Georgia State, +6.5, -6.5, +45.5
+2017-12-02, Ga Southern, Coastal Carolina, -3.0, +3.0, +49.0
+2017-12-09, Army, Navy, +3.0, -3.0, +44.0
+2017-12-16, North Texas, Troy, +6.0, -6.0, +62.0
+2017-12-16, Georgia State, W Kentucky, +6.5, -6.5, +54.0
+2017-12-16, Oregon, Boise State, -7.0, +7.0, +63.0
+2017-12-16, Marshall, Colorado State, +3.0, -3.0, +58.5
+2017-12-16, Mid Tennessee, Arkansas State, +3.5, -3.5, +60.5
+2017-12-19, Akron, FAU, +23.0, -23.0, +65.0
+2017-12-20, LA Tech, SMU, +4.5, -4.5, +71.0
+2017-12-21, Temple, FIU, -7.0, +7.0, +56.5
+2017-12-22, UAB, Ohio, +6.5, -6.5, +56.5
+2017-12-22, Cent Michigan, Wyoming, +3.0, -3.0, +45.0
+2017-12-23, Texas Tech, USF, +2.0, -2.0, +67.0
+2017-12-23, Appalachian St, Toledo, +6.0, -6.0, +61.5
+2017-12-23, Army, San Diego State, +6.5, -6.5, +47.0
+2017-12-24, Houston, Fresno State, -3.0, +3.0, +51.0
+2017-12-26, Utah, West Virginia, -7.0, +7.0, +56.5
+2017-12-26, N Illinois, Duke, +4.5, -4.5, +49.0
+2017-12-26, Kansas State, UCLA, -6.0, +6.0, +59.5
+2017-12-27, Southern Miss, FSU, +12.5, -12.5, +49.5
+2017-12-27, Boston College, Iowa, +3.0, -3.0, +45.5
+2017-12-27, Missouri, Texas, -3.0, +3.0, +62.5
+2017-12-27, Purdue, Arizona, +2.5, -2.5, +65.0
+2017-12-28, VT, Oklahoma State, +6.0, -6.0, +61.5
+2017-12-28, Stanford, TCU, +3.0, -3.0, +49.0
+2017-12-28, Michigan State, Washington St, -2.0, +2.0, +47.0
+2017-12-28, UVA, Navy, +3.0, -3.0, +51.5
+2017-12-29, Texas A&M, Wake Forest, +4.0, -4.0, +64.0
+2017-12-29, North Carolina St, Arizona State, -6.0, +6.0, +61.5
+2017-12-29, Kentucky, Northwestern, +8.5, -8.5, +50.5
+2017-12-29, Utah State, New Mexico St, -6.0, +6.0, +63.5
+2017-12-29, USC, OSU, +10.0, -10.0, +65.0
+2017-12-30, Louisville, Miss St, -7.0, +7.0, +63.5
+2017-12-30, Iowa State, Memphis, +3.5, -3.5, +68.0
+2017-12-30, Washington, Penn State, +3.0, -3.0, +53.5
+2017-12-30, Wisconsin, Miami (FL), -6.5, +6.5, +45.5
+2018-01-01, Georgia, Oklahoma, -2.5, +2.5, +61.0
+2018-01-01, Alabama, Clemson, -3.5, +3.5, +47.0
+2018-01-01, South Carolina, Michigan, +8.5, -8.5, +42.5
+2018-01-01, UCF, Auburn, +12.0, -12.0, +66.5
+2018-01-01, LSU, Notre Dame, -3.0, +3.0, +52.0
+2018-01-06, North Dakota St, JMU, -3.5, +3.5, +47.0
+2018-01-08, Alabama, Georgia, -3.5, +3.5, +46.5

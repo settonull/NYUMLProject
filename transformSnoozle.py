@@ -112,33 +112,62 @@ with open('data/conferences/complete_conf.csv', 'r') as ofile:
         else:
             print("coulding find id for", row[0])
 
-def lookup_conf(team_id, year):
+def lookup_conf(team_id, team_name, year):
     if (team_id in conference_lookup):
         team_data = conference_lookup[team_id]
         if year in team_data:
             return team_data[year]
 
-    print("Didn't find", team_id, year)
+    print("No conference for", team_name, 'id:', team_id, 'year:', year)
+
+    if not (team_id) == -1:
+        if team_id not in conference_lookup:
+            conference_lookup[team_id] = {}
+        conference_lookup[team_id][year] = "NON-D1"
+
     return "NON-D1"
 
 outfile = open('data/snoozle/snoozle-combined.csv', 'w', newline='')
 owriter = csv.writer(outfile, delimiter=',')
 
-owriter.writerow(['Date','Vis_Team_Name','v_rushing_yards','v_rushing_attempts','v_passing_yards','v_passing_attempts','v_passing_completions','v_penalties','v_penalty_yards','v_fumbles_lost','v_interceptions_thrown','v_1st_Downs','v_3rd_Down_Attempts','v_3rd_Down_Conversions','v_4th_Down_Attempts','v_4th_Down_conversions','v_Time_of_Possession','VisFinal','Home_Team_Name','h_rushing_yards','h_rushing_attempts','h_passing_yards','h_passing_attempts','h_passing_completions','h_penalties','h_penalty_yards','h_fumbles_lost','h_interceptions_thrown','h_1st_Downs','h_3rd_Down_Attempts','h_3rd_Down_Conversions','h_4th_Down_Attempts','h_4th_Down_conversions','h_Time_of_Possession','HomeFinal', 'Season', 'Year', 'Month','Day', 'Week', 'VisID', 'HomeID', 'VisConf', 'HomeConf', 'conference_game'])
+owriter.writerow(['Date','Vis_Team_Name','v_rushing_yards','v_rushing_attempts','v_passing_yards','v_passing_attempts','v_passing_completions','v_penalties','v_penalty_yards','v_fumbles_lost','v_interceptions_thrown','v_1st_Downs','v_3rd_Down_Attempts','v_3rd_Down_Conversions','v_4th_Down_Attempts','v_4th_Down_conversions','v_Time_of_Possession','VisFinal','Home_Team_Name','h_rushing_yards','h_rushing_attempts','h_passing_yards','h_passing_attempts','h_passing_completions','h_penalties','h_penalty_yards','h_fumbles_lost','h_interceptions_thrown','h_1st_Downs','h_3rd_Down_Attempts','h_3rd_Down_Conversions','h_4th_Down_Attempts','h_4th_Down_conversions','h_Time_of_Possession','HomeFinal', 'Season', 'Year', 'Month','Day', 'Week', 'VisID', 'HomeID', 'VisConf', 'HomeConf', 'conference_game', 'HomeOddds'])
 
 for season in range(2001,2018):
 
+    #for Week calculations
     week = 1
     lastThursday = None
+
+    #load an odds lookup table, create lists since some team pairs play twice
+    odds_lookup = {}
+    with open('data/snoozle/odds/odds-{}.csv'.format(season), 'r') as ofile:
+        oddsr = csv.reader(ofile, delimiter=',')
+        next(oddsr)  # skip the header
+        for row in oddsr:
+            key = adjustName(row[1]) + '-' + adjustName(row[2])
+            if key in odds_lookup:
+                odds_lookup[key].append(row[3])
+            else:
+                odds_lookup[key] = [row[3]]
+
+
+    #for removing duplicate entries in snoozle data
+    seen_list =[]
 
     with open('data/snoozle/stats/snoozle-{}.csv'.format(season), 'r') as ofile:
         statsr = csv.reader(ofile, delimiter=',')
         next(statsr)  # skip the header
         for row in statsr:
+            key = row[1] + '-' + row[2] + '-' + row[17] + '-'+ row[18] + '-' + row[19] + '-' + row[34]
+            if key in seen_list:
+                continue
+            seen_list.append(key)
+
             row[1] = adjustName(row[1])
             row[18] = adjustName(row[18])
             vis_id = lookup_id(row[1])
             home_id = lookup_id(row[18])
+
 
             date = fix_date(row[0])
             dt = datetime.date(year = int(date[0]), month= int(date[1]), day = int(date[2]))
@@ -154,82 +183,21 @@ for season in range(2001,2018):
             row.append(vis_id)
             row.append(home_id)
 
-            vis_conf = lookup_conf(vis_id, str(season))
-            home_conf = lookup_conf(home_id, str(season))
+            vis_conf = lookup_conf(vis_id, row[1], str(season))
+            home_conf = lookup_conf(home_id, row[18], str(season))
             isInConf = (vis_conf != 'NON-D1') | (home_conf != 'NON-D1')
             row.append(vis_conf)
             row.append(home_conf)
             row.append(int(isInConf))
+            key = row[1] + '-' + row[18]
+            odds = 0
+            if key in odds_lookup:
+                if len(odds_lookup[key]) == 0:
+                    print("odd, found empty odds", key)
+                else:
+                    odds = odds_lookup[key].pop(0)
+            row.append(odds)
 
             owriter.writerow(row)
 
 print("done")
-exit(0)
-
-
-
-
-
-
-
-
-teams_ref['Team'] = teams_ref.apply(lambda x: x['SportsRefName'] if x['SportsRefAlt']=='N/A' else x['SportsRefAlt'], axis=1)
-
-snoozleList = [0, 0, 0, 0] #get all team data
-for i, year in enumerate(range(2013,2017)):
-    snoozleList[i] = pd.read_csv('data/snoozle/odds/odds{}.csv'.format(year))
-    
-snoozle = pd.concat(snoozleList)
-snoozle_teams_m = np.union1d(snoozle['Home'].unique(), snoozle['Visiter'].unique()) #unique snoozle teams
-
-snoozle_fix = pd.DataFrame([ #teams to fix manually
-    ('Cal', 'California'),('Cent Michigan', 'Central Michigan'),('E Michigan', 'Eastern Michigan'),
-    ('ECU', 'East Carolina'),('FAU', 'Florida Atlantic'),('FIU', 'Florida International'),
-    ('FSU', 'Florida State'),('Ga Southern', 'Georgia Southern'),('LA Tech', 'Louisiana Tech'),
-    ('LA-Lafayette', 'Louisiana-Lafayette'),('Mid Tennessee', 'Middle Tennessee State'),('Miss St', 'Mississippi State'),
-    ('N Illinois', 'Northern Illinois'),('New Mexico St', 'New Mexico State'),('North Carolina St', 'North Carolina State'),
-    ('North Dakota St', 'North Dakota State'),('OSU', 'Ohio State'),('San Jose State', 'SJSU'),
-    ('UConn', 'Connecticut'),('UMass', 'Massachusetts'),('UNC', 'North Carolina'),
-    ('USF', 'South Florida'),('UVA', 'Virginia'),('VT', 'Virginia Tech'),('W Kentucky', 'Western Kentucky'),
-    ('W Michigan', 'Western Michigan'),('Washington St', 'Washington State')], columns=['SnoozleTeam','FixedTeam'])
-
-#######################################################################################
-
-snoozle_teams_f = [(np.nan,np.nan,np.nan, np.nan) for i in range(snoozle_teams_m.shape[0])] #final df
-
-for i, team in enumerate(snoozle_teams_m): #iterate through snoozle teams
-    team_ID = teams_ref.loc[(teams_ref['SportsRefName']==team)|(teams_ref['SportsRefAlt']==team)|(teams_ref['Team']==team)| #find id
-                            (teams_ref['DonBestName']==team)|(teams_ref['DonBestAlt']==team)|(teams_ref['DonBestAlt2']==team)]
-    if team_ID.shape[0] == 0: #manual fixes
-        
-        team_ID_m = snoozle_fix.loc[snoozle_fix['SnoozleTeam']==team]['FixedTeam'].iloc[0]
-        team_ID = teams_ref.loc[(teams_ref['SportsRefName']==team_ID_m)|(teams_ref['SportsRefAlt']==team_ID_m)|
-                                (teams_ref['Team']==team_ID_m)|(teams_ref['DonBestName']==team_ID_m)|
-                                (teams_ref['DonBestAlt']==team_ID_m)|(teams_ref['DonBestAlt2']==team_ID_m)]  
-        snoozle_teams_f[i] = (team, team, int(team_ID['id']), int(team_ID['id']))
-    else:
-        snoozle_teams_f[i] = (team, team, int(team_ID['id']), int(team_ID['id']))
-
-snoozle_teams = pd.DataFrame(snoozle_teams_f, columns=['Home Team',' Vis Team','HomeID','VisID'])
-
-
-
-#######################################################################################
-
-for year in range(2001,2002):
-    '''
-    odds = pd.read_csv('data/snoozle/odds/odds{}.csv'.format(year))
-    odds = add_indices(odds, 'Date')
-    odds = pd.merge(odds, snoozle_teams[['Home Team','HomeID']], on='Home Team',how='left')
-    odds = pd.merge(odds, snoozle_teams[['Visiter','VisID']], on='Visiter',how='left')
-    odds = odds.rename({'Spread':'SpreadWag','OverUnder':'OverUnderWag'}, axis=1)
-    odds.to_csv('data/snoozle/odds_fixed/odds{}.csv'.format(year), index=False)
-    '''
-
-    stats = pd.read_csv('data/snoozle/stats/snoozle-{}.csv'.format(year))
-    stats = add_indices(stats, 'Date')
-    stats = pd.merge(stats, snoozle_teams[['Home Team','HomeID']], on='Home Team',how='left')
-    stats = pd.merge(stats, snoozle_teams[[' Vis Team','VisID']], on=' Vis Team',how='left')
-    stats.to_csv('data/snoozle/stats_fixed/stats{}.csv'.format(year), index=False)
-                       
-                      
