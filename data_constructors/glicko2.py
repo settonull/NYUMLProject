@@ -40,13 +40,13 @@ def get_opponent_outcomes(df, home_metric_label='HomeFinal',
     # sum metrics for better and worse teams
     df['betterID'] = list(map(lambda home_id, away_id, home_metric,away_metric:
         home_id if compare(home_metric, away_metric, larger_is_better) else \
-                            away_id, df['HomeID'], df['AwayID'],
+                            away_id, df['HomeID'], df['VisID'],
         df[home_metric_label], df[away_metric_label]))
     df['betterMetric'] = 1
 
     df['worseID'] = list(map(lambda home_id, away_id, better_id: home_id if \
                                 better_id == away_id else away_id,
-        df['HomeID'], df['AwayID'], df['betterID']))
+        df['HomeID'], df['VisID'], df['betterID']))
     df['worseMetric'] = 0
 
     # Combine the better and worse data
@@ -178,7 +178,7 @@ def glicko2_summarize(df, min_weeks=4):
             if week > min_weeks:
                 if week == min_weeks + 1:
                     season_df = df[df['Season']==season].copy()
-                    uniqueteamids = pd.concat([season_df['AwayID'],
+                    uniqueteamids = pd.concat([season_df['VisID'],
                                                 season_df['HomeID']]).unique()
                     ratings = np.repeat(1500, len(uniqueteamids))
                     ratingsdeviance = np.repeat(350, len(uniqueteamids))
@@ -206,13 +206,13 @@ def glicko2_summarize(df, min_weeks=4):
                             suffixes=('','_Home'))
     df.drop('TeamID', 1, inplace=True)
 
-    df = df.merge(results, left_on=['Season','Week','AwayID'],
+    df = df.merge(results, left_on=['Season','Week','VisID'],
                             right_on=['Season','Week','TeamID'],
                             suffixes=('','_Away'))
     df.drop('TeamID', 1, inplace=True)
 
     # Create key and set index to join with n_game summaries dataset.
-    df.set_index(['HomeID', 'AwayID', 'Season', 'Week'], inplace=True)
+    df.set_index(['HomeID', 'VisID', 'Season', 'Week'], inplace=True)
     df = df[['Glicko_Rating', 'Glicko_Rating_Deviance', 'Glicko_Sigma',
             'Glicko_Rating_Away', 'Glicko_Rating_Deviance_Away',
             'Glicko_Sigma_Away']]
@@ -221,3 +221,19 @@ def glicko2_summarize(df, min_weeks=4):
                 'Glicko_Rating_Deviance_Away', 'Glicko_Sigma_Away']
 
     return df
+
+if __name__=='__main__':
+
+    cur_dir = os.getcwd()
+    data_dir = 'data'
+    snooz_dir = 'snoozle'
+    snooz_file = 'snoozle-combined.csv'
+    glicko_dir = 'glicko'
+    glicko_file = 'glicko_snoozle.csv'
+
+    file = os.path.join(cur_dir, data_dir, snooz_dir, snooz_file)
+    dataframe = pd.read_csv(file)
+    glicko_df = glicko2_summarize(dataframe, min_weeks=4)
+
+    file = os.path.join(cur_dir, data_dir, glicko_dir, glicko_file)
+    glicko_df.to_csv(file)
