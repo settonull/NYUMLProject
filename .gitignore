@@ -105,3 +105,6 @@ venv.bak/
 
 # atom
 .DS_Store
+
+#PyCharm
+.idea/
