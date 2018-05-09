@@ -295,17 +295,28 @@ confs = [cnf for _,cnf in conf.groupby('Season')]
 
 #######################################################################################
 
-ultimate = pd.read_csv('data/ultimate/ultimate_names.csv')
+ultimate = pd.read_csv('data/snoozle/snoozle-combined.csv')
+ultimate['HomeFinal'] = abs(ultimate['HomeFinal'])
+ultimate['VisFinal'] = abs(ultimate['VisFinal'])
+ultimate['HomeConf'] = ultimate['HomeConf'].apply(lambda x: 'NotMajor' if x == 'NON-D1' else x)
+ultimate['VisConf'] = ultimate['VisConf'].apply(lambda x: 'NotMajor' if x == 'NON-D1' else x)
+ultimate[['HomeConf_NotMajor', 'VisConf_NotMajor']] = pd.get_dummies(ultimate[['HomeConf','VisConf']])[['HomeConf_NotMajor','VisConf_NotMajor']]
+
+for col in ultimate:
+    if 'v_' in col:
+        ultimate = ultimate.rename({col:'Vis{}'.format(col.split('v_')[1].title().replace('_', ''))}, axis=1)
+    elif 'h_' in col:
+        ultimate = ultimate.rename({col:'Home{}'.format(col.split('h_')[1].title().replace('_', ''))}, axis=1)
+    elif '_' in col:
+        ultimate = ultimate.rename({col:'{}'.format(col.title().replace('_',''))}, axis=1)
+
 ultimates = [ultSsn for _,ultSsn in ultimate.groupby('Season')]
 
 ultimates2 = [0 for i in range(len(ultimates))]
-
+  
 for year, ult in enumerate(ultimates):
     print('Year: {}'.format(year))
-    ultimates2[year] = pd.merge(ult, confs[year][['HomeID', 'HomeConf']], on='HomeID', how='left')
-    ultimates2[year] = pd.merge(ultimates2[year], confs[year][['VisID', 'VisConf']], on='VisID', how='left')
-    ultimates2[year] = pd.concat([ultimates2[year], pd.get_dummies(ultimates2[year][['HomeConf','VisConf']])], axis=1)
-    ultimates2[year] = add_ptsWinsGames(ultimates2[year])
+    ultimates2[year] = add_ptsWinsGames(ult)
     print('Adding Pyth and Elo')
     if year == 0:
         ultimates2[year] = add_pythWins(ultimates2[year], 2.37)
@@ -315,8 +326,9 @@ for year, ult in enumerate(ultimates):
         ultimates2[year] = add_elo(ultimates2[year], 20, ultimates2[year-1])
         
 ultimate_complete = pd.concat(ultimates2)
+
 print('finished')
-ultimate_complete.to_csv('data/ultimate/ultimate_2.csv', index=False)
+ultimate_complete.to_csv('data/snoozle/snoozle_ijh.csv', index=False)
     
     
     
