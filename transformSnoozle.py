@@ -153,7 +153,11 @@ for season in range(2001,2018):
 
     #for removing duplicate entries in snoozle data
     seen_list =[]
-
+    
+    #hack to handle 2 week start
+    if season >= 2016:
+        week = 0
+        
     with open('data/snoozle/stats/snoozle-{}.csv'.format(season), 'r') as ofile:
         statsr = csv.reader(ofile, delimiter=',')
         next(statsr)  # skip the header
@@ -172,14 +176,14 @@ for season in range(2001,2018):
             date = fix_date(row[0])
             dt = datetime.date(year = int(date[0]), month= int(date[1]), day = int(date[2]))
             if not lastThursday: #first game of a season
-                lastThursday = dt + timedelta(days = (3 - dt.weekday())) #3 = thrusday
+                lastThursday = dt + timedelta(days = (1 - dt.weekday())) #1 = tuesday
             else:
                 if dt >= (lastThursday + timedelta(days=7)):
                     week = week +1
                     lastThursday = lastThursday +  timedelta(days=7)
             row.append(season)
             row = row + date
-            row.append(week)
+            row.append(week if week != 0 else 1)
             row.append(vis_id)
             row.append(home_id)
 
