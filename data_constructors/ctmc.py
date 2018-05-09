@@ -11,7 +11,7 @@ def unique_teams_faced(df):
     """
 
     # Matrix of games played with values of the opponents ID
-    games = pd.pivot_table(df, index='HomeID', columns='AwayID',
+    games = pd.pivot_table(df, index='HomeID', columns='VisID',
                             aggfunc='count')[df.columns[0]]
     games /= games
     games = games.fillna(0)
@@ -52,21 +52,21 @@ def build_transition_matrix(df, home_metric_label, away_metric_label,
     # sum metrics for better and worse teams
     df['betterID'] = list(map(lambda home_id, away_id, home_metric, away_metric:
         home_id if compare(home_metric, away_metric, larger_is_better) else \
-        away_id, df['HomeID'], df['AwayID'],
+        away_id, df['HomeID'], df['VisID'],
         df[home_metric_label], df[away_metric_label]))
     df['betterMetric'] = list(map(lambda home_id, away_id, home_metric, away_metric:
         home_metric if compare(home_metric, away_metric, larger_is_better) else \
-        away_metric, df['HomeID'], df['AwayID'],
+        away_metric, df['HomeID'], df['VisID'],
         df[home_metric_label], df[away_metric_label]))
 
     df['worseID'] = list(map(lambda home_id, away_id, better_id: home_id if \
                             better_id == away_id else away_id,
-                            df['HomeID'], df['AwayID'], df['betterID']))
+                            df['HomeID'], df['VisID'], df['betterID']))
     df['worseMetric'] = list(map(lambda home_id, home_score, away_id, \
                         away_score, better_id:
                         home_score if better_id == away_id else \
                         away_score, df['HomeID'], df[home_metric_label], \
-                        df['AwayID'], df[away_metric_label], df['betterID']))
+                        df['VisID'], df[away_metric_label], df['betterID']))
 
     # Combine the better and worse data
     better_df = df[['betterID', 'worseID', 'betterMetric']]
@@ -90,7 +90,7 @@ def unique_matches_filter(df, min_matches=2):
     teams_mask = list(map(lambda home_id, away_id:
         True if home_id in teams.index.values or away_id in \
         teams.index.values else False,
-        df['HomeID'], df['AwayID']))
+        df['HomeID'], df['VisID']))
     df = df[teams_mask]
     return df
 
@@ -145,14 +145,31 @@ def ctmc_summarize(df, metrics=('HomeFinal', 'VisFinal'), larger_is_better = Tru
                             suffixes=('','_Home'))
     df.drop('TeamID', 1, inplace=True)
 
-    df = df.merge(results, left_on=['Season','Week','AwayID'],
+    df = df.merge(results, left_on=['Season','Week','VisID'],
                             right_on=['Season','Week','TeamID'],
                             suffixes=('','_Away'))
     df.drop('TeamID', 1, inplace=True)
 
     # Create key and set index to join with n_game summaries dataset.
-    df.set_index(['HomeID', 'AwayID', 'Season', 'Week'], inplace=True)
+    df.set_index(['HomeID', 'VisID', 'Season', 'Week'], inplace=True)
     df = df[['CTMC_Rating', 'CTMC_Rating_Away']]
     df.columns = ['CTMC_Rating_Home', 'CTMC_Rating_Away']
 
     return df
+
+if __name__=='__main__':
+
+    cur_dir = os.getcwd()
+    data_dir = 'data'
+    snooz_dir = 'snoozle'
+    snooz_file = 'snoozle-combined.csv'
+    ctmc_dir = 'ctmc'
+    ctmc_file = 'score_ctmc_snoozle.csv'
+
+    file = os.path.join(cur_dir, data_dir, snooz_dir, snooz_file)
+    dataframe = pd.read_csv(file)
+    ctmc_df = ctmc_summarize(dataframe, metrics=('HomeFinal', 'VisFinal'), larger_is_better = True,
+                             unique_matches_required = 2, min_weeks=4)
+
+    file = os.path.join(cur_dir, data_dir, ctmc_dir, ctmc_file)
+    ctmc_df.to_csv(file)

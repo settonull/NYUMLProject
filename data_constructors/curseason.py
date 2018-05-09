@@ -3,12 +3,10 @@ import os
 
 def in_season_summary(dataframe):
     # Restrict ultimate dataset to stat columns only
-    stats_cols = [col for col in dataframe.columns if col.find('Pyth') == -1 and\
-                  col.find('Elo') == -1 and col.find('Conf') == -1 and \
-                  col.find('game_id') == -1 and col.find('conf') == -1 and \
-                  col.find('Abb') == -1 and col.find('Name') == -1 and \
-                  col.find('Luck') == -1 and col.find('Start') == -1 and \
-                  col.find('School') == -1 and col.find('Nick') == -1]
+    stats_cols = [col for col in dataframe if col.find('Team_Name') == -1 and \
+                  col.find('Year') == -1 and col.find('Month') == -1 and \
+                  col.find('Day') == -1 and col.find('Conf') == -1 and \
+                  col.find('conf') == -1 and col.find('Date') == -1]
     dataframe = dataframe[stats_cols]
 
     # Compute averages components
@@ -63,13 +61,14 @@ if __name__=='__main__':
 
     cur_dir = os.getcwd()
     data_dir = 'data'
-    ultimate_dir = 'ultimate'
-    ultimate_file = 'ultimate_2.csv'
+    snooz_dir = 'snoozle'
+    snooz_file = 'snoozle-combined.csv'
     curseason_dir = 'curseason'
     curseason_file = 'curseason.csv'
 
-    file = os.path.join(cur_dir, data_dir, ultimate_dir, ultimate_file)
+    file = os.path.join(cur_dir, data_dir, snooz_dir, snooz_file)
     dataframe = pd.read_csv(file)
+    dataframe['Spread'] = dataframe['HomeFinal'] - dataframe['VisFinal']
     inseason_df = in_season_summary(dataframe)
 
     file = os.path.join(cur_dir, data_dir, curseason_dir, curseason_file)

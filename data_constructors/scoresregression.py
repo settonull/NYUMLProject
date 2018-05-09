@@ -27,36 +27,36 @@ root_dir = os.getcwd()
 ctmc_dir = 'ctmc'
 glicko_dir = 'glicko'
 curseason_dir = 'curseason'
-ultimate_dir = 'ultimate'
-scores_pe_dir = 'scores_pe'
+scorepreds_dir = 'scorepreds'
+snooz_dir = 'snoozle'
 bcs_dir = 'BCS'
 conf_dir = 'conferences'
 data_dir = os.path.join(root_dir, "data")
 
 ##### IJH Data
-file = os.path.join(data_dir, ultimate_dir, "ultimate_2.csv")
-scores_pe_df = pd.read_csv(file)
-scores_pe_df = scores_pe_df.set_index(['HomeID', 'VisID', 'Season', 'Week'])
-scores_pe_df['target_margin'] = scores_pe_df['HomeFinal'] - scores_pe_df['VisFinal']
-scores_pe_df = scores_pe_df[['HomeElo', 'HomeEloProb','HomeLuck','HomePrevLuck',
+file = os.path.join(data_dir, snooz_dir, "snoozle_ijh.csv")
+snooz_df = pd.read_csv(file)
+snooz_df = snooz_df.set_index(['HomeID', 'VisID', 'Season', 'Week'])
+snooz_df['target_margin'] = snooz_df['HomeFinal'] - snooz_df['VisFinal']
+snooz_df = snooz_df[['HomeElo', 'HomeEloProb','HomeLuck','HomePrevLuck',
                             'HomePythPct','HomePythWins','HomeWinPct','VisElo',
                             'VisEloProb','VisLuck', 'VisPrevLuck','VisPythPct',
-                            'VisPythWins','VisWinPct','SpreadElo','HomeConf_NotMajor',
-                            'VisConf_NotMajor','target_margin','HomeFinal','VisFinal']]
-scores_pe_df = scores_pe_df.drop_duplicates()
+                            'VisPythWins','VisWinPct','SpreadElo',
+                            'target_margin','HomeFinal','VisFinal']]
+snooz_df = snooz_df.drop_duplicates()
 
 ######## SWC Data
-file = os.path.join(data_dir, ctmc_dir, "scores_ctmc_ultimate_data_final.csv")
+file = os.path.join(data_dir, ctmc_dir, "score_ctmc_snoozle.csv")
 scores_ctmc_df = pd.read_csv(file,index_col=[0,1,2,3]).drop_duplicates()
 scores_ctmc_df.index.names = ['HomeID', 'VisID', 'Season', 'Week']
-file = os.path.join(data_dir, glicko_dir, "glicko_ultimate_data_final.csv")
+file = os.path.join(data_dir, glicko_dir, "glicko_snoozle.csv")
 glicko_df = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
 glicko_df.index.names = ['HomeID', 'VisID', 'Season', 'Week']
 file = os.path.join(data_dir, curseason_dir, "curseason.csv")
 curseason_df = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
 
 # Join SC Data
-data_final = scores_pe_df.join(scores_ctmc_df, how='left')
+data_final = snooz_df.join(scores_ctmc_df, how='left')
 data_final = data_final.join(glicko_df)
 data_final = data_final.join(curseason_df)
 
@@ -82,8 +82,10 @@ data_final = data_final.reset_index().merge(conf_df,
 data_final = data_final.set_index(['HomeID', 'VisID', 'Season', 'Week'])
 data_final = data_final.drop(['ID','Year','IDVis','index'],1)
 
+
 # Impute HomeConf Data
-data_final['HomeConf_NotMajor'] = data_final['HomeConf_NotMajor'].fillna(0)
+data_final['HomeConf_NotMajor'] = np.where(data_final['Conf'] == 'NotMajor', 1, 0)
+data_final['VisConf_NotMajor'] = np.where(data_final['ConfVis'] == 'NotMajor', 1, 0)
 
 ################################################################################
 # Train - Val - Test Splits
@@ -246,5 +248,5 @@ X_test['VisPredFinal'] = vscore_test_feats
 data_final = pd.concat([X_train, X_val, X_test])
 data_final = data_final[['HomePredFinal','VisPredFinal']]
 
-file = os.path.join(cur_dir, data_dir, 'scorepreds', 'scorepreds.csv')
+file = os.path.join(root_dir, data_dir, 'scorepreds', 'scorepreds.csv')
 data_final.to_csv(file)
