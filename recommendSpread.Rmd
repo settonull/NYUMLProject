@@ -18,6 +18,8 @@ setwd('C:/Users/isaac/OneDrive/Documents/NYU/Spring_2018/c_1003/NYUMLProject')
 
 ```{r}
 
+set.seed(1003)
+
 bestWeights <- function(dat){
   e <- evaluationScheme(dat, method="bootstrap",train=.9, given=-1)
   j <- 1
@@ -25,8 +27,8 @@ bestWeights <- function(dat){
   weights <- seq(0, 1, 0.1)
   for(i in seq(0,1,0.1)){
     rec <- HybridRecommender(
-        Recommender(getData(e, "train"), method='UBCF', param = list(nn = 5, method = "cosine", normalize = NULL)),
-        Recommender(getData(e, "train"), method='IBCF', param = list(k = 5, method = "cosine", normalize = NULL)),
+        Recommender(getData(e, "train"), method='UBCF', param = list(nn = 2, method = "cosine", normalize = NULL)),
+        Recommender(getData(e, "train"), method='IBCF', param = list(k = 2, method = "cosine", normalize = NULL)),
         weights=c(i, 1-i))
     preds <- predict(rec, getData(e, "known"), type="ratings")
     err<-calcPredictionAccuracy(preds, getData(e, "unknown"))
@@ -37,7 +39,7 @@ bestWeights <- function(dat){
   return(weights[which.min(errs)])
 }
 
-fillSpread <- function(s, orig_dat){
+fillSpread <- function(s, orig_dat, nn){
   dat_matrix <- 
     orig_dat %>% 
     select(HomeID, VisID, s) %>% 
@@ -48,39 +50,77 @@ fillSpread <- function(s, orig_dat){
     as('realRatingMatrix') 
       
   dat_norm <- normalize(dat_matrix, row=FALSE)
-  rec <- Recommender(dat_norm, method='UBCF', param = list(nn = 2, method = "cosine", normalize = NULL)) 
+  rec <- Recommender(dat_norm, method='UBCF', param = list(nn = nn, method = "cosine", normalize = NULL))
   preds <- predict(rec, dat_norm, type='ratings')
   
   med_dat <- 
-    summary(preds@data) %>%
-    as.data.frame() %>%
+    preds %>%
+    as('data.frame') %>%
     set_names(c('HomeID', 'VisID', paste0(s, 2))) %>%
     mutate(HomeID = as.integer(as.character(HomeID)), VisID = as.integer(as.character(VisID)))
     
   return(med_dat)
 }
 
+fillTarget <- function(wk, orig_dat, nn){
+  s = 'target_margin' 
+  
+  orig_dat <- 
+    orig_dat %>%
+    mutate(target_margin = if_else(Week==wk, NA_integer_, target_margin))
+  
+  dat_matrix <- 
+    orig_dat %>% 
+    select(HomeID, VisID, target_margin) %>% 
+    group_by(HomeID, VisID) %>% summarise_at(.vars=s, mean, na.rm=TRUE) %>% ungroup %>%
+    spread(key=VisID, value=target_margin, drop=TRUE)  %>%
+    column_to_rownames(var='HomeID') %>% 
+    as.matrix() %>%
+    as('realRatingMatrix') 
+  
+  dat_norm <- normalize(dat_matrix, row=FALSE)
+  rec <- Recommender(dat_norm, method='UBCF', param = list(nn = nn, method = "cosine", normalize = NULL))
+  preds <- predict(rec, dat_norm, type='ratings')
+  
+  
+  med_dat <- 
+    preds %>%
+    as('data.frame') %>%
+    set_names(c('HomeID', 'VisID', 'Spread_Rec2')) %>%
+    mutate(HomeID = as.integer(as.character(HomeID)), VisID = as.integer(as.character(VisID)))
+    
+ return(med_dat)
 
-recommendNew <- function(wk, yr){
-  cat("Week:", wk, '\n')
-  if(wk == 4){
+}
+
+recommendNew <- function(wk, yr, nn){
+  cat("Week:", wk, ' nn:', nn, '\n')
+  if(wk == 5){
     readIn_path <- paste0('data/new_odds/pre/pre_', yr, '/odds', yr, '_', wk, '.csv')
-    readOut_path <- paste0('data/new_odds/post/post_', yr, '/odds', yr, '_', wk, '.csv')
-    orig_dat <- read_csv(readIn_path, col_types = cols())
+    readOut_path <- paste0('data/new_odds/post/post_', yr, '/odds', yr, '_', wk, '_', nn, '.csv')
+    orig_dat <- 
+      read_csv(readIn_path, col_types = cols()) %>%
+      mutate(Spread_Rec = NA_real_)
   }else{
     readIn_path <- paste0('data/new_odds/pre/pre_', yr, '/odds', yr, '_', wk, '.csv')
-    readPrev_path <- paste0('data/new_odds/post/post_', yr, '/odds', yr, '_', wk-1, '.csv')
-    readOut_path <- paste0('data/new_odds/post/post_', yr, '/odds', yr, '_', wk, '.csv')
-    orig_dat <- read_csv(readIn_path, col_types = cols()) %>% rbind(read_csv(readPrev_path, col_types = cols()))
+    readPrev_path <- paste0('data/new_odds/post/post_', yr, '/odds', yr, '_', wk-1, '_', nn, '.csv')
+    readOut_path <- paste0('data/new_odds/post/post_', yr, '/odds', yr, '_', wk, '_', nn, '.csv')
+    orig_dat <- 
+      read_csv(readIn_path, col_types = cols()) %>% 
+      mutate(Spread_Rec = NA_real_) %>%
+      rbind(read_csv(readPrev_path, col_types = cols()))
   }
   casinos <- c("Spread_Mirage","Spread_SBG","Spread_BetUS",
               "Spread_Pinnacle","Spread_Sportsbet",
                "Spread_Westgate","Spread_Station","Spread_SIA",
                'Spread_Med', 'Spread_Mode')
   
-  med_dat <- lapply(casinos, function(c) fillSpread(c, orig_dat))
+  med_dat <- lapply(casinos, function(c) fillSpread(c, orig_dat, nn))
   
-  new_dat <- orig_dat
+  target_dat <- fillTarget(wk, orig_dat, nn)  
+  
+  new_dat <- orig_dat %>%
+    left_join(target_dat, by=c('VisID', 'HomeID'))
   
   for(i in 1:length(casinos)){
     new_dat <- new_dat %>%
@@ -89,7 +129,19 @@ recommendNew <- function(wk, yr){
   
   new_dat <- 
     new_dat %>%
-    mutate(Spread_Mirage = if_else(is.na(Spread_Mirage), Spread_Mirage2, Spread_Mirage), 
+    mutate(Spread_Rec = as.numeric(Spread_Rec), 
+           Spread_Mirage = as.numeric(Spread_Rec), 
+           Spread_Pinnacle = as.numeric(Spread_Pinnacle), 
+           Spread_Sportsbet = as.numeric(Spread_Sportsbet), 
+           Spread_Westgate = as.numeric(Spread_Westgate), 
+           Spread_Station = as.numeric(Spread_Station), 
+           Spread_SIA = as.numeric(Spread_SIA), 
+           Spread_SBG = as.numeric(Spread_SBG), 
+           Spread_BetUS = as.numeric(Spread_BetUS), 
+           Spread_Med = as.numeric(Spread_Med), 
+           Spread_Mode = as.numeric(Spread_Mode)) %>%
+    mutate(Spread_Rec = if_else(is.na(Spread_Rec), Spread_Rec2, Spread_Rec), 
+           Spread_Mirage = if_else(is.na(Spread_Mirage), Spread_Mirage2, Spread_Mirage), 
            Spread_Pinnacle = if_else(is.na(Spread_Pinnacle), Spread_Pinnacle2, Spread_Pinnacle),
            Spread_Sportsbet = if_else(is.na(Spread_Sportsbet), Spread_Sportsbet2, Spread_Sportsbet),
            Spread_Westgate = if_else(is.na(Spread_Westgate), Spread_Westgate2, Spread_Westgate),
@@ -101,32 +153,16 @@ recommendNew <- function(wk, yr){
            Spread_Mode = if_else(is.na(Spread_Mode), Spread_Mode, Spread_Mode)) %>%
     select(-one_of("Spread_Mirage2","Spread_Pinnacle2","Spread_Sportsbet2",
                    "Spread_Westgate2","Spread_Station2","Spread_SIA2",
-                   "Spread_SBG2","Spread_BetUS2","Spread_Med2", 'Spread_Mode2')) %>%
+                   "Spread_SBG2","Spread_BetUS2","Spread_Med2", 'Spread_Mode2',
+                   'Spread_Rec2')) %>%
     write_csv(readOut_path)
 }
 
-sapply(4:16, function(i) recommendNew(i, 2013))
-sapply(4:15, function(i) recommendNew(i, 2014))
+sapply(2:5, function(j) sapply(5:16, function(i) recommendNew(i, 2013, j)))
+sapply(2:5, function(j) sapply(5:16, function(i) recommendNew(i, 2014, j)))
 
-sapply(4:14, function(i) recommendNew(i, 2015))
-sapply(4:16, function(i) recommendNew(i, 2016))
-
-
-##SPECIAL CASE##
-readIn_path <- paste0('data/new_odds/pre/pre_', 2014, '/odds', 2014, '_', 16, '.csv')
-readPrev_path <- paste0('data/new_odds/post/post_', 2014, '/odds', 2014, '_', 16-1, '.csv')
-readOut_path <- paste0('data/new_odds/post/post_', 2014, '/odds', 2014, '_', 16, '.csv')
-read_csv(readIn_path, col_types = cols()) %>% 
-  rbind(read_csv(readPrev_path, col_types = cols())) %>% 
-  write_csv(readOut_path)
-
-readIn_path <- paste0('data/new_odds/pre/pre_', 2015, '/odds', 2015, '_', 15, '.csv')
-readPrev_path <- paste0('data/new_odds/post/post_', 2015, '/odds', 2015, '_', 15-1, '.csv')
-readOut_path <- paste0('data/new_odds/post/post_', 2015, '/odds', 2015, '_', 15, '.csv')
-read_csv(readIn_path, col_types = cols()) %>% 
-  rbind(read_csv(readPrev_path, col_types = cols())) %>% 
-  write_csv(readOut_path)
-
+sapply(2:5, function(j) sapply(5:15, function(i) recommendNew(i, 2015, j)))
+sapply(2:5, function(j) sapply(5:16, function(i) recommendNew(i, 2016, j)))
 
 
 ```

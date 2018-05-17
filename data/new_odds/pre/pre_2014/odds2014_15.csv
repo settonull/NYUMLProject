@@ -1,4 +1,4 @@
-HomeID,VisID,Season,Week,Spread_Mirage,Spread_Pinnacle,Spread_Sportsbet,Spread_Westgate,Spread_Station,Spread_SIA,Spread_SBG,Spread_BetUS,target_margin,Conf,Spread_Med,Spread_Mode
+HomeID,VisID,Season,Week,Spread_Mirage,Spread_Pinnacle,Spread_Sportsbet,Spread_Westgate,Spread_Station,Spread_SIA,Spread_SBG,Spread_BetUS,target_margin,Conf,SpreadMed,SpreadMode
 276,2348,2014,15,-9.5,-8.0,-9.0,-9.5,,-9.0,-9.0,-8.5,3,cusa,-9.0,-9.0
 142,333,2014,15,-14.5,-14.0,-14.0,-14.5,-14.5,-14.0,-14.0,-14.0,-29,sec,-14.0,-14.0
 189,2459,2014,15,5.5,5.0,5.5,5.0,6.0,6.0,5.0,5.0,-34,mac,5.25,5.0
