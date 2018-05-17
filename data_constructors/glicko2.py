@@ -165,7 +165,7 @@ def glicko2(data, unique_teamids, glicko_stats):
 
     return glicko_stats
 
-def glicko2_summarize(df, min_weeks=4):
+def glicko2_summarize(df, min_weeks=4, use_prior=False):
     """
     For each week greater than min_weeks in each season, computes the CTMC
     ratings for all teams meeting the minimum number of matches.
@@ -180,18 +180,36 @@ def glicko2_summarize(df, min_weeks=4):
                     season_df = df[df['Season']==season].copy()
                     uniqueteamids = pd.concat([season_df['VisID'],
                                                 season_df['HomeID']]).unique()
-                    ratings = np.repeat(1500, len(uniqueteamids))
-                    ratingsdeviance = np.repeat(350, len(uniqueteamids))
-                    sigma = np.repeat(0.06, len(uniqueteamids))
-                    glicko_stats = pd.DataFrame({'ratings': ratings,
-                                                'ratingsdeviance': ratingsdeviance,
-                                                'sigma': sigma}, index=uniqueteamids)
+                    if use_prior == True and season > df['Season'].min():
+                        ratings = np.repeat(1500, len(uniqueteamids))
+                        ratingsdeviance = np.repeat(350, len(uniqueteamids))
+                        sigma = np.repeat(0.06, len(uniqueteamids))
+                        glicko_stats = pd.DataFrame({'ratings': ratings,
+                                                    'ratingsdeviance': ratingsdeviance,
+                                                    'sigma': sigma}, index=uniqueteamids)
+                        prior = results[results['Season']==season-1]
+                        prior_id_mask = [True if id in uniqueteamids else False for id in prior['TeamID']]
+                        prior = prior[prior_id_mask]
+                        prior = prior.sort_values('Week').groupby('TeamID').tail(1)
+                        prior = prior.drop('Week',1)
+                        prior = prior.set_index('TeamID')
+                        glicko_stats.loc[prior.index, 'ratings'] = prior['Glicko_Rating'] - (prior['Glicko_Rating'] - 1500)/2
+                        glicko_stats.loc[prior.index, 'ratingsdeviance'] = prior['Glicko_Rating_Deviance'] - (prior['Glicko_Rating_Deviance'] - 350)/2
+                        glicko_stats.loc[prior.index, 'sigma'] = prior['Glicko_Sigma'] - (prior['Glicko_Sigma'] - 0.06)/2
+                    else:
+                        ratings = np.repeat(1500, len(uniqueteamids))
+                        ratingsdeviance = np.repeat(350, len(uniqueteamids))
+                        sigma = np.repeat(0.06, len(uniqueteamids))
+                        glicko_stats = pd.DataFrame({'ratings': ratings,
+                                                    'ratingsdeviance': ratingsdeviance,
+                                                    'sigma': sigma}, index=uniqueteamids)
 
                 week_df = df[(df['Season']==season) & (df['Week']<week)].copy()
                 glicko_stats = glicko2(week_df, uniqueteamids, glicko_stats)
 
 
                 glicko_results = glicko_stats.reset_index()
+                print(glicko_results.head(), season)
                 glicko_results.columns = ['TeamID','Glicko_Rating',
                                             'Glicko_Rating_Deviance',
                                             'Glicko_Sigma']
@@ -229,11 +247,11 @@ if __name__=='__main__':
     snooz_dir = 'snoozle'
     snooz_file = 'snoozle-combined.csv'
     glicko_dir = 'glicko'
-    glicko_file = 'glicko_snoozle.csv'
+    glicko_file = 'glicko_snoozle_prior.csv'
 
     file = os.path.join(cur_dir, data_dir, snooz_dir, snooz_file)
     dataframe = pd.read_csv(file)
-    glicko_df = glicko2_summarize(dataframe, min_weeks=4)
+    glicko_df = glicko2_summarize(dataframe, min_weeks=4, use_prior=True)
 
     file = os.path.join(cur_dir, data_dir, glicko_dir, glicko_file)
     glicko_df.to_csv(file)

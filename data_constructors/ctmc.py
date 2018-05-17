@@ -120,7 +120,7 @@ def CTMC(df, metrics=('HomeFinal', 'VisFinal'), larger_is_better = True,
     return pd.DataFrame({'TeamID': transition_df.index.values, 'Ratings': ratings}).set_index('TeamID')
 
 def ctmc_summarize(df, metrics=('HomeFinal', 'VisFinal'), larger_is_better = True,
-                   unique_matches_required = 2, min_weeks=4):
+                   unique_matches_required = 2, min_weeks=4, prior=False):
     """
     For each week greater than min_weeks in each season, computes the CTMC
     ratings for all teams meeting the minimum number of matches.
@@ -131,8 +131,13 @@ def ctmc_summarize(df, metrics=('HomeFinal', 'VisFinal'), larger_is_better = Tru
     for season in df['Season'].unique():
         for week in df[df['Season']==season]['Week'].unique():
             if week > min_weeks:
-                ratings = CTMC(df[(df['Season']==season) & (df['Week']<week)].copy(),
-                                metrics, larger_is_better, unique_matches_required)
+                if prior == True:
+                    df_ctmc = df[((df['Season']==season) & (df['Week']<week)) | (df['Season']==season-1)].copy()
+                    df_ctmc['HomeFinal'] = np.where(df_ctmc['Season']==season-1, df_ctmc['HomeFinal'] - (df_ctmc['HomeFinal'] - df_ctmc['VisFinal'])*2/3, df_ctmc['HomeFinal'])
+                    df_ctmc['VisFinal'] = np.where(df_ctmc['Season']==season-1, df_ctmc['VisFinal'] + (df_ctmc['HomeFinal'] - df_ctmc['VisFinal'])*2/3, df_ctmc['VisFinal'])
+                else:
+                    df_ctmc = df[(df['Season']==season) & (df['Week']<week)].copy()
+                ratings = CTMC(df_ctmc, metrics, larger_is_better, unique_matches_required)
                 ratings.reset_index(inplace=True)
                 ratings.columns = ['TeamID','CTMC_Rating']
                 ratings['Season'] = season
@@ -164,12 +169,12 @@ if __name__=='__main__':
     snooz_dir = 'snoozle'
     snooz_file = 'snoozle-combined.csv'
     ctmc_dir = 'ctmc'
-    ctmc_file = 'score_ctmc_snoozle.csv'
+    ctmc_file = 'score_ctmc_snoozle_prior_twothird.csv'
 
     file = os.path.join(cur_dir, data_dir, snooz_dir, snooz_file)
     dataframe = pd.read_csv(file)
     ctmc_df = ctmc_summarize(dataframe, metrics=('HomeFinal', 'VisFinal'), larger_is_better = True,
-                             unique_matches_required = 2, min_weeks=4)
+                             unique_matches_required = 2, min_weeks=4, prior=True)
 
     file = os.path.join(cur_dir, data_dir, ctmc_dir, ctmc_file)
     ctmc_df.to_csv(file)

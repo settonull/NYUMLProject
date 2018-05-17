@@ -7,12 +7,16 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from scipy.stats import norm
 
 from sklearn.metrics import mean_squared_error
+from sklearn.metrics import r2_score
 from sklearn.metrics import make_scorer
 from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import OneHotEncoder
 from sklearn.kernel_ridge import KernelRidge
 from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import PredefinedSplit
 from sklearn.model_selection import train_test_split
@@ -46,12 +50,24 @@ snooz_df = snooz_df[['HomeElo', 'HomeEloProb','HomeLuck','HomePrevLuck',
 snooz_df = snooz_df.drop_duplicates()
 
 ######## SWC Data
+file = os.path.join(data_dir, ctmc_dir, "score_ctmc_snoozle_prior_half.csv")
+scores_ctmc_df_pre = pd.read_csv(file,index_col=[0,1,2,3]).drop_duplicates()
+scores_ctmc_df_pre.index.names = ['HomeID', 'VisID', 'Season', 'Week']
 file = os.path.join(data_dir, ctmc_dir, "score_ctmc_snoozle.csv")
-scores_ctmc_df = pd.read_csv(file,index_col=[0,1,2,3]).drop_duplicates()
-scores_ctmc_df.index.names = ['HomeID', 'VisID', 'Season', 'Week']
+scores_ctmc_df_nopre = pd.read_csv(file,index_col=[0,1,2,3]).drop_duplicates()
+scores_ctmc_df_nopre.index.names = ['HomeID', 'VisID', 'Season', 'Week']
+scores_ctmc_df = pd.concat([scores_ctmc_df_pre[scores_ctmc_df_pre.index.get_level_values(3)<12],
+                            scores_ctmc_df_nopre[scores_ctmc_df_nopre.index.get_level_values(3)>=12]])
+
+file = os.path.join(data_dir, glicko_dir, "glicko_snoozle_prior.csv")
+glicko_df_pre = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
+glicko_df_pre.index.names = ['HomeID', 'VisID', 'Season', 'Week']
 file = os.path.join(data_dir, glicko_dir, "glicko_snoozle.csv")
-glicko_df = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
-glicko_df.index.names = ['HomeID', 'VisID', 'Season', 'Week']
+glicko_df_nopre = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
+glicko_df_nopre.index.names = ['HomeID', 'VisID', 'Season', 'Week']
+glicko__df = pd.concat([glicko_df_pre[glicko_df_pre.index.get_level_values(3)<12],
+                        glicko_df_nopre[glicko_df_nopre.index.get_level_values(3)>=12]])
+
 file = os.path.join(data_dir, curseason_dir, "curseason.csv")
 curseason_df = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
 file = os.path.join(data_dir, scorepreds_dir, "scorepreds.csv")
@@ -85,6 +101,13 @@ data_final = data_final.reset_index().merge(conf_df,
 data_final = data_final.set_index(['HomeID', 'VisID', 'Season', 'Week'])
 data_final = data_final.drop(['ID','Year','IDVis','index'],1)
 
+one = OneHotEncoder()
+onehot_teams = one.fit_transform(data_final.reset_index()[['HomeID','VisID']]).todense()
+onehot_teams = pd.DataFrame(onehot_teams,
+                            index=data_final.index,
+                            columns = [str(i)+'_onehotteam' for i in\
+                                       range(onehot_teams.shape[1])])
+data_final = data_final.join(onehot_teams)
 
 # Impute HomeConf Data
 data_final['HomeConf_NotMajor'] = np.where(data_final['Conf'] == 'NotMajor', 1, 0)
@@ -95,13 +118,13 @@ data_final['VisConf_NotMajor'] = np.where(data_final['ConfVis'] == 'NotMajor', 1
 ################################################################################
 
 X_train = data_final[(data_final.index.get_level_values(2)<2016) & \
-                     # (data_final.index.get_level_values(2)>=2005) & \
+                     (data_final.index.get_level_values(2)>=2002) & \
                      (data_final['Conf']!='NotMajor') &
                      (data_final.index.get_level_values(3)>4)].\
                                        drop(['target_margin'], axis=1).\
                                        fillna(data_final.mean())
 y_train = data_final[(data_final.index.get_level_values(2)<2016) & \
-                     # (data_final.index.get_level_values(2)>=2005) & \
+                     (data_final.index.get_level_values(2)>=2002) & \
                      (data_final['Conf']!='NotMajor') & \
                      (data_final.index.get_level_values(3)>4)]['target_margin']
 
@@ -129,6 +152,9 @@ y_test = data_final[(data_final.index.get_level_values(2)==2017) & \
 
 base_featurestouse = [col for col in data_final.columns if \
                       col.find('InSeason') > -1]
+
+onehot_featurestouse = [col for col in data_final.columns if \
+                        col.find('onehot') > -1]
 
 swc_featurestouse = ['Glicko_Rating_Home', 'Glicko_Rating_Away',
                      'Glicko_Rating_Deviance_Home', 'Glicko_Rating_Deviance_Away',
@@ -188,8 +214,8 @@ def do_grid_search(X_train, y_train, X_val, y_val):
     y_train_val = np.concatenate((y_train, y_val))
     val_fold = [-1]*len(X_train) + [0]*len(X_val) #0 corresponds to validation
 
-    param_grid = [{'alpha': [10**x for x in np.arange(-3,-1, 0.25)],
-                   'gamma': [10**x for x in np.arange(-6,-1, 0.25)]}]
+    param_grid = [{'alpha': [10**x for x in np.arange(-6,-4, 0.5)],
+                   'gamma': [10**x for x in np.arange(-10,-5, 0.5)]}]
     estimator = KernelRidge(kernel='rbf')
     grid = GridSearchCV(estimator,
                         param_grid,
@@ -207,17 +233,16 @@ def do_grid_search(X_train, y_train, X_val, y_val):
     df_toshow = df_toshow.sort_values(by=["mean_test_score"])
     return grid, df_toshow
 
-####### Grid search and results
 grid, df_toshow = do_grid_search(X_trainscaled, y_train, X_valscaled, y_val)
 df_toshow.sort_values('mean_test_score', ascending=False)
 
 ####### Plot parameter space
-results = pd.pivot_table(df_toshow,
-                         index='param_gamma',
-                         columns='param_alpha',
-                         values='mean_test_score')
-fig, ax = plt.subplots(1,1, figsize=(15,10))
-sns.heatmap(results, annot=True, cmap='seismic', fmt="0.1f", ax=ax)
+# results = pd.pivot_table(df_toshow,
+#                          index='param_gamma',
+#                          columns='param_alpha',
+#                          values='mean_test_score')
+# fig, ax = plt.subplots(1,1, figsize=(15,10))
+# sns.heatmap(results, annot=True, cmap='seismic', fmt="0.1f", ax=ax)
 
 ####### Best Model MSE and R-Squared
 best_alpha = grid.best_params_['alpha']
@@ -228,6 +253,60 @@ best_ridge.fit(X_trainscaled, y_train)
 best_ridge.score(X_valscaled, y_val)
 preds = best_ridge.predict(X_valscaled)
 mean_squared_error(preds, y_val)
+
+################################################################################
+# Analysis
+################################################################################
+
+def plot_mse_season(mse_series):
+    fig, ax = plt.subplots(1,1)
+    ax.plot(weeks, mse_series)
+    ax.set_xlabel("Week")
+    ax.set_ylabel("MSE")
+    ax.set_title("MSE on Train by Week of Season")
+    plt.savefig(os.path.join(root_dir, "MSEbyWeekTrain.jpg"))
+
+mse_week = []
+weeks = X_val.index.get_level_values(3).unique().sort_values().tolist()
+for week in weeks:
+    X_val_week = X_val[X_val.index.get_level_values(3) <= week]
+    X_valscaled_week = standardscaler.transform(X_val_week[featurestouse])
+    y_val_week = y_val[y_val.index.get_level_values(3) <= week]
+    preds = best_ridge.predict(X_valscaled_week)
+    mse_week += [mean_squared_error(preds, y_val_week)]
+plot_mse_season(mse_week)
+
+# ctmc_glicko_prior = mse_week
+# ctmc_prior = mse_week
+# no_prior = mse_week
+# glicko_prior = mse_week
+
+fig, ax = plt.subplots(1,1)
+ax.plot(weeks, no_prior, label='no prior')
+ax.plot(weeks, ctmc_prior, label='ctmc prior')
+ax.plot(weeks, glicko_prior, label='glicko prior')
+ax.plot(weeks, ctmc_glicko_prior, label='ctmc/glicko prior')
+plt.title("Comparison of MSE by Week on Validation\nfor Different Pre-Season Ratings")
+ax.set_ylabel("MSE")
+ax.set_xlabel("Week")
+plt.legend()
+plt.savefig(os.path.join(root_dir, "ComparisonOfPreSeasonRatings.jpg"))
+
+mse_week = []
+weeks = X_train.index.get_level_values(3).unique().sort_values().tolist()
+for week in weeks:
+    X_train_week = X_train[X_train.index.get_level_values(3) <= week]
+    X_trainscaled_week = standardscaler.transform(X_train_week[featurestouse])
+    y_train_week = y_train[y_train.index.get_level_values(3) <= week]
+    preds = best_ridge.predict(X_trainscaled_week)
+    mse_week += [mean_squared_error(preds, y_train_week)]
+plot_mse_season(mse_week)
+
+data_final[data_final.index.get_level_values(2)>=2013].
+                           .reset_index()\
+                           .sort_values('Week')\
+                           .groupby(['HomeID','Season'])\
+                           .agg('max')['target_margin']
 
 ################################################################################
 # Odds Model
@@ -338,17 +417,24 @@ y_val_odds = spreads[(spreads.index.get_level_values(2)==2016) & \
                    (spreads['Conf']!='NotMajor') & \
                    (spreads.index.get_level_values(3)>4)]['target_margin']
 
+
+####### Our Model for Comprison
+na_mask_train = ~X_train.loc[X_train_odds.index].isna().T.any()
+X_train_odds_comp = X_train.loc[X_train_odds.index].dropna()
+# X_train_odds_comp = X_train_odds_comp.fillna(X_train_odds_comp.mean())
+na_mask_val = ~X_val.loc[X_val_odds.index].isna().T.any()
+X_val_odds_comp = X_val.loc[X_val_odds.index].dropna()
+# X_val_odds_comp = X_val_odds_comp.fillna(X_val_odds_comp.mean())
+X_train_odds = X_train_odds[na_mask_train]
+X_val_odds = X_val_odds[na_mask_val]
+y_train_odds =  y_train_odds[na_mask_train]
+y_val_odds = y_val_odds[na_mask_val]
+
+
 lm = LinearRegression().fit(X_train_odds, y_train_odds)
 predictions = lm.predict(X_val_odds)
 print(mean_squared_error(y_val_odds, predictions))
 lm.score(X_val_odds, y_val_odds)
-
-####### Our Model for Comprison
-X_train_odds_comp = X_train.loc[X_train_odds.index]
-# X_train_odds_comp = X_train_odds_comp.fillna(X_train_odds_comp.mean())
-X_val_odds_comp = X_val.loc[X_val_odds.index]
-# X_val_odds_comp = X_val_odds_comp.fillna(X_val_odds_comp.mean())
-
 # X_train_odds_comp_tot = pd.concat([X_train.loc[X_train_odds.index], X_train_odds], axis=1)
 # X_val_odds_comp_tot = pd.concat([X_val.loc[X_val_odds.index], X_val_odds], axis=1)
 
