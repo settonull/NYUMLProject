@@ -16,10 +16,13 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.kernel_ridge import KernelRidge
 from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import BayesianRidge
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import PredefinedSplit
 from sklearn.model_selection import train_test_split
+
+import statsmodels.api as sm
 
 %matplotlib inline
 
@@ -59,14 +62,23 @@ scores_ctmc_df_nopre.index.names = ['HomeID', 'VisID', 'Season', 'Week']
 scores_ctmc_df = pd.concat([scores_ctmc_df_pre[scores_ctmc_df_pre.index.get_level_values(3)<12],
                             scores_ctmc_df_nopre[scores_ctmc_df_nopre.index.get_level_values(3)>=12]])
 
+
+# file = os.path.join(data_dir, ctmc_dir, "score_ctmc_snoozle.csv")
+# scores_ctmc_df = pd.read_csv(file,index_col=[0,1,2,3]).drop_duplicates()
+# scores_ctmc_df.index.names = ['HomeID', 'VisID', 'Season', 'Week']
+
 file = os.path.join(data_dir, glicko_dir, "glicko_snoozle_prior.csv")
 glicko_df_pre = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
 glicko_df_pre.index.names = ['HomeID', 'VisID', 'Season', 'Week']
 file = os.path.join(data_dir, glicko_dir, "glicko_snoozle.csv")
 glicko_df_nopre = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
 glicko_df_nopre.index.names = ['HomeID', 'VisID', 'Season', 'Week']
-glicko__df = pd.concat([glicko_df_pre[glicko_df_pre.index.get_level_values(3)<12],
+glicko_df = pd.concat([glicko_df_pre[glicko_df_pre.index.get_level_values(3)<12],
                         glicko_df_nopre[glicko_df_nopre.index.get_level_values(3)>=12]])
+
+# file = os.path.join(data_dir, glicko_dir, "glicko_snoozle.csv")
+# glicko_df = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
+# glicko_df.index.names = ['HomeID', 'VisID', 'Season', 'Week']
 
 file = os.path.join(data_dir, curseason_dir, "curseason.csv")
 curseason_df = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
@@ -101,17 +113,21 @@ data_final = data_final.reset_index().merge(conf_df,
 data_final = data_final.set_index(['HomeID', 'VisID', 'Season', 'Week'])
 data_final = data_final.drop(['ID','Year','IDVis','index'],1)
 
-one = OneHotEncoder()
-onehot_teams = one.fit_transform(data_final.reset_index()[['HomeID','VisID']]).todense()
-onehot_teams = pd.DataFrame(onehot_teams,
-                            index=data_final.index,
-                            columns = [str(i)+'_onehotteam' for i in\
-                                       range(onehot_teams.shape[1])])
-data_final = data_final.join(onehot_teams)
+# one = OneHotEncoder()
+# onehot_teams = one.fit_transform(data_final.reset_index()[['HomeID','VisID']]).todense()
+# onehot_teams = pd.DataFrame(onehot_teams,
+#                             index=data_final.index,
+#                             columns = [str(i)+'_onehotteam' for i in\
+#                                        range(onehot_teams.shape[1])])
+# data_final = data_final.join(onehot_teams)
 
 # Impute HomeConf Data
 data_final['HomeConf_NotMajor'] = np.where(data_final['Conf'] == 'NotMajor', 1, 0)
 data_final['VisConf_NotMajor'] = np.where(data_final['ConfVis'] == 'NotMajor', 1, 0)
+
+
+data_final.index.get_level_values(3).sort_values().unique()
+data_final[data_final.index.get_level_values(3)>4].groupby(level=[2]).describe()[['CTMC_Rating_Home','HomeWinPct']]
 
 ################################################################################
 # Train - Val - Test Splits
@@ -159,8 +175,9 @@ onehot_featurestouse = [col for col in data_final.columns if \
 swc_featurestouse = ['Glicko_Rating_Home', 'Glicko_Rating_Away',
                      'Glicko_Rating_Deviance_Home', 'Glicko_Rating_Deviance_Away',
                      'Glicko_Sigma_Home', 'Glicko_Sigma_Away',
-                     'CTMC_Rating_Home', 'CTMC_Rating_Away','HomePredFinal',
-                     'VisPredFinal','CurSeason_HH_VA_mean_margin',
+                     'CTMC_Rating_Home', 'CTMC_Rating_Away',
+                     # 'HomePredFinal','VisPredFinal',
+                     'CurSeason_HH_VA_mean_margin',
                      'HomeOddsHomeInSeasonAvg','HomeOddsVisInSeasonAvg']
 
 ijh_featurestouse = ['HomeElo', 'HomeEloProb','HomeLuck','HomePrevLuck',
@@ -193,6 +210,12 @@ ols.score(X_train['CurSeason_HH_VA_mean_margin'].values.reshape(-1,1), y_train)
 ols.score(X_val['CurSeason_HH_VA_mean_margin'].values.reshape(-1,1), y_val)
 preds = ols.predict(X_val['CurSeason_HH_VA_mean_margin'].values.reshape(-1,1))
 mean_squared_error(preds, y_val)
+
+ols = LinearRegression()
+ols.fit(X_train_val['CurSeason_HH_VA_mean_margin'].values.reshape(-1,1), y_train_val)
+ols.score(X_test['CurSeason_HH_VA_mean_margin'].values.reshape(-1,1), y_test)
+preds = ols.predict(X_test['CurSeason_HH_VA_mean_margin'].values.reshape(-1,1))
+mean_squared_error(preds, y_test)
 
 ################################################################################
 # Standardize data
@@ -258,6 +281,7 @@ mean_squared_error(preds, y_val)
 # Analysis
 ################################################################################
 
+####### MSE by Week of Season
 def plot_mse_season(mse_series):
     fig, ax = plt.subplots(1,1)
     ax.plot(weeks, mse_series)
@@ -265,32 +289,6 @@ def plot_mse_season(mse_series):
     ax.set_ylabel("MSE")
     ax.set_title("MSE on Train by Week of Season")
     plt.savefig(os.path.join(root_dir, "MSEbyWeekTrain.jpg"))
-
-mse_week = []
-weeks = X_val.index.get_level_values(3).unique().sort_values().tolist()
-for week in weeks:
-    X_val_week = X_val[X_val.index.get_level_values(3) <= week]
-    X_valscaled_week = standardscaler.transform(X_val_week[featurestouse])
-    y_val_week = y_val[y_val.index.get_level_values(3) <= week]
-    preds = best_ridge.predict(X_valscaled_week)
-    mse_week += [mean_squared_error(preds, y_val_week)]
-plot_mse_season(mse_week)
-
-# ctmc_glicko_prior = mse_week
-# ctmc_prior = mse_week
-# no_prior = mse_week
-# glicko_prior = mse_week
-
-fig, ax = plt.subplots(1,1)
-ax.plot(weeks, no_prior, label='no prior')
-ax.plot(weeks, ctmc_prior, label='ctmc prior')
-ax.plot(weeks, glicko_prior, label='glicko prior')
-ax.plot(weeks, ctmc_glicko_prior, label='ctmc/glicko prior')
-plt.title("Comparison of MSE by Week on Validation\nfor Different Pre-Season Ratings")
-ax.set_ylabel("MSE")
-ax.set_xlabel("Week")
-plt.legend()
-plt.savefig(os.path.join(root_dir, "ComparisonOfPreSeasonRatings.jpg"))
 
 mse_week = []
 weeks = X_train.index.get_level_values(3).unique().sort_values().tolist()
@@ -302,11 +300,75 @@ for week in weeks:
     mse_week += [mean_squared_error(preds, y_train_week)]
 plot_mse_season(mse_week)
 
-data_final[data_final.index.get_level_values(2)>=2013].
-                           .reset_index()\
-                           .sort_values('Week')\
-                           .groupby(['HomeID','Season'])\
-                           .agg('max')['target_margin']
+# mse_week = []
+# weeks = X_val.index.get_level_values(3).unique().sort_values().tolist()
+# for week in weeks:
+#     X_val_week = X_val[X_val.index.get_level_values(3) <= week]
+#     X_valscaled_week = standardscaler.transform(X_val_week[featurestouse])
+#     y_val_week = y_val[y_val.index.get_level_values(3) <= week]
+#     preds = best_ridge.predict(X_valscaled_week)
+#     mse_week += [mean_squared_error(preds, y_val_week)]
+# plot_mse_season(mse_week)
+
+# ctmc_glicko_prior = mse_week
+# ctmc_prior = mse_week
+# no_prior = mse_week
+# glicko_prior = mse_week
+
+# fig, ax = plt.subplots(1,1)
+# ax.plot(weeks, no_prior, label='no prior')
+# ax.plot(weeks, ctmc_prior, label='ctmc prior')
+# ax.plot(weeks, glicko_prior, label='glicko prior')
+# ax.plot(weeks, ctmc_glicko_prior, label='ctmc/glicko prior')
+# plt.title("Comparison of MSE by Week on Validation\nfor Different Pre-Season Ratings")
+# ax.set_ylabel("MSE")
+# ax.set_xlabel("Week")
+# plt.legend()
+# plt.savefig(os.path.join(root_dir, "ComparisonOfPreSeasonRatings.jpg"))
+
+####### Feature Importance and Correlation
+ss = StandardScaler()
+X_train_val = pd.concat([X_train, X_val])
+X_train_val_scaled = ss.fit_transform(X_train_val[featurestouse])
+y_train_val = pd.concat([y_train, y_val])
+X_test_scaled = ss.transform(X_test[featurestouse])
+
+X_train_val_scaled_sm = sm.add_constant(X_train_val_scaled, prepend=False)
+mod = sm.OLS(y_train_val, X_train_val_scaled_sm)
+res = mod.fit()
+weights = pd.DataFrame({'Feature': X_test[featurestouse].columns,
+                        'Weight': res.params.drop('const'),
+                        't-values': res.tvalues.drop('const'),
+                        'p-values': res.pvalues.drop('const')})
+weights['AbsWeight'] = np.abs(weights['Weight'])
+weights[weights['p-values']<=100000].sort_values('AbsWeight', ascending=False)
+res.summary()
+
+
+sig_weights = weights[weights['p-values']<=0.05]
+corr = X_train_val[sig_weights.sort_values('AbsWeight', ascending=False)['Feature'].values.tolist()].corr()
+corr.index = ['Elo Spread', 'Visiter RPI', 'Visiter Pyth Pct',
+                          'Home Pyth Wins', 'Home Pyth Pct', 'Home CTMC Rating',
+                          'Visiter Elo', 'Visiter Pyth Wins', 'Visiter CTMC Rating',
+                          'Home Elo', 'Visiter Win Pct', 'Home Glicko Rating',
+                          'Visiter Glicko Rating', 'Home Glicko Deviance',
+                          'Visiter Glicko Deviance', 'HomeConf_NotMajor',
+                          'CurSeason DiffAvgPoint Diff']
+corr.columns = ['Elo Spread', 'Visiter RPI', 'Visiter Pyth Pct',
+                          'Home Pyth Wins', 'Home Pyth Pct', 'Home CTMC Rating',
+                          'Visiter Elo', 'Visiter Pyth Wins', 'Visiter CTMC Rating',
+                          'Home Elo', 'Visiter Win Pct', 'Home Glicko Rating',
+                          'Visiter Glicko Rating', 'Home Glicko Deviance',
+                          'Visiter Glicko Deviance', 'HomeConf_NotMajor',
+                          'CurSeason DiffAvgPoint Diff']
+corr = round(corr.drop('HomeConf_NotMajor').drop('HomeConf_NotMajor',1),3)
+fig, ax = plt.subplots(1,1, figsize=(15,10))
+cmap = sns.diverging_palette(220, 10, as_cmap=True)
+mask = np.zeros_like(corr, dtype=np.bool)
+mask[np.triu_indices_from(mask)] = True
+sns.heatmap(corr, annot=True, mask=mask, cmap=cmap, fmt="0.1f", ax=ax)
+plt.tight_layout()
+fig.savefig(os.path.join(root_dir, "CorrelationMatrix.jpg"))
 
 ################################################################################
 # Odds Model
@@ -431,10 +493,10 @@ y_train_odds =  y_train_odds[na_mask_train]
 y_val_odds = y_val_odds[na_mask_val]
 
 
-lm = LinearRegression().fit(X_train_odds, y_train_odds)
-predictions = lm.predict(X_val_odds)
+lm = BayesianRidge().fit(X_train_odds.median(axis=1).values.reshape(-1,1), y_train_odds)
+predictions = lm.predict(X_val_odds.median(axis=1).values.reshape(-1,1))
 print(mean_squared_error(y_val_odds, predictions))
-lm.score(X_val_odds, y_val_odds)
+lm.score(X_val_odds.median(axis=1).values.reshape(-1,1), y_val_odds)
 # X_train_odds_comp_tot = pd.concat([X_train.loc[X_train_odds.index], X_train_odds], axis=1)
 # X_val_odds_comp_tot = pd.concat([X_val.loc[X_val_odds.index], X_val_odds], axis=1)
 
@@ -453,8 +515,8 @@ def do_grid_search(X_train, y_train, X_val, y_val):
     y_train_val = np.concatenate((y_train, y_val))
     val_fold = [-1]*len(X_train) + [0]*len(X_val) #0 corresponds to validation
 
-    param_grid = [{'alpha': [10**x for x in np.arange(-3,-1, 0.25)],
-                   'gamma': [10**x for x in np.arange(-6,-1, 0.25)]}]
+    param_grid = [{'alpha': [10**x for x in np.arange(-6,-4, 0.25)],
+                   'gamma': [10**x for x in np.arange(-10,-5, 0.25)]}]
     estimator = KernelRidge(kernel='rbf')
     grid = GridSearchCV(estimator,
                         param_grid,

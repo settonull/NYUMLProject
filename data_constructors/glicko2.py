@@ -173,8 +173,8 @@ def glicko2_summarize(df, min_weeks=4, use_prior=False):
 
     # Loop through seasons and weeks to create full history of ratings by team
     results = pd.DataFrame()
-    for season in df['Season'].unique():
-        for week in df[df['Season']==season]['Week'].unique():
+    for season in df['Season'].sort_values().unique():
+        for week in df[df['Season']==season]['Week'].sort_values().unique():
             if week > min_weeks:
                 if week == min_weeks + 1:
                     season_df = df[df['Season']==season].copy()

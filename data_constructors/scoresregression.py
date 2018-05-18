@@ -46,12 +46,34 @@ snooz_df = snooz_df[['HomeElo', 'HomeEloProb','HomeLuck','HomePrevLuck',
 snooz_df = snooz_df.drop_duplicates()
 
 ######## SWC Data
+file = os.path.join(data_dir, ctmc_dir, "score_ctmc_snoozle_prior_half.csv")
+scores_ctmc_df_pre = pd.read_csv(file,index_col=[0,1,2,3]).drop_duplicates()
+scores_ctmc_df_pre.index.names = ['HomeID', 'VisID', 'Season', 'Week']
 file = os.path.join(data_dir, ctmc_dir, "score_ctmc_snoozle.csv")
-scores_ctmc_df = pd.read_csv(file,index_col=[0,1,2,3]).drop_duplicates()
-scores_ctmc_df.index.names = ['HomeID', 'VisID', 'Season', 'Week']
+scores_ctmc_df_nopre = pd.read_csv(file,index_col=[0,1,2,3]).drop_duplicates()
+scores_ctmc_df_nopre.index.names = ['HomeID', 'VisID', 'Season', 'Week']
+scores_ctmc_df = pd.concat([scores_ctmc_df_pre[scores_ctmc_df_pre.index.get_level_values(3)<12],
+                            scores_ctmc_df_nopre[scores_ctmc_df_nopre.index.get_level_values(3)>=12]])
+
+
+# file = os.path.join(data_dir, ctmc_dir, "score_ctmc_snoozle.csv")
+# scores_ctmc_df = pd.read_csv(file,index_col=[0,1,2,3]).drop_duplicates()
+# scores_ctmc_df.index.names = ['HomeID', 'VisID', 'Season', 'Week']
+
+file = os.path.join(data_dir, glicko_dir, "glicko_snoozle_prior.csv")
+glicko_df_pre = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
+glicko_df_pre.index.names = ['HomeID', 'VisID', 'Season', 'Week']
 file = os.path.join(data_dir, glicko_dir, "glicko_snoozle.csv")
-glicko_df = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
-glicko_df.index.names = ['HomeID', 'VisID', 'Season', 'Week']
+glicko_df_nopre = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
+glicko_df_nopre.index.names = ['HomeID', 'VisID', 'Season', 'Week']
+glicko_df = pd.concat([glicko_df_pre[glicko_df_pre.index.get_level_values(3)<12],
+                        glicko_df_nopre[glicko_df_nopre.index.get_level_values(3)>=12]])
+
+# file = os.path.join(data_dir, glicko_dir, "glicko_snoozle.csv")
+# glicko_df = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
+# glicko_df.index.names = ['HomeID', 'VisID', 'Season', 'Week']
+
+
 file = os.path.join(data_dir, curseason_dir, "curseason.csv")
 curseason_df = pd.read_csv(file, index_col=[0,1,2,3]).drop_duplicates()
 
@@ -191,7 +213,7 @@ def do_grid_search(X_train, y_train, X_val, y_val):
                         param_grid,
                         return_train_score=True,
                         cv = PredefinedSplit(test_fold=val_fold),
-                        refit = False,
+                        refit = True,
                         scoring = make_scorer(mean_squared_error,
                                               greater_is_better = False))
     grid.fit(X_train_val, y_train_val)
@@ -219,7 +241,7 @@ mean_squared_error(preds, y_val_hscore)
 
 hscore_train_feats = best_ridge_hscore.predict(X_trainscaled)
 hscore_val_feats = best_ridge_hscore.predict(X_valscaled)
-hscore_test_feats = best_ridge_hscore.predict(X_testscaled)
+hscore_test_feats = grid.predict(X_testscaled)
 
 X_train['HomePredFinal'] = hscore_train_feats
 X_val['HomePredFinal'] = hscore_val_feats
@@ -239,7 +261,7 @@ mean_squared_error(preds, y_val_vscore)
 
 vscore_train_feats = best_ridge_vscore.predict(X_trainscaled)
 vscore_val_feats = best_ridge_vscore.predict(X_valscaled)
-vscore_test_feats = best_ridge_hscore.predict(X_testscaled)
+vscore_test_feats = grid.predict(X_testscaled)
 
 X_train['VisPredFinal'] = vscore_train_feats
 X_val['VisPredFinal'] = vscore_val_feats

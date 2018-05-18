@@ -128,13 +128,13 @@ def ctmc_summarize(df, metrics=('HomeFinal', 'VisFinal'), larger_is_better = Tru
 
     # Loop through seasons and weeks to create full history of ratings by team
     results = pd.DataFrame()
-    for season in df['Season'].unique():
-        for week in df[df['Season']==season]['Week'].unique():
+    for season in df['Season'].sort_values().unique():
+        for week in df[df['Season']==season]['Week'].sort_values().unique():
             if week > min_weeks:
                 if prior == True:
                     df_ctmc = df[((df['Season']==season) & (df['Week']<week)) | (df['Season']==season-1)].copy()
-                    df_ctmc['HomeFinal'] = np.where(df_ctmc['Season']==season-1, df_ctmc['HomeFinal'] - (df_ctmc['HomeFinal'] - df_ctmc['VisFinal'])*2/3, df_ctmc['HomeFinal'])
-                    df_ctmc['VisFinal'] = np.where(df_ctmc['Season']==season-1, df_ctmc['VisFinal'] + (df_ctmc['HomeFinal'] - df_ctmc['VisFinal'])*2/3, df_ctmc['VisFinal'])
+                    df_ctmc['HomeFinal'] = np.where(df_ctmc['Season']==season-1, df_ctmc['HomeFinal'] - (df_ctmc['HomeFinal'] - df_ctmc['VisFinal'])/2, df_ctmc['HomeFinal'])
+                    df_ctmc['VisFinal'] = np.where(df_ctmc['Season']==season-1, df_ctmc['VisFinal'] + (df_ctmc['HomeFinal'] - df_ctmc['VisFinal'])/2, df_ctmc['VisFinal'])
                 else:
                     df_ctmc = df[(df['Season']==season) & (df['Week']<week)].copy()
                 ratings = CTMC(df_ctmc, metrics, larger_is_better, unique_matches_required)
@@ -169,7 +169,7 @@ if __name__=='__main__':
     snooz_dir = 'snoozle'
     snooz_file = 'snoozle-combined.csv'
     ctmc_dir = 'ctmc'
-    ctmc_file = 'score_ctmc_snoozle_prior_twothird.csv'
+    ctmc_file = 'score_ctmc_snoozle_prior_half.csv'
 
     file = os.path.join(cur_dir, data_dir, snooz_dir, snooz_file)
     dataframe = pd.read_csv(file)
